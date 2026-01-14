@@ -1,0 +1,13 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Veeam Backup for Microsoft 365 Docs",
+  "description": "Unofficial documentation dump for Veeam Backup for Microsoft 365 (VB365). Backup and recovery for Exchange Online, SharePoint Online, OneDrive, and Microsoft Teams.",
+  "folders": ["docs"],
+  "excludeFolders": [],
+  "excludeFiles": [],
+  "rules": [
+    "This is unofficial documentation - always verify against official Veeam Help Center",
+    "Covers Microsoft 365 backup including Exchange, SharePoint, OneDrive, and Teams",
+    "PowerShell cmdlets require Veeam.Archiver.PowerShell module"
+  ]
+}
