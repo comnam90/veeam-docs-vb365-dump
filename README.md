@@ -14,7 +14,7 @@ Markdown conversions of Veeam Backup for Microsoft 365 documentation, optimized 
 
 |                  |                                                      |
 | ---------------- | ---------------------------------------------------- |
-| **Source**       | https://helpcenter.veeam.com/docs/vbo365/            |
+| **Source**       | https://helpcenter.veeam.com/docs/vbo365/guide/      |
 | **Last Updated** | 2025-01-15                                           |
 | **Maintainer**   | [@comnam90](https://github.com/comnam90)             |
 
