@@ -1,14 +1,122 @@
 ---
-title: "add-vborepository"
+title: "Add-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vborepository.html"
-last_updated: "10/2/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+  + [VBOAmazonSubnet](vboamazonsubnet.html "VBOAmazonSubnet")
+  + [VBOAmazonVpc](vboamazonvpc.html "VBOAmazonVpc")
+  + [VBOApplication](vboapplication.html "VBOApplication")
+  + [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.html "VBOApplicationOnlyConnectionSettings")
+  + [VBOAzureArchiverAppliance](vboazurearchiverappliance.html "VBOAzureArchiverAppliance")
+  + [VBOAzureBlobAccount](vboazureblobaccount.html "VBOAzureBlobAccount")
+  + [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.html "VBOAzureBlobConnectionSettings")
+  + [VBOAzureBlobContainer](vboazureblobcontainer.html "VBOAzureBlobContainer")
+  + [VBOAzureBlobFolder](vboazureblobfolder.html "VBOAzureBlobFolder")
+  + [VBOAzureBlobObjectStorageApplianceInfo](vboazureblobobjectstorageapplianceinfo.html "VBOAzureBlobObjectStorageApplianceInfo")
+  + [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.html "VBOAzureBlobObjectStorageRepository")
+  + [VBOAzureLocation](vboazurelocation.html "VBOAzureLocation")
+  + [VBOAzureResourceGroup](vboazureresourcegroup.html "VBOAzureResourceGroup")
+  + [VBOAzureServiceAccount](vboazureserviceaccount.html "VBOAzureServiceAccount")
+  + [VBOAzureSubnet](vboazuresubnet.html "VBOAzureSubnet")
+  + [VBOAzureSubscription](vboazuresubscription.html "VBOAzureSubscription")
+  + [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.html "VBOAzureVirtualMachineSize")
+  + [VBOAzureVirtualNetwork](vboazurevirtualnetwork.html "VBOAzureVirtualNetwork")
+  + [VBOBackupAccount](vbobackupaccount.html "VBOBackupAccount")
+  + [VBOBackupApplication](vbobackupapplication.html "VBOBackupApplication")
+  + [VBOBackupDistributionGroup](vbobackupdistributiongroup.html "VBOBackupDistributionGroup")
+  + [VBOBackupDynamicDistributionGroup](vbobackupdynamicdistributiongroup.html "VBOBackupDynamicDistributionGroup")
+  + [VBOBackupGroup](vbobackupgroup.html "VBOBackupGroup")
+  + [VBOBackupItem](vbobackupitem.html "VBOBackupItem")
+  + [VBOBackupO365Group](vbobackupo365group.html "VBOBackupO365Group")
+  + [VBOBackupOrganization](vbobackuporganization.html "VBOBackupOrganization")
+  + [VBOBackupPersonalSites](vbobackuppersonalsites.html "VBOBackupPersonalSites")
+  + [VBOBackupPublicMailbox](vbobackuppublicmailbox.html "VBOBackupPublicMailbox")
+  + [VBOBackupSecurityGroup](vbobackupsecuritygroup.html "VBOBackupSecurityGroup")
+  + [VBOBackupSharedMailbox](vbobackupsharedmailbox.html "VBOBackupSharedMailbox")
+  + [VBOBackupSite](vbobackupsite.html "VBOBackupSite")
+  + [VBOBackupTeam](vbobackupteam.html "VBOBackupTeam")
+  + [VBOBackupUser](vbobackupuser.html "VBOBackupUser")
+  + [VBOBackupWindowSettings](vbobackupwindowsettings.html "VBOBackupWindowSettings")
+  + [VBOCopyJob](vbocopyjob.html "VBOCopyJob")
+  + [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.html "VBOCopyJobSchedulePolicy")
+  + [VBODataRetrieval](vbodataretrieval.html "VBODataRetrieval")
+  + [VBODataRetrievalSession](vbodataretrievalsession.html "VBODataRetrievalSession")
+  + [VBOEmailSettings](vboemailsettings.html "VBOEmailSettings")
+  + [VBOEncryptionKey](vboencryptionkey.html "VBOEncryptionKey")
+  + [VBOExchangeOnPremConnectionSettings](vboexchangeonpremconnectionsettings.html "VBOExchangeOnPremConnectionSettings")
+  + [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.html "VBOFederatedAuthenticationAuthority")
+  + [VBOFolderExclusions](vbofolderexclusions.html "VBOFolderExclusions")
+  + [VBOGlobalRetentionExclusion](vboglobalretentionexclusion.html "VBOGlobalRetentionExclusion")
+  + [VBOHistorySettings](vbohistorysettings.html "VBOHistorySettings")
+  + [VBOInternetProxySettings](vbointernetproxysettings.html "VBOInternetProxySettings")
+  + [VBOJob](vbojob.html "VBOJob")
+  + [VBOJobSchedulePolicy](vbojobschedulepolicy.html "VBOJobSchedulePolicy")
+  + [VBOJobSession](vbojobsession.html "VBOJobSession")
+  + [VBOJobStatistics](vbojobstatistics.html "VBOJobStatistics")
+  + [VBOLicense](vbolicense.html "VBOLicense")
+  + [VBOLicensedUser](vbolicenseduser.html "VBOLicensedUser")
+  + [VBOLicensingOptions](vbolicensingoptions.html "VBOLicensingOptions")
+  + [VBOLinuxCredential](vbolinuxcredential.html "VBOLinuxCredential")
+  + [VBOObjectStorageRepository](vboobjectstoragerepository.html "VBOObjectStorageRepository")
+  + [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.html "VBOOffice365ConnectionSettings")
+  + [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.html "VBOOffice365LegacyConnectionSettings")
+  + [VBOOfficeLicense](vboofficelicense.html "VBOOfficeLicense")
+  + [VBOOnPremConnectionSettings](vboonpremconnectionsettings.html "VBOOnPremConnectionSettings")
+  + [VBOOperatorRole](vbooperatorrole.html "VBOOperatorRole")
+  + [VBOOrganization](vboorganization.html "VBOOrganization")
+  + [VBOOrganizationGroup](vboorganizationgroup.html "VBOOrganizationGroup")
+  + [VBOOrganizationGroupMember](vboorganizationgroupmember.html "VBOOrganizationGroupMember")
+  + [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.html "VBOOrganizationRetentionExclusion")
+  + [VBOOrganizationSite](vboorganizationsite.html "VBOOrganizationSite")
+  + [VBOOrganizationSynchronizationState](vboorganizationsynchronizationstate.html "VBOOrganizationSynchronizationState")
+  + [VBOOrganizationTeam](vboorganizationteam.html "VBOOrganizationTeam")
+  + [VBOOrganizationUser](vboorganizationuser.html "VBOOrganizationUser")
+  + [VBOProxy](vboproxy.html "VBOProxy")
+  + [VBOProxyInternetProxySettings](vboproxyinternetproxysettings.html "VBOProxyInternetProxySettings")
+  + [VBOProxyPool](vboproxypool.html "VBOProxyPool")
+  + [VBORbacGroup](vborbacroleitem_2.html "VBORbacGroup")
+  + [VBORbacOperator](vborbacoperator.html "VBORbacOperator")
+  + [VBORbacOrganizationRoleItem](vborbacorganizationroleitem.html "VBORbacOrganizationRoleItem")
+  + [VBORbacPersonalSites](vborbacpersonalsites.html "VBORbacPersonalSites")
+  + [VBORbacRoleItem](vborbacroleitem.html "VBORbacRoleItem")
+  + [VBORbacSite](vborbacsite.html "VBORbacSite")
+  + [VBORbacTeam](vborbacteam.html "VBORbacTeam")
+  + [VBORbacUser](vborbacuser.html "VBORbacUser")
+  + [VBORepositoriesOwnerChangeSession](vborepositoriesownerchangesession.html "VBORepositoriesOwnerChangeSession")
+  + [VBORepository](vborepository.html "VBORepository")
+  + [VBORepositorySynchronizeSession](vborepositorysynchronizesession.html "VBORepositorySynchronizeSession")
+  + [VBORepositoryUpgradeSession](vborepositoryupgradesession.html "VBORepositoryUpgradeSession")
+  + [VBORestAPISettings](vborestapisettings.html "VBORestAPISettings")
+  + [VBORestoreLogItem](vborestorelogitem.html "VBORestoreLogItem")
+  + [VBORestorePoint](vborestorepoint.html "VBORestorePoint")
+  + [VBORestorePortalSettings](vborestoreportalsettings.html "VBORestorePortalSettings")
+  + [VBORestoreSession](vborestoresession.html "VBORestoreSession")
+  + [VBOS3Account](vbos3account.html "VBOS3Account")
+  + [VBOS3ConnectionSettings](vbos3connectionsettings.html "VBOS3ConnectionSettings")
+  + [VBOSecuritySettings](vbosecuritysettings.html "VBOSecuritySettings")
+  + [VBOServer](vboserver.html "VBOServer")
+  + [VBOServerComponent](vboservercomponent.html "VBOServerComponent")
+  + [VBOSharePointOnPremConnectionSettings](vbosharepointonpremconnectionsettings.html "VBOSharePointOnPremConnectionSettings")
+  + [VBOTenantAuthenticationSettings](vbotenantauthenticationsettings.html "VBOTenantAuthenticationSettings")
+  + [VBOUsageData](vbousagedata.html "VBOUsageData")
+  + [VBOVersion](vboversion.html "VBOVersion")
+* [Veeam Backup for Microsoft 365 PowerShell Changelog](ps_changelog.html "Veeam Backup for Microsoft 365 PowerShell Changelog")
+  + [v8 Changelog](changelog.html "v8 Changelog")
+    - [New and Updated Cmdlets](new_updated_cmdlets.html "New and Updated Cmdlets")
+    - [Deprecated Cmdlets](deprecated_cmdlets.html "Deprecated Cmdlets")
+  + [v8.1 Changelog](changelog_81.html "v8.1 Changelog")
+  + [v8.1.1 Changelog](changelog_811.html "v8.1.1 Changelog")
+  + [v8.2 Changelog](changelog_82.html "v8.2 Changelog")
+  + [v8.3 Changelog](changelog_83.html "v8.3 Changelog")
 
-In this article
+>[PowerShell Reference](https://helpcenter.veeam.com/docs/vbo365/powershell/)>[Veeam Backup for Microsoft 365 PowerShell Reference](./veeam_psreference.md)>[Backup Infrastructure](./backup_infrastructure.md)>[JET-based Backup Repositories and Object Storage Repositories](./repositories.md)>Add-VBORepository
+
+# Add-VBORepository
+
 
 Short Description
 
@@ -95,18 +203,18 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | Path | Specifies the full path to a directory on the backup proxy server where you want to store your backups. | String | True | Named | False |
-| Proxy | Specifies a backup proxy server. The cmdlet will map a new JET-based backup repository or object storage repository to this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
-| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new object storage repository to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
+| Proxy | Specifies a backup proxy server. The cmdlet will map a new JET-based backup repository or object storage repository to this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new object storage repository to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
 | Name | Specifies a name of the backup repository. The cmdlet will create a backup repository with this name. | String | True | Named | False |
 | Description | Specifies a description of the backup repository. The default description contains information on the user who added the backup repository, date and time when the backup repository was added. | String | False | Named | False |
 | RetentionType | Specifies a type of retention policy. You can set either of the following types:   * ItemLevel * SnapshotBased   Default: SnapshotBased | VBORetentionType | False | Named | False |
 | Force | Defines that the cmdlet will add a backup repository to the Veeam Backup for Microsoft 365 infrastructure without notifying the user.  Default: False | SwitchParameter | False | Named | False |
 | RetentionPeriod | Specifies the retention period in years. Veeam Backup for Microsoft 365 will remove items from a backup repository once this period is passed. You can set either of the following periods:   * Year1 * Years2 * Years3 * Years5 * Years7 * Years10 * Years25 * KeepForever   Default: Years3  Note: Apply the CustomRetentionPeriodType parameter to set the retention period in months or days. | VBORetentionPeriod | True | Named | False |
-| RetentionFrequencyType | Specifies retention policy schedule. Veeam Backup for Microsoft 365 will check a backup repository and will remove the outdated backups according to this schedule. You can set either of the following types of schedule:   * Daily: to check and remove the outdated backups once a day. * Monthly: to check and remove the outdated backups once a month.   Default: Daily | VBORetentionType | True | Named | False |
+| RetentionFrequencyType | Specifies retention policy schedule. Veeam Backup for Microsoft 365 will check a backup repository and will remove the outdated backups according to this schedule. You can set either of the following types of schedule:   * Daily: to check and remove the outdated backups once a day. * Monthly: to check and remove the outdated backups once a month.   Default: Daily | VBORetentionFrequencyType | True | Named | False |
 | DailyTime | For daily retention policy schedule.  Specifies the time of the day when Veeam Backup for Microsoft 365 must apply the retention policy.  Default: 00:00:00 | TimeSpan | True | Named | False |
 | DailyType | For daily retention policy schedule.  Specifies the days when Veeam Backup for Microsoft 365 must apply the retention policy:   * Sunday * Monday * Tuesday * Wednesday * Thursday * Friday * Saturday * Everyday * Workdays * Weekends   Default: Everyday | VBODailyType | True | Named | False |
-| ObjectStorageRepository | Specifies an object storage repository. The cmdlet will add this object storage repository. | Accepts the VBOObjectStorageRepository object.  To get this object, run the [Get-VBOObjectStorageRepository](get-vboobjectstoragerepository.md) cmdlet. | True | Named | False |
-| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the VBOEncryptionKey object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
+| ObjectStorageRepository | Specifies an object storage repository. The cmdlet will add this object storage repository. | Accepts the [VBOObjectStorageRepository](vboobjectstoragerepository.md) object.  To get this object, run the [Get-VBOObjectStorageRepository](get-vboobjectstoragerepository.md) cmdlet. | True | Named | False |
+| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the [VBOEncryptionKey](vboencryptionkey.md) object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
 | SyncNow | Defines that the cmdlet will start to synchronize cache between the object storage repository and the PersistentCache database on the PostgreSQL instance.  Default: False | SwitchParameter | False | Named | False |
 | IgnoreProxyPoolApplianceAccessValidation | Defines that the cmdlet will ignore check whether backup proxy servers that belong to the specified backup proxy pool can access the archiver appliance.  Default: False | SwitchParameter | False | Named | False |
 | MonthlyTime | For monthly retention policy schedule.  Specifies the time of the day when Veeam Backup for Microsoft 365 must apply the retention policy.  Default: 18:00:00 | TimeSpan | True | Named | False |
@@ -121,7 +229,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepository object that contains settings of the Veeam Backup for Microsoft 365 repository.
+The cmdlet returns the [VBORepository](vborepository.md) object that contains settings of the Veeam Backup for Microsoft 365 repository.
 
 Examples
 
@@ -171,6 +279,4 @@ Related Commands
 * [Get-VBOAzureBlobFolder](get-vboazureblobfolder.md)
 * [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md)
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

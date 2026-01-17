@@ -1,14 +1,122 @@
 ---
-title: "set-vboconfigurationparameter"
+title: "Set-VBOConfigurationParameter"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboconfigurationparameter.html"
-last_updated: "9/30/2025"
+last_updated: "12/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+  + [VBOAmazonSubnet](vboamazonsubnet.html "VBOAmazonSubnet")
+  + [VBOAmazonVpc](vboamazonvpc.html "VBOAmazonVpc")
+  + [VBOApplication](vboapplication.html "VBOApplication")
+  + [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.html "VBOApplicationOnlyConnectionSettings")
+  + [VBOAzureArchiverAppliance](vboazurearchiverappliance.html "VBOAzureArchiverAppliance")
+  + [VBOAzureBlobAccount](vboazureblobaccount.html "VBOAzureBlobAccount")
+  + [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.html "VBOAzureBlobConnectionSettings")
+  + [VBOAzureBlobContainer](vboazureblobcontainer.html "VBOAzureBlobContainer")
+  + [VBOAzureBlobFolder](vboazureblobfolder.html "VBOAzureBlobFolder")
+  + [VBOAzureBlobObjectStorageApplianceInfo](vboazureblobobjectstorageapplianceinfo.html "VBOAzureBlobObjectStorageApplianceInfo")
+  + [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.html "VBOAzureBlobObjectStorageRepository")
+  + [VBOAzureLocation](vboazurelocation.html "VBOAzureLocation")
+  + [VBOAzureResourceGroup](vboazureresourcegroup.html "VBOAzureResourceGroup")
+  + [VBOAzureServiceAccount](vboazureserviceaccount.html "VBOAzureServiceAccount")
+  + [VBOAzureSubnet](vboazuresubnet.html "VBOAzureSubnet")
+  + [VBOAzureSubscription](vboazuresubscription.html "VBOAzureSubscription")
+  + [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.html "VBOAzureVirtualMachineSize")
+  + [VBOAzureVirtualNetwork](vboazurevirtualnetwork.html "VBOAzureVirtualNetwork")
+  + [VBOBackupAccount](vbobackupaccount.html "VBOBackupAccount")
+  + [VBOBackupApplication](vbobackupapplication.html "VBOBackupApplication")
+  + [VBOBackupDistributionGroup](vbobackupdistributiongroup.html "VBOBackupDistributionGroup")
+  + [VBOBackupDynamicDistributionGroup](vbobackupdynamicdistributiongroup.html "VBOBackupDynamicDistributionGroup")
+  + [VBOBackupGroup](vbobackupgroup.html "VBOBackupGroup")
+  + [VBOBackupItem](vbobackupitem.html "VBOBackupItem")
+  + [VBOBackupO365Group](vbobackupo365group.html "VBOBackupO365Group")
+  + [VBOBackupOrganization](vbobackuporganization.html "VBOBackupOrganization")
+  + [VBOBackupPersonalSites](vbobackuppersonalsites.html "VBOBackupPersonalSites")
+  + [VBOBackupPublicMailbox](vbobackuppublicmailbox.html "VBOBackupPublicMailbox")
+  + [VBOBackupSecurityGroup](vbobackupsecuritygroup.html "VBOBackupSecurityGroup")
+  + [VBOBackupSharedMailbox](vbobackupsharedmailbox.html "VBOBackupSharedMailbox")
+  + [VBOBackupSite](vbobackupsite.html "VBOBackupSite")
+  + [VBOBackupTeam](vbobackupteam.html "VBOBackupTeam")
+  + [VBOBackupUser](vbobackupuser.html "VBOBackupUser")
+  + [VBOBackupWindowSettings](vbobackupwindowsettings.html "VBOBackupWindowSettings")
+  + [VBOCopyJob](vbocopyjob.html "VBOCopyJob")
+  + [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.html "VBOCopyJobSchedulePolicy")
+  + [VBODataRetrieval](vbodataretrieval.html "VBODataRetrieval")
+  + [VBODataRetrievalSession](vbodataretrievalsession.html "VBODataRetrievalSession")
+  + [VBOEmailSettings](vboemailsettings.html "VBOEmailSettings")
+  + [VBOEncryptionKey](vboencryptionkey.html "VBOEncryptionKey")
+  + [VBOExchangeOnPremConnectionSettings](vboexchangeonpremconnectionsettings.html "VBOExchangeOnPremConnectionSettings")
+  + [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.html "VBOFederatedAuthenticationAuthority")
+  + [VBOFolderExclusions](vbofolderexclusions.html "VBOFolderExclusions")
+  + [VBOGlobalRetentionExclusion](vboglobalretentionexclusion.html "VBOGlobalRetentionExclusion")
+  + [VBOHistorySettings](vbohistorysettings.html "VBOHistorySettings")
+  + [VBOInternetProxySettings](vbointernetproxysettings.html "VBOInternetProxySettings")
+  + [VBOJob](vbojob.html "VBOJob")
+  + [VBOJobSchedulePolicy](vbojobschedulepolicy.html "VBOJobSchedulePolicy")
+  + [VBOJobSession](vbojobsession.html "VBOJobSession")
+  + [VBOJobStatistics](vbojobstatistics.html "VBOJobStatistics")
+  + [VBOLicense](vbolicense.html "VBOLicense")
+  + [VBOLicensedUser](vbolicenseduser.html "VBOLicensedUser")
+  + [VBOLicensingOptions](vbolicensingoptions.html "VBOLicensingOptions")
+  + [VBOLinuxCredential](vbolinuxcredential.html "VBOLinuxCredential")
+  + [VBOObjectStorageRepository](vboobjectstoragerepository.html "VBOObjectStorageRepository")
+  + [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.html "VBOOffice365ConnectionSettings")
+  + [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.html "VBOOffice365LegacyConnectionSettings")
+  + [VBOOfficeLicense](vboofficelicense.html "VBOOfficeLicense")
+  + [VBOOnPremConnectionSettings](vboonpremconnectionsettings.html "VBOOnPremConnectionSettings")
+  + [VBOOperatorRole](vbooperatorrole.html "VBOOperatorRole")
+  + [VBOOrganization](vboorganization.html "VBOOrganization")
+  + [VBOOrganizationGroup](vboorganizationgroup.html "VBOOrganizationGroup")
+  + [VBOOrganizationGroupMember](vboorganizationgroupmember.html "VBOOrganizationGroupMember")
+  + [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.html "VBOOrganizationRetentionExclusion")
+  + [VBOOrganizationSite](vboorganizationsite.html "VBOOrganizationSite")
+  + [VBOOrganizationSynchronizationState](vboorganizationsynchronizationstate.html "VBOOrganizationSynchronizationState")
+  + [VBOOrganizationTeam](vboorganizationteam.html "VBOOrganizationTeam")
+  + [VBOOrganizationUser](vboorganizationuser.html "VBOOrganizationUser")
+  + [VBOProxy](vboproxy.html "VBOProxy")
+  + [VBOProxyInternetProxySettings](vboproxyinternetproxysettings.html "VBOProxyInternetProxySettings")
+  + [VBOProxyPool](vboproxypool.html "VBOProxyPool")
+  + [VBORbacGroup](vborbacroleitem_2.html "VBORbacGroup")
+  + [VBORbacOperator](vborbacoperator.html "VBORbacOperator")
+  + [VBORbacOrganizationRoleItem](vborbacorganizationroleitem.html "VBORbacOrganizationRoleItem")
+  + [VBORbacPersonalSites](vborbacpersonalsites.html "VBORbacPersonalSites")
+  + [VBORbacRoleItem](vborbacroleitem.html "VBORbacRoleItem")
+  + [VBORbacSite](vborbacsite.html "VBORbacSite")
+  + [VBORbacTeam](vborbacteam.html "VBORbacTeam")
+  + [VBORbacUser](vborbacuser.html "VBORbacUser")
+  + [VBORepositoriesOwnerChangeSession](vborepositoriesownerchangesession.html "VBORepositoriesOwnerChangeSession")
+  + [VBORepository](vborepository.html "VBORepository")
+  + [VBORepositorySynchronizeSession](vborepositorysynchronizesession.html "VBORepositorySynchronizeSession")
+  + [VBORepositoryUpgradeSession](vborepositoryupgradesession.html "VBORepositoryUpgradeSession")
+  + [VBORestAPISettings](vborestapisettings.html "VBORestAPISettings")
+  + [VBORestoreLogItem](vborestorelogitem.html "VBORestoreLogItem")
+  + [VBORestorePoint](vborestorepoint.html "VBORestorePoint")
+  + [VBORestorePortalSettings](vborestoreportalsettings.html "VBORestorePortalSettings")
+  + [VBORestoreSession](vborestoresession.html "VBORestoreSession")
+  + [VBOS3Account](vbos3account.html "VBOS3Account")
+  + [VBOS3ConnectionSettings](vbos3connectionsettings.html "VBOS3ConnectionSettings")
+  + [VBOSecuritySettings](vbosecuritysettings.html "VBOSecuritySettings")
+  + [VBOServer](vboserver.html "VBOServer")
+  + [VBOServerComponent](vboservercomponent.html "VBOServerComponent")
+  + [VBOSharePointOnPremConnectionSettings](vbosharepointonpremconnectionsettings.html "VBOSharePointOnPremConnectionSettings")
+  + [VBOTenantAuthenticationSettings](vbotenantauthenticationsettings.html "VBOTenantAuthenticationSettings")
+  + [VBOUsageData](vbousagedata.html "VBOUsageData")
+  + [VBOVersion](vboversion.html "VBOVersion")
+* [Veeam Backup for Microsoft 365 PowerShell Changelog](ps_changelog.html "Veeam Backup for Microsoft 365 PowerShell Changelog")
+  + [v8 Changelog](changelog.html "v8 Changelog")
+    - [New and Updated Cmdlets](new_updated_cmdlets.html "New and Updated Cmdlets")
+    - [Deprecated Cmdlets](deprecated_cmdlets.html "Deprecated Cmdlets")
+  + [v8.1 Changelog](changelog_81.html "v8.1 Changelog")
+  + [v8.1.1 Changelog](changelog_811.html "v8.1.1 Changelog")
+  + [v8.2 Changelog](changelog_82.html "v8.2 Changelog")
+  + [v8.3 Changelog](changelog_83.html "v8.3 Changelog")
 
-In this article
+>[PowerShell Reference](https://helpcenter.veeam.com/docs/vbo365/powershell/)>[Veeam Backup for Microsoft 365 PowerShell Reference](./veeam_psreference.md)>[Managing Veeam Backup for Microsoft 365](./connect_to_veeam_backup_office365_server.md)>Set-VBOConfigurationParameter
+
+# Set-VBOConfigurationParameter
+
 
 Short Description
 
@@ -31,9 +139,9 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | WindowsCredential | Specifies Windows credentials.  The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Windows credentials to connect to all Windows-based backup proxy servers in the backup proxy pool. | PSCredential | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Linux credentials to connect to all Linux-based backup proxy servers in the backup proxy pool. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
-| Proxy | Specifies a backup proxy server.  The cmdlet will configure parameters of this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
-| ProxyPool | Specifies a backup proxy pool.  The cmdlet will configure parameters of all backup proxy servers added to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Linux credentials to connect to all Linux-based backup proxy servers in the backup proxy pool. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| Proxy | Specifies a backup proxy server.  The cmdlet will configure parameters of this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| ProxyPool | Specifies a backup proxy pool.  The cmdlet will configure parameters of all backup proxy servers added to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
 | XPath | Specifies the xpath path in the Config.xml file. | String | True | Named | False |
 | Key | Specifies a name of the parameter attribute. | String | True | Named | False |
 | Value | Specifies the parameter attribute value. | String | False | Named | False |
@@ -79,6 +187,4 @@ Related Commands
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 * [New-VBOLinuxCredential](new-vbolinuxcredential.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,122 @@
 ---
-title: "add-vboorganization"
+title: "Add-VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+  + [VBOAmazonSubnet](vboamazonsubnet.html "VBOAmazonSubnet")
+  + [VBOAmazonVpc](vboamazonvpc.html "VBOAmazonVpc")
+  + [VBOApplication](vboapplication.html "VBOApplication")
+  + [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.html "VBOApplicationOnlyConnectionSettings")
+  + [VBOAzureArchiverAppliance](vboazurearchiverappliance.html "VBOAzureArchiverAppliance")
+  + [VBOAzureBlobAccount](vboazureblobaccount.html "VBOAzureBlobAccount")
+  + [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.html "VBOAzureBlobConnectionSettings")
+  + [VBOAzureBlobContainer](vboazureblobcontainer.html "VBOAzureBlobContainer")
+  + [VBOAzureBlobFolder](vboazureblobfolder.html "VBOAzureBlobFolder")
+  + [VBOAzureBlobObjectStorageApplianceInfo](vboazureblobobjectstorageapplianceinfo.html "VBOAzureBlobObjectStorageApplianceInfo")
+  + [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.html "VBOAzureBlobObjectStorageRepository")
+  + [VBOAzureLocation](vboazurelocation.html "VBOAzureLocation")
+  + [VBOAzureResourceGroup](vboazureresourcegroup.html "VBOAzureResourceGroup")
+  + [VBOAzureServiceAccount](vboazureserviceaccount.html "VBOAzureServiceAccount")
+  + [VBOAzureSubnet](vboazuresubnet.html "VBOAzureSubnet")
+  + [VBOAzureSubscription](vboazuresubscription.html "VBOAzureSubscription")
+  + [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.html "VBOAzureVirtualMachineSize")
+  + [VBOAzureVirtualNetwork](vboazurevirtualnetwork.html "VBOAzureVirtualNetwork")
+  + [VBOBackupAccount](vbobackupaccount.html "VBOBackupAccount")
+  + [VBOBackupApplication](vbobackupapplication.html "VBOBackupApplication")
+  + [VBOBackupDistributionGroup](vbobackupdistributiongroup.html "VBOBackupDistributionGroup")
+  + [VBOBackupDynamicDistributionGroup](vbobackupdynamicdistributiongroup.html "VBOBackupDynamicDistributionGroup")
+  + [VBOBackupGroup](vbobackupgroup.html "VBOBackupGroup")
+  + [VBOBackupItem](vbobackupitem.html "VBOBackupItem")
+  + [VBOBackupO365Group](vbobackupo365group.html "VBOBackupO365Group")
+  + [VBOBackupOrganization](vbobackuporganization.html "VBOBackupOrganization")
+  + [VBOBackupPersonalSites](vbobackuppersonalsites.html "VBOBackupPersonalSites")
+  + [VBOBackupPublicMailbox](vbobackuppublicmailbox.html "VBOBackupPublicMailbox")
+  + [VBOBackupSecurityGroup](vbobackupsecuritygroup.html "VBOBackupSecurityGroup")
+  + [VBOBackupSharedMailbox](vbobackupsharedmailbox.html "VBOBackupSharedMailbox")
+  + [VBOBackupSite](vbobackupsite.html "VBOBackupSite")
+  + [VBOBackupTeam](vbobackupteam.html "VBOBackupTeam")
+  + [VBOBackupUser](vbobackupuser.html "VBOBackupUser")
+  + [VBOBackupWindowSettings](vbobackupwindowsettings.html "VBOBackupWindowSettings")
+  + [VBOCopyJob](vbocopyjob.html "VBOCopyJob")
+  + [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.html "VBOCopyJobSchedulePolicy")
+  + [VBODataRetrieval](vbodataretrieval.html "VBODataRetrieval")
+  + [VBODataRetrievalSession](vbodataretrievalsession.html "VBODataRetrievalSession")
+  + [VBOEmailSettings](vboemailsettings.html "VBOEmailSettings")
+  + [VBOEncryptionKey](vboencryptionkey.html "VBOEncryptionKey")
+  + [VBOExchangeOnPremConnectionSettings](vboexchangeonpremconnectionsettings.html "VBOExchangeOnPremConnectionSettings")
+  + [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.html "VBOFederatedAuthenticationAuthority")
+  + [VBOFolderExclusions](vbofolderexclusions.html "VBOFolderExclusions")
+  + [VBOGlobalRetentionExclusion](vboglobalretentionexclusion.html "VBOGlobalRetentionExclusion")
+  + [VBOHistorySettings](vbohistorysettings.html "VBOHistorySettings")
+  + [VBOInternetProxySettings](vbointernetproxysettings.html "VBOInternetProxySettings")
+  + [VBOJob](vbojob.html "VBOJob")
+  + [VBOJobSchedulePolicy](vbojobschedulepolicy.html "VBOJobSchedulePolicy")
+  + [VBOJobSession](vbojobsession.html "VBOJobSession")
+  + [VBOJobStatistics](vbojobstatistics.html "VBOJobStatistics")
+  + [VBOLicense](vbolicense.html "VBOLicense")
+  + [VBOLicensedUser](vbolicenseduser.html "VBOLicensedUser")
+  + [VBOLicensingOptions](vbolicensingoptions.html "VBOLicensingOptions")
+  + [VBOLinuxCredential](vbolinuxcredential.html "VBOLinuxCredential")
+  + [VBOObjectStorageRepository](vboobjectstoragerepository.html "VBOObjectStorageRepository")
+  + [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.html "VBOOffice365ConnectionSettings")
+  + [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.html "VBOOffice365LegacyConnectionSettings")
+  + [VBOOfficeLicense](vboofficelicense.html "VBOOfficeLicense")
+  + [VBOOnPremConnectionSettings](vboonpremconnectionsettings.html "VBOOnPremConnectionSettings")
+  + [VBOOperatorRole](vbooperatorrole.html "VBOOperatorRole")
+  + [VBOOrganization](vboorganization.html "VBOOrganization")
+  + [VBOOrganizationGroup](vboorganizationgroup.html "VBOOrganizationGroup")
+  + [VBOOrganizationGroupMember](vboorganizationgroupmember.html "VBOOrganizationGroupMember")
+  + [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.html "VBOOrganizationRetentionExclusion")
+  + [VBOOrganizationSite](vboorganizationsite.html "VBOOrganizationSite")
+  + [VBOOrganizationSynchronizationState](vboorganizationsynchronizationstate.html "VBOOrganizationSynchronizationState")
+  + [VBOOrganizationTeam](vboorganizationteam.html "VBOOrganizationTeam")
+  + [VBOOrganizationUser](vboorganizationuser.html "VBOOrganizationUser")
+  + [VBOProxy](vboproxy.html "VBOProxy")
+  + [VBOProxyInternetProxySettings](vboproxyinternetproxysettings.html "VBOProxyInternetProxySettings")
+  + [VBOProxyPool](vboproxypool.html "VBOProxyPool")
+  + [VBORbacGroup](vborbacroleitem_2.html "VBORbacGroup")
+  + [VBORbacOperator](vborbacoperator.html "VBORbacOperator")
+  + [VBORbacOrganizationRoleItem](vborbacorganizationroleitem.html "VBORbacOrganizationRoleItem")
+  + [VBORbacPersonalSites](vborbacpersonalsites.html "VBORbacPersonalSites")
+  + [VBORbacRoleItem](vborbacroleitem.html "VBORbacRoleItem")
+  + [VBORbacSite](vborbacsite.html "VBORbacSite")
+  + [VBORbacTeam](vborbacteam.html "VBORbacTeam")
+  + [VBORbacUser](vborbacuser.html "VBORbacUser")
+  + [VBORepositoriesOwnerChangeSession](vborepositoriesownerchangesession.html "VBORepositoriesOwnerChangeSession")
+  + [VBORepository](vborepository.html "VBORepository")
+  + [VBORepositorySynchronizeSession](vborepositorysynchronizesession.html "VBORepositorySynchronizeSession")
+  + [VBORepositoryUpgradeSession](vborepositoryupgradesession.html "VBORepositoryUpgradeSession")
+  + [VBORestAPISettings](vborestapisettings.html "VBORestAPISettings")
+  + [VBORestoreLogItem](vborestorelogitem.html "VBORestoreLogItem")
+  + [VBORestorePoint](vborestorepoint.html "VBORestorePoint")
+  + [VBORestorePortalSettings](vborestoreportalsettings.html "VBORestorePortalSettings")
+  + [VBORestoreSession](vborestoresession.html "VBORestoreSession")
+  + [VBOS3Account](vbos3account.html "VBOS3Account")
+  + [VBOS3ConnectionSettings](vbos3connectionsettings.html "VBOS3ConnectionSettings")
+  + [VBOSecuritySettings](vbosecuritysettings.html "VBOSecuritySettings")
+  + [VBOServer](vboserver.html "VBOServer")
+  + [VBOServerComponent](vboservercomponent.html "VBOServerComponent")
+  + [VBOSharePointOnPremConnectionSettings](vbosharepointonpremconnectionsettings.html "VBOSharePointOnPremConnectionSettings")
+  + [VBOTenantAuthenticationSettings](vbotenantauthenticationsettings.html "VBOTenantAuthenticationSettings")
+  + [VBOUsageData](vbousagedata.html "VBOUsageData")
+  + [VBOVersion](vboversion.html "VBOVersion")
+* [Veeam Backup for Microsoft 365 PowerShell Changelog](ps_changelog.html "Veeam Backup for Microsoft 365 PowerShell Changelog")
+  + [v8 Changelog](changelog.html "v8 Changelog")
+    - [New and Updated Cmdlets](new_updated_cmdlets.html "New and Updated Cmdlets")
+    - [Deprecated Cmdlets](deprecated_cmdlets.html "Deprecated Cmdlets")
+  + [v8.1 Changelog](changelog_81.html "v8.1 Changelog")
+  + [v8.1.1 Changelog](changelog_811.html "v8.1.1 Changelog")
+  + [v8.2 Changelog](changelog_82.html "v8.2 Changelog")
+  + [v8.3 Changelog](changelog_83.html "v8.3 Changelog")
 
-In this article
+>[PowerShell Reference](https://helpcenter.veeam.com/docs/vbo365/powershell/)>[Veeam Backup for Microsoft 365 PowerShell Reference](./veeam_psreference.md)>[Organizations Management](./organizations_management.md)>[Organizations](./organizations.md)>Add-VBOOrganization
+
+# Add-VBOOrganization
+
 
 Short Description
 
@@ -41,9 +149,9 @@ When you add Microsoft organizations to the Veeam Backup for Microsoft 365 infra
 | ![Add-VBOOrganization](images/icon_important.webp) Important |
 | Since [Microsoft deprecated basic authentication and legacy authentication protocols](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-september/ba-p/3609437), adding Microsoft organizations using these authentication methods will be deprecated in future versions of Veeam Backup for Microsoft 365. |
 
-If you want to add Microsoft 365 organizations that will include both Microsoft Exchange Online and Microsoft SharePoint Online with Microsoft OneDrive for Business services, you must set the VBOOffice365ConnectionSettings object that contains authentication settings to connect to Microsoft 365 organizations, to the same type of authentication mode.
+If you want to add Microsoft 365 organizations that will include both Microsoft Exchange Online and Microsoft SharePoint Online with Microsoft OneDrive for Business services, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object that contains authentication settings to connect to Microsoft 365 organizations, to the same type of authentication mode.
 
-Run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet to create the VBOOffice365ConnectionSettings object.
+Run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet to create the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.
 
 Parameters
 
@@ -51,10 +159,10 @@ Parameters
 | --- | --- | --- | --- | --- | --- |
 | Name | Specifies a name of the Microsoft organization. The cmdlet will add an organization with this name. | String | False | Named | False |
 | Description | Specifies a description of the Microsoft organization. | String | False | Named | False |
-| Office365ExchangeConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft Exchange Online to Veeam Backup for Microsoft 365.  Note: If you also want to add Microsoft SharePoint Online to the same Microsoft 365 organization, you must set the VBOOffice365ConnectionSettings object to the same type of authentication mode. | Accepts the VBOOffice365ConnectionSettings object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
-| Office365SharePointConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft SharePoint Online and Microsoft OneDrive for Business to Veeam Backup for Microsoft 365.  Note: If you also want to run the cmdlet with the Office365ExchangeConnectionsSettings parameter, you must set the VBOOffice365ConnectionSettings object to the same type of authentication mode. | Accepts the VBOOffice365ConnectionSettings object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
-| OnPremExchangeConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises Exchange organization to Veeam Backup for Microsoft 365. | Accepts the VBOExchangeOnPremConnectionSettings object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
-| OnPremSharePointConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises SharePoint organization to Veeam Backup for Microsoft 365. | Accepts the VBOSharePointOnPremConnectionSettings object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
+| Office365ExchangeConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft Exchange Online to Veeam Backup for Microsoft 365.  Note: If you also want to add Microsoft SharePoint Online to the same Microsoft 365 organization, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object to the same type of authentication mode. | Accepts the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
+| Office365SharePointConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft SharePoint Online and Microsoft OneDrive for Business to Veeam Backup for Microsoft 365.  Note: If you also want to run the cmdlet with the Office365ExchangeConnectionsSettings parameter, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object to the same type of authentication mode. | Accepts the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
+| OnPremExchangeConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises Exchange organization to Veeam Backup for Microsoft 365. | Accepts the [VBOExchangeOnPremConnectionSettings](vboexchangeonpremconnectionsettings.md) object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
+| OnPremSharePointConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises SharePoint organization to Veeam Backup for Microsoft 365. | Accepts the [VBOSharePointOnPremConnectionSettings](vbosharepointonpremconnectionsettings.md) object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
 | Region | Specifies Microsoft Entra region where Microsoft 365 organization datacenter is located:   * China * Germany * USDefence * USGovernment * Worldwide   Default: Worldwide | VBOOffice365Region | False | Named | False |
 | VeeamAADApplicationUsed | Defines that the cmdlet will use the Veeam application to connect to Microsoft Graph.  Note: You must set this parameter to true for the following Microsoft Entra regions:   * China * Germany   Default: False | SwitchParameter | False | Named | False |
 | EnableOffice365Teams | Defines that the cmdlet will add Microsoft Teams to Veeam Backup for Microsoft 365. To do this, the cmdlet will use settings specified with the Office365SharePointConnectionsSettings parameter.  Default: True  Note: If you want to use this parameter, you must also provide the Office365ExchangeConnectionsSettings and Office365SharePointConnectionsSettings parameters. | SwitchParameter | False | Named | False |
@@ -66,7 +174,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOOrganization object that contains settings of a Microsoft organization added to the Veeam Backup for Microsoft 365 infrastructure.
+The cmdlet returns the [VBOOrganization](vboorganization.md) object that contains settings of a Microsoft organization added to the Veeam Backup for Microsoft 365 infrastructure.
 
 Examples for Modern App-Only Authentication
 
@@ -120,6 +228,4 @@ Related Commands
 * [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md)
 * [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201
