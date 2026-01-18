@@ -1,14 +1,14 @@
 ---
-title: "get-vboemailsettings"
+title: "Get-VBOEmailSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboemailsettings.html"
-last_updated: "4/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOEmailSettings
 
-In this article
 
 Short Description
 
@@ -30,6 +30,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOEmailSettings](vboemailsettings.md) object that contains email notification settings.
+
 Example
 
 Getting Email Notification Settings
@@ -40,6 +44,4 @@ This command returns email notification settings.
 | --- |
 | Get-VBOEmailSettings |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "add-vboproxy"
+title: "Add-VBOProxy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboproxy.html"
-last_updated: "10/14/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOProxy
 
-In this article
 
 Short Description
 
@@ -56,7 +56,7 @@ Parameters
 | UseDomainNetwork | Defines that the cmdlet will add a domain backup proxy, that is, a backup proxy server that resides in the same domain as the Veeam Backup for Microsoft 365 server or in a trusted domain.  If you omit this parameter, the cmdlet will add a workgroup backup proxy, that is, a backup proxy server that resides in a workgroup.  Default: False  For more information about backup proxy server types, see the [Backup Proxy Servers](https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_proxy_servers.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide. | SwitchParameter | False | Named | False |
 | ServiceCredential | Specifies credentials of a service account. The cmdlet will use these credentials to run Veeam Backup for Microsoft 365 Proxy Service. | PSCredential | False | Named | False |
 | CreateServiceAccount | Defines that the cmdlet will create a service account and automatically grant the required permissions to this account.  Default: False | SwitchParameter | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -64,7 +64,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOProxy object that contains settings of a backup proxy server added to the Veeam Backup for Microsoft 365 backup infrastructure.
+The cmdlet returns the [VBOProxy](vboproxy.md) object that contains settings of a backup proxy server added to the Veeam Backup for Microsoft 365 backup infrastructure.
 
 Examples
 
@@ -104,6 +104,4 @@ Related Commands
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

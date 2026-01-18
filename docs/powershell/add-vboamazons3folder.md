@@ -1,14 +1,14 @@
 ---
-title: "add-vboamazons3folder"
+title: "Add-VBOAmazonS3Folder"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboamazons3folder.html"
-last_updated: "4/18/2024"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAmazonS3Folder
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Bucket | Specifies the Amazon S3 bucket. The cmdlet will add Amazon S3 folder to this bucket. | Accepts the VBOAmazonS3Bucket object.  To get this object, run the [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md) cmdlet. | True | Named | False |
+| Bucket | Specifies the Amazon S3 bucket. The cmdlet will add Amazon S3 folder to this bucket. | Accepts the [VBOAmazonS3Bucket](vboamazons3bucket.md) object.  To get this object, run the [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Amazon S3 folder. The cmdlet will create the Amazon S3 folder with this name. | String | True | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3Folder object that contains an array of Amazon S3 folders.
+The cmdlet returns the [VBOAmazonS3Folder](vboamazons3folder.md) object that contains an array of Amazon S3 folders.
 
 Example
 
@@ -63,6 +63,4 @@ Related Commands
 * [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md)
 * [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md)
 
-Page updated 4/18/2024
 
-Page content applies to build 8.3.0.2201

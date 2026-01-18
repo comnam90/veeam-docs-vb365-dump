@@ -1,14 +1,14 @@
 ---
-title: "get-vboglobalretentionexclusion"
+title: "Get-VBOGlobalRetentionExclusion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboglobalretentionexclusion.html"
-last_updated: "4/10/2025"
+last_updated: "1/13/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOGlobalRetentionExclusion
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOGlobalRetentionExclusionobject that contains retention policy settings for calendars and contacts.
+The cmdlet returns the [VBOGlobalRetentionExclusion](vboglobalretentionexclusion.md) object that contains retention policy settings for calendars and contacts.
 
 Example
 
@@ -56,6 +56,4 @@ This command returns retention policy settings for calendars and contacts.
 | --- |
 | Get-VBOGlobalRetentionExclusion                     SkipCalendar                                                SkipContacts                     ------------                                                ------------                            False                                                       False |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

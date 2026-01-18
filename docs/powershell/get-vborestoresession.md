@@ -1,14 +1,14 @@
 ---
-title: "get-vborestoresession"
+title: "Get-VBORestoreSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborestoresession.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORestoreSession
 
-In this article
 
 Short Description
 
@@ -48,6 +48,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBORestoreSession](vborestoresession.md) object that contains restore session details.
+
 Example
 
 ![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Example 1. Getting Specific Restore Session by ID
@@ -62,6 +66,4 @@ Example
 | --- | --- |
 | This command returns a restore session with the specified name.  |  | | --- | | Get-VBORestoreSession -Name "TestRestoreSession" | |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

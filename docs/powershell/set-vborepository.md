@@ -1,14 +1,14 @@
 ---
-title: "set-vborepository"
+title: "Set-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vborepository.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBORepository
 
-In this article
 
 Short Description
 
@@ -38,7 +38,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository. The cmdlet will modify settings of this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies a backup repository. The cmdlet will modify settings of this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of the backup repository. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
 | Description | Specifies a description of the backup repository. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 | RetentionPeriod | Specifies the retention period in years. Veeam Backup for Microsoft 365 will remove items from a backup repository once this period is passed. You can set either of the following periods:   * Year1 * Years2 * Years3 * Years5 * Years7 * Years10 * Years25 * KeepForever   Default: Years3  Note: Apply the CustomRetentionPeriodType parameter to set the retention period in months or days. | VBORetentionPeriod | False | Named | False |
@@ -57,7 +57,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepository object that contains settings of the Veeam Backup for Microsoft 365 repository.
+The cmdlet returns the [VBORepository](vborepository.md) object that contains settings of the Veeam Backup for Microsoft 365 repository.
 
 Examples
 
@@ -77,6 +77,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

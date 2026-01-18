@@ -1,14 +1,14 @@
 ---
-title: "new-vbocopyjobschedulepolicy"
+title: "New-VBOCopyJobSchedulePolicy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbocopyjobschedulepolicy.html"
-last_updated: "9/30/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOCopyJobSchedulePolicy
 
-In this article
 
 Short Description
 
@@ -45,7 +45,7 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | Type | Specifies a type of the backup copy job schedule:   * Immediate: runs the backup copy job right after the latest restore point appears in the source backup repository.   During the first run of the backup copy job, Veeam Backup for Microsoft 365 copies the latest restore point created by the source backup job (backup job for which you create a backup copy job). During next runs — each subsequent restore point.   * Daily: runs the backup copy job on specific days at the specified hours. * Periodically: runs the backup copy job repeatedly throughout a day with a specific time interval. | VBOCopyJobFrequencyType | False | Named | False |
-| BackupWindowSettings | Specifies the backup window within which the backup copy job must be completed. | Accepts the VBOBackupWindowSettings object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
+| BackupWindowSettings | Specifies the backup window within which the backup copy job must be completed. | Accepts the [VBOBackupWindowSettings](vbobackupwindowsettings.md) object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
 | PeriodicallyEvery | Specifies the time interval between the job runs:   * Minutes5 * Minutes10 * Minutes15 * Minutes30 * Hours1 * Hours2 * Hours4 * Hours8  * Hours12   Default: Minutes5 | VBOPeriodicInterval | False | Named | False |
 | DailyTime | Specifies the time to start the backup copy job.  Default: 15:00:00 | TimeSpan | False | Named | False |
 | DailyType | Specifies the days when the backup copy job will run:   * Everyday * Weekends * Workdays * Monday * Tuesday * Wednesday * Thursday * Friday * Saturday * Sunday   Default: Everyday | VBODailyType | False | Named | False |
@@ -56,7 +56,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOCopyJobSchedulePolicy object that contains the backup copy job schedule settings.
+The cmdlet returns the [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.md) object that contains the backup copy job schedule settings.
 
 Examples
 
@@ -78,6 +78,4 @@ Related Commands
 * [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md)
 * [Set-VBOCopyJob](set-vbocopyjob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

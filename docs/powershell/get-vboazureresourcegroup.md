@@ -1,14 +1,14 @@
 ---
-title: "get-vboazureresourcegroup"
+title: "Get-VBOAzureResourceGroup"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazureresourcegroup.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureResourceGroup
 
-In this article
 
 Short Description
 
@@ -22,14 +22,14 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAzureResourceGroup object.
+This cmdlet returns the [VBOAzureResourceGroup](vboazureresourcegroup.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the VBOAzureSubscription object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | True (ByValue) |
-| Location | Specifies a Microsoft Entra region. | Accepts the VBOAzureLocation object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | False | Named | False |
+| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | True (ByValue) |
+| Location | Specifies a Microsoft Entra region. | Accepts the [VBOAzureLocation](vboazurelocation.md) object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | False | Named | False |
 | Name | Specifies a name of the resource group. The cmdlet will return the resource group with this name. | String | False | Named | False |
 
 <CommonParameters>
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureResourceGroup object that will be associated with the Azure archiver appliance.
+The cmdlet returns the [VBOAzureResourceGroup](vboazureresourcegroup.md) object that will be associated with the Azure archiver appliance.
 
 Examples
 
@@ -60,6 +60,4 @@ Related Commands
 * [Get-VBOAzureLocation](get-vboazurelocation.md)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

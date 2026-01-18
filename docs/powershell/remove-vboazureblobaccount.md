@@ -1,14 +1,14 @@
 ---
-title: "remove-vboazureblobaccount"
+title: "Remove-VBOAzureBlobAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboazureblobaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOAzureBlobAccount
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies Microsoft Azure Blob Storage account credentials that you want to remove. | Accepts the VBOAzureBlobAccount object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | True (ByValue) |
+| Account | Specifies Microsoft Azure Blob Storage account credentials that you want to remove. | Accepts the [VBOAzureBlobAccount](vboazureblobaccount.md) object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -58,6 +58,4 @@ Related Commands
 
 [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

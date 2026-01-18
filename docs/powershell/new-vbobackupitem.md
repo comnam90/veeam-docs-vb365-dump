@@ -1,14 +1,14 @@
 ---
-title: "new-vbobackupitem"
+title: "New-VBOBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupitem.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOBackupItem
 
-In this article
 
 Short Description
 
@@ -68,19 +68,19 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a user. | Accepts the VBOOrganizationUser[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
+| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a user. | Accepts the [VBOOrganizationUser](vboorganizationuser.md)[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
 | Mailbox | Defines that the cmdlet will create an organization object that will have the mailbox option enabled.  Default: False | SwitchParameter | False | Named | False |
 | ArchiveMailbox | Defines that the cmdlet will create an organization object that will have the archived mailbox option enabled.  Default: False  Note: You cannot specify this parameter for the PublicMailbox type of the user. | SwitchParameter | False | Named | False |
 | OneDrive | Defines that the cmdlet will create an organization object that will have the OneDrive option enabled.  Default: False  Note: You cannot specify this parameter for the PublicMailbox type of the user. | SwitchParameter | False | Named | False |
 | Sites | Defines that the cmdlet will create an organization object that will have the sites option enabled.  Default: False | SwitchParameter | False | Named | False |
-| Organization | Specifies an array of organizations added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains an organization. | Accepts the VBOOrganization[] object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
+| Organization | Specifies an array of organizations added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains an organization. | Accepts the [VBOOrganization](vboorganization.md)[] object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
 | Teams | Defines that the cmdlet will create an organization object that will have the teams option enabled.  Default: False | SwitchParameter | False | Named | False |
 | TeamsChats | Defines that the cmdlet will create an organization object that will have the team chats option enabled.  Default: False | SwitchParameter | False | Named | False |
-| Site | Specifies an array of sites added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a site. | Accepts the VBOOrganizationSite[] object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
-| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a group. | Accepts the VBOOrganizationGroup[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
+| Site | Specifies an array of sites added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a site. | Accepts the [VBOOrganizationSite](vboorganizationsite.md)[] object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
+| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a group. | Accepts the [VBOOrganizationGroup](vboorganizationgroup.md)[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
 | GroupMailbox | Defines that the cmdlet will create an organization object that will have the group mailbox enabled.  Default: False | SwitchParameter | False | Named | False |
 | GroupSite | Defines that the cmdlet will create an organization object that will have the group site option enabled.  Default: False | SwitchParameter | False | Named | False |
-| Team | Specifies an array of teams added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a team. | Accepts the VBOOrganizationTeam[] object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
+| Team | Specifies an array of teams added to Veeam Backup for Microsoft 365. The cmdlet will create an organization object that contains a team. | Accepts the [VBOOrganizationTeam](vboorganizationteam.md)[] object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
 | PersonalSites | Defines that the cmdlet will create an organization object with the personal sites option enabled.  Default: False | SwitchParameter | True | Named | False |
 
 <CommonParameters>
@@ -133,6 +133,4 @@ Related Commands
 * [Get-VBOOrganizationSite](get-vboorganizationsite.md)
 * [Get-VBOOrganizationTeam](get-vboorganizationteam.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

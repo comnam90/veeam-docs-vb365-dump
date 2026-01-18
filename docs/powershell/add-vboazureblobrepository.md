@@ -1,14 +1,14 @@
 ---
-title: "add-vboazureblobrepository"
+title: "Add-VBOAzureBlobRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboazureblobrepository.html"
-last_updated: "10/2/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAzureBlobRepository
 
-In this article
 
 Short Description
 
@@ -66,14 +66,14 @@ Parameters
 | --- | --- | --- | --- | --- | --- |
 | ImmutabilityPeriodDays | Specifies the number of days when your data will be blocked for deletion or modification.  Note: If you set the null or 0 value, data will be blocked for deletion or modification for the same period as the retention period. | Int32 | False | Named | False |
 | IgnoreProxyPoolApplianceAccessValidation | Defines that the cmdlet will ignore check whether backup proxy servers that belong to the specified backup proxy pool can access the archiver appliance.  Default: False | SwitchParameter | False | Named | False |
-| ObjectStorageSettings | Specifies the Azure Blob Storage settings. | Accepts the VBOAzureBlobObjectStorageRepository object.  To get this object, run the [New-VBOAzureBlobObjectStorageSettings](new-vboazureblobobjectstoragesettings.md) cmdlet. | True | Named | False |
-| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the VBOEncryptionKey object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
+| ObjectStorageSettings | Specifies the Azure Blob Storage settings. | Accepts the [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.md) object.  To get this object, run the [New-VBOAzureBlobObjectStorageSettings](new-vboazureblobobjectstoragesettings.md) cmdlet. | True | Named | False |
+| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the [VBOEncryptionKey](vboencryptionkey.md) object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
 | SyncNow | Defines that the cmdlet will start to synchronize cache between the object storage repository and the PersistentCache database on the PostgreSQL instance.  Default: False | SwitchParameter | False | Named | False |
 | SizeLimit | Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
 | EnableImmutability | Defines that the cmdlet will add the object storage repository to the Veeam Backup for Microsoft 365 infrastructure with the immutability feature enabled. Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.  For more information about the immutability feature, see the [Immutability](https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.  Default: False | SwitchParameter | False | Named | False |
 | EnableImmutabilityGovernanceMode | Defines that a retention policy will be unlocked on the Azure container and a storage administrator with specific permissions to be allowed to override the lock settings and to delete the protected backups in the object storage repository added by the cmdlet.  Default: False | SwitchParameter | False | Named | False |
-| Proxy | Specifies a backup proxy server. The cmdlet will map a new Azure Blob Storage to this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
-| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new Azure Blob Storage to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
+| Proxy | Specifies a backup proxy server. The cmdlet will map a new Azure Blob Storage to this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new Azure Blob Storage to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
 | Name | Specifies a name of Azure Blob Storage. The cmdlet will add an object storage repository with this name. | String | True | Named | False |
 | Description | Specifies a description of Azure Blob Storage. The cmdlet will add an object storage repository with this description.  The default description contains information on the user who added the object storage repository, date and time when the object storage repository was added. | String | False | Named | False |
 | RetentionType | Specifies a type of retention policy. You can set either of the following types:   * ItemLevel * SnapshotBased   Default: SnapshotBased | VBORetentionType | False | Named | False |
@@ -94,7 +94,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobRepository object that contains settings of Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.md) object that contains settings of Azure Blob Storage.
 
 Examples
 
@@ -139,6 +139,4 @@ Related Commands
 * [Get-VBOAzureBlobFolder](get-vboazureblobfolder.md)
 * [New-VBOAzureBlobObjectStorageSettings](new-vboazureblobobjectstoragesettings.md)
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

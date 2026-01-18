@@ -1,14 +1,14 @@
 ---
-title: "get-vbodataretrievalsession"
+title: "Get-VBODataRetrievalSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbodataretrievalsession.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBODataRetrievalSession
 
-In this article
 
 Short Description
 
@@ -35,13 +35,17 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Retrieval | Specifies a retrieval job. The cmdlet will return the data retrieval session that includes this retrieval job. | Accepts the VBODataRetrieval object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | False | Named | True (ByValue) |
+| Retrieval | Specifies a retrieval job. The cmdlet will return the data retrieval session that includes this retrieval job. | Accepts the [VBODataRetrieval](vbodataretrieval.md) object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | False | Named | True (ByValue) |
 | Status | Specifies the retrieval job status. The cmdlet will return data retrieval sessions for the retrieval jobs with the specified status:   * Stopped * Running * Success * Failed * Warning * NotConfigured * Disconnected * Queued | VBOJobStatus | False | Named | False |
 | Last | Defines that the cmdlet will return the latest data retrieval session.  If the Retrieval parameter is used, the cmdlet will return the latest data retrieval session for the specified retrieval job.  If the Status parameter is used, the cmdlet will return the latest data retrieval session for the retrieval jobs with the specified status.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns the [VBODataRetrievalSession](vbodataretrievalsession.md) object that contains data retrieval session details.
 
 Examples
 
@@ -74,6 +78,4 @@ Related Commands
 * [Get-VBODataRetrieval](get-vbodataretrieval.md)
 * [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

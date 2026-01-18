@@ -1,14 +1,14 @@
 ---
-title: "get-vborbacrole"
+title: "Get-VBORbacRole"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborbacrole.html"
-last_updated: "9/30/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORbacRole
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return restore operator roles that are added to the specified Microsoft organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return restore operator roles that are added to the specified Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
 | Id | Specifies an ID of the restore operator role. The cmdlet will return the restore operator role with the specified ID. | Guid | True | Named | False |
 | Name | Specifies a restore operator role name. The cmdlet will return the restore operator role with this name. | String | True | Named | False |
 
@@ -54,7 +54,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORbacRole object that contains a list of restore operator roles added to Veeam Backup for Microsoft 365.
+The cmdlet returns the [VBOOperatorRole](vbooperatorrole.md) object that contains a list of restore operator roles added to Veeam Backup for Microsoft 365.
 
 Examples
 
@@ -74,6 +74,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboazureblobfolder"
+title: "Get-VBOAzureBlobFolder"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazureblobfolder.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureBlobFolder
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Container | Specifies a Microsoft Azure Blob container. The cmdlet will return folders from this container. | Accepts the VBOAzureBlobContainer object.  To get this object, run the [Get-VBOAzureBlobContainer](get-vboazureblobcontainer.md) cmdlet. | True | Named | False |
+| Container | Specifies a Microsoft Azure Blob container. The cmdlet will return folders from this container. | Accepts the [VBOAzureBlobContainer](vboazureblobcontainer.md) object.  To get this object, run the [Get-VBOAzureBlobContainer](get-vboazureblobcontainer.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Microsoft Azure Blob folder that you want to get. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobFolder object that contains an array of Microsoft Azure Blob folders.
+The cmdlet returns the [VBOAzureBlobFolder](vboazureblobfolder.md) object that contains an array of Microsoft Azure Blob folders.
 
 Examples
 
@@ -59,6 +59,4 @@ Related Commands
 * [New-VBOAzureBlobConnectionSettings](new-vboazureblobconnectionsettings.md)
 * [Get-VBOAzureBlobContainer](get-vboazureblobcontainer.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

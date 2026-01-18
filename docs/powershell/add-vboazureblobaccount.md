@@ -1,14 +1,14 @@
 ---
-title: "add-vboazureblobaccount"
+title: "Add-VBOAzureBlobAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboazureblobaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAzureBlobAccount
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAzureBlobAccount object. This object contains storage account credentials for Microsoft Azure Blob Storage. Veeam Backup for Microsoft 365 will use these storage account credentials to access Microsoft Azure Blob Storage.
+This cmdlet creates the [VBOAzureBlobAccount](vboazureblobaccount.md) object. This object contains storage account credentials for Microsoft Azure Blob Storage. Veeam Backup for Microsoft 365 will use these storage account credentials to access Microsoft Azure Blob Storage.
 
 Parameters
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobAccount object that contains storage account credentials for Microsoft Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobAccount](vboazureblobaccount.md) object that contains storage account credentials for Microsoft Azure Blob Storage.
 
 Examples
 
@@ -58,6 +58,4 @@ Related Commands
 
 [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

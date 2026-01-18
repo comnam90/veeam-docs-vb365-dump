@@ -1,14 +1,14 @@
 ---
-title: "get-vbodataretrievalobject"
+title: "Get-VBODataRetrievalObject"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbodataretrievalobject.html"
-last_updated: "4/10/2025"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBODataRetrievalObject
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| DataRetrieval | Specifies a retrieval job. The cmdlet will return objects whose backed-up data was retrieved by this retrieval job. | Accepts the VBODataRetrieval object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | True | Named | True (ByValue) |
+| DataRetrieval | Specifies a retrieval job. The cmdlet will return objects whose backed-up data was retrieved by this retrieval job. | Accepts the [VBODataRetrieval](vbodataretrieval.md) object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -53,6 +53,4 @@ Related Commands
 
 [Get-VBODataRetrieval](get-vbodataretrieval.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

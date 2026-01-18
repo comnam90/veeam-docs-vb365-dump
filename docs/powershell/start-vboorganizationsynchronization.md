@@ -1,14 +1,14 @@
 ---
-title: "start-vboorganizationsynchronization"
+title: "Start-VBOOrganizationSynchronization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vboorganizationsynchronization.html"
-last_updated: "5/31/2024"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBOOrganizationSynchronization
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will start synchronization of objects for this Microsoft organization. | IVBOOrganization  Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will start synchronization of objects for this Microsoft organization. | IVBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Full | Defines that the cmdlet will start synchronization of all objects in this Microsoft organization.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
@@ -59,6 +59,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 5/31/2024
 
-Page content applies to build 8.3.0.2201

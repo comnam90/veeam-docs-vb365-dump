@@ -1,14 +1,14 @@
 ---
-title: "get-vboexcludedbackupitem"
+title: "Get-VBOExcludedBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboexcludedbackupitem.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOExcludedBackupItem
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job. The cmdlet will return objects excluded from this job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
+| Job | Specifies a backup job. The cmdlet will return objects excluded from this job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of an object. The cmdlet will return objects with this name.  Note: If you want to get a specific type of an object, you must also set either of the following parameters:   * Users * Groups * Sites * PersonalSites * TeamsGroups | String | False | Named | False |
 | Users | Defines that the cmdlet will return users excluded from a backup job.  Default: False | SwitchParameter | False | Named | False |
 | Groups | Defines that the cmdlet will return groups excluded from a backup job.  Default: False | SwitchParameter | False | Named | False |
@@ -39,6 +39,10 @@ Parameters
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns the [VBOBackupItem](vbobackupitem.md)[] object that contains an array of objects excluded from a backup job.
 
 Examples
 
@@ -58,6 +62,4 @@ Related Commands
 
 [Get-VBOJob](get-vbojob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

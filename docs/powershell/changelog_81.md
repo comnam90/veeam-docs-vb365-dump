@@ -1,14 +1,14 @@
 ---
-title: "changelog_81"
+title: "v8.1 Changelog"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/changelog_81.html"
-last_updated: "11/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# v8.1 Changelog
 
-In this article
 
 This section describes new and updated PowerShell cmdlets in Veeam Backup for Microsoft 365 8.1 comparing to 8.
 
@@ -24,6 +24,4 @@ Updated Cmdlets
 | --- | --- |
 | [Start-VBORepositoryOwnerChangeSession](start-vborepositoryownerchangesession.md) | Parameter added: IgnoreConnectionTroublesToSourceLocation |
 
-Page updated 11/10/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "set-vboazureserviceaccount"
+title: "Set-VBOAzureServiceAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboazureserviceaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOAzureServiceAccount
 
-In this article
 
 Short Description
 
@@ -50,7 +50,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies a Microsoft Azure service account whose settings you want to modify. | Accepts the VBOAzureServiceAccount object.  To get this object, run the [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md) cmdlet. | True | Named | True (ByValue) |
+| Account | Specifies a Microsoft Azure service account whose settings you want to modify. | Accepts the [VBOAzureServiceAccount](vboazureserviceaccount.md) object.  To get this object, run the [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md) cmdlet. | True | Named | True (ByValue) |
 | Description | Specifies a description of Microsoft Azure service account. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will import the certificate that is located in this path to set up a secure connection to Microsoft 365 organization. | String | True | Named | False |
 | ApplicationCertificatePassword | Specifies the certificate password. The cmdlet will use this password to confirm the certificate that you want to import to a Microsoft Entra application. | SecureString | False | Named | False |
@@ -64,7 +64,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureServiceAccount object that contains Microsoft Azure service account details.
+The cmdlet returns the [VBOAzureServiceAccount](vboazureserviceaccount.md) object that contains Microsoft Azure service account details.
 
 Examples
 
@@ -85,6 +85,4 @@ Related Commands
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

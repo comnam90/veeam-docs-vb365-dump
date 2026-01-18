@@ -1,14 +1,14 @@
 ---
-title: "export-vbolog"
+title: "Export-VBOLog"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/export-vbolog.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Export-VBOLog
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| ServerComponent | Specifies an array of the Veeam Backup for Microsoft 365 server components. The cmdlet will export logs of the specified server component. | Accepts the VBOServerComponent[] object.  To get this object, run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. | True | Named | False |
+| ServerComponent | Specifies an array of the Veeam Backup for Microsoft 365 server components. The cmdlet will export logs of the specified server component. | Accepts the [VBOServerComponent](vboservercomponent.md)[] object.  To get this object, run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. | True | Named | False |
 | All | Defines that the cmdlet will export logs for all time. You cannot use the From, To and DayPeriod parameters if this parameter is used.  Default: False | SwitchParameter | True | Named | False |
 | TargetPath | Specifies a target path for the log export. The cmdlet will export log files to this location. | String | True | Named | False |
 | From | Specifies date and time, starting from which this cmdlet will export the logs. If this parameter is used, you must use the To parameter and you cannot use the All and DayPeriod parameters. You must enter date and time in a DateTime format. | DateTime | False | Named | False |
@@ -77,6 +77,4 @@ Related Commands
 
 [Get-VBOServerComponents](get-vboservercomponents.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "start-vbocopyjob"
+title: "Start-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vbocopyjob.html"
-last_updated: "5/8/2024"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -31,7 +31,7 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | TeamsData | Defines that the backup copy job will process backed-up Microsoft Teams data.  Default: False | SwitchParameter | False | Named | False |
-| Job | Specifies a backup copy job that you want to start. | Accepts the VBOCopyJob object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup copy job that you want to start. | Accepts the [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
 | RunAsync | Defines that the command returns immediately without waiting for the task to complete.  Default: False | SwitchParameter | False | Named | False |
 | Full | Defines that the backup copy job will copy all backed-up Microsoft Teams data.  Default: False | SwitchParameter | False | Named | False |
 
@@ -61,6 +61,4 @@ Related Commands
 * [Get-VBOCopyJob](get-vbocopyjob.md)
 * [New-VBOCopyJobSchedulePolicy](new-vbocopyjobschedulepolicy.md)
 
-Page updated 5/8/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "stop-vborepositorysynchronizesession"
+title: "Stop-VBORepositorySynchronizeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vborepositorysynchronizesession.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Stop-VBORepositorySynchronizeSession
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Session | Specifies a synchronization session. The cmdlet will stop this session. | Accepts the VBORepositorySynchronizeSession object.  To get this object, run the [Get-VBORepositorySynchronizeSession](get-vborepositorysynchronizesession.md) cmdlet. | True | Named | False |
+| Session | Specifies a synchronization session. The cmdlet will stop this session. | Accepts the [VBORepositorySynchronizeSession](vborepositorysynchronizesession.md) object.  To get this object, run the [Get-VBORepositorySynchronizeSession](get-vborepositorysynchronizesession.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -41,7 +41,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepositorySynchronizeSession object that contains details on the synchronization status of an object storage repository.
+The cmdlet returns the [VBORepositorySynchronizeSession](vborepositorysynchronizesession.md) object that contains details on the synchronization status of an object storage repository.
 
 Examples
 
@@ -62,6 +62,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [Get-VBORepositorySynchronizeSession](get-vborepositorysynchronizesession.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

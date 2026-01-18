@@ -1,14 +1,14 @@
 ---
-title: "remove-vboamazons3compatibleaccount"
+title: "Remove-VBOAmazonS3CompatibleAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboamazons3compatibleaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOAmazonS3CompatibleAccount
 
-In this article
 
 Short Description
 
@@ -32,7 +32,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies S3 Compatible storage account credentials that you want to remove. | Accepts the VBOAmazonS3CompatibleAccount object.  To get this object, run the [Get-VBOAmazonS3CompatibleAccount](get-vboamazons3compatibleaccount.md) cmdlet. | True | Named | True (ByValue) |
+| Account | Specifies S3 Compatible storage account credentials that you want to remove. | Accepts the [VBOAmazonS3CompatibleAccount](vboamazons3compatibleaccount.md) object.  To get this object, run the [Get-VBOAmazonS3CompatibleAccount](get-vboamazons3compatibleaccount.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -62,6 +62,4 @@ Related Commands
 
 [Get-VBOAmazonS3CompatibleAccount](get-vboamazons3compatibleaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

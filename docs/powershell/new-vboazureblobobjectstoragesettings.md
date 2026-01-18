@@ -1,14 +1,14 @@
 ---
-title: "new-vboazureblobobjectstoragesettings"
+title: "New-VBOAzureBlobObjectStorageSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboazureblobobjectstoragesettings.html"
-last_updated: "9/13/2024"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAzureBlobObjectStorageSettings
 
-In this article
 
 Short Description
 
@@ -32,15 +32,15 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBOAzureBlobObjectStorageSettings object. This object contains settings of Azure Blob Storage.
+This cmdlet creates the [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.md) object. This object contains settings of Azure Blob Storage.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Folder | Specifies an Azure Blob folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the VBOAzureBlobFolder object.  To get this object, run the [Get-VBOAzureBlobFolder](get-vboazureblobfolder.md) cmdlet. | True | Named | False |
-| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the VBOAzureSubscription object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | False |
-| ArchiverAppliance | Specifies the Azure archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive during backup copy jobs. | Accepts the VBOAzureArchiverAppliance object.  To create this object, run the [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md) cmdlet. | False | Named | False |
+| Folder | Specifies an Azure Blob folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the [VBOAzureBlobFolder](vboazureblobfolder.md) object.  To get this object, run the [Get-VBOAzureBlobFolder](get-vboazureblobfolder.md) cmdlet. | True | Named | False |
+| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | False |
+| ArchiverAppliance | Specifies the Azure archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive during backup copy jobs. | Accepts the [VBOAzureArchiverAppliance](vboazurearchiverappliance.md) object.  To create this object, run the [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -48,7 +48,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobObjectStorageSettings object that contains settings of Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.md) object that contains settings of Azure Blob Storage.
 
 Example
 
@@ -77,6 +77,4 @@ Related Commands
 * [Get-VBOAzureSubscription](get-vboazuresubscription.md)
 * [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md)
 
-Page updated 9/13/2024
 
-Page content applies to build 8.3.0.2201

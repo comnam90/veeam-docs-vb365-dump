@@ -1,14 +1,14 @@
 ---
-title: "get-vboazureblobcontainer"
+title: "Get-VBOAzureBlobContainer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazureblobcontainer.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureBlobContainer
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| ConnectionSettings | Specifies an active session with Microsoft Azure Blob Storage. The cmdlet will return an array of the containers added to this object storage repository. | Accepts the VBOAzureBlobConnectionSettings object.  To create this object, run the [New-VBOAzureBlobConnectionSettings](new-vboazureblobconnectionsettings.md) cmdlet. | True | Named | False |
+| ConnectionSettings | Specifies an active session with Microsoft Azure Blob Storage. The cmdlet will return an array of the containers added to this object storage repository. | Accepts the [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.md) object.  To create this object, run the [New-VBOAzureBlobConnectionSettings](new-vboazureblobconnectionsettings.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Microsoft Azure Blob container that you want to get. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobContainer object that returns an array of Microsoft Azure Blob containers.
+The cmdlet returns the [VBOAzureBlobContainer](vboazureblobcontainer.md) object that returns an array of Microsoft Azure Blob containers.
 
 Examples
 
@@ -58,6 +58,4 @@ Related Commands
 * [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md)
 * [New-VBOAzureBlobConnectionSettings](new-vboazureblobconnectionsettings.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "new-vbojobschedulepolicy"
+title: "New-VBOJobSchedulePolicy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbojobschedulepolicy.html"
-last_updated: "9/30/2025"
+last_updated: "1/6/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOJobSchedulePolicy
 
-In this article
 
 Short Description
 
@@ -42,12 +42,12 @@ Parameters
 | Type | Specifies a type of the backup job schedule:   * Daily: runs the backup job on specific days at the specified hours. * Periodically: runs the backup job repeatedly throughout a day with a specific time interval. | VBOJobFrequencyType | False | Named | False |
 | DailyTime | Specifies the time to start the backup job.  Default: 15:00:00 | TimeSpan | False | Named | False |
 | DailyType | Specifies the days when the backup job will run:   * Everyday * Weekends * Workdays * Monday * Tuesday * Wednesday * Thursday * Friday * Saturday * Sunday   Default: Everyday | VBODailyType | False | Named | False |
-| BackupWindowSettings | Specifies the backup window within which the backup job must be completed. | Accepts the VBOBackupWindowSettings object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
+| BackupWindowSettings | Specifies the backup window within which the backup job must be completed. | Accepts the [VBOBackupWindowSettings](vbobackupwindowsettings.md) object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
 | RetryEnabled | Defines that Veeam Backup for Microsoft 365 will attempt to run a backup job again if the job fails for some reason.  Default: False | SwitchParameter | False | Named | False |
 | RetryNumber | Specifies the number of attempts to run the backup job.  Permitted values: 1–777.  Default: 3 | Int32 | False | Named | False |
 | RetryWaitInterval | Specifies the time intervals between the job retry attempts in minutes.  Permitted values: 1–999.  Default: 10 | Int32 | False | Named | False |
 | PeriodicallyEvery | Specifies the time interval between the job runs:   * Minutes5 * Minutes10 * Minutes15 * Minutes30 * Hours1 * Hours2 * Hours4 * Hours8 * Hours12   Default: Minutes5 | VBOPeriodicInterval | False | Named | False |
-| PeriodicallyWindowSettings | Specifies the backup window within which the backup job will run periodically. | Accepts the VBOBackupWindowSettings object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
+| PeriodicallyWindowSettings | Specifies the backup window within which the backup job will run periodically. | Accepts the [VBOBackupWindowSettings](vbobackupwindowsettings.md) object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | False | Named | False |
 | PeriodicallyOffsetMinutes | Specifies the offset within an hour in minutes after which the job must start according to the periodic schedule.  Permitted values: 0–59.  Default: 0 | Int32 | False | Named | False |
 
 <CommonParameters>
@@ -56,7 +56,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOJobSchedulePolicy object that contains the backup job schedule settings.
+The cmdlet returns the [VBOJobSchedulePolicy](vbojobschedulepolicy.md) object that contains the backup job schedule settings.
 
 Examples
 
@@ -78,6 +78,4 @@ Related Commands
 * [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md)
 * [Set-VBOJob](set-vbojob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

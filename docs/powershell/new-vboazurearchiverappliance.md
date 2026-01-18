@@ -1,14 +1,14 @@
 ---
-title: "new-vboazurearchiverappliance"
+title: "New-VBOAzureArchiverAppliance"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboazurearchiverappliance.html"
-last_updated: "4/11/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAzureArchiverAppliance
 
-In this article
 
 Short Description
 
@@ -38,20 +38,20 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBOAzureArchiverAppliance object. This object contains settings of the Azure archiver appliance that Veeam Backup for Microsoft 365 will use when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive.
+This cmdlet creates the [VBOAzureArchiverAppliance](vboazurearchiverappliance.md) object. This object contains settings of the Azure archiver appliance that Veeam Backup for Microsoft 365 will use when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| VmSize | Specifies a size of the Azure archiver appliance.  Default: Standard\_B4ms (4 CPU/16 GB) | Accepts the VBOAzureVirtualMachineSize object.  To get this object, run the [Get-VBOAzureVirtualMachineSize](get-vboazurevirtualmachinesize.md) cmdlet. | False | Named | False |
+| VmSize | Specifies a size of the Azure archiver appliance.  Default: Standard\_B4ms (4 CPU/16 GB) | Accepts the [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.md) object.  To get this object, run the [Get-VBOAzureVirtualMachineSize](get-vboazurevirtualmachinesize.md) cmdlet. | False | Named | False |
 | RedirectorPort | Specifies a port number. The cmdlet will use this port number to route requests between the archiver appliance and Veeam Backup for Microsoft 365 backup infrastructure components.  Default: 443 | Int32 | False | Named | False |
-| ResourceGroup | Specifies a resource group that will be associated with the archiver appliance.  Default: Create new  This value indicates that a new resource group will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the VBOAzureResourceGroup object.  To get this object, run the [Get-VBOAzureResourceGroup](get-vboazureresourcegroup.md) cmdlet. | False | Named | False |
-| VirtualNetwork | Specifies a network to which the archiver appliance will be connected.  Default: Create new  This value indicates that a new virtual network will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the VBOAzureVirtualNetwork object.  To get this object, run the [Get-VBOAzureVirtualNetwork](get-vboazurevirtualnetwork.md) cmdlet. | False | Named | False |
-| Subnet | Specifies the archiver appliance subnet.  Default: Create new  This value indicates that a new subnet will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the VBOAzureSubnet object.  To get this object, run the [Get-VBOAzureSubNet](get-vboazuresubnet.md) cmdlet. | False | Named | False |
+| ResourceGroup | Specifies a resource group that will be associated with the archiver appliance.  Default: Create new  This value indicates that a new resource group will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the [VBOAzureResourceGroup](vboazureresourcegroup.md) object.  To get this object, run the [Get-VBOAzureResourceGroup](get-vboazureresourcegroup.md) cmdlet. | False | Named | False |
+| VirtualNetwork | Specifies a network to which the archiver appliance will be connected.  Default: Create new  This value indicates that a new virtual network will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the [VBOAzureVirtualNetwork](vboazurevirtualnetwork.md) object.  To get this object, run the [Get-VBOAzureVirtualNetwork](get-vboazurevirtualnetwork.md) cmdlet. | False | Named | False |
+| Subnet | Specifies the archiver appliance subnet.  Default: Create new  This value indicates that a new subnet will be created in a region where a container with the specified folder is located when you run the [Add-VBOAzureBlobObjectStorageRepository](add-vboazureblobobjectstoragerepository.md) or [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlet. | Accepts the [VBOAzureSubnet](vboazuresubnet.md) object.  To get this object, run the [Get-VBOAzureSubNet](get-vboazuresubnet.md) cmdlet. | False | Named | False |
 | IpRanges | Specifies a range of IPv4 addresses for the specified subnet. | String[] | True | Named | False |
-| ProxyIpRange | Specifies public IPv4 address of a backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
-| ProxyPoolIpRange | Specifies public IPv4 addresses of all backup proxy servers added to a backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | True | Named | False |
+| ProxyIpRange | Specifies public IPv4 address of a backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
+| ProxyPoolIpRange | Specifies public IPv4 addresses of all backup proxy servers added to a backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -59,7 +59,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureArchiverAppliance object that contains the Azure archiver appliance settings.
+The cmdlet returns the [VBOAzureArchiverAppliance](vboazurearchiverappliance.md) object that contains the Azure archiver appliance settings.
 
 Example
 
@@ -102,6 +102,4 @@ Related Commands
 * [Get-VBOProxy](get-vboproxy.md)
 * [Get-VBOProxyPool](get-vboproxypool.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

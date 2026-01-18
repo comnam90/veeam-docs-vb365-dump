@@ -1,14 +1,14 @@
 ---
-title: "get-vboazuresubscription"
+title: "Get-VBOAzureSubscription"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazuresubscription.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureSubscription
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| ServiceAccount | Specifies a Microsoft Azure service account. The cmdlet will return an array of subscriptions added to this service account. | Accepts the VBOAzureServiceAccount object.  To get this object, run the [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md) cmdlet. | True | Named | True (ByValue) |
+| ServiceAccount | Specifies a Microsoft Azure service account. The cmdlet will return an array of subscriptions added to this service account. | Accepts the [VBOAzureServiceAccount](vboazureserviceaccount.md) object.  To get this object, run the [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a subscription name. The cmdlet will return the subscription with this name. | String | False | Named | False |
 | Id | Specifies a subscription ID. The cmdlet will return the subscription with this ID. | String | False | Named | False |
 | DeviceCode | Defines that the cmdlet will require an authentication code to connect to Microsoft Azure and get Microsoft Azure subscriptions.  Default: False | SwitchParameter | False | Named | False |
@@ -56,7 +56,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureSubscription object that contains details on subscriptions associated with a user account that will be used to access Azure Blob Storage.
+The cmdlet returns the [VBOAzureSubscription](vboazuresubscription.md) object that contains details on subscriptions associated with a user account that will be used to access Azure Blob Storage.
 
 Examples
 
@@ -82,6 +82,4 @@ Related Commands
 
 [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "set-vbobackupitem"
+title: "Set-VBOBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbobackupitem.html"
-last_updated: "11/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOBackupItem
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| BackupItem | Specifies an organization object. The cmdlet will modify settings of this object. | Accepts the VBOBackupItem[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
+| BackupItem | Specifies an organization object. The cmdlet will modify settings of this object. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
 | Mailbox | Defines that the cmdlet will enable the mailbox option for an object.  Default: False | SwitchParameter | False | Named | False |
 | ArchiveMailbox | Defines that the cmdlet will enable the archive mailbox option for an object.  Default: False  Note: You cannot specify this parameter for the user of the PublicMailbox type. | SwitchParameter | False | Named | False |
 | OneDrive | Defines that the cmdlet will enable the OneDrive option for an object.  Default: False  Note: You cannot specify this parameter for the user of the PublicMailbox type. | SwitchParameter | False | Named | False |
@@ -66,6 +66,4 @@ Related Commands
 * [New-VBOBackupItem](new-vbobackupitem.md)
 * [Get-VBOBackupItem](get-vbobackupitem.md)
 
-Page updated 11/10/2025
 
-Page content applies to build 8.3.0.2201

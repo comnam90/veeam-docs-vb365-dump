@@ -1,14 +1,14 @@
 ---
-title: "get-vborestorepoint"
+title: "Get-VBORestorePoint"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborestorepoint.html"
-last_updated: "9/30/2025"
+last_updated: "1/13/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORestorePoint
 
-In this article
 
 Short Description
 
@@ -47,13 +47,13 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return restore points created for this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
-| Repository | Specifies a backup repository. The cmdlet will return restore points created for this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
+| Organization | Specifies a Microsoft organization. The cmdlet will return restore points created for this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
+| Repository | Specifies a backup repository. The cmdlet will return restore points created for this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
 | IsLongTermCopy | Defines that the cmdlet will return restore points created by backup copy jobs in the following object storage repositories:   * Azure Blob Storage Archive access tier * all Amazon S3 Glacier storage classes   Default: False | SwitchParameter | False | Named | False |
 | IsCopy | Defines that the cmdlet will return restore points created by backup copy jobs in all object storage repositories.  Default: False | SwitchParameter | False | Named | False |
 | IsRetrieved | Defines that the cmdlet will return restore points created by a retrieval job.  Default: False | SwitchParameter | False | Named | False |
 | Latest | Defines that the cmdlet will return only the latest restore point.  Default: False | SwitchParameter | False | Named | False |
-| Job | Specifies a backup job. The cmdlet will return restore points created by this backup job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup job. The cmdlet will return restore points created by this backup job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -61,7 +61,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns an array of restore points created by Veeam Backup for Microsoft 365.
+The cmdlet returns an array of [VBORestorePoint](vborestorepoint.md) objects created by Veeam Backup for Microsoft 365.
 
 Examples
 
@@ -102,6 +102,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [Start-VBOExchangeItemRestoreSession](https://helpcenter.veeam.com/docs/vbo365/explorers_powershell/start-vboexchangeitemrestoresession.html?ver=80)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "new-vbooffice365connectionsettings"
+title: "New-VBOOffice365ConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbooffice365connectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOOffice365ConnectionSettings
 
-In this article
 
 Short Description
 
@@ -46,7 +46,7 @@ The following cmdlet set is deprecated. It still works in Veeam Backup for Micro
 
 Detailed Description
 
-This cmdlet creates the VBOOffice365LegacyConnectionSettings object. This object defines connection settings to access Microsoft 365 organizations. You can apply these settings to add Microsoft 365 organizations to the Veeam Backup for Microsoft 365 infrastructure.
+This cmdlet creates the [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.md) object. This object defines connection settings to access Microsoft 365 organizations. You can apply these settings to add Microsoft 365 organizations to the Veeam Backup for Microsoft 365 infrastructure.
 
 Run the [Add-VBOOrganization](add-vboorganization.md) cmdlet to add Microsoft organizations to the Veeam Backup for Microsoft 365 infrastructure.
 
@@ -74,7 +74,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOOffice365LegacyConnectionSettings object that contains connection settings to access Microsoft 365 organizations.
+The cmdlet returns the [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.md) object that contains connection settings to access Microsoft 365 organizations.
 
 Examples
 
@@ -102,6 +102,4 @@ Related Commands
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 * [Add-VBOOrganization](add-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "set-vbointernetproxysettings"
+title: "Set-VBOInternetProxySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbointernetproxysettings.html"
-last_updated: "5/6/2024"
+last_updated: "1/12/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOInternetProxySettings
 
-In this article
 
 Short Description
 
@@ -45,6 +45,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOInternetProxySettings](vbointernetproxysettings.md) object that contains internet proxy server settings.
+
 Example
 
 Modifying Global Internet Proxy Server Settings
@@ -55,6 +59,4 @@ This command sets global internet proxy server settings.
 | --- |
 | Set-VBOInternetProxySettings -UseInternetProxy -Hostname internetProxy.local -Port 3128 |
 
-Page updated 5/6/2024
 
-Page content applies to build 8.3.0.2201

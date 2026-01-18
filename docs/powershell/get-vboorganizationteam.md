@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationteam"
+title: "Get-VBOOrganizationTeam"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationteam.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationTeam
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return teams of the specified organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return teams of the specified organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | NotInJob | Defines that the cmdlet will return teams that are not manually included in any of the backup jobs.  Default: False  Note: If a team is backed up by the EntireOrganization job, it also will be considered as not included in backups jobs. | SwitchParameter | False | Named | False |
 | DataSource | Specifies how the cmdlet will return organization teams:   * PreferLocal   For Microsoft organizations with modern app-only authentication, the cmdlet will return data from either the organization cache database if organization objects are already synchronized to this source, or directly from the organization if synchronization is in progress.  For Microsoft organizations with modern authentication and legacy protocols or with basic authentication, the cmdlet will return data directly from the organization.   * Production   The cmdlet will return data directly from the organization.   * PreferLocalResynced   For Microsoft organizations with modern app-only authentication, the cmdlet will start synchronization of objects with the organization cache database and upon synchronization completes, it returns data from the organization cache database.  For Microsoft organizations with modern authentication and legacy protocols or with basic authentication, the cmdlet will return data directly from the organization.  Default: PreferLocal | VBOOrganizationDataSource | False | Named | False |
 | Id | Specifies an ID of the team. The cmdlet will return the team with the specified ID. | Guid | False | Named | False |
@@ -53,6 +53,10 @@ Parameters
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns an array of the [VBOOrganizationTeam](vboorganizationteam.md) objects that contain details about organization teams.
 
 Examples
 
@@ -78,6 +82,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "repositories"
+title: "JET-based Backup Repositories and Object Storage Repositories"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/repositories.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# JET-based Backup Repositories and Object Storage Repositories
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with JET-based backup repositories and object storage repositories:
 
@@ -47,6 +47,4 @@ In This Section
 
 [Object Storage Deprecated Cmdlets](object_storage_deprecated.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

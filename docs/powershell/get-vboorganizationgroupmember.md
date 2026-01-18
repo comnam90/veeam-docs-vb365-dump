@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationgroupmember"
+title: "Get-VBOOrganizationGroupMember"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationgroupmember.html"
-last_updated: "4/10/2025"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationGroupMember
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Group | Specifies an organization group. The cmdlet will return members added to this group. | Accepts the VBOOrganizationGroup object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | True (ByValue) |
+| Group | Specifies an organization group. The cmdlet will return members added to this group. | Accepts the [VBOOrganizationGroup](vboorganizationgroup.md) object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | True (ByValue) |
 | DataSource | Specifies how the cmdlet will return members of organization groups:   * PreferLocal   For Microsoft organizations with modern app-only authentication, the cmdlet will return data from either the organization cache database if organization objects are already synchronized to this source, or directly from the organization if synchronization is in progress.  For Microsoft organizations with modern authentication and legacy protocols or with basic authentication, the cmdlet will return data directly from the organization.   * Production   The cmdlet will return data directly from the organization.   * PreferLocalResynced   For Microsoft organizations with modern app-only authentication, the cmdlet will start synchronization of objects with the organization cache database and upon synchronization completes, it returns data from the organization cache database.  For Microsoft organizations with modern authentication and legacy protocols or with basic authentication, the cmdlet will return data directly from the organization.  Default: PreferLocal | VBOOrganizationDataSource | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-This cmdlet returns the VBOOrganizationGroupMember object that contains an array of members added to organization groups.
+This cmdlet returns the [VBOOrganizationGroupMember](vboorganizationgroupmember.md) object that contains an array of members added to organization groups.
 
 Example
 
@@ -60,6 +60,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOOrganizationGroup](get-vboorganizationgroup.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

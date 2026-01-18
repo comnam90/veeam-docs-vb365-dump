@@ -1,14 +1,14 @@
 ---
-title: "get-vboazurevirtualmachinesize"
+title: "Get-VBOAzureVirtualMachineSize"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazurevirtualmachinesize.html"
-last_updated: "4/11/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureVirtualMachineSize
 
-In this article
 
 Short Description
 
@@ -22,14 +22,14 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAzureVirtualMachineSize object. This object contains the size of an auxiliary virtual machine in Microsoft Azure that is deployed and configured automatically by Veeam Backup for Microsoft 365.
+This cmdlet returns the [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.md) object. This object contains the size of an auxiliary virtual machine in Microsoft Azure that is deployed and configured automatically by Veeam Backup for Microsoft 365.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the VBOAzureSubscription object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | False |
-| Location | Specifies a Microsoft Entra region. | Accepts the VBOAzureLocation object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | True | Named | False |
+| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | False |
+| Location | Specifies a Microsoft Entra region. | Accepts the [VBOAzureLocation](vboazurelocation.md) object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of an auxiliary virtual machine. | String | False | Named | False |
 
 <CommonParameters>
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureVirtualMachineSize object.
+The cmdlet returns the [VBOAzureVirtualMachineSize](vboazurevirtualmachinesize.md) object.
 
 Example
 
@@ -63,6 +63,4 @@ Related Commands
 * [Get-VBOAzureLocation](get-vboazurelocation.md)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "veeam_psreference"
+title: "Veeam Backup for Microsoft 365 PowerShell Reference"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/veeam_psreference.html"
-last_updated: "6/3/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Veeam Backup for Microsoft 365 PowerShell Reference
 
-In this article
 
 Veeam Backup for Microsoft 365 PowerShell allows you to perform all operations that are available with Veeam Backup for Microsoft 365, Veeam Explorer for Microsoft Exchange, Veeam Explorer for Microsoft SharePoint, Veeam Explorer for Microsoft OneDrive for Business and Veeam Explorer for Microsoft Teams user interface.
 
@@ -72,8 +72,7 @@ See Also
 * [Managing Veeam Backup for Microsoft 365](connect_to_veeam_backup_office365_server.md)
 * [Veeam Backup for Microsoft 365 Server Components Logs](veeam_backup_office365_components_logs.md)
 * [Obsolete Parameters](obsolete_parameters.md)
+* [Veeam Backup for Microsoft 365 PowerShell Types](powershell_types.md)
 * [Veeam Backup for Microsoft 365 PowerShell Changelog](ps_changelog.md)
 
-Page updated 6/3/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "new-vbolinuxcredential"
+title: "New-VBOLinuxCredential"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbolinuxcredential.html"
-last_updated: "2/25/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOLinuxCredential
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOLinuxCredential object. This object contains Linux credentials to connect to a Linux-based backup proxy server.
+This cmdlet creates the [VBOLinuxCredential](vbolinuxcredential.md) object. This object contains Linux credentials to connect to a Linux-based backup proxy server.
 
 Parameters
 
@@ -48,7 +48,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOLinuxCredential object that contains Linux credentials.
+The cmdlet returns the [VBOLinuxCredential](vbolinuxcredential.md) object that contains Linux credentials.
 
 Example
 
@@ -73,6 +73,4 @@ Related Commands
 
 [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 2/25/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "obsolete_parameters"
+title: "Obsolete Parameters"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/obsolete_parameters.html"
-last_updated: "11/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Obsolete Parameters
 
-In this article
 
 The following parameters are obsolete and they are no longer working in PowerShell for Veeam Backup for Microsoft 365 version 8.3. If you have used them in your scripts before, make sure that you have updated these scripts.
 
@@ -23,6 +23,4 @@ The following parameters are obsolete and they are no longer working in PowerShe
 | [Set-VBORepository](set-vborepository.md) | Defragmentation |
 | [Set-VBOServer](set-vboserver.md) | EnableTeamsGraphAPIBackup |
 
-Page updated 11/10/2025
 
-Page content applies to build 8.3.0.2201

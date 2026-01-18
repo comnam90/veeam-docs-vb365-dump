@@ -1,14 +1,14 @@
 ---
-title: "new_updated_cmdlets"
+title: "New and Updated Cmdlets"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new_updated_cmdlets.html"
-last_updated: "5/27/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New and Updated Cmdlets
 
-In this article
 
 This section contains information on new and updated PowerShell cmdlets in Veeam Backup for Microsoft 365 8.
 
@@ -70,6 +70,4 @@ Updated Cmdlets
 | [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) | Parameter deprecated: Name |
 | [Get-VBOOrganizationUser](get-vboorganizationuser.md) | Parameter deprecated: Name |
 
-Page updated 5/27/2025
 
-Page content applies to build 8.3.0.2201

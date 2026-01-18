@@ -1,14 +1,14 @@
 ---
-title: "get-vborepositorysynchronizesession"
+title: "Get-VBORepositorySynchronizeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborepositorysynchronizesession.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORepositorySynchronizeSession
 
-In this article
 
 Short Description
 
@@ -38,7 +38,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies an object storage repository. The cmdlet will return details of metadata (cache) synchronization between this object storage repository and the PersistentCache database created for this object storage repository on the PostgreSQL instance. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
+| Repository | Specifies an object storage repository. The cmdlet will return details of metadata (cache) synchronization between this object storage repository and the PersistentCache database created for this object storage repository on the PostgreSQL instance. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -46,7 +46,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepositorySynchronizeSession object that contains details on the synchronization of cache between an object storage repository and the PersistentCache database on the PostgreSQL instance.
+The cmdlet returns the [VBORepositorySynchronizeSession](vborepositorysynchronizesession.md) object that contains details on the synchronization of cache between an object storage repository and the PersistentCache database on the PostgreSQL instance.
 
 Examples
 
@@ -66,6 +66,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201
