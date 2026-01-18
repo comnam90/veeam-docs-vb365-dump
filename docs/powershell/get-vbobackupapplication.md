@@ -1,14 +1,14 @@
 ---
-title: "get-vbobackupapplication"
+title: "Get-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbobackupapplication.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOBackupApplication
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return settings of backup applications that are added to the specified Microsoft organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return settings of backup applications that are added to the specified Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | DisplayName | Specifies a display name of the backup application. The cmdlet will return settings of a backup application with the specified name. | String | False | Named | False |
 | ApplicationId | Specifies an ID of the backup application. The cmdlet will return settings of the backup application with the specified ID. | Guid | False | Named | False |
 | ThumbprintCertificate | Specifies a thumbprint of the backup application. The cmdlet will return settings of a backup application with the specified thumbprint. | String | False | Named | False |
@@ -44,7 +44,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOBackupApplication object that contains backup application settings that are added to Microsoft organizations.
+The cmdlet returns the [VBOBackupApplication](vbobackupapplication.md) object that contains backup application settings that are added to Microsoft organizations.
 
 Examples
 
@@ -64,6 +64,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

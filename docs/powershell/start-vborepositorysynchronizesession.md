@@ -1,14 +1,14 @@
 ---
-title: "start-vborepositorysynchronizesession"
+title: "Start-VBORepositorySynchronizeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vborepositorysynchronizesession.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBORepositorySynchronizeSession
 
-In this article
 
 Short Description
 
@@ -30,7 +30,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies an object storage repository. The cmdlet will synchronize cache between this object storage repository and the PersistentCache database on the PostgreSQL instance. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| Repository | Specifies an object storage repository. The cmdlet will synchronize cache between this object storage repository and the PersistentCache database on the PostgreSQL instance. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepositorySynchronizeSession object that contains details on the synchronization status of an object storage repository.
+The cmdlet returns the [VBORepositorySynchronizeSession](vborepositorysynchronizesession.md) object that contains details on the synchronization status of an object storage repository.
 
 Examples
 
@@ -64,6 +64,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

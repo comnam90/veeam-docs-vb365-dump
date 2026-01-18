@@ -1,14 +1,14 @@
 ---
-title: "new-vborbacroleitem"
+title: "New-VBORbacRoleItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vborbacroleitem.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBORbacRoleItem
 
-In this article
 
 Short Description
 
@@ -50,16 +50,16 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBORbacRoleItem object. This object contains specific users, groups, sites, or teams. Restore operators will be allowed/not allowed to explore and restore data from backups created by Veeam Backup for Microsoft 365 for this object.
+This cmdlet creates the [VBORbacRoleItem](vborbacroleitem.md) object. This object contains specific users, groups, sites, or teams. Restore operators will be allowed/not allowed to explore and restore data from backups created by Veeam Backup for Microsoft 365 for this object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will define these users as objects to manage/exclude. | Accepts the VBOOrganizationUser[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
-| Site | Specifies an array of SharePoint sites added to Veeam Backup for Microsoft 365. The cmdlet will define these sites as objects to manage/exclude. | Accepts the VBOOrganizationSite[] object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
-| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will define these groups as objects to manage/exclude. | Accepts the VBOOrganizationGroup[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
-| Team | Specifies an array of teams added to Veeam Backup for Microsoft 365. The cmdlet will define these teams as objects to manage/exclude. | Accepts the VBOOrganizationTeam[] object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
+| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will define these users as objects to manage/exclude. | Accepts the [VBOOrganizationUser](vboorganizationuser.md)[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
+| Site | Specifies an array of SharePoint sites added to Veeam Backup for Microsoft 365. The cmdlet will define these sites as objects to manage/exclude. | Accepts the [VBOOrganizationSite](vboorganizationsite.md)[] object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
+| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will define these groups as objects to manage/exclude. | Accepts the [VBOOrganizationGroup](vboorganizationgroup.md)[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
+| Team | Specifies an array of teams added to Veeam Backup for Microsoft 365. The cmdlet will define these teams as objects to manage/exclude. | Accepts the [VBOOrganizationTeam](vboorganizationteam.md)[] object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
 | PersonalSites | Defines that the cmdlet will define personal sites as objects to manage/exclude.  Default: False | SwitchParameter | True | Named | False |
 
 <CommonParameters>
@@ -68,7 +68,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-This cmdlet returns the VBORbacRoleItem object that contains details on users, groups, or sites that will be managed by restore operators or excluded.
+This cmdlet returns the [VBORbacRoleItem](vborbacroleitem.md) object that contains details on users, groups, or sites that will be managed by restore operators or excluded.
 
 Example
 
@@ -94,6 +94,4 @@ Related Commands
 * [Get-VBOOrganizationSite](get-vboorganizationsite.md)
 * [Get-VBOOrganizationTeam](get-vboorganizationteam.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

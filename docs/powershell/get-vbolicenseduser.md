@@ -1,14 +1,14 @@
 ---
-title: "get-vbolicenseduser"
+title: "Get-VBOLicensedUser"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbolicenseduser.html"
-last_updated: "4/11/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOLicensedUser
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies an organization whose licensed users you want to get. The cmdlet will return a list of licensed users for the organization with the specified name. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
+| Organization | Specifies an organization whose licensed users you want to get. The cmdlet will return a list of licensed users for the organization with the specified name. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
 | Name | Specifies a name used to query a licensed user. The cmdlet will return information on the licensed user with the specified name. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOLicensedUser object that contains details on licensed Veeam Backup for Microsoft 365 users.
+The cmdlet returns the [VBOLicensedUser](vbolicenseduser.md) object that contains details on licensed Veeam Backup for Microsoft 365 users.
 
 Example
 
@@ -58,6 +58,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

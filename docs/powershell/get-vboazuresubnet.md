@@ -1,14 +1,14 @@
 ---
-title: "get-vboazuresubnet"
+title: "Get-VBOAzureSubNet"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazuresubnet.html"
-last_updated: "4/11/2025"
+last_updated: "12/19/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureSubNet
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAzureSubNet object.
+This cmdlet returns the [VBOAzureSubNet](vboazuresubnet.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| VirtualNetwork | Specifies a network to which the Azure archiver appliance will be connected. | Accepts the VBOAzureVirtualNetwork object.  To get this object, run the [Get-VBOAzureVirtualNetwork](get-vboazurevirtualnetwork.md) cmdlet. | True | Named | False |
+| VirtualNetwork | Specifies a network to which the Azure archiver appliance will be connected. | Accepts the [VBOAzureVirtualNetwork](vboazurevirtualnetwork.md) object.  To get this object, run the [Get-VBOAzureVirtualNetwork](get-vboazurevirtualnetwork.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the subnet. The cmdlet will return the subnet with this name. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureSubNet object.
+The cmdlet returns the [VBOAzureSubNet](vboazuresubnet.md) object.
 
 Example
 
@@ -65,6 +65,4 @@ Related Commands
 * [Get-VBOAzureSubscription](get-vboazuresubscription.md)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboservercomponents"
+title: "Get-VBOServerComponents"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboservercomponents.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOServerComponents
 
-In this article
 
 Short Description
 
@@ -35,6 +35,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns an array of the [VBOServerComponent](vboservercomponent.md) objects that contain information about the Veeam Backup for Microsoft 365 server components.
+
 Examples
 
 ![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Example 1: Getting All Server Components
@@ -49,6 +53,4 @@ Examples
 | --- | --- |
 | This command returns all backup proxy servers connected to the Veeam Backup for Microsoft 365 console. The cmdlet output will provide the following details on backup proxy servers: Id, Name, ServerName, IsOnline, ExtendedLoggingEnabled and DistributedTracingEnabled.  |  | | --- | | Get-VBOServerComponents -Name "Proxy"  Id                     : 1c426a3c-aad7-4a26-ad74-0c36e7f8feb4  Name                   : Proxy  ServerName             : ProxyServer01  IsOnline               : True  ExtendedLoggingEnabled : False  DistributedTracingEnabled : False    Id                     : e9454a9e-d0b1-43cf-947e-53631fe49bbd  Name                   : Proxy  ServerName             : ProxyServer02  IsOnline               : True  ExtendedLoggingEnabled : False  DistributedTracingEnabled : False | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationretentionexclusion"
+title: "Get-VBOOrganizationRetentionExclusion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationretentionexclusion.html"
-last_updated: "4/29/2024"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationRetentionExclusion
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return retention policy settings for this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
+| Organization | Specifies a Microsoft organization. The cmdlet will return retention policy settings for this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -36,7 +36,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-This cmdlet returns the VBOOrganizationRetentionExclusion object that contains settings of organization retention policy for contacts and calendars.
+This cmdlet returns the [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.md) object that contains settings of organization retention policy for contacts and calendars.
 
 Example
 
@@ -59,6 +59,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 4/29/2024
 
-Page content applies to build 8.3.0.2201

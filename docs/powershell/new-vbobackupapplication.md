@@ -1,14 +1,14 @@
 ---
-title: "new-vbobackupapplication"
+title: "New-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupapplication.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOBackupApplication
 
-In this article
 
 Short Description
 
@@ -32,7 +32,7 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBOBackupApplication object that defines backup application settings. The backup application represents settings of a Microsoft Entra application.
+This cmdlet creates the [VBOBackupApplication](vbobackupapplication.md) object that defines backup application settings. The backup application represents settings of a Microsoft Entra application.
 
 |  |
 | --- |
@@ -43,11 +43,11 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Application | Specifies a backup application. The cmdlet will modify the settings of this application. | Accepts the VBOApplication object.  To get this object, run the [Get-VBOApplication](get-vboapplication.md) cmdlet. | True | Named | False |
+| Application | Specifies a backup application. The cmdlet will modify the settings of this application. | Accepts the [VBOApplication](vboapplication.md) object.  To get this object, run the [Get-VBOApplication](get-vboapplication.md) cmdlet. | True | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will use this certificate to set a backup application. | String | True | Named | False |
 | ApplicationCertificatePassword | Specifies the certificate password. The cmdlet will use this password to set a backup application. | SecureString | False | Named | False |
 | Name | Specifies a name of the backup application. The cmdlet will set this name to the application. | String | True | Named | False |
-| Organization | Specifies a Microsoft organization. The cmdlet will modify a backup application of this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will modify a backup application of this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Count | Specifies the number of backup applications. The cmdlet will create the specified number of applications. | Int32 | False | Named | False |
 
 <CommonParameters>
@@ -56,7 +56,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOBackupApplication object that defines backup application settings.
+The cmdlet returns the [VBOBackupApplication](vbobackupapplication.md) object that defines backup application settings.
 
 Examples
 
@@ -78,6 +78,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOApplication](get-vboapplication.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

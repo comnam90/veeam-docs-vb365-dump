@@ -1,14 +1,14 @@
 ---
-title: "remove-vbocopyjob"
+title: "Remove-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vbocopyjob.html"
-last_updated: "5/2/2024"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup copy job that you want to remove. | Accepts the VBOCopyJob object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup copy job that you want to remove. | Accepts the [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -59,6 +59,4 @@ Related Commands
 
 [Get-VBOCopyJob](get-vbocopyjob.md)
 
-Page updated 5/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "remove-vborbacrole"
+title: "Remove-VBORbacRole"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vborbacrole.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBORbacRole
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Role | Specifies a restore operator role that you want to remove. | Accepts the VBOOperatorRole object.  To get this object, run the [Get-VBORbacRole](get-vborbacrole.md) cmdlet. | True | Named | True (ByValue) |
+| Role | Specifies a restore operator role that you want to remove. | Accepts the [VBOOperatorRole](vbooperatorrole.md) object.  To get this object, run the [Get-VBORbacRole](get-vborbacrole.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -62,6 +62,4 @@ Related Commands
 
 [Get-VBORbacRole](get-vborbacrole.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

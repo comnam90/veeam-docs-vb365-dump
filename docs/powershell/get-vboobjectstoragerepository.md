@@ -1,14 +1,14 @@
 ---
-title: "get-vboobjectstoragerepository"
+title: "Get-VBOObjectStorageRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboobjectstoragerepository.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOObjectStorageRepository
 
-In this article
 
 Short Description
 
@@ -57,7 +57,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOObjectStorageRepository object that contains an array of object storage repositories added to Veeam Backup for Microsoft 365.
+The cmdlet returns the [VBOObjectStorageRepository](vboobjectstoragerepository.md) object that contains an array of object storage repositories added to Veeam Backup for Microsoft 365.
 
 Examples
 
@@ -79,6 +79,4 @@ Examples
 | --- | --- |
 | This command returns the e0edfac7-27eb-4fa3-a02d-892a7e8e48cb object storage repository added to Veeam Backup for Microsoft 365.  |  | | --- | | Get-VBOObjectStorageRepository -Id e0edfac7-27eb-4fa3-a02d-892a7e8e48cb  Id                    : e0edfac7-27eb-4fa3-a02d-892a7e8e48cb  Name                  : Amazon Archive  Description           : Created by SRV0101\Administrator at 4:54:43 PM  Type                  : AmazonS3  EnableSizeLimit       : False  SizeLimit             : 1024 GB  UsedSpace             : 29.5 MB  FreeSpace             :  IsLongTerm            : True  IsSecondary           :  EnableImmutability    : True  EnableDefragmentation : True  ArchiveStorageClass   : GlacierDeepArchive | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

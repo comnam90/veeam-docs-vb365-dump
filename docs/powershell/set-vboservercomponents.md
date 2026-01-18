@@ -1,14 +1,14 @@
 ---
-title: "set-vboservercomponents"
+title: "Set-VBOServerComponents"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboservercomponents.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOServerComponents
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Components | Specifies an array of the Veeam Backup for Microsoft 365 server components. The cmdlet will enable the extended logging mode and distributed tracing for these components.  Note: The extended logging mode and distributed tracing will not be modified for components that are not specified in the VBOServerComponent[] object. | Accepts the VBOServerComponent[] object.  To get this object, run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. | True | Named | True (ByValue) |
+| Components | Specifies an array of the Veeam Backup for Microsoft 365 server components. The cmdlet will enable the extended logging mode and distributed tracing for these components.  Note: The extended logging mode and distributed tracing will not be modified for components that are not specified in the [VBOServerComponent](vboservercomponent.md)[] object. | Accepts the [VBOServerComponent](vboservercomponent.md)[] object.  To get this object, run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. | True | Named | True (ByValue) |
 | EnableExtendedLogging | Enables the extended logging mode for an array of the Veeam Backup for Microsoft 365 server components.  Default: False  Note: To disable the extended logging mode for an array of components, you must set the false value for this parameter. | SwitchParameter | False | Named | False |
 | EnableDistributedTracing | Enables distributed tracing for an array of the Veeam Backup for Microsoft 365 server components.  Default: False  Note: To disable distributed tracing for an array of components, you must set the false value for this parameter. | SwitchParameter | False | Named | False |
 
@@ -67,6 +67,4 @@ Related Commands
 * [Get-VBOServerComponents](get-vboservercomponents.md)
 * [Where-Object](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/where-object?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

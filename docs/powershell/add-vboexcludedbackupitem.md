@@ -1,14 +1,14 @@
 ---
-title: "add-vboexcludedbackupitem"
+title: "Add-VBOExcludedBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboexcludedbackupitem.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOExcludedBackupItem
 
-In this article
 
 Short Description
 
@@ -30,8 +30,8 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job. The cmdlet will exclude objects from this backup job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
-| BackupItem | Specifies an array of objects that you want to exclude from the backup job.  Note: Team objects can be excluded from the backup job only if the chats option is enabled for this team. | Accepts the VBOBackupItem[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
+| Job | Specifies a backup job. The cmdlet will exclude objects from this backup job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
+| BackupItem | Specifies an array of objects that you want to exclude from the backup job.  Note: Team objects can be excluded from the backup job only if the chats option is enabled for this team. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -59,6 +59,4 @@ Related Commands
 * [New-VBOBackupItem](new-vbobackupitem.md)
 * [Get-VBOBackupItem](get-vbobackupitem.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

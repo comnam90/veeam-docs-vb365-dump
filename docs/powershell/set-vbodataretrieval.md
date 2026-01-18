@@ -1,14 +1,14 @@
 ---
-title: "set-vbodataretrieval"
+title: "Set-VBODataRetrieval"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbodataretrieval.html"
-last_updated: "5/6/2024"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBODataRetrieval
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| DataRetrieval | Specifies a retrieval job. The cmdlet will modify settings of this retrieval job. | Accepts the VBODataRetrieval object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | True | Named | True (ByValue) |
+| DataRetrieval | Specifies a retrieval job. The cmdlet will modify settings of this retrieval job. | Accepts the [VBODataRetrieval](vbodataretrieval.md) object.  To get this object, run the [Get-VBODataRetrieval](get-vbodataretrieval.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a new name of a retrieval job. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
 | Description | Specifies a description of the retrieval job.  The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 | AvailabilityPeriodDays | Specifies the number of days during which the retrieved backed-up data will be available to explore and restore using Veeam Explorers.  Default: 1 | Int32 | False | Named | False |
@@ -41,7 +41,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBODataRetrieval object that contains settings for a retrieval job.
+The cmdlet returns the [VBODataRetrieval](vbodataretrieval.md) object that contains settings for a retrieval job.
 
 Example
 
@@ -68,6 +68,4 @@ Related Commands
 
 [Get-VBODataRetrieval](get-vbodataretrieval.md)
 
-Page updated 5/6/2024
 
-Page content applies to build 8.3.0.2201

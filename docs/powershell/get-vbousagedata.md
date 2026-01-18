@@ -1,14 +1,14 @@
 ---
-title: "get-vbousagedata"
+title: "Get-VBOUsageData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbousagedata.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOUsageData
 
-In this article
 
 Short Description
 
@@ -44,12 +44,16 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository. The cmdlet will return information on data usage in this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
-| Organization | Specifies a Microsoft organization. The cmdlet will return information on data usage by this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
+| Repository | Specifies a backup repository. The cmdlet will return information on data usage in this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| Organization | Specifies a Microsoft organization. The cmdlet will return information on data usage by this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns the [VBOUsageData](vbousagedata.md) object that contains details on the used space in a backup repository.
 
 Examples
 
@@ -76,6 +80,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

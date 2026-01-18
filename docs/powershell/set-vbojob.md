@@ -1,14 +1,14 @@
 ---
-title: "set-vbojob"
+title: "Set-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbojob.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOJob
 
-In this article
 
 Short Description
 
@@ -44,14 +44,14 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job. The cmdlet will modify this job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup job. The cmdlet will modify this job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a new name of a backup job. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
-| Repository | Specifies a backup repository. Veeam Backup for Microsoft 365 will store backups created by a backup job you modify on this repository. The cmdlet will replace the current backup repository with the specified backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
+| Repository | Specifies a backup repository. Veeam Backup for Microsoft 365 will store backups created by a backup job you modify on this repository. The cmdlet will replace the current backup repository with the specified backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
 | Description | Specifies a description of the backup job. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
-| SelectedItems | Specifies an array of objects that a job will back up. | Accepts the VBOBackupItem[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | False | Named | False |
-| ExcludedItems | Specifies an array of objects that the job will not back up.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the VBOBackupItem[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | False | Named | False |
+| SelectedItems | Specifies an array of objects that a job will back up. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | False | Named | False |
+| ExcludedItems | Specifies an array of objects that the job will not back up.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | False | Named | False |
 | RunJob | Defines that a backup job will run right after you create it.  If you provide this parameter, the job will start after you run the script. Otherwise, the cmdlet will create a backup job in the stopped status.  Default: False | SwitchParameter | False | Named | False |
-| SchedulePolicy | Specifies schedule settings for a backup job. | Accepts the VBOJobSchedulePolicy object.  To create this object, run the [New-VBOJobSchedulePolicy](new-vbojobschedulepolicy.md) cmdlet. | False | Named | False |
+| SchedulePolicy | Specifies schedule settings for a backup job. | Accepts the [VBOJobSchedulePolicy](vbojobschedulepolicy.md) object.  To create this object, run the [New-VBOJobSchedulePolicy](new-vbojobschedulepolicy.md) cmdlet. | False | Named | False |
 | EnableSelectedOneDriveFolders | Defines that a backup job will back up the specified selected OneDrive folders.  Default: False | SwitchParameter | False | Named | False |
 | SelectedOneDriveFolders | Specifies an array of OneDrive folders that a backup job will back up. | String[] | False | Named | False |
 | EnableExcludedOneDriveFolders | Defines that a backup job will not back up the specified excluded OneDrive folders.  Default: False | SwitchParameter | False | Named | False |
@@ -64,7 +64,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOJob object that contains settings for a backup job.
+The cmdlet returns the [VBOJob](vbojob.md) object that contains settings for a backup job.
 
 Examples
 
@@ -119,6 +119,4 @@ Related Commands
 
 * [New-VBOJobSchedulePolicy](new-vbojobschedulepolicy.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "enable-vbojob"
+title: "Enable-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/enable-vbojob.html"
-last_updated: "4/10/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Enable-VBOJob
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job that you want to enable. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup job that you want to enable. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -57,6 +57,4 @@ Related Commands
 
 [Get-VBOJob](get-vbojob.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

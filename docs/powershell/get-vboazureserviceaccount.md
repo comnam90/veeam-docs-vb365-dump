@@ -1,14 +1,14 @@
 ---
-title: "get-vboazureserviceaccount"
+title: "Get-VBOAzureServiceAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazureserviceaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureServiceAccount
 
-In this article
 
 Short Description
 
@@ -48,7 +48,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureServiceAccount object that contains Microsoft Azure service account details.
+The cmdlet returns the [VBOAzureServiceAccount](vboazureserviceaccount.md) object that contains Microsoft Azure service account details.
 
 Examples
 
@@ -64,6 +64,4 @@ Examples
 | --- | --- |
 | This command returns the Microsoft Azure service account details by the service account ID.  |  | | --- | | Get-VBOAzureServiceAccount -Id f8e5ac3d-d883-4dd8-8de3-a8f315fb6ae2 | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "add-vboazureserviceaccount"
+title: "Add-VBOAzureServiceAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboazureserviceaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAzureServiceAccount
 
-In this article
 
 Short Description
 
@@ -38,7 +38,7 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBOAzureServiceAccount object. This object contains details of the Microsoft Azure service account that is required to use the Azure archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive.
+This cmdlet creates the [VBOAzureServiceAccount](vboazureserviceaccount.md) object. This object contains details of the Microsoft Azure service account that is required to use the Azure archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive.
 
 Parameters
 
@@ -61,7 +61,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureServiceAccount object that contains Microsoft Azure service account details.
+The cmdlet returns the [VBOAzureServiceAccount](vboazureserviceaccount.md) object that contains Microsoft Azure service account details.
 
 Examples
 
@@ -88,6 +88,4 @@ Related Commands
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

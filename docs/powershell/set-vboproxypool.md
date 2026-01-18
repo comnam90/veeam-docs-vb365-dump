@@ -1,14 +1,14 @@
 ---
-title: "set-vboproxypool"
+title: "Set-VBOProxyPool"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboproxypool.html"
-last_updated: "6/28/2024"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOProxyPool
 
-In this article
 
 Short Description
 
@@ -28,10 +28,10 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Pool | Specifies a backup proxy pool that you want to modify. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | True | Named | True (ByValue) |
+| Pool | Specifies a backup proxy pool that you want to modify. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a new name of the backup proxy pool. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
 | Description | Specifies a description of the backup proxy pool. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
-| Proxies | Specifies an array of backup proxy servers. The cmdlet will add these backup proxy servers to the backup proxy pool. | Accepts the VBOProxy[] object.  To create this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| Proxies | Specifies an array of backup proxy servers. The cmdlet will add these backup proxy servers to the backup proxy pool. | Accepts the [VBOProxy](vboproxy.md)[] object.  To create this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -39,7 +39,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOProxyPool object that contains settings of a backup proxy pool added to the Veeam Backup for Microsoft 365 backup infrastructure.
+The cmdlet returns the [VBOProxyPool](vboproxypool.md) object that contains settings of a backup proxy pool added to the Veeam Backup for Microsoft 365 backup infrastructure.
 
 Example
 
@@ -65,6 +65,4 @@ Related Commands
 * [Get-VBOProxy](get-vboproxy.md)
 * [Get-VBOProxyPool](get-vboproxypool.md)
 
-Page updated 6/28/2024
 
-Page content applies to build 8.3.0.2201

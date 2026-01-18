@@ -1,14 +1,14 @@
 ---
-title: "get-vboproxypool"
+title: "Get-VBOProxyPool"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboproxypool.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOProxyPool
 
-In this article
 
 Short Description
 
@@ -53,7 +53,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOProxyPool object that contains settings of a backup proxy pool.
+The cmdlet returns the [VBOProxyPool](vboproxypool.md) object that contains settings of a backup proxy pool.
 
 Examples
 
@@ -75,6 +75,4 @@ Examples
 | --- | --- |
 | This command returns a backup proxy pool with the Pool name.  |  | | --- | | Get-VBOProxyPool -Name "Pool" | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

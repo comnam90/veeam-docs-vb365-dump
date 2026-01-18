@@ -1,14 +1,14 @@
 ---
-title: "set-vbobackupapplication"
+title: "Set-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbobackupapplication.html"
-last_updated: "12/17/2024"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOBackupApplication
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| BackupApplication | Specifies a backup application whose settings you want to modify. | Accepts the VBOBackupApplication object.  To get this object, run the [Get-VBOBackupApplication](get-vbobackupapplication.md) cmdlet. | True | Named | False |
+| BackupApplication | Specifies a backup application whose settings you want to modify. | Accepts the [VBOBackupApplication](vbobackupapplication.md) object.  To get this object, run the [Get-VBOBackupApplication](get-vbobackupapplication.md) cmdlet. | True | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will modify the path to the certificate in the backup application settings. | String | True | Named | False |
 | ApplicationCertificatePassword | Specifies the certificate password. The cmdlet will modify the password in the backup application settings. | SecureString | False | Named | False |
 
@@ -43,7 +43,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOBackupApplication object that contains backup application settings that are added to Microsoft organizations.
+The cmdlet returns the [VBOBackupApplication](vbobackupapplication.md) object that contains backup application settings that are added to Microsoft organizations.
 
 Example
 
@@ -74,6 +74,4 @@ Related Commands
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 * [Get-VBOBackupApplication](get-vbobackupapplication.md)
 
-Page updated 12/17/2024
 
-Page content applies to build 8.3.0.2201

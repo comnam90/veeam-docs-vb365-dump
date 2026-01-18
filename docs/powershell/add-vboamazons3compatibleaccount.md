@@ -1,14 +1,14 @@
 ---
-title: "add-vboamazons3compatibleaccount"
+title: "Add-VBOAmazonS3CompatibleAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboamazons3compatibleaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAmazonS3CompatibleAccount
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAmazonS3CompatibleAccount object. This object contains storage account credentials for the following types of object storage repositories:
+This cmdlet creates the [VBOAmazonS3CompatibleAccount](vboamazons3compatibleaccount.md) object. This object contains storage account credentials for the following types of object storage repositories:
 
 * S3 Compatible object storage repository.
 * IBM Cloud Object Storage.
@@ -44,7 +44,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3CompatibleAccount object that contains S3 Compatible storage account credentials.
+The cmdlet returns the [VBOAmazonS3CompatibleAccount](vboamazons3compatibleaccount.md) object that contains S3 Compatible storage account credentials.
 
 Examples
 
@@ -64,6 +64,4 @@ Related Commands
 
 [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

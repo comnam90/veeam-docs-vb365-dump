@@ -1,14 +1,14 @@
 ---
-title: "add-vboamazons3account"
+title: "Add-VBOAmazonS3Account"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboamazons3account.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAmazonS3Account
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAmazonS3Account object. Veeam Backup for Microsoft 365 will use these storage account credentials to access Amazon S3 storage.
+This cmdlet creates the [VBOAmazonS3Account](vboamazons3account.md) object. Veeam Backup for Microsoft 365 will use these storage account credentials to access Amazon S3 storage.
 
 Parameters
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3Account object that contains Amazon S3 storage account credentials.
+The cmdlet returns the [VBOAmazonS3Account](vboamazons3account.md) object that contains Amazon S3 storage account credentials.
 
 Examples
 
@@ -58,6 +58,4 @@ Related Commands
 
 [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

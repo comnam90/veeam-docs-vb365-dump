@@ -1,14 +1,14 @@
 ---
-title: "new-vboamazons3connectionsettings"
+title: "New-VBOAmazonS3ConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboamazons3connectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAmazonS3ConnectionSettings
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAmazonS3ConnectionSettings object. This object contains connection settings to Amazon S3 object storage repository.
+This cmdlet creates the [VBOAmazonS3ConnectionSettings](vboamazons3connectionsettings.md) object. This object contains connection settings to Amazon S3 object storage repository.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies Amazon S3 storage account credentials. The cmdlet will use these storage account credentials to connect to Amazon S3 object storage repository. | Accepts the VBOAmazonS3Account object.  To get this object, run the [Get-VBOAmazonS3Account](get-vboamazons3account.md) cmdlet. | True | Named | False |
+| Account | Specifies Amazon S3 storage account credentials. The cmdlet will use these storage account credentials to connect to Amazon S3 object storage repository. | Accepts the [VBOAmazonS3Account](vboamazons3account.md) object.  To get this object, run the [Get-VBOAmazonS3Account](get-vboamazons3account.md) cmdlet. | True | Named | False |
 | RegionType | Specifies the region type for Amazon S3 object storage repository. The cmdlet will connect to the selected region type and will set up a connection with Amazon S3 object storage repository. You can select the following region type:   * Global * USGovernment * China | VBOAmazonS3RegionType | True | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3ConnectionSettings object that defines connection settings to Amazon S3 object storage repository.
+The cmdlet returns the [VBOAmazonS3ConnectionSettings](vboamazons3connectionsettings.md) object that defines connection settings to Amazon S3 object storage repository.
 
 Examples
 
@@ -63,6 +63,4 @@ Related Commands
 
 [Get-VBOAmazonS3Account](get-vboamazons3account.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

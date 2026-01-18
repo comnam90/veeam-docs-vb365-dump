@@ -1,14 +1,14 @@
 ---
-title: "new-vboazureblobconnectionsettings"
+title: "New-VBOAzureBlobConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboazureblobconnectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAzureBlobConnectionSettings
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAzureBlobConnectionSettings object. This object contains connection settings to Microsoft Azure Blob Storage.
+This cmdlet creates the [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.md) object. This object contains connection settings to Microsoft Azure Blob Storage.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies Microsoft Azure Blob Storage account credentials. The cmdlet will use this storage account credentials to connect to Microsoft Azure Blob Storage. | Accepts the VBOAzureBlobAccount object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | False |
+| Account | Specifies Microsoft Azure Blob Storage account credentials. The cmdlet will use this storage account credentials to connect to Microsoft Azure Blob Storage. | Accepts the [VBOAzureBlobAccount](vboazureblobaccount.md) object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | False |
 | RegionType | Specifies the region type for Microsoft Azure Blob Storage. The cmdlet will connect to the selected region type and will set up a connection with Microsoft Azure Blob Storage. You can select the following types of region:   * Global * Germany * China * Government | VBOAzureRegionType | True | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobConnectionSettings object that defines connection settings to Microsoft Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobConnectionSettings](vboazureblobconnectionsettings.md) object that defines connection settings to Microsoft Azure Blob Storage.
 
 Examples
 
@@ -69,6 +69,4 @@ Related Commands
 
 [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

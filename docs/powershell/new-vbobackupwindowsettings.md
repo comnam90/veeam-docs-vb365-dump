@@ -1,14 +1,14 @@
 ---
-title: "new-vbobackupwindowsettings"
+title: "New-VBOBackupWindowSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupwindowsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/6/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOBackupWindowSettings
 
-In this article
 
 Short Description
 
@@ -40,6 +40,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOBackupWindowSettings](vbobackupwindowsettings.md) object that contains the backup window settings.
+
 Examples
 
 ![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Example 1: Creating Backup Window with Allowed Hours
@@ -67,6 +71,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Set-VBOJob](set-vbojob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

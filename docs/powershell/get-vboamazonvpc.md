@@ -1,14 +1,14 @@
 ---
-title: "get-vboamazonvpc"
+title: "Get-VBOAmazonVPC"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboamazonvpc.html"
-last_updated: "8/27/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAmazonVPC
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAmazonVPC object.
+This cmdlet returns the [VBOAmazonVPC](vboamazonvpc.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| AmazonS3ConnectionSettings | Specifies an active session with Amazon S3 object storage repository. | Accepts the VBOAmazonS3ConnectionSettings object.  To create this object, run the [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md) cmdlet. | True | Named | False |
+| AmazonS3ConnectionSettings | Specifies an active session with Amazon S3 object storage repository. | Accepts the [VBOAmazonS3ConnectionSettings](vboamazons3connectionsettings.md) object.  To create this object, run the [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Amazon VPC. The cmdlet will return the Amazon VPC with this name. | String | False | Named | False |
 | RegionId | Specifies a region of Amazon S3 object storage repository.  For example, us-east-1.  For more information, see [this Amazon article](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html). | String | False | Named | False |
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonVPC object.
+The cmdlet returns the [VBOAmazonVPC](vboamazonvpc.md) object.
 
 Example
 
@@ -65,6 +65,4 @@ Related Commands
 * [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md)
 * [Get-VBOAmazonS3Account](get-vboamazons3account.md)
 
-Page updated 8/27/2025
 
-Page content applies to build 8.3.0.2201

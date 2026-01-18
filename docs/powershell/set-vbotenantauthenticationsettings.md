@@ -1,14 +1,14 @@
 ---
-title: "set-vbotenantauthenticationsettings"
+title: "Set-VBOTenantAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbotenantauthenticationsettings.html"
-last_updated: "5/8/2024"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOTenantAuthenticationSettings
 
-In this article
 
 Short Description
 
@@ -41,6 +41,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOTenantAuthenticationSettings](vbotenantauthenticationsettings.md) object that contains the Veeam Backup for Microsoft 365 tenant authentication settings.
+
 Example
 
 Modifying Tenant Authentication Settings
@@ -61,6 +65,4 @@ Related Commands
 
 [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 5/8/2024
 
-Page content applies to build 8.3.0.2201

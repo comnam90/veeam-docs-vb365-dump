@@ -1,14 +1,14 @@
 ---
-title: "add-vboamazons3objectstoragerepository"
+title: "Add-VBOAmazonS3ObjectStorageRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboamazons3objectstoragerepository.html"
-last_updated: "9/30/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAmazonS3ObjectStorageRepository
 
-In this article
 
 Short Description
 
@@ -49,14 +49,14 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Folder | Specifies an Amazon S3 folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the VBOAmazonS3Folder object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
+| Folder | Specifies an Amazon S3 folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the [VBOAmazonS3Folder](vboamazons3folder.md) object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of Amazon S3 object storage repository. The cmdlet will add an object storage repository with this name. | String | True | Named | False |
 | Description | Specifies a description of Amazon S3 object storage repository. The cmdlet will add an object storage repository with this description. | String | False | Named | False |
 | SizeLimit | Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
 | EnableImmutability | Defines that the cmdlet will add the object storage repository to the Veeam Backup for Microsoft 365 infrastructure with the immutability feature enabled. Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.  For more information about the immutability feature, see the [Immutability](https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.  Default: False | SwitchParameter | False | Named | False |
 | ImmutabilityPeriodDays | Specifies the number of days when your data will be blocked for deletion or modification.  Note: If you set the null or 0 value, data will be blocked for deletion or modification for the same period as the retention period. | Int32 | False | Named | False |
 | EnableIAStorageClass | Defines that the cmdlet will enable the Amazon S3 Standard-Infrequent Access storage class for data blocks that are stored in Amazon S3 object storage repository.  Default: False | SwitchParameter | False | Named | False |
-| ArchiverAppliance | Specifies the Amazon archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of the general purpose object storage repositories (Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes) or to any of Amazon S3 Glacier object storage repositories (Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes) during backup copy jobs. | Accepts the VBOAmazonArchiverAppliance object.  To create this object, run the [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md) cmdlet. | False | Named | False |
+| ArchiverAppliance | Specifies the Amazon archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of the general purpose object storage repositories (Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes) or to any of Amazon S3 Glacier object storage repositories (Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes) during backup copy jobs. | Accepts the [VBOAmazonArchiverAppliance](vboamazonarchiverappliance.md) object.  To create this object, run the [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md) cmdlet. | False | Named | False |
 | EnableLongTerm | Defines that the cmdlet will enable adding an object storage repository of one of the following storage classes:   * Amazon S3 Glacier Instant Retrieval * Amazon S3 Glacier Flexible Retrieval * Amazon S3 Glacier Deep Archive   Default: False | SwitchParameter | True | Named | False |
 | EnableGlacierDeepArchive | Defines that the cmdlet will enable the Amazon S3 Glacier Deep Archive storage class.  Default: False | SwitchParameter | False | Named | False |
 | EnableGlacierInstantRetrieval | Defines that the cmdlet will enable the Amazon S3 Glacier Instant Retrieval storage class.  Default: False | SwitchParameter | False | Named | False |
@@ -67,7 +67,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3ObjectStorageRepository object that contains settings of Amazon S3 object storage repository.
+The cmdlet returns the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object that contains settings of Amazon S3 object storage repository.
 
 Examples
 
@@ -109,6 +109,4 @@ Related Commands
 * [Get-VBOAmazonS3Folder](get-vboamazons3folder.md)
 * [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

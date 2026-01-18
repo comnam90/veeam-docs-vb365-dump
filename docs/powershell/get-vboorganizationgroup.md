@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationgroup"
+title: "Get-VBOOrganizationGroup"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationgroup.html"
-last_updated: "9/30/2025"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationGroup
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return organization groups of the specified organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return organization groups of the specified organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Limit | Specifies the maximum number of groups that the cmdlet will return. | UInt64 | False | Named | False |
 | Type | Specifies the organization group type:   * Office 365 * Security * Distribution * DynamicDistribution   The cmdlet will return organization groups of this type.  Note: The cmdlet will not return organization groups of an on-premises organization with SharePoint components. | VBOOrganizationGroupType | False | Named | False |
 | NotInJob | Defines that the cmdlet will return groups that are not manually included in any of the backup jobs.  Default: False  Note: If a group is backed up by the EntireOrganization job, it also will be considered as not included in backups jobs. | SwitchParameter | False | Named | False |
@@ -59,6 +59,10 @@ Parameters
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns an array of the [VBOOrganizationGroup](vboorganizationgroup.md) objects that contain details about Microsoft Exchange and Microsoft SharePoint organization groups.
 
 Examples
 
@@ -84,6 +88,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

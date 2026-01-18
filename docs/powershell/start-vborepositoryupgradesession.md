@@ -1,14 +1,14 @@
 ---
-title: "start-vborepositoryupgradesession"
+title: "Start-VBORepositoryUpgradeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vborepositoryupgradesession.html"
-last_updated: "4/10/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBORepositoryUpgradeSession
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository. The cmdlet will upgrade this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| Repository | Specifies a backup repository. The cmdlet will upgrade this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -36,7 +36,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepositoryUpgradeSession object that contains details on sessions that are running to upgrade backup repositories.
+The cmdlet returns the [VBORepositoryUpgradeSession](vborepositoryupgradesession.md) object that contains details on sessions that are running to upgrade backup repositories.
 
 Example
 
@@ -57,6 +57,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

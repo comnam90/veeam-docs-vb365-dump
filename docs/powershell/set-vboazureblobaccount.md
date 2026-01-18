@@ -1,14 +1,14 @@
 ---
-title: "set-vboazureblobaccount"
+title: "Set-VBOAzureBlobAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboazureblobaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOAzureBlobAccount
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Account | Specifies Microsoft Azure Blob Storage account credentials that you want to modify. | Accepts the VBOAzureBlobAccount object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | False |
+| Account | Specifies Microsoft Azure Blob Storage account credentials that you want to modify. | Accepts the [VBOAzureBlobAccount](vboazureblobaccount.md) object.  To get this object, run the [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md) cmdlet. | True | Named | False |
 | Name | Specifies the Microsoft Azure Blob login name. The cmdlet will add this login name to Microsoft Azure Blob Storage account credentials. | String | False | Named | False |
 | SharedKey | Specifies a shared key. The cmdlet will use this shared key to add Microsoft Azure Blob Storage account credentials. | SecureString | False | Named | False |
 | Description | Specifies a description. The cmdlet will add this description to Microsoft Azure Blob Storage account credentials. | String | False | Named | False |
@@ -39,7 +39,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobAccount object that contains storage account credentials for Microsoft Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobAccount](vboazureblobaccount.md) object that contains storage account credentials for Microsoft Azure Blob Storage.
 
 Examples
 
@@ -67,6 +67,4 @@ Related Commands
 * [Get-VBOAzureBlobAccount](get-vboazureblobaccount.md)
 * [Get-VBOEncryptionKey](get-vboencryptionkey.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

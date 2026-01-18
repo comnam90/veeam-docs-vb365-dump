@@ -1,14 +1,14 @@
 ---
-title: "sync-vboproxy"
+title: "Sync-VBOProxy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/sync-vboproxy.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Sync-VBOProxy
 
-In this article
 
 Short Description
 
@@ -38,7 +38,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Proxy | Specifies an array of backup proxy servers added to Veeam Backup for Microsoft 365. The cmdlet will rescan the specified backup proxy servers. | Accepts the VBOProxy[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | True (ByValue) |
+| Proxy | Specifies an array of backup proxy servers added to Veeam Backup for Microsoft 365. The cmdlet will rescan the specified backup proxy servers. | Accepts the [VBOProxy](vboproxy.md)[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -62,6 +62,4 @@ Related Commands
 
 [Get-VBOProxy](get-vboproxy.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

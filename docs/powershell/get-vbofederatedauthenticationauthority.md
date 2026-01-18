@@ -1,14 +1,14 @@
 ---
-title: "get-vbofederatedauthenticationauthority"
+title: "Get-VBOFederatedAuthenticationAuthority"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbofederatedauthenticationauthority.html"
-last_updated: "5/30/2024"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOFederatedAuthenticationAuthority
 
-In this article
 
 Short Description
 
@@ -36,7 +36,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOFederatedAuthenticationAuthority object that contains settings for an external authentication provider.
+The cmdlet returns the [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.md) object that contains settings for an external authentication provider.
 
 Example
 
@@ -48,6 +48,4 @@ This command returns a list of all external authentication providers.
 | --- |
 | Get-VBOFederatedAuthenticationAuthority |
 
-Page updated 5/30/2024
 
-Page content applies to build 8.3.0.2201

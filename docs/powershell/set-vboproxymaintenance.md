@@ -1,14 +1,14 @@
 ---
-title: "set-vboproxymaintenance"
+title: "Set-VBOProxyMaintenance"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboproxymaintenance.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOProxyMaintenance
 
-In this article
 
 Short Description
 
@@ -33,8 +33,8 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | WindowsCredential | Specifies Windows credentials. The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  If you omit this parameter, the cmdlet will use the Windows credentials under which you are currently logged in. | PSCredential | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
-| Proxy | Specifies an array of backup proxy servers for which you want to enable or disable the maintenance mode. | Accepts the VBOProxy[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| Proxy | Specifies an array of backup proxy servers for which you want to enable or disable the maintenance mode. | Accepts the [VBOProxy](vboproxy.md)[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
 | Enable | Defines that the cmdlet will enable the maintenance mode for the specified backup proxy servers.  Default: True | SwitchParameter | True | Named | False |
 
 <CommonParameters>
@@ -66,6 +66,4 @@ Related Commands
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 * [New-VBOLinuxCredential](new-vbolinuxcredential.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "set-vboonpremconnectionsettings"
+title: "Set-VBOOnPremConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboonpremconnectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOnPremConnectionSettings
 
-In this article
 
 Short Description
 
@@ -38,7 +38,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Settings | Specifies the authentication settings that you want to modify. | Accepts the VBOOnPremConnectionSettings object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | True | Named | True (ByValue) |
+| Settings | Specifies the authentication settings that you want to modify. | Accepts the [VBOOnPremConnectionSettings](vboonpremconnectionsettings.md) object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | True | Named | True (ByValue) |
 | Credential | Specifies credentials. The cmdlet will use these credentials to connect to an on-premises Microsoft organization.  Note: You must specify credentials in in one of the following formats:   * Account@domain * Domain\account | PSCredential | False | Named | False |
 | ServerName | Specifies a name of an on-premises Microsoft server. The cmdlet will connect to this server. | String | False | Named | False |
 | UseSSL | Defines that the cmdlet will enable SSL encryption. The cmdlet will establish secure connection to on-premises Microsoft server using SSL.  Default: False | SwitchParameter | False | Named | False |
@@ -72,6 +72,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

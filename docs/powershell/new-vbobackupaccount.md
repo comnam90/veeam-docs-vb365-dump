@@ -1,14 +1,14 @@
 ---
-title: "new-vbobackupaccount"
+title: "New-VBOBackupAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupaccount.html"
-last_updated: "12/17/2024"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOBackupAccount
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOBackupAccount object that defines settings of auxiliary backup accounts.
+This cmdlet creates the [VBOBackupAccount](vbobackupaccount.md) object that defines settings of auxiliary backup accounts.
 
 |  |
 | --- |
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| SecurityGroupMember | Specifies security groups. The cmdlet will use accounts from these security groups to back up Microsoft SharePoint and OneDrive for Business data. | Accepts the VBOOrganizationGroupMember object.  To get this object, run the [Get-VBOOrganizationGroupMember](get-vboorganizationgroupmember.md) cmdlet. | True | Named | False |
+| SecurityGroupMember | Specifies security groups. The cmdlet will use accounts from these security groups to back up Microsoft SharePoint and OneDrive for Business data. | Accepts the [VBOOrganizationGroupMember](vboorganizationgroupmember.md) object.  To get this object, run the [Get-VBOOrganizationGroupMember](get-vboorganizationgroupmember.md) cmdlet. | True | Named | False |
 | Password | Specifies a password. The cmdlet will use this password to back up Microsoft SharePoint and OneDrive for Business data. | SecureString | True | Named | False |
 
 <CommonParameters>
@@ -42,7 +42,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-This cmdlet returns the VBOBackupAccount object that defines settings of auxiliary backup accounts to back up Microsoft SharePoint and OneDrive for Business data
+This cmdlet returns the [VBOBackupAccount](vbobackupaccount.md) object that defines settings of auxiliary backup accounts to back up Microsoft SharePoint and OneDrive for Business data
 
 Example
 
@@ -69,6 +69,4 @@ Related Commands
 * [Get-VBOOrganizationGroupMember](get-vboorganizationgroupmember.md)
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 12/17/2024
 
-Page content applies to build 8.3.0.2201

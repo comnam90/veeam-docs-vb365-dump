@@ -1,14 +1,14 @@
 ---
-title: "start-vbodataretrieval"
+title: "Start-VBODataRetrieval"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vbodataretrieval.html"
-last_updated: "2/25/2025"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBODataRetrieval
 
-In this article
 
 Short Description
 
@@ -79,7 +79,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| RestorePoint | Specifies a restore point stored in Veeam Backup for Microsoft 365 for the object storage repository that was specified as a target for backup copy jobs. The cmdlet will create and start a retrieval job to retrieve backed-up data from this restore point. | Accepts the VBORestorePoint object.  To get this object, run the [Get-VBORestorePoint](get-vborestorepoint.md) cmdlet. | True | Named | True (ByValue) |
+| RestorePoint | Specifies a restore point stored in Veeam Backup for Microsoft 365 for the object storage repository that was specified as a target for backup copy jobs. The cmdlet will create and start a retrieval job to retrieve backed-up data from this restore point. | Accepts the [VBORestorePoint](vborestorepoint.md) object.  To get this object, run the [Get-VBORestorePoint](get-vborestorepoint.md) cmdlet. | True | Named | True (ByValue) |
 | AvailabilityPeriodDays | Specifies the number of days during which the retrieved backed-up data will be available to explore and restore using Veeam Explorers.  Default: 1 | Int32 | True | Named | False |
 | Name | Specifies a retrieval job name. The cmdlet will add a retrieval job with this name. | String | False | Named | False |
 | Description | Specifies a description of the retrieval job. | String | False | Named | False |
@@ -100,7 +100,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBODataRetrieval object that contains settings for a retrieval job.
+The cmdlet returns the [VBODataRetrieval](vbodataretrieval.md) object that contains settings for a retrieval job.
 
 Example
 
@@ -133,6 +133,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [Get-VBORestorePoint](get-vborestorepoint.md)
 
-Page updated 2/25/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "add-vboamazons3glacierrepository"
+title: "Add-VBOAmazonS3GlacierRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboamazons3glacierrepository.html"
-last_updated: "10/2/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOAmazonS3GlacierRepository
 
-In this article
 
 Short Description
 
@@ -67,14 +67,14 @@ Parameters
 | EnableGlacierDeepArchive | Defines that the cmdlet will enable the Amazon S3 Glacier Deep Archive storage class.  Default: False | SwitchParameter | False | Named | False |
 | EnableGlacierInstantRetrieval | Defines that the cmdlet will enable the Amazon S3 Glacier Instant Retrieval storage class.  Default: False | SwitchParameter | False | Named | False |
 | IgnoreProxyPoolApplianceAccessValidation | Defines that the cmdlet will ignore check whether backup proxy servers that belong to the specified backup proxy pool can access the archiver appliance.  Default: False | SwitchParameter | False | Named | False |
-| ObjectStorageSettings | Specifies the Amazon S3 object storage settings. | Accepts the VBOAmazonS3ObjectStorageRepository object.  To get this object, run the [New-VBOAmazonS3ObjectStorageSettings](new-vboamazons3objectstoragesettings.md) cmdlet. | True | Named | False |
-| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the VBOEncryptionKey object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
+| ObjectStorageSettings | Specifies the Amazon S3 object storage settings. | Accepts the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object.  To get this object, run the [New-VBOAmazonS3ObjectStorageSettings](new-vboamazons3objectstoragesettings.md) cmdlet. | True | Named | False |
+| ObjectStorageEncryptionKey | Specifies object storage encryption key. Veeam Backup for Microsoft 365 will encrypt data that is saved to this object storage repository. | IVBOCredentialKey  Accepts the [VBOEncryptionKey](vboencryptionkey.md) object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | False | Named | False |
 | SyncNow | Defines that the cmdlet will start to synchronize cache between the object storage repository and the PersistentCache database on the PostgreSQL instance.  Default: False | SwitchParameter | False | Named | False |
 | SizeLimit | Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
 | EnableImmutability | Defines that the cmdlet will add the object storage repository to the Veeam Backup for Microsoft 365 infrastructure with the immutability feature enabled. Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.  For more information about the immutability feature, see the [Immutability](https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.  Default: False | SwitchParameter | False | Named | False |
 | EnableImmutabilityGovernanceMode | Defines that a storage administrator with specific permissions to be allowed to override the lock settings and to delete the protected backups in the object storage repository added by the cmdlet.  Default: False | SwitchParameter | False | Named | False |
-| Proxy | Specifies a backup proxy server. The cmdlet will map a new Amazon S3 object storage repository to this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
-| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new Amazon S3 object storage repository to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
+| Proxy | Specifies a backup proxy server. The cmdlet will map a new Amazon S3 object storage repository to this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| ProxyPool | Specifies a backup proxy pool. The cmdlet will map a new Amazon S3 object storage repository to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
 | Name | Specifies a name of Amazon S3 object storage repository. The cmdlet will add an object storage repository with this name. | String | True | Named | False |
 | Description | Specifies a description of Amazon S3 object storage repository. The cmdlet will add an object storage repository with this description.  The default description contains information on the user who added the object storage repository, date and time when the object storage repository was added. | String | False | Named | False |
 | RetentionType | Specifies a type of retention policy. You can set either of the following types:   * ItemLevel * SnapshotBased   Default: SnapshotBased | VBORetentionType | False | Named | False |
@@ -95,7 +95,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3GlacierRepository object that contains settings of Amazon S3 object storage repository.
+The cmdlet returns the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object that contains settings of Amazon S3 object storage repository.
 
 Examples
 
@@ -140,6 +140,4 @@ Related Commands
 * [Get-VBOAmazonS3Folder](get-vboamazons3folder.md)
 * [New-VBOAmazonS3ObjectStorageSettings](new-vboamazons3objectstoragesettings.md)
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboapplication"
+title: "Get-VBOApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboapplication.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOApplication
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft 365 organization. The cmdlet will return an array of Microsoft Entra applications from this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft 365 organization. The cmdlet will return an array of Microsoft Entra applications from this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Id | Specifies an ID of a Microsoft Entra application. The cmdlet will return the application with the specified ID. | Guid | False | Named | False |
 | Name | Specifies a name of a Microsoft Entra application. The cmdlet will return the application with the specified name. | String | False | Named | False |
 | DisplayName | Specifies a display name of a Microsoft Entra application. The cmdlet will return the application with the specified display name. | String | False | Named | False |
@@ -40,7 +40,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOApplication object that contains Microsoft Entra applications added to Microsoft 365 organizations.
+The cmdlet returns the [VBOApplication](vboapplication.md) object that contains Microsoft Entra applications added to Microsoft 365 organizations.
 
 Examples
 
@@ -60,6 +60,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

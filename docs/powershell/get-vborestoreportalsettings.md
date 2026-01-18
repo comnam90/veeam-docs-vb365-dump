@@ -1,14 +1,14 @@
 ---
-title: "get-vborestoreportalsettings"
+title: "Get-VBORestorePortalSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborestoreportalsettings.html"
-last_updated: "4/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORestorePortalSettings
 
-In this article
 
 Short Description
 
@@ -30,6 +30,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBORestorePortalSettings](vborestoreportalsettings.md) object that contains connection settings to access Restore Portal.
+
 Example
 
 Getting Authentication Settings to Access Restore Portal
@@ -40,6 +44,4 @@ This command returns connection settings to access Restore Portal.
 | --- |
 | Get-VBORestorePortalSettings |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

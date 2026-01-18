@@ -1,14 +1,14 @@
 ---
-title: "encryption"
+title: "Object Storage Encryption"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/encryption.html"
-last_updated: "10/2/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Object Storage Encryption
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations:
 
@@ -18,6 +18,4 @@ You can use the cmdlets from this section to perform the following operations:
 | [Get-VBOEncryptionKey](get-vboencryptionkey.md) | Returns encryption keys. |
 | [Remove-VBOEncryptionKey](remove-vboencryptionkey.md) | Removes encryption keys. |
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

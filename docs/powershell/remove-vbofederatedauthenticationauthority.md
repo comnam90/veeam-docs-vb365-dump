@@ -1,14 +1,14 @@
 ---
-title: "remove-vbofederatedauthenticationauthority"
+title: "Remove-VBOFederatedAuthenticationAuthority"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vbofederatedauthenticationauthority.html"
-last_updated: "5/30/2024"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOFederatedAuthenticationAuthority
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Authority | Specifies an external authentication provider. The cmdlet will remove this external authentication provider. | Accepts the VBOFederatedAuthenticationAuthority object.  To get this object, run the [Get-VBOFederatedAuthenticationAuthority](get-vbofederatedauthenticationauthority.md) cmdlet. | True | Named | False |
+| Authority | Specifies an external authentication provider. The cmdlet will remove this external authentication provider. | Accepts the [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.md) object.  To get this object, run the [Get-VBOFederatedAuthenticationAuthority](get-vbofederatedauthenticationauthority.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -57,6 +57,4 @@ Related Commands
 
 [Get-VBOFederatedAuthenticationAuthority](get-vbofederatedauthenticationauthority.md)
 
-Page updated 5/30/2024
 
-Page content applies to build 8.3.0.2201

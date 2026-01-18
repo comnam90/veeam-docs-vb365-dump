@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationuser"
+title: "Get-VBOOrganizationUser"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationuser.html"
-last_updated: "9/30/2025"
+last_updated: "1/6/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationUser
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return organization users of the specified organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return organization users of the specified organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Limit | Specifies the maximum number of users that the cmdlet will return. | UInt64 | False | Named | False |
 | Type | Specifies the organization user type:   * User * SharedMailbox * PublicMailbox   The cmdlet will return organization users of this type.  Note: To get shared or public mailboxes in Microsoft organizations with modern app-only authentication, you must specify the User type. For more information, see [this Veeam KB article](https://www.veeam.com/kb3146). | VBOOrganizationUserType | False | Named | False |
 | NotInJob | Defines that the cmdlet will return users that are not manually included in any of the backup jobs.  Default: False  Note: If a user is backed up by the EntireOrganization job, it also will be considered as not included in backups jobs. | SwitchParameter | False | Named | False |
@@ -59,6 +59,10 @@ Parameters
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns an array of the [VBOOrganizationUser](vboorganizationuser.md) objects that contain details about Microsoft organization users.
 
 Examples
 
@@ -96,6 +100,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

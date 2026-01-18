@@ -1,14 +1,14 @@
 ---
-title: "get-vboserver"
+title: "Get-VBOServer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboserver.html"
-last_updated: "6/3/2025"
+last_updated: "12/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOServer
 
-In this article
 
 Short Description
 
@@ -22,13 +22,17 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the specified path to the folder that will be used as temporary storage for export and save operations.
+This cmdlet returns the specified path to the folder that is used as temporary storage for export and save operations.
 
 Parameters
 
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns the [VBOServer](vboserver.md) object that contains settings of the Veeam Backup for Microsoft 365 server.
 
 Example
 
@@ -44,6 +48,4 @@ Related Commands
 
 [Set-VBOServer](set-vboserver.md)
 
-Page updated 6/3/2025
 
-Page content applies to build 8.3.0.2201

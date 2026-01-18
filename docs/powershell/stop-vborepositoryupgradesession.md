@@ -1,14 +1,14 @@
 ---
-title: "stop-vborepositoryupgradesession"
+title: "Stop-VBORepositoryUpgradeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vborepositoryupgradesession.html"
-last_updated: "4/10/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Stop-VBORepositoryUpgradeSession
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Session | Specifies a session that is started to upgrade backup repositories. The cmdlet will stop this session. | Accepts the VBORepositoryUpgradeSession object.  To get this object, run the [Get-VBORepositoryUpgradeSession](get-vborepositoryupgradesession.md) cmdlet. | True | Named | False |
+| Session | Specifies a session that is started to upgrade backup repositories. The cmdlet will stop this session. | Accepts the [VBORepositoryUpgradeSession](vborepositoryupgradesession.md) object.  To get this object, run the [Get-VBORepositoryUpgradeSession](get-vborepositoryupgradesession.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -52,6 +52,4 @@ Related Commands
 
 [Get-VBORepositoryUpgradeSession](get-vborepositoryupgradesession.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

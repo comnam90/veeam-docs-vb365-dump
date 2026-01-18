@@ -1,14 +1,14 @@
 ---
-title: "set-vboconfigurationparameter"
+title: "Set-VBOConfigurationParameter"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboconfigurationparameter.html"
-last_updated: "9/30/2025"
+last_updated: "12/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOConfigurationParameter
 
-In this article
 
 Short Description
 
@@ -31,9 +31,9 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | WindowsCredential | Specifies Windows credentials.  The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Windows credentials to connect to all Windows-based backup proxy servers in the backup proxy pool. | PSCredential | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Linux credentials to connect to all Linux-based backup proxy servers in the backup proxy pool. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
-| Proxy | Specifies a backup proxy server.  The cmdlet will configure parameters of this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
-| ProxyPool | Specifies a backup proxy pool.  The cmdlet will configure parameters of all backup proxy servers added to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Linux credentials to connect to all Linux-based backup proxy servers in the backup proxy pool. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| Proxy | Specifies a backup proxy server.  The cmdlet will configure parameters of this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
+| ProxyPool | Specifies a backup proxy pool.  The cmdlet will configure parameters of all backup proxy servers added to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
 | XPath | Specifies the xpath path in the Config.xml file. | String | True | Named | False |
 | Key | Specifies a name of the parameter attribute. | String | True | Named | False |
 | Value | Specifies the parameter attribute value. | String | False | Named | False |
@@ -79,6 +79,4 @@ Related Commands
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 * [New-VBOLinuxCredential](new-vbolinuxcredential.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

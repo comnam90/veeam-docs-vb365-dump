@@ -1,14 +1,14 @@
 ---
-title: "get-vboazurelocation"
+title: "Get-VBOAzureLocation"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazurelocation.html"
-last_updated: "4/11/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureLocation
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAzureLocation object.
+This cmdlet returns the [VBOAzureLocation](vboazurelocation.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the VBOAzureSubscription object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | True (ByValue) |
+| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a Microsoft Entra region name. The cmdlet will return a Microsoft Entra region with this name. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureLocation object.
+The cmdlet returns the [VBOAzureLocation](vboazurelocation.md) object.
 
 Example
 
@@ -60,6 +60,4 @@ Related Commands
 * [Get-VBOAzureSubscription](get-vboazuresubscription.md)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

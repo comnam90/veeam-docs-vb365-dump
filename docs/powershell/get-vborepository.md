@@ -1,14 +1,14 @@
 ---
-title: "get-vborepository"
+title: "Get-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborepository.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBORepository
 
-In this article
 
 Short Description
 
@@ -53,8 +53,8 @@ Parameters
 | Name | Specifies a name of the backup repository. The cmdlet will return the backup repository with this name. | String | False | Named | False |
 | LongTerm | Defines that the cmdlet will return settings of the following object storage repositories:   * Azure Blob Storage Archive access tier * all Amazon S3 Glacier storage classes   Default: False | SwitchParameter | False | Named | False |
 | Id | Specifies an ID of the backup repository. The cmdlet will return the backup repository with this ID. | Guid | True | Named | False |
-| Proxy | Specifies a backup proxy server associated with backup repositories. The cmdlet will return backup repositories that you map to this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | True (ByValue) |
-| ProxyPool | Specifies a backup proxy pool associated with the object storage repository. The cmdlet will return the object storage repository that you map to this backup proxy pool. | Accepts the VBOProxyPool object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | True (ByValue) |
+| Proxy | Specifies a backup proxy server associated with backup repositories. The cmdlet will return backup repositories that you map to this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | True (ByValue) |
+| ProxyPool | Specifies a backup proxy pool associated with the object storage repository. The cmdlet will return the object storage repository that you map to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -62,7 +62,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepository object that contains settings of a backup repository.
+The cmdlet returns the [VBORepository](vborepository.md) object that contains settings of a backup repository.
 
 Examples
 
@@ -107,6 +107,4 @@ Related Commands
 * [Get-VBOProxy](get-vboproxy.md)
 * [Get-VBOProxyPool](get-vboproxypool.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

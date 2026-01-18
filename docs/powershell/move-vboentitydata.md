@@ -1,14 +1,14 @@
 ---
-title: "move-vboentitydata"
+title: "Move-VBOEntityData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Move-VBOEntityData
 
-In this article
 
 Short Description
 
@@ -58,8 +58,8 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| From | Specifies a source JET-based backup repository. The cmdlet will move data from this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
-| To | Specifies a target JET-based backup repository or object storage repository for backed-up data. The cmdlet will move data to this backup repository. You can specify one of the following types of repositories:   * Local JET-based backup repository * Object storage repository | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| From | Specifies a source JET-based backup repository. The cmdlet will move data from this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| To | Specifies a target JET-based backup repository or object storage repository for backed-up data. The cmdlet will move data to this backup repository. You can specify one of the following types of repositories:   * Local JET-based backup repository * Object storage repository | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | User | Specifies the organization user data that the cmdlet will move. | VBOUserData | True | Named | True (ByValue) |
 | Mailbox | Defines that the cmdlet will move the entity mailbox data.  Default: False | SwitchParameter | False | Named | False |
 | ArchiveMailbox | Defines that the cmdlet will move the entity archive mailbox data.  Default: False | SwitchParameter | False | Named | False |
@@ -110,6 +110,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [Get-VBOEntityData](get-vboentitydata.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

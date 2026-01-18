@@ -1,14 +1,14 @@
 ---
-title: "set-vbocopyjob"
+title: "Set-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbocopyjob.html"
-last_updated: "9/30/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -28,9 +28,9 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup copy job whose settings you want to modify. | Accepts the VBOCopyJob object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
-| Repository | Specifies an object storage repository. Veeam Backup for Microsoft 365 uses this object storage repository as a target for backup copy jobs. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
-| SchedulePolicy | Specifies schedule settings for a backup copy job. | Accepts the VBOCopyJobSchedulePolicy object.  To create this object, run the [New-VBOCopyJobSchedulePolicy](new-vbocopyjobschedulepolicy.md) cmdlet. | False | Named | False |
+| Job | Specifies a backup copy job whose settings you want to modify. | Accepts the [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies an object storage repository. Veeam Backup for Microsoft 365 uses this object storage repository as a target for backup copy jobs. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
+| SchedulePolicy | Specifies schedule settings for a backup copy job. | Accepts the [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.md) object.  To create this object, run the [New-VBOCopyJobSchedulePolicy](new-vbocopyjobschedulepolicy.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOCopyJob object that contains settings for a backup copy job.
+The cmdlet returns the [VBOCopyJob](vbocopyjob.md) object that contains settings for a backup copy job.
 
 Examples
 
@@ -61,6 +61,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [New-VBOCopyJobSchedulePolicy](new-vbocopyjobschedulepolicy.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

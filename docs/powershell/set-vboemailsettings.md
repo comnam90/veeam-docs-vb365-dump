@@ -1,14 +1,14 @@
 ---
-title: "set-vboemailsettings"
+title: "Set-VBOEmailSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboemailsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOEmailSettings
 
-In this article
 
 Short Description
 
@@ -74,6 +74,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOEmailSettings](vboemailsettings.md) object that contains email notification settings.
+
 Examples
 
 ![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Example 1: Modifying Email Notification Settings for SMTP Server with Basic Authentication
@@ -110,6 +114,4 @@ Related Commands
 
 [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

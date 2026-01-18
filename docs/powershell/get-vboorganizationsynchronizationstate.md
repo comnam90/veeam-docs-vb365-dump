@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganizationsynchronizationstate"
+title: "Get-VBOOrganizationSynchronizationState"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationsynchronizationstate.html"
-last_updated: "4/10/2025"
+last_updated: "1/13/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganizationSynchronizationState
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will return synchronization status for objects of this Microsoft organization. | IVBOOrganization  Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return synchronization status for objects of this Microsoft organization. | IVBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -41,7 +41,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOOrganizationSynchronizationState object that contains details on the synchronization status of the organization objects with the organization cache database.
+The cmdlet returns the [VBOOrganizationSynchronizationState](vboorganizationsynchronizationstate.md) object that contains details on the synchronization status of the organization objects with the organization cache database.
 
 Example
 
@@ -62,6 +62,4 @@ Related Commands
 
 [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201
