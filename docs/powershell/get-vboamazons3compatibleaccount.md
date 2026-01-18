@@ -1,14 +1,14 @@
 ---
-title: "get-vboamazons3compatibleaccount"
+title: "Get-VBOAmazonS3CompatibleAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboamazons3compatibleaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAmazonS3CompatibleAccount
 
-In this article
 
 Short Description
 
@@ -51,7 +51,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3CompatibleAccount object that contains S3 Compatible storage account credentials.
+The cmdlet returns the [VBOAmazonS3CompatibleAccount](vboamazons3compatibleaccount.md) object that contains S3 Compatible storage account credentials.
 
 Examples
 
@@ -67,6 +67,4 @@ Examples
 | --- | --- |
 | This command returns S3 Compatible storage account credentials by the specified access key.  |  | | --- | | Get-VBOAmazonS3CompatibleAccount -AccessKey "?Iqws8NewidZydk" | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

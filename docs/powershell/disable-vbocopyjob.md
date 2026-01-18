@@ -1,14 +1,14 @@
 ---
-title: "disable-vbocopyjob"
+title: "Disable-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/disable-vbocopyjob.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Disable-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup copy job that you want to disable. | Accepts the VBOCopyJob object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup copy job that you want to disable. | Accepts the [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -58,6 +58,4 @@ Related Commands
 * [Get-VBOCopyJob](get-vbocopyjob.md)
 * [Enable-VBOCopyJob](enable-vbocopyjob.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

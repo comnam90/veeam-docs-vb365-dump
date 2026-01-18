@@ -1,14 +1,14 @@
 ---
-title: "set-vborbacrole"
+title: "Set-VBORbacRole"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vborbacrole.html"
-last_updated: "5/28/2024"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBORbacRole
 
-In this article
 
 Short Description
 
@@ -38,12 +38,12 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Role | Specifies a restore operator role.  The cmdlet will modify settings of this restore operator role. | Accepts the VBOOperatorRole object.  To get this object, run the [Get-VBORbacRole](get-vborbacrole.md) cmdlet. | True | Named | True (ByValue) |
+| Role | Specifies a restore operator role.  The cmdlet will modify settings of this restore operator role. | Accepts the [VBOOperatorRole](vbooperatorrole.md) object.  To get this object, run the [Get-VBORbacRole](get-vborbacrole.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a restore operator role name. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
 | Description | Specifies a description of the restore operator role. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
-| Operators | Specifies an array of restore operators. The cmdlet will replace the current restore operators with the specified restore operators. | Accepts the VBORbacOperator[] object.  To create this object, run the [New-VBORbacOperator](new-vborbacoperator.md) cmdlet. | False | Named | False |
-| SelectedItems | Specifies an array of objects to manage. The cmdlet will replace the current objects to manage with the specified ones. | Accepts the VBORbacRoleItem[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
-| ExcludedItems | Specifies an array of objects to exclude. The cmdlet will replace the current objects to exclude with the specified ones.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the VBORbacRoleItem[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
+| Operators | Specifies an array of restore operators. The cmdlet will replace the current restore operators with the specified restore operators. | Accepts the [VBORbacOperator](vborbacoperator.md)[] object.  To create this object, run the [New-VBORbacOperator](new-vborbacoperator.md) cmdlet. | False | Named | False |
+| SelectedItems | Specifies an array of objects to manage. The cmdlet will replace the current objects to manage with the specified ones. | Accepts the [VBORbacRoleItem](vborbacroleitem.md)[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
+| ExcludedItems | Specifies an array of objects to exclude. The cmdlet will replace the current objects to exclude with the specified ones.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the [VBORbacRoleItem](vborbacroleitem.md)[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
 | EntireOrganization | Defines that the specified restore operators will be able to explore and restore all objects within the specified Microsoft 365 organization.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
@@ -52,7 +52,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORbacRole object that contains the restore operator role settings.
+The cmdlet returns the [VBOOperatorRole](vbooperatorrole.md) object that contains the restore operator role settings.
 
 Example
 
@@ -80,6 +80,4 @@ Related Commands
 * [New-VBORbacOperator](new-vborbacoperator.md)
 * [New-VBORbacRoleItem](new-vborbacroleitem.md)
 
-Page updated 5/28/2024
 
-Page content applies to build 8.3.0.2201

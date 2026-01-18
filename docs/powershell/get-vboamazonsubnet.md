@@ -1,14 +1,14 @@
 ---
-title: "get-vboamazonsubnet"
+title: "Get-VBOAmazonSubnet"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboamazonsubnet.html"
-last_updated: "4/10/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAmazonSubnet
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAmazonSubnet object.
+This cmdlet returns the [VBOAmazonSubnet](vboamazonsubnet.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| VPC | Specifies the Amazon VPC. | Accepts the VBOAmazonVpc object.  To get this object, run the [Get-VBOAmazonVPC](get-vboamazonvpc.md) cmdlet. | True | Named | False |
+| VPC | Specifies the Amazon VPC. | Accepts the [VBOAmazonVpc](vboamazonvpc.md) object.  To get this object, run the [Get-VBOAmazonVPC](get-vboamazonvpc.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the subnet. The cmdlet will return the subnet with this name. | String | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonSubnet object.
+The cmdlet returns the [VBOAmazonSubnet](vboamazonsubnet.md) object.
 
 Example
 
@@ -62,6 +62,4 @@ Related Commands
 * [Get-VBOAmazonS3Account](get-vboamazons3account.md)
 * [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

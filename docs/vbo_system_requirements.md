@@ -1,14 +1,14 @@
 ---
-title: "vbo_system_requirements"
+title: "System Requirements"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_system_requirements.html"
-last_updated: "10/14/2025"
+last_updated: "1/16/2026"
 product_version: "8.3.0.2201"
 ---
 
+# System Requirements
 
-In this article
 
 Make sure that your Microsoft organizations and backup infrastructure components meet the listed requirements.
 
@@ -35,7 +35,7 @@ The following table lists system requirements for the machine with Veeam Backup 
 | Specification | Requirement |
 | --- | --- |
 | Hardware | The following hardware is required:   * CPU: any modern multi-core x64 processor, 8 cores minimum.  * Memory: 16 GB RAM minimum. Allocating additional RAM and CPU resources can enhance backup, restore and search performance.   If you plan to deploy Veeam Backup for Microsoft 365 on VM with dynamic memory allocation, such VM must have 32 GB RAM minimum.   * Disk Space: 3 GB for product installation and additional free space required for product logs, and for the PostgreSQL instance and the NATS server deployment (if using the default installation).   For optimal performance, we recommend to use SSD drive. |
-| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022. |
+| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2, 24H2, 25H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022. |
 | Configuration and Cache Database | You can use one of the following:   * Local or remote installation of PostgreSQL 15.9, 15.12, 15.13, 15.14, 16.4, 16.9. * Azure Database for PostgreSQL 16 – Flexible Server. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/postgresql/).   Consider that the configuration and cache database are highly loaded and resource-consuming. For optimal performance, we recommend using an SSD drive with at least 5000 IOPS (including installations on Azure and AWS instances). IOPS consumption varies according to the frequency of backups, the number of jobs, the size of protected Microsoft organizations, and so on.  It is not recommended to share a PostgreSQL instance with any other services. It should be dedicated to host the Veeam Backup for Microsoft 365 configuration database and cached metadata only.  Note: If you plan to use a database engine other than PostgreSQL included in the [Veeam Backup for Microsoft 365 setup](download_package.md), you must install and maintain it yourself. If you want to use an already installed PostgreSQL instance for the configuration database, make sure the instance contains the default postgres database. If you allow the setup to install a new PostgreSQL instance, the postgres database will be created on the instance automatically. Since Veeam Backup for Microsoft 365 connects to the postgres database to access the configuration database, do not rename the postgres database upon the installation. |
 | NATS | Local or remote installation of the NATS server 2.10.18, 2.10.22, 2.10.28.  Note: If you plan to use the NATS server other than the version included in the [Veeam Backup for Microsoft 365 setup](download_package.md), you must install and maintain it yourself. |
 | Software | The following components are required:   * Microsoft ASP.NET Core Runtime 8.0.10–8.0.xx. * Microsoft .NET Desktop Runtime 8.0.10–8.0.xx. * Microsoft .NET Runtime 8.0.10–8.0.xx.  * To use PowerShell, Windows PowerShell 7.4.2 or later is required.   For more information about Microsoft 365 system requirements and limitations, see [this Microsoft article](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources#Office365forBEG). |
@@ -52,7 +52,7 @@ The following table lists system requirements for the dedicated machine with the
 | Specification | Requirement |
 | --- | --- |
 | Hardware | The following hardware is required:   * CPU: any modern multi-core x64 processor, 8 cores minimum.  * Memory: 16 GB RAM minimum. Allocating additional RAM and CPU resources can enhance restore and search performance.   If you plan to deploy the Veeam Backup for Microsoft 365 REST API server on VM with dynamic memory allocation, such VM must have 32 GB RAM minimum.   * Disk Space: 1 GB for the Veeam Backup for Microsoft 365 REST API server installation and additional free space for product logs. |
-| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022. |
+| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2, 24H2, 25H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022. |
 | Software | The following components are required:   * Microsoft ASP.NET Core Runtime 8.0.10–8.0.xx. * Microsoft .NET Desktop Runtime 8.0.10–8.0.xx.  * Microsoft .NET Runtime 8.0.10–8.0.xx. |
 
 Backup Proxy Server
@@ -62,9 +62,7 @@ The following table lists system requirements for machines that you plan to use 
 | Specification | Requirement |
 | --- | --- |
 | Hardware | The following hardware is required:   * CPU: any modern multi-core x64 processor, 4 cores minimum. * Memory: 16 GB RAM minimum. Allocating additional RAM and CPU resources can enhance backup, restore and search performance.   If you plan to deploy Veeam Backup for Microsoft 365 backup proxy server on VM with dynamic memory allocation, such VM must have 32 GB RAM minimum.   * Disk space: 3 GB for the backup proxy server installation and additional free space for product logs. |
-| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022.   64-bit versions of the following Linux distributions are supported:   * RHEL 8.8 LTS, 8.10 LTS, 9.0 LTS, 9.2 LTS, 9.4 LTS and 9.6 LTS * Ubuntu 20.04 LTS, 22.04 LTS, and 24.04 LTS |
+| OS | 64-bit version of the following Microsoft Windows operating systems are supported:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2, 24H2, 25H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022.   64-bit versions of the following Linux distributions are supported:   * RHEL 8.8 LTS, 8.10 LTS, 9.0 LTS, 9.2 LTS, 9.4 LTS and 9.6 LTS * Ubuntu 20.04 LTS, 22.04 LTS, and 24.04 LTS |
 | Other | The following components are required:   * Microsoft .NET Runtime 8.0.10–8.0.xx.  * To use PowerShell, Windows PowerShell 7.4.2 or later is required.   For a machine used as a workgroup backup proxy, the following settings are required:   * The Remote Registry service must run on the target machine. The service startup type must be set to Automatic. * [Backup proxy server ports](vbo_used_ports.md#bp_ports) must be opened in a firewall. |
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

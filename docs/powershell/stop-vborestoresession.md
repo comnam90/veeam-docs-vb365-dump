@@ -1,14 +1,14 @@
 ---
-title: "stop-vborestoresession"
+title: "Stop-VBORestoreSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vborestoresession.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Stop-VBORestoreSession
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Session | Specifies a restore session that you want to stop. | Accepts the VBORestoreSession object.  To get this object, run the [Get-VBORestoreSession](get-vborestoresession.md) cmdlet. | True | Named | True (ByValue) |
+| Session | Specifies a restore session that you want to stop. | Accepts the [VBORestoreSession](vborestoresession.md) object.  To get this object, run the [Get-VBORestoreSession](get-vborestoresession.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -55,6 +55,4 @@ Related Commands
 
 [Get-VBORestoreSession](get-vborestoresession.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

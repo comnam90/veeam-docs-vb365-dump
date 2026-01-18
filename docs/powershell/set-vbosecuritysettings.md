@@ -1,14 +1,14 @@
 ---
-title: "set-vbosecuritysettings"
+title: "Set-VBOSecuritySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbosecuritysettings.html"
-last_updated: "11/8/2024"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOSecuritySettings
 
-In this article
 
 Short Description
 
@@ -43,6 +43,10 @@ Parameters
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
 
+Output Object
+
+The cmdlet returns the [VBOSecuritySettings](vbosecuritysettings.md) object that contains security settings.
+
 Example
 
 Installing New SSL Certificate
@@ -63,6 +67,4 @@ Related Commands
 
 [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 11/8/2024
 
-Page content applies to build 8.3.0.2201

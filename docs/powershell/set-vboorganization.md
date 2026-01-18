@@ -1,14 +1,14 @@
 ---
-title: "set-vboorganization"
+title: "Set-VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboorganization.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOrganization
 
-In this article
 
 Short Description
 
@@ -61,22 +61,22 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will modify settings of this Microsoft organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will modify settings of this Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of the Microsoft organization. The cmdlet will replace the current name with the specified name. | String | True | Named | False |
-| Office365ExchangeConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft Exchange Online to Veeam Backup for Microsoft 365.  Note: If you also want to add Microsoft SharePoint Online to the same Microsoft 365 organization, you must set the VBOOffice365ConnectionSettings object to the same type of authentication mode. | Accepts the VBOOffice365ConnectionSettings object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
-| Office365SharePointConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft SharePoint Online and Microsoft OneDrive for Business to Veeam Backup for Microsoft 365.  Note: If you also want to run the cmdlet with the Office365ExchangeConnectionsSettings parameter, you must set the VBOOffice365ConnectionSettings object to the same type of authentication mode. | Accepts the VBOOffice365ConnectionSettings object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
+| Office365ExchangeConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft Exchange Online to Veeam Backup for Microsoft 365.  Note: If you also want to add Microsoft SharePoint Online to the same Microsoft 365 organization, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object to the same type of authentication mode. | Accepts the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
+| Office365SharePointConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft SharePoint Online and Microsoft OneDrive for Business to Veeam Backup for Microsoft 365.  Note: If you also want to run the cmdlet with the Office365ExchangeConnectionsSettings parameter, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object to the same type of authentication mode. | Accepts the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
 | Region | Specifies Microsoft Entra region where Microsoft 365 organization datacenter is located:   * China * Germany * USDefence * USGovernment * Worldwide   Default: Worldwide | VBOOffice365Region | False | Named | False |
 | VeeamAADApplicationUsed | Defines that the cmdlet will use the Veeam application to connect to Microsoft Graph.  Note: You must set this parameter to true for the following Microsoft Entra regions:   * China * Germany   Default: False | SwitchParameter | False | Named | False |
-| OnPremExchangeConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises Exchange organization to Veeam Backup for Microsoft 365. | Accepts the VBOExchangeOnPremConnectionSettings object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
-| OnPremSharePointConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises SharePoint organization to Veeam Backup for Microsoft 365. | Accepts the VBOSharePointOnPremConnectionSettings object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
+| OnPremExchangeConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises Exchange organization to Veeam Backup for Microsoft 365. | Accepts the [VBOExchangeOnPremConnectionSettings](vboexchangeonpremconnectionsettings.md) object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
+| OnPremSharePointConnectionSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft on-premises SharePoint organization to Veeam Backup for Microsoft 365. | Accepts the [VBOSharePointOnPremConnectionSettings](vbosharepointonpremconnectionsettings.md) object.  To create this object, run the [New-VBOOnPremConnectionSettings](new-vboonpremconnectionsettings.md) cmdlet. | False | Named | False |
 | EnableOffice365Exchange | Defines that the cmdlet will enable connection to the Exchange Online organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOffice365SharePoint | Defines that the cmdlet will enable connection to the SharePoint Online organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOffice365Teams | Defines that the cmdlet will enable connection to the Microsoft Teams organization component.  Default: True | SwitchParameter | False | Named | False |
 | EnableTeamsChats | For Microsoft organizations with modern app-only authentication.  Defines that the cmdlet will enable backup of team chats.  Default: False | SwitchParameter | False | Named | False |
 | EnableOnPremExchange | Defines that the cmdlet will enable connection to the Microsoft on-premises Exchange organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOnPremSharePoint | Defines that the cmdlet will enable connection to the Microsoft on-premises SharePoint organization component.  Default: False | SwitchParameter | False | Named | False |
-| BackupAccounts | Specifies an array of auxiliary backup accounts to back up SharePoint and OneDrive for Business. The cmdlet will modify settings of the specified auxiliary backup accounts. | Accepts the VBOBackupAccount[] object.  To get this object, run the [Get-VBOApplication](get-vboapplication.md) cmdlet. | False | Named | False |
-| BackupApplications | Specifies an array of backup application settings. The cmdlet will modify settings of the specified backup application accounts. | Accepts the VBOBackupApplication[] object.  To create this object, run the [New-VBOBackupApplication](new-vbobackupapplication.md) cmdlet. | False | Named | False |
+| BackupAccounts | Specifies an array of auxiliary backup accounts to back up SharePoint and OneDrive for Business. The cmdlet will modify settings of the specified auxiliary backup accounts. | Accepts the [VBOBackupAccount](vbobackupaccount.md)[] object.  To create this object, run the [New-VBOBackupAccount](new-vbobackupaccount.md) cmdlet. | False | Named | False |
+| BackupApplications | Specifies an array of backup application settings. The cmdlet will modify settings of the specified backup application accounts. | Accepts the [VBOBackupApplication](vbobackupapplication.md)[] object.  To create this object, run the [New-VBOBackupApplication](new-vbobackupapplication.md) cmdlet. | False | Named | False |
 | Description | Specifies a description of the Microsoft organization. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 
 <CommonParameters>
@@ -121,6 +121,4 @@ Related Commands
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

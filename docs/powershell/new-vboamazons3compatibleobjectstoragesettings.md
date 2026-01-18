@@ -1,14 +1,14 @@
 ---
-title: "new-vboamazons3compatibleobjectstoragesettings"
+title: "New-VBOAmazonS3CompatibleObjectStorageSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboamazons3compatibleobjectstoragesettings.html"
-last_updated: "9/13/2024"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAmazonS3CompatibleObjectStorageSettings
 
-In this article
 
 Short Description
 
@@ -22,13 +22,13 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAmazonS3CompatibleObjectStorageSettings object. This object contains settings of S3 Compatible object storage repository, IBM Cloud Object Storage or Wasabi Cloud Object Storage.
+This cmdlet creates the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object. This object contains settings of S3 Compatible object storage repository, IBM Cloud Object Storage or Wasabi Cloud Object Storage.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Folder | Specifies an S3 Compatible folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the VBOAmazonS3Folder object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
+| Folder | Specifies an S3 Compatible folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the [VBOAmazonS3Folder](vboamazons3folder.md) object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
 | Type | Specifies a type of S3 Compatible object storage repository. You can select the following type:   * AmazonS3Compatible * IBMCloud * WasabiCloud   Default: AmazonS3Compatible | AddAmazonS3CompatibleObjectStorageType | False | Named | False |
 
 <CommonParameters>
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3CompatibleObjectStorageSettings object that contains settings of S3 Compatible object storage repository.
+The cmdlet returns the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object that contains settings of S3 Compatible object storage repository.
 
 Example
 
@@ -66,6 +66,4 @@ Related Commands
 * [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md)
 * [Get-VBOAmazonS3Folder](get-vboamazons3folder.md)
 
-Page updated 9/13/2024
 
-Page content applies to build 8.3.0.2201

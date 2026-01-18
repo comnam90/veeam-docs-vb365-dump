@@ -1,14 +1,14 @@
 ---
-title: "get-vboentitydata"
+title: "Get-VBOEntityData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboentitydata.html"
-last_updated: "2/18/2025"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOEntityData
 
-In this article
 
 Short Description
 
@@ -68,15 +68,15 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository. The cmdlet will return backed-up data from this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies a backup repository. The cmdlet will return backed-up data from this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 | Type | Specifies a type of the entity data. The cmdlet will return backed-up data for the entity of this type. You can select the following entity data types:   * User * Group * Site * Team * Organization * OneDrive * Mailbox   Note: The OneDrive and Mailbox entity data types can be used only for the object storage repository that was specified as a target for backup copy jobs. | VBOEntityDataType | True | Named | False |
 | Name | Specifies a name filter for the searched data. The cmdlet will return a collection of data with the specified name. | String | False | Named | False |
-| Organization | Specifies a Microsoft organization. The cmdlet will return backed-up data for this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
-| User | Specifies an organization user. The cmdlet will return backed-up data for this user. | Accepts the VBOOrganizationUser object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
-| Group | Specifies an organization group. The cmdlet will return backed-up data for this group. | Accepts the VBOOrganizationGroup object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
-| Site | Specifies a SharePoint site. The cmdlet will return backed-up data for this site. | Accepts the VBOOrganizationSite object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
-| Team | Specifies an organization team. The cmdlet will return backed-up data for this team. | Accepts the VBOOrganizationTeam object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
-| RestorePoint | Specifies a restore point stored in Veeam Backup for Microsoft 365. The cmdlet will return backed-up data from this restore point. | Accepts the VBORestorePoint object.  To get this object, run the [Get-VBORestorePoint](get-vborestorepoint.md) cmdlet. | True | Named | False |
+| Organization | Specifies a Microsoft organization. The cmdlet will return backed-up data for this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
+| User | Specifies an organization user. The cmdlet will return backed-up data for this user. | Accepts the [VBOOrganizationUser](vboorganizationuser.md) object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
+| Group | Specifies an organization group. The cmdlet will return backed-up data for this group. | Accepts the [VBOOrganizationGroup](vboorganizationgroup.md) object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
+| Site | Specifies a SharePoint site. The cmdlet will return backed-up data for this site. | Accepts the [VBOOrganizationSite](vboorganizationsite.md) object.  To get this object, run the [Get-VBOOrganizationSite](get-vboorganizationsite.md) cmdlet. | True | Named | False |
+| Team | Specifies an organization team. The cmdlet will return backed-up data for this team. | Accepts the [VBOOrganizationTeam](vboorganizationteam.md) object.  To get this object, run the [Get-VBOOrganizationTeam](get-vboorganizationteam.md) cmdlet. | True | Named | False |
+| RestorePoint | Specifies a restore point stored in Veeam Backup for Microsoft 365. The cmdlet will return backed-up data from this restore point. | Accepts the [VBORestorePoint](vborestorepoint.md) object.  To get this object, run the [Get-VBORestorePoint](get-vborestorepoint.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -109,6 +109,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOOrganizationGroup](get-vboorganizationgroup.md)
 
-Page updated 2/18/2025
 
-Page content applies to build 8.3.0.2201

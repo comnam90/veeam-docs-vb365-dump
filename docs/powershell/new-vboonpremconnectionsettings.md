@@ -1,14 +1,14 @@
 ---
-title: "new-vboonpremconnectionsettings"
+title: "New-VBOOnPremConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboonpremconnectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOOnPremConnectionSettings
 
-In this article
 
 Short Description
 
@@ -34,7 +34,7 @@ Detailed Description
 
 This cmdlet defines connection settings to access on-premises Microsoft organizations. You can apply these settings to add on-premises Microsoft organizations to the Veeam Backup for Microsoft 365 infrastructure.
 
-The cmdlet will create the VBOOnPremConnectionSettings object that contains connection settings to access the following types of on-premises Microsoft organizations:
+The cmdlet will create the [VBOOnPremConnectionSettings](vboonpremconnectionsettings.md) object that contains connection settings to access the following types of on-premises Microsoft organizations:
 
 * On-premises Microsoft Exchange organizations
 * On-premises Microsoft SharePoint organizations
@@ -77,6 +77,4 @@ Related Commands
 
 [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

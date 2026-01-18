@@ -1,14 +1,14 @@
 ---
-title: "add-vborbacrole"
+title: "Add-VBORbacRole"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vborbacrole.html"
-last_updated: "4/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBORbacRole
 
-In this article
 
 Short Description
 
@@ -38,12 +38,12 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will add a restore operator role to the specified Microsoft organization.  Note: The organization must be a Microsoft 365 organization with modern app-only authentication or hybrid organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will add a restore operator role to the specified Microsoft organization.  Note: The organization must be a Microsoft 365 organization with modern app-only authentication or hybrid organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a restore operator role name. The cmdlet will add a restore operator role with this name. | String | True | Named | False |
 | Description | Specifies a description of the restore operator role. | String | False | Named | False |
-| Operators | Specifies an array of restore operators. The cmdlet will assign permissions to these objects. | Accepts the VBORbacOperator[] object.  To create this object, run the [New-VBORbacOperator](new-vborbacoperator.md) cmdlet. | True | Named | False |
-| SelectedItems | Specifies an array of objects to manage. The cmdlet will add a restore operator role in which the specified restore operators are allowed to explore and restore backed-up data of these objects. | Accepts the VBORbacRoleItem[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | True | Named | False |
-| ExcludedItems | Specifies an array of objects to exclude. The cmdlet will add a restore operator role in which the specified restore operators are not allowed to explore and restore backed-up data of these objects.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the VBORbacRoleItem[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
+| Operators | Specifies an array of restore operators. The cmdlet will assign permissions to these objects. | Accepts the [VBORbacOperator](vborbacoperator.md)[] object.  To create this object, run the [New-VBORbacOperator](new-vborbacoperator.md) cmdlet. | True | Named | False |
+| SelectedItems | Specifies an array of objects to manage. The cmdlet will add a restore operator role in which the specified restore operators are allowed to explore and restore backed-up data of these objects. | Accepts the [VBORbacRoleItem](vborbacroleitem.md)[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | True | Named | False |
+| ExcludedItems | Specifies an array of objects to exclude. The cmdlet will add a restore operator role in which the specified restore operators are not allowed to explore and restore backed-up data of these objects.  Note: You cannot exclude objects that have been specified for the SelectedItems parameter. | Accepts the [VBORbacRoleItem](vborbacroleitem.md)[] object.  To create this object, run the [New-VBORbacRoleItem](new-vborbacroleitem.md) cmdlet. | False | Named | False |
 | EntireOrganization | Defines that the specified restore operators will be able to explore and restore all objects within the specified Microsoft 365 organization.  Default: False | SwitchParameter | True | Named | False |
 
 <CommonParameters>
@@ -52,7 +52,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORbacRole object that contains the restore operator role settings.
+The cmdlet returns the [VBOOperatorRole](vbooperatorrole.md) object that contains the restore operator role settings.
 
 Example
 
@@ -93,6 +93,4 @@ Related Commands
 * [New-VBORbacOperator](new-vborbacoperator.md)
 * [New-VBORbacRoleItem](new-vborbacroleitem.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

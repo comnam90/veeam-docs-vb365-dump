@@ -1,14 +1,14 @@
 ---
-title: "new-vbooffice365applicationonlyconnectionsettings"
+title: "New-VBOOffice365ApplicationOnlyConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbooffice365applicationonlyconnectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOOffice365ApplicationOnlyConnectionSettings
 
-In this article
 
 Short Description
 
@@ -44,7 +44,7 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBOApplicationOnlyConnectionSettings object. This object defines Microsoft Entra application settings that allow you to use modern app-only authentication when you add Microsoft organizations to the Veeam Backup for Microsoft 365 infrastructure. Depending on your setup you can define Microsoft Entra application settings using the following options:
+This cmdlet creates the [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.md) object. This object defines Microsoft Entra application settings that allow you to use modern app-only authentication when you add Microsoft organizations to the Veeam Backup for Microsoft 365 infrastructure. Depending on your setup you can define Microsoft Entra application settings using the following options:
 
 * Define Microsoft Entra application settings without authentication code. Use this option to define a Microsoft Entra application without using an authentication code. For authentication to a Microsoft 365 server, you must provide a Microsoft Exchange user name. The cmdlet will not configure Microsoft Entra application settings.
 * Define Microsoft Entra application settings using Microsoft 365 organization name. Use this option to define a Microsoft Entra application that you will use to back up only Microsoft SharePoint Online and Microsoft OneDrive for Business services. For authentication to Microsoft 365 server, you must provide a Microsoft 365 organization name. The cmdlet will not configure Microsoft Entra application settings.
@@ -70,7 +70,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOApplicationOnlyConnectionSettings object that defines Microsoft Entra application settings.
+The cmdlet returns the [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.md) object that defines Microsoft Entra application settings.
 
 Examples
 
@@ -108,6 +108,4 @@ Related Commands
 
 [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboorganization"
+title: "Get-VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganization.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOrganization
 
-In this article
 
 Short Description
 
@@ -47,7 +47,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOOrganization object that contains settings of Microsoft organizations added to the Veeam Backup for Microsoft 365 infrastructure.
+The cmdlet returns the [VBOOrganization](vboorganization.md) object that contains settings of Microsoft organizations added to the Veeam Backup for Microsoft 365 infrastructure.
 
 Examples
 
@@ -75,6 +75,4 @@ Examples
 | --- | --- |
 | This command returns all Microsoft organizations with a name starting with Columb.  |  | | --- | | Get-VBOOrganization -Name "Columb\*" | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

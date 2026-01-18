@@ -1,14 +1,14 @@
 ---
-title: "get-vboencryptionkey"
+title: "Get-VBOEncryptionKey"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboencryptionkey.html"
-last_updated: "10/2/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOEncryptionKey
 
-In this article
 
 Short Description
 
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOEncryptionKey object that contains settings of an encryption key.
+The cmdlet returns the [VBOEncryptionKey](vboencryptionkey.md) object that contains settings of an encryption key.
 
 Examples
 
@@ -59,6 +59,4 @@ Examples
 | --- | --- |
 | This command returns all encryption keys with the specified description.  |  | | --- | | Get-VBOEncryptionKey -Description "Veeam Admin Key" | |
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

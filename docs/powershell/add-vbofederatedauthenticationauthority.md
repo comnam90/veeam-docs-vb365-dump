@@ -1,14 +1,14 @@
 ---
-title: "add-vbofederatedauthenticationauthority"
+title: "Add-VBOFederatedAuthenticationAuthority"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbofederatedauthenticationauthority.html"
-last_updated: "2/27/2025"
+last_updated: "1/9/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOFederatedAuthenticationAuthority
 
-In this article
 
 Short Description
 
@@ -39,7 +39,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOFederatedAuthenticationAuthority object that contains settings for an external authentication provider.
+The cmdlet returns the [VBOFederatedAuthenticationAuthority](vbofederatedauthenticationauthority.md) object that contains settings for an external authentication provider.
 
 Example
 
@@ -51,6 +51,4 @@ This command adds an external authentication provider.
 | --- |
 | Add-VBOFederatedAuthenticationAuthority -Name "External\_Provider" -Issuer "Issuer" -PublicCertificate "MIIC/DCCAeSgAwIBAgIQZGLYVWufprVLgQgAUWK7UjANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDDAVjZXJ0eDAgFw0yNDA1MTAwOTIyNTBaGA8yMTIzMDUxMDA5MzI0NFowEDEOMAwGA1UEAwwFY2VydHgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDj53Pp419Q7QiunfNoMB4bLrA8Sv4+neorf2a4+zwc9tufTUOe9OpoNXy/7Jck+XS3R4jx8jDsSTmEwShTFKZZ+Q0KdiiV61TRa+rdv1kVzxa9892bahcbTj3DEw7K/+ozuw+HDTXlP1E7rmxzFunFArm1ucQjbDDVD+JQl37MjiXrnexrx54IeaPy0PZk8FGNmXCBSzWLFDaRB7p8JOYsfgkSiDLQklrYGUQA6S5QSYRQNSN7PHb6hDwKqKoXABspciRmex1MTgvNV3i06ZznfDQ+FlBKxRhJK5JSagjfoZmleZAY/YCMY+mooDAPzqkVTGOvAMta1yB7PmaGVs29AgMBAAGjUDBOMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHQYDVR0OBBYEFPQMkL0XY0ey6prJktPeUxphwcZOMA0GCSqGSIb3DQEBCwUAA4IBAQDOcnU9ao5cIaaSF1mG40zy70WVsJtbsydtqnShy7XGj+KPwXQp5JXCL5THduqUnv787SQmJf6n+9ryqjRXjCUpJf0ukuLUKOOrtzsncbG6pp1d/VkM9GOTtX9aAy6ejqa+KJYM1mfqUXaSElW1H99gIHpJAfoXMKjqSv854X1LXuaYxcVKAsab+WILZn+qyFvtkQqFqZtuQcdbLq+D9K59QCkRwOd44nfJ0ZYF4K0npgw/3egGYUYUEnyvT+gBpjfZsyntup1JvHcpN84od/rXj01CUjT6GZXtJcLflo8k1cw87Ck9RNly4GNFPeM8z0Xq8QRDRBj/X48YSEZtGc3h" |
 
-Page updated 2/27/2025
 
-Page content applies to build 8.3.0.2201

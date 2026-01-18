@@ -1,14 +1,14 @@
 ---
-title: "set-vbooffice365applicationonlyconnectionsettings"
+title: "Set-VBOOffice365ApplicationOnlyConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbooffice365applicationonlyconnectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOffice365ApplicationOnlyConnectionSettings
 
-In this article
 
 Short Description
 
@@ -50,7 +50,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Settings | Specifies Microsoft Entra application settings. The cmdlet will modify these settings. | Accepts the VBOApplicationOnlyConnectionSettings object.  To create this object, run the [New-VBOOffice365ApplicationOnlyConnectionSettings](new-vbooffice365applicationonlyconnectionsettings.md) cmdlet. | True | Named | True (ByValue) |
+| Settings | Specifies Microsoft Entra application settings. The cmdlet will modify these settings. | Accepts the [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.md) object.  To create this object, run the [New-VBOOffice365ApplicationOnlyConnectionSettings](new-vbooffice365applicationonlyconnectionsettings.md) cmdlet. | True | Named | True (ByValue) |
 | ApplicationId | Specifies a Microsoft Entra application ID. The cmdlet will use this application ID to set up a secure connection to a Microsoft organization. | Guid | False | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will import the certificate that is located in this path to set up an encrypted connection to a Microsoft organization. | String | False | Named | False |
 | ApplicationCertificatePassword | Specifies the certificate password. The cmdlet will use this password to confirm the certificate that you want to import to a Microsoft Entra application. | SecureString | False | Named | False |
@@ -66,7 +66,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOApplicationOnlyConnectionSettings object that defines Microsoft Entra application settings.
+The cmdlet returns the [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.md) object that defines Microsoft Entra application settings.
 
 Examples
 
@@ -87,6 +87,4 @@ Related Commands
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 * [New-VBOOffice365ApplicationOnlyConnectionSettings](new-vbooffice365applicationonlyconnectionsettings.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

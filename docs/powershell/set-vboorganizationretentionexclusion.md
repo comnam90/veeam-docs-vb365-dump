@@ -1,14 +1,14 @@
 ---
-title: "set-vboorganizationretentionexclusion"
+title: "Set-VBOOrganizationRetentionExclusion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboorganizationretentionexclusion.html"
-last_updated: "9/30/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOrganizationRetentionExclusion
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Exclusion | Specifies retention policy settings for contacts and calendars of a specific organization. The cmdlet will modify these settings. | Accepts the VBOOrganizationRetentionExclusion object.  To get this object, run the [Get-VBOOrganizationRetentionExclusion](get-vboorganizationretentionexclusion.md) cmdlet. | True | Named | False |
+| Exclusion | Specifies retention policy settings for contacts and calendars of a specific organization. The cmdlet will modify these settings. | Accepts the [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.md) object.  To get this object, run the [Get-VBOOrganizationRetentionExclusion](get-vboorganizationretentionexclusion.md) cmdlet. | True | Named | False |
 | Calendar | Defines that Veeam Backup for Microsoft 365 will not apply retention policy for calendars of the specified organization.  Default: False  If you do not provide this parameter, Veeam Backup for Microsoft 365 will apply retention policy for calendars. | SwitchParameter | False | Named | False |
 | Contacts | Defines that Veeam Backup for Microsoft 365 will not apply retention policy for contacts of the specified organization.  Default: False  If you do not provide this parameter, Veeam Backup for Microsoft 365 will apply retention policy for contacts. | SwitchParameter | False | Named | False |
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-This cmdlet returns the VBOOrganizationRetentionExclusion object that contains settings of organization retention policy for contacts and calendars.
+This cmdlet returns the [VBOOrganizationRetentionExclusion](vboorganizationretentionexclusion.md) object that contains settings of organization retention policy for contacts and calendars.
 
 Examples
 
@@ -71,6 +71,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOOrganizationRetentionExclusion](get-vboorganizationretentionexclusion.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

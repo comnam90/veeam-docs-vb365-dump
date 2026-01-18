@@ -1,14 +1,14 @@
 ---
-title: "new-vboamazons3objectstoragesettings"
+title: "New-VBOAmazonS3ObjectStorageSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboamazons3objectstoragesettings.html"
-last_updated: "8/19/2025"
+last_updated: "12/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBOAmazonS3ObjectStorageSettings
 
-In this article
 
 Short Description
 
@@ -22,14 +22,14 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates the VBOAmazonS3ObjectStorageSettings object. This object contains settings of Amazon S3 object storage repository.
+This cmdlet creates the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object. This object contains settings of Amazon S3 object storage repository.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Folder | Specifies an Amazon S3 folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the VBOAmazonS3Folder object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
-| ArchiverAppliance | Specifies the Amazon archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of the general purpose object storage repositories (Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes) or to any of Amazon S3 Glacier object storage repositories (Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes) during backup copy jobs. | Accepts the VBOAmazonArchiverAppliance object.  To create this object, run the [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md) cmdlet. | False | Named | False |
+| Folder | Specifies an Amazon S3 folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the [VBOAmazonS3Folder](vboamazons3folder.md) object.  To get this object, run the [Get-VBOAmazonS3Folder](get-vboamazons3folder.md) cmdlet. | True | Named | False |
+| ArchiverAppliance | Specifies the Amazon archiver appliance.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of the general purpose object storage repositories (Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes) or to any of Amazon S3 Glacier object storage repositories (Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes) during backup copy jobs. | Accepts the [VBOAmazonArchiverAppliance](vboamazonarchiverappliance.md) object.  To create this object, run the [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3ObjectStorageSettings object that contains settings of Amazon S3 object storage repository.
+The cmdlet returns the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object that contains settings of Amazon S3 object storage repository.
 
 Example
 
@@ -66,6 +66,4 @@ Related Commands
 * [Get-VBOAmazonS3Folder](get-vboamazons3folder.md)
 * [New-VBOAmazonArchiverAppliance](new-vboamazonarchiverappliance.md)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.3.0.2201

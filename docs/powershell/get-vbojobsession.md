@@ -1,14 +1,14 @@
 ---
-title: "get-vbojobsession"
+title: "Get-VBOJobSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbojobsession.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOJobSession
 
-In this article
 
 Short Description
 
@@ -34,14 +34,6 @@ Detailed Description
 
 This cmdlet returns job sessions stored in Veeam Backup for Microsoft 365.
 
-Job session record contains the following information:
-
-* Id — specifies the system ID of the job session.
-* JobId — specifies the system ID of the job.
-* JobName — specifies the job name.
-* CreationTime — specifies date and time when the job session was created.
-* EndTime — specifies date and time when the job session ended.
-
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
@@ -49,11 +41,15 @@ Parameters
 | JobType | Specifies a job type. The cmdlet will return job sessions for the jobs of the specified type:   * Backup * Copy | VBOJobSessionType | False | Named | False |
 | Status | Specifies a job status. The cmdlet will return job sessions for the jobs with the specified status:   * Disconnected * Failed * NotConfigured * Queued * Running * Stopped * Success * Warning  * Updating | VBOJobStatus | False | Named | False |
 | Last | Defines that the cmdlet will return the latest job session.  If the Job parameter is used, the cmdlet will return the latest job session for the specified job.  If the Status parameter is used, the cmdlet will return the latest job session for the jobs with the specified status.  Default: False | SwitchParameter | False | Named | False |
-| Job | Specifies a job. The cmdlet will return job sessions for this backup or backup copy job. | IVBOJobWithId  Accepts the VBOJob or VBOCopyJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) or [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | False | Named | True (ByValue) |
+| Job | Specifies a job. The cmdlet will return job sessions for this backup or backup copy job. | IVBOJobWithId  Accepts the [VBOJob](vbojob.md) or [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) or [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | False | Named | True (ByValue) |
 
 <CommonParameters>
 
 This cmdlet supports Microsoft PowerShell common parameters. For more information on common parameters, see the [About CommonParameters](http://go.microsoft.com/fwlink/p/?LinkID=113216) section of Microsoft Docs.
+
+Output Object
+
+The cmdlet returns the [VBOJobSession](vbojobsession.md) object that contains details about job sessions.
 
 Examples
 
@@ -92,6 +88,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Get-VBOCopyJob](get-vbocopyjob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

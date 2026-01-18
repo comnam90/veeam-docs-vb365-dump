@@ -1,14 +1,14 @@
 ---
-title: "get-vbomailboxprotectionreport"
+title: "Get-VBOMailboxProtectionReport"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbomailboxprotectionreport.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOMailboxProtectionReport
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will generate a report on mailboxes that are added to this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
+| Organization | Specifies a Microsoft organization. The cmdlet will generate a report on mailboxes that are added to this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | False |
 | Path | Specifies a path to the folder. The cmdlet will save a report to this folder. | String | True | Named | False |
 | Format | Specifies in which format the cmdlet will save the report:   * PDF * CSV | VBOReportFormat | True | Named | False |
 | Timezone | Specifies a timezone that you want to show in the report. The timezone is displayed at the bottom of the report page.  Note: If you do not provide this parameter, the cmdlet will generate a report in the UTC timezone. | Accepts the TimeZoneInfo object.  To get this object, run the [Get-TimeZone](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-timezone?view=powershell-7.5) cmdlet. | False | Named | False |
@@ -56,6 +56,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-TimeZone](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-timezone?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

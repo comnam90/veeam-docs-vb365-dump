@@ -1,14 +1,14 @@
 ---
-title: "add-vboencryptionkey"
+title: "Add-VBOEncryptionKey"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboencryptionkey.html"
-last_updated: "10/2/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOEncryptionKey
 
-In this article
 
 Short Description
 
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOEncryptionKey object that contains settings of an encryption key.
+The cmdlet returns the [VBOEncryptionKey](vboencryptionkey.md) object that contains settings of an encryption key.
 
 Examples
 
@@ -58,6 +58,4 @@ Related Commands
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 * [Read-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/read-host?view=powershell-7.5)
 
-Page updated 10/2/2025
 
-Page content applies to build 8.3.0.2201

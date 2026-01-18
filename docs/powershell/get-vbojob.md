@@ -1,14 +1,14 @@
 ---
-title: "get-vbojob"
+title: "Get-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbojob.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOJob
 
-In this article
 
 Short Description
 
@@ -40,7 +40,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The backup job will back up objects of this organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The backup job will back up objects of this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
 | Name | Specifies a name of the backup job. The cmdlet will return the backup job with this name. | String | False | Named | False |
 | Id | Specifies an ID of the backup job. The cmdlet will return the backup job with this ID. | Guid | True | Named | False |
 
@@ -50,7 +50,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOJob object that contains settings for a backup job.
+The cmdlet returns the [VBOJob](vbojob.md) object that contains settings for a backup job.
 
 Examples
 
@@ -89,6 +89,4 @@ Related Commands
 * [Get-VBOJobSession](get-vbojobsession.md)
 * [Get-VBOOrganization](get-vboorganization.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

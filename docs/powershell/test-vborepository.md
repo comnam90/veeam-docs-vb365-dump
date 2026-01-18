@@ -1,14 +1,14 @@
 ---
-title: "test-vborepository"
+title: "Test-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/test-vborepository.html"
-last_updated: "3/18/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Test-VBORepository
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository.  The cmdlet will verify the integrity of Exchange, SharePoint and Teams data backups stored in this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies a backup repository.  The cmdlet will verify the integrity of Exchange, SharePoint and Teams data backups stored in this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -57,6 +57,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 3/18/2025
 
-Page content applies to build 8.3.0.2201

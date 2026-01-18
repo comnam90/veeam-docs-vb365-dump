@@ -1,14 +1,14 @@
 ---
-title: "remove-vbolicenseduser"
+title: "Remove-VBOLicensedUser"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vbolicenseduser.html"
-last_updated: "4/10/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOLicensedUser
 
-In this article
 
 Short Description
 
@@ -33,7 +33,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| User | Specifies a licensed user. The cmdlet will remove license from this user. | Accepts the VBOLicensedUser object.  To get this object, run the [Get-VBOLicensedUser](get-vbolicenseduser.md) cmdlet. | True | 0 | True (ByValue) |
+| User | Specifies a licensed user. The cmdlet will remove license from this user. | Accepts the [VBOLicensedUser](vbolicenseduser.md) object.  To get this object, run the [Get-VBOLicensedUser](get-vbolicenseduser.md) cmdlet. | True | 0 | True (ByValue) |
 
 <CommonParameters>
 
@@ -64,6 +64,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOLicensedUser](get-vbolicenseduser.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

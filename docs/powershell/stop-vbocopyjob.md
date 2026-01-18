@@ -1,14 +1,14 @@
 ---
-title: "stop-vbocopyjob"
+title: "Stop-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vbocopyjob.html"
-last_updated: "6/10/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Stop-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup copy job that you want to stop. | Accepts the VBOCopyJob object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup copy job that you want to stop. | Accepts the [VBOCopyJob](vbocopyjob.md) object.  To get this object, run the [Get-VBOCopyJob](get-vbocopyjob.md) cmdlet. | True | Named | True (ByValue) |
 | Force | Defines that the cmdlet will stop the specified backup copy job without waiting for the entire subprocesses to complete, for example, if the backup copy job gets stuck.  The cmdlet will prompt you to confirm the operation.  Default: False | SwitchParameter | False | Named | False |
 | RunAsync | Defines that the command returns immediately without waiting for the task to complete.  Default: False | SwitchParameter | False | Named | False |
 
@@ -57,6 +57,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Get-VBOCopyJob](get-vbocopyjob.md)
 
-Page updated 6/10/2025
 
-Page content applies to build 8.3.0.2201

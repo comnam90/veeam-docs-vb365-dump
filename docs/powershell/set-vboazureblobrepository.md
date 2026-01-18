@@ -1,14 +1,14 @@
 ---
-title: "set-vboazureblobrepository"
+title: "Set-VBOAzureBlobRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboazureblobrepository.html"
-last_updated: "9/30/2025"
+last_updated: "1/13/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOAzureBlobRepository
 
-In this article
 
 Short Description
 
@@ -39,14 +39,14 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | UseArchiverAppliance | Defines that the cmdlet will enable usage of the Azure archiver appliance when transferring backed-up data to the object storage repository during backup copy jobs.  Default: False | SwitchParameter | False | Named | False |
-| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. The cmdlet will replace the current subscription with the specified subscription. | Accepts the VBOAzureSubscription object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | False | Named | False |
-| ArchiverAppliance | Specifies the Azure archiver appliance. The cmdlet will replace the current Azure archiver appliance with the specified one.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive during backup copy jobs. | Accepts the VBOAzureArchiverAppliance object.  To create this object, run the [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md) cmdlet. | False | Named | False |
+| Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. The cmdlet will replace the current subscription with the specified subscription. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | False | Named | False |
+| ArchiverAppliance | Specifies the Azure archiver appliance. The cmdlet will replace the current Azure archiver appliance with the specified one.  The cmdlet will use this archiver appliance when transferring backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive during backup copy jobs. | Accepts the [VBOAzureArchiverAppliance](vboazurearchiverappliance.md) object.  To create this object, run the [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md) cmdlet. | False | Named | False |
 | IgnoreProxyPoolApplianceAccessValidation | Defines that the cmdlet will ignore check whether backup proxy servers that belong to the associated backup proxy pool can access the archiver appliance.  Default: False | SwitchParameter | False | Named | False |
 | EnableSizeLimit | Defines that the cmdlet will enable a soft limit in GB for the object storage repository consumption that can be exceeded temporarily.  Use the SizeLimit parameter to specify the soft limit value.  Default: False | SwitchParameter | False | Named | False |
 | SizeLimit | For the EnableSizeLimit option.  Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
 | EnableDefragmentation | Defines that the cmdlet will enable defragmentation for the specified Azure Blob Storage. After applying the retention policy, Veeam Backup for Microsoft 365 will start merging small blobs of data into a bigger one.  Default: False | SwitchParameter | False | Named | False |
 | ImmutabilityPeriodDays | Specifies the number of days when your data will be blocked for deletion or modification.  Note: If you set the null or 0 value, data will be blocked for deletion or modification for the same period as the retention period. | Int32 | False | Named | False |
-| Repository | Specifies Azure Blob Storage. The cmdlet will modify settings of this object storage repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies Azure Blob Storage. The cmdlet will modify settings of this object storage repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of Azure Blob Storage. The cmdlet will change the name of this object storage repository. | String | False | Named | False |
 | Description | Specifies a description of Azure Blob Storage. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 | RetentionPeriod | Specifies the retention period in years. Veeam Backup for Microsoft 365 will remove items from the object storage repository once this period is passed. You can set either of the following periods:   * Year1 * Years2 * Years3 * Years5 * Years7 * Years10 * Years25 * KeepForever   Default: Years3  Note: Apply the CustomRetentionPeriodType parameter to set the retention period in months or days. | VBORetentionPeriod | False | Named | False |
@@ -65,7 +65,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobRepository object that contains settings of Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobObjectStorageRepository](vboazureblobobjectstoragerepository.md) object that contains settings of Azure Blob Storage.
 
 Examples
 
@@ -99,6 +99,4 @@ Related Commands
 * [New-VBOAzureArchiverAppliance](new-vboazurearchiverappliance.md)
 * [Get-VBOAzureSubscription](get-vboazuresubscription.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

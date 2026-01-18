@@ -1,14 +1,14 @@
 ---
-title: "set-vboglobalretentionexclusion"
+title: "Set-VBOGlobalRetentionExclusion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboglobalretentionexclusion.html"
-last_updated: "9/30/2025"
+last_updated: "1/13/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOGlobalRetentionExclusion
 
-In this article
 
 Short Description
 
@@ -37,7 +37,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOGlobalRetentionExclusionobject that contains retention policy settings for calendars and contacts.
+The cmdlet returns the [VBOGlobalRetentionExclusion](vboglobalretentionexclusion.md) object that contains retention policy settings for calendars and contacts.
 
 Examples
 
@@ -65,6 +65,4 @@ Examples
 | --- | --- |
 | This command disables retention policy for calendars.  |  | | --- | | Set-VBOGlobalRetentionExclusion -Calendar:$false | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

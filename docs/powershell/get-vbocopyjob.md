@@ -1,14 +1,14 @@
 ---
-title: "get-vbocopyjob"
+title: "Get-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbocopyjob.html"
-last_updated: "9/30/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOCopyJob
 
-In this article
 
 Short Description
 
@@ -39,8 +39,8 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | Id | Specifies an ID of the backup copy job. The cmdlet will return the backup copy job with this ID. | Guid | True | Named | False |
-| BackupJob | Specifies a backup job for which you have created a backup copy job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | False | Named | False |
-| Repository | Specifies an object storage repository. Veeam Backup for Microsoft 365 uses this object storage repository as a target for backup copy jobs. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
+| BackupJob | Specifies a backup job for which you have created a backup copy job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | False | Named | False |
+| Repository | Specifies an object storage repository. Veeam Backup for Microsoft 365 uses this object storage repository as a target for backup copy jobs. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -48,7 +48,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOCopyJob object that contains settings for a backup copy job.
+The cmdlet returns the [VBOCopyJob](vbocopyjob.md) object that contains settings for a backup copy job.
 
 Examples
 
@@ -75,6 +75,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

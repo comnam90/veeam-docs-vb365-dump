@@ -1,14 +1,14 @@
 ---
-title: "set-vboamazons3compatiblerepository"
+title: "Set-VBOAmazonS3CompatibleRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboamazons3compatiblerepository.html"
-last_updated: "9/30/2025"
+last_updated: "12/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOAmazonS3CompatibleRepository
 
-In this article
 
 Short Description
 
@@ -43,7 +43,7 @@ Parameters
 | SizeLimit | For the EnableSizeLimit option.  Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
 | EnableDefragmentation | Defines that the cmdlet will enable defragmentation for the specified S3 Compatible object storage repository. After applying the retention policy, Veeam Backup for Microsoft 365 will start merging small blobs of data into a bigger one.  Default: False | SwitchParameter | False | Named | False |
 | ImmutabilityPeriodDays | Specifies the number of days when your data will be blocked for deletion or modification.  Note: If you set the null or 0 value, data will be blocked for deletion or modification for the same period as the retention period. | Int32 | False | Named | False |
-| Repository | Specifies S3 Compatible object storage repository. The cmdlet will modify settings of this object storage repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| Repository | Specifies S3 Compatible object storage repository. The cmdlet will modify settings of this object storage repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of S3 Compatible object storage repository. The cmdlet will change the name of this object storage repository. | String | False | Named | False |
 | Description | Specifies a description of S3 Compatible object storage repository. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
 | RetentionPeriod | Specifies the retention period in years. Veeam Backup for Microsoft 365 will remove items from the object storage repository once this period is passed. You can set either of the following periods:   * Year1 * Years2 * Years3 * Years5 * Years7 * Years10 * Years25 * KeepForever   Default: Years3  Note: Apply the CustomRetentionPeriodType parameter to set the retention period in months or days. | VBORetentionPeriod | False | Named | False |
@@ -62,7 +62,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3CompatibleRepository object that contains settings of S3 Compatible object storage repository.
+The cmdlet returns the [VBOAmazonS3ObjectStorageRepository](vboamazons3objectstoragerepository.md) object that contains settings of S3 Compatible object storage repository.
 
 Examples
 
@@ -100,6 +100,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

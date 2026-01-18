@@ -1,14 +1,14 @@
 ---
-title: "remove-vbobackupapplication"
+title: "Remove-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vbobackupapplication.html"
-last_updated: "4/10/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOBackupApplication
 
-In this article
 
 Short Description
 
@@ -28,8 +28,8 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will remove backup application settings from the specified Microsoft organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
-| BackupApplications | Specifies an array of backup applications whose settings you want to remove. The cmdlet will remove these backup application settings from a Microsoft organization. | Accepts the VBOBackupApplication[] object.  To get this object, run the [Get-VBOBackupApplication](get-vbobackupapplication.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will remove backup application settings from the specified Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| BackupApplications | Specifies an array of backup applications whose settings you want to remove. The cmdlet will remove these backup application settings from a Microsoft organization. | Accepts the [VBOBackupApplication](vbobackupapplication.md)[] object.  To get this object, run the [Get-VBOBackupApplication](get-vbobackupapplication.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
@@ -66,6 +66,4 @@ Related Commands
 * [Get-VBOOrganization](get-vboorganization.md)
 * [Get-VBOBackupApplication](get-vbobackupapplication.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

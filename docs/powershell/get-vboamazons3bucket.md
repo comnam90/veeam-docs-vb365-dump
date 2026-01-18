@@ -1,14 +1,14 @@
 ---
-title: "get-vboamazons3bucket"
+title: "Get-VBOAmazonS3Bucket"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboamazons3bucket.html"
-last_updated: "9/30/2025"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAmazonS3Bucket
 
-In this article
 
 Short Description
 
@@ -32,7 +32,7 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet returns the VBOAmazonS3Bucket object that contains an array of Amazon buckets for the following Amazon services:
+This cmdlet returns the [VBOAmazonS3Bucket](vboamazons3bucket.md) object that contains an array of Amazon buckets for the following Amazon services:
 
 * Amazon S3
 * S3 Compatible
@@ -41,10 +41,10 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| AmazonS3ConnectionSettings | Specifies an active session with Amazon S3 object storage repository. The cmdlet will return an array of Amazon S3 buckets for this Amazon S3 object storage repository. | Accepts the VBOAmazonS3ConnectionSettings object.  To create this object, run the [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md) cmdlet. | True | Named | False |
+| AmazonS3ConnectionSettings | Specifies an active session with Amazon S3 object storage repository. The cmdlet will return an array of Amazon S3 buckets for this Amazon S3 object storage repository. | Accepts the [VBOAmazonS3ConnectionSettings](vboamazons3connectionsettings.md) object.  To create this object, run the [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Amazon S3 bucket. The cmdlet will return the bucket with this name. | String | False | Named | False |
 | RegionId | Specifies a region of Amazon S3 object storage repository.  For example, us-east-1.  For more information, see [this Amazon article](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html). | String | False | Named | False |
-| AmazonS3CompatibleConnectionSettings | Specifies an active session with S3 Compatible object storage repository. The cmdlet will return an array of Amazon S3 buckets for this S3 Compatible object storage repository. | Accepts the VBOAmazonS3CompatibleConnectionSettings object.  To create this object, run the [New-VBOAmazonS3CompatibleConnectionSettings](new-vboamazons3compatibleconnectionsettings.md) cmdlet. | True | Named | False |
+| AmazonS3CompatibleConnectionSettings | Specifies an active session with S3 Compatible object storage repository. The cmdlet will return an array of Amazon S3 buckets for this S3 Compatible object storage repository. | Accepts the [VBOAmazonS3CompatibleConnectionSettings](vboamazons3compatibleconnectionsettings.md) object.  To create this object, run the [New-VBOAmazonS3CompatibleConnectionSettings](new-vboamazons3compatibleconnectionsettings.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -52,7 +52,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3Bucket object that contains an array of Amazon S3 buckets.
+The cmdlet returns the [VBOAmazonS3Bucket](vboamazons3bucket.md) object that contains an array of Amazon S3 buckets.
 
 Examples
 
@@ -75,6 +75,4 @@ Related Commands
 * [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md)
 * [New-VBOAmazonS3CompatibleConnectionSettings](new-vboamazons3compatibleconnectionsettings.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

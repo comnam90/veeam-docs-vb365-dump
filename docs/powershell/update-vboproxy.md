@@ -1,14 +1,14 @@
 ---
-title: "update-vboproxy"
+title: "Update-VBOProxy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/update-vboproxy.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Update-VBOProxy
 
-In this article
 
 Short Description
 
@@ -30,8 +30,8 @@ Parameters
 | --- | --- | --- | --- | --- | --- |
 | Credential | Specifies Windows credentials. The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  If you omit this parameter, the cmdlet will use the Windows credentials under which you are currently logged in.  Note: This parameter will be deprecated in future versions of Veeam Backup for Microsoft 365. Use the WindowsCredential parameter instead. | PSCredential | False | Named | False |
 | WindowsCredential | Specifies Windows credentials. The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  If you omit this parameter, the cmdlet will use the Windows credentials under which you are currently logged in. | PSCredential | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
-| Proxy | Specifies an array of backup proxy servers. The cmdlet will upgrade these backup proxy servers. | Accepts the VBOProxy[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| Proxy | Specifies an array of backup proxy servers. The cmdlet will upgrade these backup proxy servers. | Accepts the [VBOProxy](vboproxy.md)[] object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -70,6 +70,4 @@ Related Commands
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 * [New-VBOLinuxCredential](new-vbolinuxcredential.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "remove-vboexcludedbackupitem"
+title: "Remove-VBOExcludedBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboexcludedbackupitem.html"
-last_updated: "4/10/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOExcludedBackupItem
 
-In this article
 
 Short Description
 
@@ -28,8 +28,8 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job. The cmdlet will remove objects from the exclusions list that is specified for this job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
-| BackupItem | Specifies an array of objects that you want to remove from the exclusions list. | Accepts the VBOBackupItem[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
+| Job | Specifies a backup job. The cmdlet will remove objects from the exclusions list that is specified for this job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
+| BackupItem | Specifies an array of objects that you want to remove from the exclusions list. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -60,6 +60,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Get-VBOBackupItem](get-vbobackupitem.md)
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

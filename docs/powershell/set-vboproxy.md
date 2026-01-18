@@ -1,14 +1,14 @@
 ---
-title: "set-vboproxy"
+title: "Set-VBOProxy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboproxy.html"
-last_updated: "9/30/2025"
+last_updated: "12/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOProxy
 
-In this article
 
 Short Description
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Proxy | Specifies a backup proxy server.  The cmdlet will modify settings of this backup proxy server. | Accepts the VBOProxy object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | True (ByValue) |
+| Proxy | Specifies a backup proxy server.  The cmdlet will modify settings of this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | True | Named | True (ByValue) |
 | Credential | Specifies Windows credentials. The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  If you omit this parameter, the cmdlet will use the Windows credentials under which you are currently logged in.  Note: This parameter will be deprecated in future versions of Veeam Backup for Microsoft 365. Use the WindowsCredential parameter instead. | PSCredential | False | Named | False |
 | WindowsCredential | Specifies Windows credentials. The cmdlet will use these credentials to connect to the Windows-based backup proxy server.  If you omit this parameter, the cmdlet will use the Windows credentials under which you are currently logged in. | PSCredential | False | Named | False |
 | Description | Specifies a description of the backup proxy server.  The cmdlet will replace the current description with the specified description. | String | False | Named | False |
@@ -42,7 +42,7 @@ Parameters
 | CustomInternetProxyPort | For the InternetProxyMode parameter with the Custom option.  Specifies a port number. The backup proxy will use this port to connect to the internet proxy server.  Default: 3128 | UInt16 | False | Named | False |
 | UseCustomInternetProxyAuthentication | For the InternetProxyMode parameter with the Custom option.  Defines that the backup proxy will use authentication for connecting to the internet proxy server.  Default: False | SwitchParameter | False | Named | False |
 | CustomInternetProxyCredential | For the InternetProxyMode parameter with the Custom option.  Specifies credentials that you want to use for authentication to the internet proxy server. | PSCredential | False | Named | False |
-| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the VBOLinuxCredential object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
+| LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -50,7 +50,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOProxy object that contains a list of backup proxy servers added to the Veeam Backup for Microsoft 365 backup infrastructure.
+The cmdlet returns the [VBOProxy](vboproxy.md) object that contains a list of backup proxy servers added to the Veeam Backup for Microsoft 365 backup infrastructure.
 
 Examples
 
@@ -85,6 +85,4 @@ Related Commands
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 * [New-VBOLinuxCredential](new-vbolinuxcredential.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

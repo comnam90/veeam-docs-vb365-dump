@@ -1,14 +1,14 @@
 ---
-title: "get-vboazureblobaccount"
+title: "Get-VBOAzureBlobAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazureblobaccount.html"
-last_updated: "9/30/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureBlobAccount
 
-In this article
 
 Short Description
 
@@ -47,7 +47,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureBlobAccount object that contains storage account credentials for Microsoft Azure Blob Storage.
+The cmdlet returns the [VBOAzureBlobAccount](vboazureblobaccount.md) object that contains storage account credentials for Microsoft Azure Blob Storage.
 
 Examples
 
@@ -63,6 +63,4 @@ Examples
 | --- | --- |
 | This command returns the Microsoft Azure Blob Storage account credentials by the storage account credentials ID.  |  | | --- | | Get-VBOAzureBlobAccount -Id 936edf7c-7cf3-4ddc-9895-c7485ef4bb2c | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "remove-vboentitydata"
+title: "Remove-VBOEntityData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboentitydata.html"
-last_updated: "9/30/2025"
+last_updated: "12/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Remove-VBOEntityData
 
-In this article
 
 Short Description
 
@@ -55,7 +55,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository where the backed-up entity data is located. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| Repository | Specifies a backup repository where the backed-up entity data is located. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | User | Specifies an organization user entity. | VBOUserData | True | Named | True (ByValue) |
 | Mailbox | Defines that the cmdlet will remove the entity mailbox data.  Default: False | SwitchParameter | False | Named | False |
 | ArchiveMailbox | Defines that the cmdlet will remove the entity archive mailbox data.  Default: False | SwitchParameter | False | Named | False |
@@ -109,6 +109,4 @@ Related Commands
 * [Get-VBORepository](get-vborepository.md)
 * [Get-VBOEntityData](get-vboentitydata.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

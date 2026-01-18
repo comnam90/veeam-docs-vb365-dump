@@ -1,14 +1,14 @@
 ---
-title: "set-vbooffice365connectionsettings"
+title: "Set-VBOOffice365ConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbooffice365connectionsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/7/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOffice365ConnectionSettings
 
-In this article
 
 Short Description
 
@@ -52,7 +52,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Settings | Specifies the authentication settings that you want to modify. | Accepts the VBOOffice365LegacyConnectionSettings object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | True | Named | True (ByValue) |
+| Settings | Specifies the authentication settings that you want to modify. | Accepts the [VBOOffice365LegacyConnectionSettings](vbooffice365legacyconnectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | True | Named | True (ByValue) |
 | AppCredential | For the modern authentication type.  Specifies credentials. The cmdlet will use these credentials to connect to a Microsoft 365 organization. | PSCredential | False | Named | False |
 | GrantRolesAndPermissions | Defines that the cmdlet will grant required permissions and assign appropriate roles to the account.  Default: False | SwitchParameter | False | Named | False |
 | ApplicationId | For the modern authentication type.  Specifies an application ID. The cmdlet will use an application ID to connect to a Microsoft 365 organization. | Guid | False | Named | False |
@@ -92,6 +92,4 @@ Related Commands
 * [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 * [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

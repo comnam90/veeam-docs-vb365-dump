@@ -1,14 +1,14 @@
 ---
-title: "new-vborbacoperator"
+title: "New-VBORbacOperator"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vborbacoperator.html"
-last_updated: "9/30/2025"
+last_updated: "1/8/2026"
 product_version: "8.3.0.2201"
 ---
 
+# New-VBORbacOperator
 
-In this article
 
 Short Description
 
@@ -32,14 +32,14 @@ This cmdlet provides parameter sets that allow you to:
 
 Detailed Description
 
-This cmdlet creates the VBORbacOperator object. This object contains users or groups that will act as restore operators.
+This cmdlet creates the [VBORbacOperator](vborbacoperator.md) object. This object contains users or groups that will act as restore operators.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will define these users as restore operators. | Accepts the VBOOrganizationUser[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
-| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will define these groups as restore operators. | Accepts the VBOOrganizationGroup[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
+| User | Specifies an array of users added to Veeam Backup for Microsoft 365. The cmdlet will define these users as restore operators. | Accepts the [VBOOrganizationUser](vboorganizationuser.md)[] object.  To get this object, run the [Get-VBOOrganizationUser](get-vboorganizationuser.md) cmdlet. | True | Named | False |
+| Group | Specifies an array of groups added to Veeam Backup for Microsoft 365. The cmdlet will define these groups as restore operators. | Accepts the [VBOOrganizationGroup](vboorganizationgroup.md)[] object.  To get this object, run the [Get-VBOOrganizationGroup](get-vboorganizationgroup.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
 
@@ -47,7 +47,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORbacOperator object that contains details on users or groups that will act as restore operators.
+The cmdlet returns the [VBORbacOperator](vborbacoperator.md) object that contains details on users or groups that will act as restore operators.
 
 Examples
 
@@ -69,6 +69,4 @@ Related Commands
 * [Get-VBOOrganizationUser](get-vboorganizationuser.md)
 * [Get-VBOOrganizationGroup](get-vboorganizationgroup.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

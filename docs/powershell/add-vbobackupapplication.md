@@ -1,14 +1,14 @@
 ---
-title: "add-vbobackupapplication"
+title: "Add-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbobackupapplication.html"
-last_updated: "6/5/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Add-VBOBackupApplication
 
-In this article
 
 Short Description
 
@@ -33,8 +33,8 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Organization | Specifies a Microsoft organization. The cmdlet will add backup application settings to the specified Microsoft organization. | Accepts the VBOOrganization object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
-| BackupApplications | Specifies an array of backup applications. The cmdlet will add these backup applications to the Microsoft organization. | Accepts the VBOBackupApplication[] object.  To create this object, run the [New-VBOBackupApplication](new-vbobackupapplication.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will add backup application settings to the specified Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| BackupApplications | Specifies an array of backup applications. The cmdlet will add these backup applications to the Microsoft organization. | Accepts the [VBOBackupApplication](vbobackupapplication.md)[] object.  To create this object, run the [New-VBOBackupApplication](new-vbobackupapplication.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
@@ -42,7 +42,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOBackupApplication object that contains backup application settings that are added to Microsoft organizations.
+The cmdlet returns the [VBOBackupApplication](vbobackupapplication.md) object that contains backup application settings that are added to Microsoft organizations.
 
 Example
 
@@ -76,6 +76,4 @@ Related Commands
 * [Get-VBOApplication](get-vboapplication.md)
 * [New-VBOBackupApplication](new-vbobackupapplication.md)
 
-Page updated 6/5/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vbobackupitem"
+title: "Get-VBOBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbobackupitem.html"
-last_updated: "9/30/2025"
+last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOBackupItem
 
-In this article
 
 Short Description
 
@@ -29,7 +29,7 @@ Parameters
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
 | Organization | Defines that the cmdlet will return an organization included in a backup job.  Default: False | SwitchParameter | False | Named | False |
-| Job | Specifies a backup job. The cmdlet will return objects included in this backup job. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
+| Job | Specifies a backup job. The cmdlet will return objects included in this backup job. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of an object that is added to a backup job. The cmdlet will return objects with this name.  Note: If you want to get a specific type of an object, you must also set either of the following parameters:   * Organization * Users * Groups * Sites * PersonalSites * TeamsGroups | String | False | Named | False |
 | Users | Defines that the cmdlet will return users included in a backup job.  Default: False | SwitchParameter | False | Named | False |
 | Groups | Defines that the cmdlet will return groups included in a backup job.  Default: False | SwitchParameter | False | Named | False |
@@ -43,7 +43,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOBackupItem[] object that contains an array of objects included in a backup job.
+The cmdlet returns the [VBOBackupItem](vbobackupitem.md)[] object that contains an array of objects included in a backup job.
 
 Examples
 
@@ -75,6 +75,4 @@ Related Commands
 
 [Get-VBOJob](get-vbojob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

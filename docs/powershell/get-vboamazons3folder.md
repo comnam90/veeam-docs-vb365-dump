@@ -1,14 +1,14 @@
 ---
-title: "get-vboamazons3folder"
+title: "Get-VBOAmazonS3Folder"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboamazons3folder.html"
-last_updated: "9/30/2025"
+last_updated: "12/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAmazonS3Folder
 
-In this article
 
 Short Description
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAmazonS3Folder object that contains an array of Amazon S3 folders. You can get the array of the folders for the following types of Amazon S3 object storage repositories:
+This cmdlet returns the [VBOAmazonS3Folder](vboamazons3folder.md) object that contains an array of Amazon S3 folders. You can get the array of the folders for the following types of Amazon S3 object storage repositories:
 
 * Amazon S3
 
@@ -32,7 +32,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Bucket | Specifies an Amazon S3 bucket. The cmdlet will return an array of the folders added to this bucket. | Accepts the VBOAmazonS3Bucket object.  To get this object, run the [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md) cmdlet. | True | Named | False |
+| Bucket | Specifies an Amazon S3 bucket. The cmdlet will return an array of the folders added to this bucket. | Accepts the [VBOAmazonS3Bucket](vboamazons3bucket.md) object.  To get this object, run the [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the Amazon S3 folder. The cmdlet will return the folder with this name. | String | False | Named | False |
 
 <CommonParameters>
@@ -41,7 +41,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAmazonS3Folder object that contains an array of Amazon S3 folders.
+The cmdlet returns the [VBOAmazonS3Folder](vboamazons3folder.md) object that contains an array of Amazon S3 folders.
 
 Examples
 
@@ -66,6 +66,4 @@ Related Commands
 
 * [Get-VBOAmazonS3Bucket](get-vboamazons3bucket.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

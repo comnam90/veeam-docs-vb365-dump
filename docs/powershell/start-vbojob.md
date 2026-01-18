@@ -1,14 +1,14 @@
 ---
-title: "start-vbojob"
+title: "Start-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vbojob.html"
-last_updated: "12/17/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBOJob
 
-In this article
 
 Short Description
 
@@ -30,7 +30,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Job | Specifies a backup job that you want to start. | Accepts the VBOJob object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
+| Job | Specifies a backup job that you want to start. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
 | RunAsync | Defines that the command returns immediately without waiting for the task to complete.  Default: False | SwitchParameter | False | Named | False |
 | Full | Defines that the backup job session is considered a full run.  Default: False | SwitchParameter | False | Named | False |
 
@@ -57,6 +57,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [New-VBOJobSchedulePolicy](new-vbojobschedulepolicy.md)
 
-Page updated 12/17/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,14 +1,14 @@
 ---
-title: "get-vboazurevirtualnetwork"
+title: "Get-VBOAzureVirtualNetwork"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboazurevirtualnetwork.html"
-last_updated: "4/11/2025"
+last_updated: "12/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOAzureVirtualNetwork
 
-In this article
 
 Short Description
 
@@ -22,15 +22,15 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns the VBOAzureVirtualNetwork object.
+This cmdlet returns the [VBOAzureVirtualNetwork](vboazurevirtualnetwork.md) object.
 
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| ResourceGroup | Specifies a resource group that will be associated with the Azure archiver appliance. | Accepts the VBOAzureResourceGroup object.  To get this object, run the [Get-VBOAzureResourceGroup](get-vboazureresourcegroup.md) cmdlet. | True | Named | False |
+| ResourceGroup | Specifies a resource group that will be associated with the Azure archiver appliance. | Accepts the [VBOAzureResourceGroup](vboazureresourcegroup.md) object.  To get this object, run the [Get-VBOAzureResourceGroup](get-vboazureresourcegroup.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of the virtual network. The cmdlet will return the virtual network with this name. | String | False | Named | False |
-| Location | Specifies a Microsoft Entra region. | Accepts the VBOAzureLocation object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | False | Named | False |
+| Location | Specifies a Microsoft Entra region. | Accepts the [VBOAzureLocation](vboazurelocation.md) object.  To get this object, run the [Get-VBOAzureLocation](get-vboazurelocation.md) cmdlet. | False | Named | False |
 
 <CommonParameters>
 
@@ -38,7 +38,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBOAzureVirtualNetwork object.
+The cmdlet returns the [VBOAzureVirtualNetwork](vboazurevirtualnetwork.md) object.
 
 Example
 
@@ -64,6 +64,4 @@ Related Commands
 * [Get-VBOAzureSubscription](get-vboazuresubscription.md)
 * [Get-VBOAzureServiceAccount](get-vboazureserviceaccount.md)
 
-Page updated 4/11/2025
 
-Page content applies to build 8.3.0.2201

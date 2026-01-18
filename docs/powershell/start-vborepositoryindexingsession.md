@@ -1,14 +1,14 @@
 ---
-title: "start-vborepositoryindexingsession"
+title: "Start-VBORepositoryIndexingSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vborepositoryindexingsession.html"
-last_updated: "4/16/2025"
+last_updated: "1/14/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Start-VBORepositoryIndexingSession
 
-In this article
 
 Short Description
 
@@ -30,7 +30,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Repository | Specifies a backup repository. The cmdlet will create an indexing session for this backup repository. | Accepts the VBORepository object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
+| Repository | Specifies a backup repository. The cmdlet will create an indexing session for this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | Force | Defines that the cmdlet will start a session without showing warnings in the PowerShell console.  If you do not provide the parameter, the cmdlet will prompt you to confirm the operation.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
@@ -39,7 +39,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns the VBORepositoryIndexingSession object that contains details on the backup repository indexing.
+None
 
 Example
 
@@ -60,6 +60,4 @@ Related Commands
 
 [Get-VBORepository](get-vborepository.md)
 
-Page updated 4/16/2025
 
-Page content applies to build 8.3.0.2201

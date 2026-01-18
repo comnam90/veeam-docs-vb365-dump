@@ -1,14 +1,14 @@
 ---
-title: "set-vbobackupwindowsettings"
+title: "Set-VBOBackupWindowSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbobackupwindowsettings.html"
-last_updated: "9/30/2025"
+last_updated: "1/6/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOBackupWindowSettings
 
-In this article
 
 Short Description
 
@@ -30,7 +30,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Settings | Specifies a backup window that you want to modify. | Accepts the VBOBackupWindowSettings object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | True | Named | True (ByValue, ByPropertyName) |
+| Settings | Specifies a backup window that you want to modify. | Accepts the [VBOBackupWindowSettings](vbobackupwindowsettings.md) object.  To create this object, run the [New-VBOBackupWindowSettings](new-vbobackupwindowsettings.md) cmdlet. | True | Named | True (ByValue, ByPropertyName) |
 | FromDay | Specifies the day of the week on which the backup window opens. | DayOfWeek | True | Named | False |
 | FromHour | Specifies the hour on which the backup window opens. | Int32 | True | Named | False |
 | ToDay | Specifies the day of the week on which the backup window ends. | DayOfWeek | True | Named | False |
@@ -61,6 +61,4 @@ Related Commands
 * [Get-VBOJob](get-vbojob.md)
 * [Set-VBOJob](set-vbojob.md)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201
