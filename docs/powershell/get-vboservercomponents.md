@@ -3,7 +3,7 @@ title: "Get-VBOServerComponents"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboservercomponents.html"
-last_updated: "12/5/2025"
+last_updated: "1/19/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -28,7 +28,7 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | --- | --- | --- | --- | --- | --- |
-| Name | Specifies a name of the Veeam Backup for Microsoft 365 server component. The cmdlet will return the server component with the specified name. You can get a collection of components of the following types:   * Proxy * Controller * Console * PowerShell   Note: This parameter is case-sensitive. | String | False | Named | False |
+| Name | Specifies a name of the Veeam Backup for Microsoft 365 server component. The cmdlet will return the server component with the specified name. You can get a collection of components of the following types:   * Proxy * Proxy Pool * Controller * Console * PowerShell   Note: This parameter is case-sensitive. | String | False | Named | False |
 | Id | Specifies an ID of the Veeam Backup for Microsoft 365 server component. The cmdlet will return component with the specified ID. | Guid | False | Named | False |
 
 <CommonParameters>
