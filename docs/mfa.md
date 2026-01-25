@@ -1,14 +1,14 @@
 ---
-title: "mfa"
+title: "Multi-Factor Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/mfa.html"
-last_updated: "1/6/2025"
+last_updated: "1/22/2026"
 product_version: "8.3.0.2201"
 ---
 
+# Multi-Factor Authentication
 
-In this article
 
 Veeam Backup for Microsoft 365 supports multi-factor authentication (MFA) for additional user verification. A one-time password (OTP) generated in the mobile authenticator application is used as a second verification method. Combined with authentication credentials, it creates a more secure environment and protects user accounts from being compromised.
 
@@ -34,7 +34,7 @@ Consider the following:
 To avoid connection issues, you must disable MFA for the accounts used to run these applications and backup infrastructure components. For more information, see [Disabling MFA for Service Accounts](disable_mfa_service_accounts.md).
 
 * MFA is not supported for PowerShell (either interactive logon or non-interactive connections). To use PowerShell cmdlets with Veeam.Archiver.PowerShell module or Windows PowerShell, run the Veeam Backup for Microsoft 365 console or Microsoft Windows PowerShell under the service account with disabled MFA.
-* If a service provider uses Veeam Service Provider Console and wants to use multi-factor authentication for the Veeam Backup for Microsoft 365 server on the service provider side, they must set up a service account in Veeam Backup for Microsoft 365. For more information, see [this Veeam KB article](https://www.veeam.com/kb4431).
+* If a service provider uses Veeam Service Provider Console and wants to use multi-factor authentication for the Veeam Backup for Microsoft 365 server on the service provider side, they must set up a service account in Veeam Backup for Microsoft 365.
 * Mobile push notifications are not supported. You can get an OTP code only in the mobile authenticator application.
 
 How MFA Works
@@ -65,6 +65,4 @@ If there are more than 5 unsuccessful attempts, the user can reopen the console 
 
 If Veeam Explorers are started from the Veeam Backup for Microsoft 365 console, they do not require additional authentication.
 
-Page updated 1/6/2025
 
-Page content applies to build 8.3.0.2201

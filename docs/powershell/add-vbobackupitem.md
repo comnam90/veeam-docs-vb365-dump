@@ -3,7 +3,7 @@ title: "Add-VBOBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbobackupitem.html"
-last_updated: "12/23/2025"
+last_updated: "1/22/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -27,7 +27,7 @@ This cmdlet adds a list of objects to a backup job. The job will process these o
 |  |
 | --- |
 | ![Add-VBOBackupItem](images/icon_note.webp) Note |
-| Before you add an object to a backup job, consider the following restrictions:   * Only one job can back up an entire organization. * Several jobs cannot back up the same object. * If you add an object that has already been added to the backup job again, a new object will replace the old object. |
+| Before you add an object to a backup job, consider the following restrictions:   * Only one job can back up an entire organization. * Several jobs cannot back up the same items if you schedule them to run within the same period. If their schedules overlap, the items will be backed up by the job that starts earlier. * If you add an object that has already been added to the backup job again, a new object will replace the old object. |
 
 Parameters
 
