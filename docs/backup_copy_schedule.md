@@ -1,5 +1,5 @@
 ---
-title: "backup_copy_schedule"
+title: "Step 3. Specify Scheduling Options"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_copy_schedule.html"
@@ -7,8 +7,8 @@ last_updated: "7/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Specify Scheduling Options
 
-In this article
 
 At this step of the wizard, configure a schedule for your backup copy job.
 
@@ -65,6 +65,4 @@ The following is an example in which it is prohibited to run a backup copy job o
 
 [![Selecting Time Periods](images/time_intervals.webp)](images/time_intervals.webp "Selecting Time Periods")
 
-Page updated 7/7/2025
 
-Page content applies to build 8.3.0.2201

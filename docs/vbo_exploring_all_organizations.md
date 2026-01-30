@@ -1,5 +1,5 @@
 ---
-title: "vbo_exploring_all_organizations"
+title: "Exploring All Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_all_organizations.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring All Organizations
 
-In this article
 
 When exploring all organizations, Veeam Backup for Microsoft 365 merges and loads the latest restore points of each backup job of every organization.
 
@@ -44,6 +44,4 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 [![Exploring Backups of All Ogranizations](images/explore_backup_3.webp)](images/explore_backup_3.webp "Exploring Backups of All Ogranizations")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

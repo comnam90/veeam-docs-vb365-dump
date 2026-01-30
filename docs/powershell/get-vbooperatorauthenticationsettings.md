@@ -1,5 +1,5 @@
 ---
-title: "get-vbooperatorauthenticationsettings"
+title: "Get-VBOOperatorAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbooperatorauthenticationsettings.html"
@@ -7,8 +7,8 @@ last_updated: "4/10/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOOperatorAuthenticationSettings
 
-In this article
 
 Short Description
 
@@ -40,6 +40,4 @@ This command returns restore operator authentication settings.
 | --- |
 | Get-VBOOperatorAuthenticationSettings |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

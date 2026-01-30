@@ -1,5 +1,5 @@
 ---
-title: "new_azure_backup_proxy"
+title: "Step 7. Specify Backup Proxy Server or Backup Proxy Pool"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_backup_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 7. Specify Backup Proxy Server or Backup Proxy Pool
 
-In this article
 
 At this step of the wizard, configure the following settings:
 
@@ -104,6 +104,4 @@ Related Topics
 
 [Permissions for Azure Archiver Appliance](azure_archiver_appliance_permissions.md)
 
-Page updated 3/26/2025
 
-Page content applies to build 8.3.0.2201

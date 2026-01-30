@@ -1,5 +1,5 @@
 ---
-title: "enabling_disabling_backup_job"
+title: "Enabling or Disabling Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/enabling_disabling_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Enabling or Disabling Backup Job
 
-In this article
 
 You can enable or disable a backup job.
 
@@ -35,6 +35,4 @@ To enable or disable a backup job, do the following:
 
 [![Enabling or Disabling Backup Job](images/enable_disable_bj.webp)](images/enable_disable_bj.webp "Enabling or Disabling Backup Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

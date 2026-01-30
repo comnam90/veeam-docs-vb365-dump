@@ -1,5 +1,5 @@
 ---
-title: "vbo_proxy_account"
+title: "Step 4. Specify Credentials"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Specify Credentials
 
-In this article
 
 At this step of the wizard, enter a user account credentials to connect to the [specified computer](vbo_proxy_server_address.md).
 
@@ -30,6 +30,4 @@ Veeam Backup for Microsoft 365 uses the specified credentials for different purp
 
 [![Adding Backup Proxy Server](images/add_proxy_wiz_access_creds.webp)](images/add_proxy_wiz_access_creds.webp "Adding Backup Proxy Server")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

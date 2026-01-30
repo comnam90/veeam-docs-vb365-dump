@@ -1,5 +1,5 @@
 ---
-title: "integration_vspc"
+title: "Integration with Veeam Products"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/integration_vspc.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Integration with Veeam Products
 
-In this article
 
 Integration with Veeam Service Provider Console
 
@@ -38,6 +38,4 @@ Veeam Backup for Microsoft 365 uses the organization cache database to store inf
 | Note |
 | Veeam Backup for Microsoft 365 does not save information about restore points created for retrieval jobs in the organization cache database. |
 
-Page updated 9/9/2025
 
-Page content applies to build 8.3.0.2201

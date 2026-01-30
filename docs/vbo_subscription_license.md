@@ -1,5 +1,5 @@
 ---
-title: "vbo_subscription_license"
+title: "Subscription License"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_subscription_license.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Subscription License
 
-In this article
 
 Subscription License is a paid and fully-functional license that expires at the end of the subscription term. The subscription license term is normally 1–5 years from the contract start date (depending on the subscription length).
 
@@ -39,6 +39,4 @@ Veeam Backup for Microsoft 365 allows you to process extra user accounts accordi
 
 The grace period is not limited and lasts during the whole term of the subscription.
 
-Page updated 9/9/2025
 
-Page content applies to build 8.3.0.2201

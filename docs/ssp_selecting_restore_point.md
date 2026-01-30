@@ -1,5 +1,5 @@
 ---
-title: "ssp_selecting_restore_point"
+title: "Selecting Restore Point"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_selecting_restore_point.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Selecting Restore Point
 
-In this article
 
 After you log in to Restore Portal, you must select a restore point from which you want to explore and restore data from backups created by Veeam Backup for Microsoft 365.
 
@@ -35,6 +35,4 @@ To view available restore points and select a restore point that you want to use
 
 [![Selecting Restore Point](images/ssp_selecting_rp.webp)](images/ssp_selecting_rp.webp "Selecting Restore Point")
 
-Page updated 8/22/2025
 
-Page content applies to build 8.3.0.2201

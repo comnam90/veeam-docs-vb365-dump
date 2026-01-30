@@ -1,5 +1,5 @@
 ---
-title: "jet_backup_repo"
+title: "JET-Based Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/jet_backup_repo.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.3.0.2201"
 ---
 
+# JET-Based Backup Repositories
 
-In this article
 
 Veeam Backup for Microsoft 365 uses JET-based backup repositories only to store backups created by backup jobs. To save data in storage systems of this type, Veeam Backup for Microsoft 365 uses Extensible Storage Engine (ESE) databases, also known as JET Blue.
 
@@ -39,6 +39,4 @@ In This Section
 * [Network Attached Storage (SMB Shares)](br_smb.md)
 * [Adding JET-Based Backup Repositories](vbo_adding_repository.md)
 
-Page updated 3/26/2025
 
-Page content applies to build 8.3.0.2201

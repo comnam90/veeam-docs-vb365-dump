@@ -1,5 +1,5 @@
 ---
-title: "managing_passwords"
+title: "Managing Encryption Passwords"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/managing_passwords.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Managing Encryption Passwords
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to configure passwords that you can use to encrypt data in object storage using the 256-bit Advanced Encryption Standard (AES). For more information, see [Data Encryption](data_encryption.md).
 
@@ -45,6 +45,4 @@ In This Section
 
 [Removing Encryption Passwords](edit_remove_password.md)
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

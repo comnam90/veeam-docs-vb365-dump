@@ -1,5 +1,5 @@
 ---
-title: "vbo_rest_api_settings"
+title: "REST API Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_rest_api_settings.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# REST API Settings
 
-In this article
 
 You can use REST API to communicate with Veeam Backup for Microsoft 365. For more information, see [REST API Reference](https://helpcenter.veeam.com/references/vbo365/8/rest/).
 
@@ -48,6 +48,4 @@ Keep in mind that Restore Portal also uses this SSL certificate to communicate w
 
 [![Configuring REST API Settings](images/options_restapi_cert_installed.webp)](images/options_restapi_cert_installed.webp "Configuring REST API Settings")
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

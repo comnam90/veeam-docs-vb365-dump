@@ -1,5 +1,5 @@
 ---
-title: "vbo_exploring_retrieved"
+title: "Exploring Retrieved Data"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_retrieved.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring Retrieved Data
 
-In this article
 
 You can explore backed-up data you have retrieved from the following object storage repositories: Azure Blob Storage Archive access tier, Amazon S3 Glacier Flexible Retrieval or Amazon S3 Glacier Deep Archive storage classes. For more information on how to retrieve backed-up data, see [Retrieving Backed-Up Data](retrieving_backed_up_files.md).
 
@@ -31,6 +31,4 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 [![Exploring Retrieved Data](images/explore_retrieved.webp)](images/explore_retrieved.webp "Exploring Retrieved Data")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "connect-vboserver"
+title: "Connect-VBOServer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/connect-vboserver.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Connect-VBOServer
 
-In this article
 
 Short Description
 
@@ -63,6 +63,4 @@ Related Commands
 
 [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

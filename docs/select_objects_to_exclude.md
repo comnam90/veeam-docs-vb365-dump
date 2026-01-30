@@ -1,5 +1,5 @@
 ---
-title: "select_objects_to_exclude"
+title: "Step 4. Select Objects to Exclude"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_exclude.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Select Objects to Exclude
 
-In this article
 
 At this step of the wizard, select objects that you do not want to back up.
 
@@ -38,6 +38,4 @@ To see what Veeam Backup for Microsoft 365 will exclude for the selected object 
 
 [![Editing Exclusions](images/excluding_example_1.webp)](images/excluding_example_1.webp "Editing Exclusions")
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

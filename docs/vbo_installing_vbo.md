@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_vbo"
+title: "Installing Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_vbo.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing Veeam Backup for Microsoft 365
 
-In this article
 
 This installation scenario allows you to install Veeam Backup for Microsoft 365 along with Veeam Explorers on a physical or virtual Windows-based machine. After completing the installation process, this machine will perform the role of the Veeam Backup for Microsoft 365 server.
 
@@ -64,6 +64,4 @@ Related Topics
 * [Adjusting PostgreSQL Instance Configuration](adjust_postgres_instance.md)
 * [Enabling TLS Encryption on NATS Server](adjust_nats_instance.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

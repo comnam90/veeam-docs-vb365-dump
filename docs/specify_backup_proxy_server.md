@@ -1,5 +1,5 @@
 ---
-title: "specify_backup_proxy_server"
+title: "Step 5. Specify Backup Repository"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_backup_proxy_server.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Specify Backup Repository
 
-In this article
 
 At this step of the wizard, specify an object storage repository or a JET-based backup repository where you want to store your backups.
 
@@ -34,6 +34,4 @@ To specify an object storage repository or a JET-based backup repository, do the
 
 1. Click OK.
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

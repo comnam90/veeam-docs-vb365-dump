@@ -1,5 +1,5 @@
 ---
-title: "vbo_used_ports"
+title: "Ports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_used_ports.html"
@@ -7,8 +7,8 @@ last_updated: "3/24/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Ports
 
-In this article
 
 The following table describes network ports that must be opened to ensure proper communication of the Veeam Backup for Microsoft 365 server with other backup infrastructure components and protected services.
 
@@ -79,6 +79,4 @@ The endpoints for Microsoft 365 operated by 21 Vianet which is designed to meet 
 
 1To manage outbound traffic, TCP outgoing ports must be opened for backup proxy servers, Amazon and Azure archiver appliances. For backup proxy servers, these ports are required to access Microsoft 365 organizations and communicate with object storage repositories; for Amazon and Azure archiver appliances — to communicate with object storage repositories.
 
-Page updated 3/24/2025
 
-Page content applies to build 8.3.0.2201

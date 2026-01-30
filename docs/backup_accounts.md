@@ -1,5 +1,5 @@
 ---
-title: "backup_accounts"
+title: "Backup Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Accounts
 
-In this article
 
 For Microsoft 365 organizations added using either basic authentication or modern authentication method with legacy protocols allowed, you can configure auxiliary backup accounts to minimize throttling when backing up Microsoft SharePoint and OneDrive for Business data.
 
@@ -26,6 +26,4 @@ In This Section
 * [Adding Accounts](adding_backup_accounts.md)
 * [Changing Password and Removing Accounts](editing_and_removing_accounts.md)
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

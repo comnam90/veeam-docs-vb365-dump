@@ -1,5 +1,5 @@
 ---
-title: "back_up_teams"
+title: "Configuring Teams Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_teams.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Teams Backup
 
-In this article
 
 |  |
 | --- |
@@ -42,6 +42,4 @@ Keep in mind that the Chats check box is available for editing only if you have 
 
 [![Editing Processing Options](images/teams_processing_options.webp)](images/teams_processing_options.webp "Editing Processing Options")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

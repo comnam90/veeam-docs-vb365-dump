@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_select_console"
+title: "Step 2. Select Component"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_select_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Select Component
 
-In this article
 
 At this step of the wizard, click Veeam Backup for Microsoft 365 Console.
 
@@ -16,6 +16,4 @@ To open Veeam Help Center from the installation wizard, click View Documentation
 
 [![Installing Veeam Backup for Microsoft 365 Console](images/vbo_iso_setup_2_console.webp)](images/vbo_iso_setup_2_console.webp "Installing Veeam Backup for Microsoft 365 Console")
 
-Page updated 7/11/2024
 
-Page content applies to build 8.3.0.2201

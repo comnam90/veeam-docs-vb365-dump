@@ -1,5 +1,5 @@
 ---
-title: "specify_retrieval_job_name"
+title: "Step 2. Specify Retrieval Job Name"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_retrieval_job_name.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Specify Retrieval Job Name
 
-In this article
 
 At this step of the wizard, edit the suggested name for the retrieval job if needed and provide optional description:
 
@@ -17,6 +17,4 @@ At this step of the wizard, edit the suggested name for the retrieval job if nee
 
 [![Specifying Job Name](images/retrieve_2.webp)](images/retrieve_2.webp "Specifying Job Name")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

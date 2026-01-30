@@ -1,5 +1,5 @@
 ---
-title: "back_up_sites"
+title: "Configuring Sites Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_sites.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Sites Backup
 
-In this article
 
 |  |
 | --- |
@@ -29,6 +29,4 @@ The selected objects appear in the list of objects to back up.
 
 Keep in mind that you cannot edit processing options for the Site type objects. For more information about the Site type, see [Organization Object Types](vbo_object_types.md#sites).
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

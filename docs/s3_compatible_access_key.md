@@ -1,5 +1,5 @@
 ---
-title: "s3_compatible_access_key"
+title: "Adding S3 Compatible, IBM Cloud and Wasabi Cloud Storage Access Key"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/s3_compatible_access_key.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adding S3 Compatible, IBM Cloud and Wasabi Cloud Storage Access Key
 
-In this article
 
 You can add new credentials for [S3 Compatible](adding_s3compatible.md) object storage, [IBM Cloud Object Storage](adding_ibm_object_storage.md) and [Wasabi Cloud Object Storage](adding_wasabi_object_storage.md).
 
@@ -30,6 +30,4 @@ Related Topics
 * [Adding Wasabi Cloud Object Storage Repositories](adding_wasabi_object_storage.md)
 * [Editing and Removing Cloud Credentials](edit_remove_cloud_creds.md)
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

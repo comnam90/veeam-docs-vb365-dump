@@ -1,5 +1,5 @@
 ---
-title: "ssp_posts_export"
+title: "Exporting Teams Posts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_posts_export.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Exporting Teams Posts
 
-In this article
 
 You can export Microsoft Teams posts to a file in the HTML format.
 
@@ -29,6 +29,4 @@ To export posts to a file in the HTML format, do the following:
 
 Restore Portal creates the export file with a name that includes the channel name and the operation timestamp. You can view this file in a browser window.
 
-Page updated 3/13/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "adding_s3compatible"
+title: "Adding S3 Compatible Object Storage Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_s3compatible.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding S3 Compatible Object Storage Repositories
 
-In this article
 
 To add a new S3 Compatible object storage repository to the Veeam Backup for Microsoft 365 backup infrastructure, do the following:
 
@@ -26,6 +26,4 @@ Related Topics
 
 [Object Storage Repositories](vbo_osr.md)
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

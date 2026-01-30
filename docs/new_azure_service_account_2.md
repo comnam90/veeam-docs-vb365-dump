@@ -1,5 +1,5 @@
 ---
-title: "new_azure_service_account_2"
+title: "Step 3. Register or Select Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_service_account_2.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Register or Select Microsoft Entra Application
 
-In this article
 
 At this step of the wizard, you can create a new application in Microsoft Entra ID or select an existing one.
 
@@ -83,6 +83,4 @@ Keep in mind that you do not need to select this check box if you have granted t
 
 [![Specify Microsoft Entra Application](images/new_azure_service_account_2_2.webp)](images/new_azure_service_account_2_2.webp "Specify Microsoft Entra Application")
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

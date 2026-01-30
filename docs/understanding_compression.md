@@ -1,5 +1,5 @@
 ---
-title: "understanding_compression"
+title: "Compression"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/understanding_compression.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Compression
 
-In this article
 
 Compression in Veeam Backup for Microsoft 365 helps you save storage space and reduce costs incurred by your cloud storage provider for maintaining backup data in object storage repositories.
 
@@ -26,6 +26,4 @@ Related Topics
 * [Backup Proxy Servers](vbo_backup_proxy_servers.md)
 * [Backup Proxy Pools](vbo_proxy_pools.md)
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

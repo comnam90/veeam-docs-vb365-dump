@@ -1,5 +1,5 @@
 ---
-title: "vbo_backup_copy"
+title: "Backup Copy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_copy.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Copy
 
-In this article
 
 To enhance protection of your data against disasters, you can extend your backup jobs with backup copy capabilities. With backup copy, you can transfer backups created by backup jobs from a source backup repository to target backup repository for long-term storage.
 
@@ -50,6 +50,4 @@ In This Section
 * [Managing Backup Copy Jobs](managing_backup_copy_jobs.md)
 * [Retrieving Backed-Up Data](retrieving_backed_up_files.md)
 
-Page updated 11/12/2025
 
-Page content applies to build 8.3.0.2201

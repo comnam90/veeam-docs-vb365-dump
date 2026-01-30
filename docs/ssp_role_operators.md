@@ -1,5 +1,5 @@
 ---
-title: "ssp_role_operators"
+title: "Step 4. Select Restore Operators"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_operators.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Select Restore Operators
 
-In this article
 
 At this step of the wizard, select users or groups that you want to act as restore operators. Keep in mind that for hybrid organizations, only Microsoft 365 objects can be processed.
 
@@ -33,6 +33,4 @@ The selected objects appear in the list of restore operators.
 
 [![Selecting Restore Operators](images/new_operator_role_4_1.webp)](images/new_operator_role_4_1.webp "Selecting Restore Operators")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

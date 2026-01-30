@@ -1,5 +1,5 @@
 ---
-title: "launch_retrieve_wizard"
+title: "Step 1. Launch Retrieve Backup Copy Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_retrieve_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Retrieve Backup Copy Wizard
 
-In this article
 
 To launch the Retrieve Backup Copy wizard, do the following:
 
@@ -27,6 +27,4 @@ To launch the Retrieve Backup Copy wizard, do the following:
 
 [![Retrieving Backed-Up Data](images/retrieve_1.webp)](images/retrieve_1.webp "Retrieving Backed-Up Data")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

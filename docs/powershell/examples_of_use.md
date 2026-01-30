@@ -1,5 +1,5 @@
 ---
-title: "examples_of_use"
+title: "Examples of Use"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/examples_of_use.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Examples of Use
 
-In this article
 
 This section describes how to use a PowerShell script to create a backup job.
 
@@ -39,6 +39,4 @@ To create a backup job, do the following:
 | --- |
 | Add-VBOJob –Organization $org –Repository $repository –Name "ABC Backup Job" -EntireOrganization |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

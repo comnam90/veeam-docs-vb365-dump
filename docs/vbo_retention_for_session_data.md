@@ -1,5 +1,5 @@
 ---
-title: "vbo_retention_for_session_data"
+title: "Session History"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_retention_for_session_data.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Session History
 
-In this article
 
 Veeam Backup for Microsoft 365 saves information about backup, backup copy, retrieve, restore and data management sessions to the configuration database. You can review this information. For more information, see [Backup, Backup Copy, Retrieve, Restore and Data Management Statistics](vbo_backup_job_statistics.md).
 
@@ -29,6 +29,4 @@ If you select this option, you can specify a number of weeks during which Veeam 
 
 [![Configuring Retention for Session Data](images/vbo_options_history.webp)](images/vbo_options_history.webp "Configuring Retention for Session Data")
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

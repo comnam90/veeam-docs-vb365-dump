@@ -1,5 +1,5 @@
 ---
-title: "add_linux_proxy_service_acc"
+title: "Step 5. Select Service Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/add_linux_proxy_service_acc.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Select Service Account
 
-In this article
 
 At this step of the wizard, specify an account that will be used to run Veeam Backup for Microsoft 365 Proxy Service on the [specified computer](vbo_proxy_server_address_linux.md).
 
@@ -25,6 +25,4 @@ Veeam Backup for Microsoft 365 will create a new service account and automatical
 
 [![Adding Backup Proxy Server](images/add_proxy_linux_credentials.webp)](images/add_proxy_linux_credentials.webp "Adding Backup Proxy Server")
 
-Page updated 9/6/2024
 
-Page content applies to build 8.3.0.2201

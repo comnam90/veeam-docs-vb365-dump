@@ -1,5 +1,5 @@
 ---
-title: "register_app_google"
+title: "Registering Application in Google Cloud Console"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/register_app_google.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Registering Application in Google Cloud Console
 
-In this article
 
 To register an application in the Google Cloud console, do the following:
 
@@ -24,6 +24,4 @@ You can do this with [the Google setup tool](https://console.developers.google.c
 * Client ID
 * Client secret
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

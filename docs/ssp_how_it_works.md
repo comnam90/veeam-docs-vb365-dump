@@ -1,5 +1,5 @@
 ---
-title: "ssp_how_it_works"
+title: "How Restore Portal Works"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_how_it_works.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# How Restore Portal Works
 
-In this article
 
 The following components are involved in the Restore Portal operation:
 
@@ -28,6 +28,4 @@ Related Topics
 
 [Configuring REST API and Restore Portal on Separate Machine](vbo_configuring_rest_separate.md)
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

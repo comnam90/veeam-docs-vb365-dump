@@ -1,5 +1,5 @@
 ---
-title: "removing_backup_applications"
+title: "Updating Certificates and Removing Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/removing_backup_applications.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Updating Certificates and Removing Applications
 
-In this article
 
 You can update an SSL certificate of each configured Microsoft Entra application or you can remove an application from the backup configuration if you no longer want to use it. For more information on how to configure backup applications, see [Adding Applications](adding_backup_applications.md) and [Creating Applications](creating_backup_applications.md).
 
@@ -34,6 +34,4 @@ To remove an application, do the following:
 
 You can select multiple applications using the [CTRL] key.
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "retrieval_select_objects"
+title: "Step 5. Select Objects"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retrieval_select_objects.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Select Objects
 
-In this article
 
 At this step of the wizard, select check boxes next to the objects (mailboxes, OneDrives, teams) whose backed-up data you want to retrieve from the object storage repository.
 
@@ -35,6 +35,4 @@ If you want to retrieve backed-up data of the SharePoint sites, do the following
 
 The selected objects appear in the list of SharePoint sites whose backed-up data you want to retrieve.
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

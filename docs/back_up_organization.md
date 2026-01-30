@@ -1,5 +1,5 @@
 ---
-title: "back_up_organization"
+title: "Configuring Organization Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_organization.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Organization Backup
 
-In this article
 
 |  |
 | --- |
@@ -37,6 +37,4 @@ Keep in mind that the Teams chats check box is displayed and is available for ed
 
 [![Editing Processing Options](images/org_po_team_chats.webp)](images/org_po_team_chats.webp "Editing Processing Options")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

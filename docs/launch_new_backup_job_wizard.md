@@ -1,5 +1,5 @@
 ---
-title: "launch_new_backup_job_wizard"
+title: "Step 1. Launch New Backup Job Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_backup_job_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch New Backup Job Wizard
 
-In this article
 
 To launch the New Backup Job wizard, do the following:
 
@@ -21,6 +21,4 @@ To launch the New Backup Job wizard, do the following:
 
 [![Creating Backup Job](images/new_bj.webp)](images/new_bj.webp "Creating Backup Job")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "azure_connection_service"
+title: "Microsoft Azure Connection Settings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/azure_connection_service.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft Azure Connection Settings
 
-In this article
 
 You can use the cmdlet from this section to perform the following operation:
 
@@ -16,6 +16,4 @@ You can use the cmdlet from this section to perform the following operation:
 | --- | --- |
 | [New-VBOAzureBlobConnectionSettings](new-vboazureblobconnectionsettings.md) | Defines connection settings to Microsoft Azure Blob Storage. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

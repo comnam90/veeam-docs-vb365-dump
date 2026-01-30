@@ -1,5 +1,5 @@
 ---
-title: "new_repository_4"
+title: "Step 5. Specify Retention Policy Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_repository_4.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Specify Retention Policy Settings
 
-In this article
 
 At this step of the wizard, specify [retention policy](retention_policy.md) settings.
 
@@ -42,6 +42,4 @@ Select this option if you want a retention policy to be applied on a monthly bas
 
 [![Configuring Retention Policy Settings](images/add_repo_retention_new.webp)](images/add_repo_retention_new.webp "Configuring Retention Policy Settings")
 
-Page updated 7/17/2024
 
-Page content applies to build 8.3.0.2201

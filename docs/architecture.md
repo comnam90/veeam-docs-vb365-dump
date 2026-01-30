@@ -1,5 +1,5 @@
 ---
-title: "architecture"
+title: "Veeam Backup for Microsoft 365 Architecture"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/architecture.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Veeam Backup for Microsoft 365 Architecture
 
-In this article
 
 Veeam Backup for Microsoft 365 architecture includes the following core structural components — Veeam Backup for Microsoft 365 server, backup proxy server and backup repository, and additional components such as REST API along with Restore Portal and PowerShell.
 
@@ -89,6 +89,4 @@ Related Topics
 * [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md)
 * [Installing REST API](vbo_installing_rest.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

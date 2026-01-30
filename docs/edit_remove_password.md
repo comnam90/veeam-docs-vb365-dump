@@ -1,5 +1,5 @@
 ---
-title: "edit_remove_password"
+title: "Removing Encryption Passwords"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/edit_remove_password.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Encryption Passwords
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to remove encryption passwords.
 
@@ -22,6 +22,4 @@ To remove an encryption password, do the following:
 | Note |
 | You cannot remove passwords that are in use. |
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

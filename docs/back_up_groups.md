@@ -1,5 +1,5 @@
 ---
-title: "back_up_groups"
+title: "Configuring Groups Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_groups.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Groups Backup
 
-In this article
 
 |  |
 | --- |
@@ -35,6 +35,4 @@ For more information about available Group types and their processing options, s
 
 [![Editing Processing Options](images/groups_po.webp)](images/groups_po.webp "Editing Processing Options")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "adjust_postgres_instance"
+title: "Adjusting PostgreSQL Instance Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adjust_postgres_instance.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adjusting PostgreSQL Instance Configuration
 
-In this article
 
 If you have selected to use an already installed PostgreSQL instance at the [Configure PostgreSQL Instance](vbo_install_configure_instance.md) step of the wizard, right after you deploy Veeam Backup for Microsoft 365, make sure that the instance configuration is sufficient for the product performance.
 
@@ -78,6 +78,4 @@ Alternatively, you can do it by by executing the SQL code:
 | --- |
 | CREATE EXTENSION IF NOT EXISTS "pg\_stat\_statements"; |
 
-Page updated 10/8/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_configuring_update"
+title: "New Versions and Automatic Updates"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_configuring_update.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# New Versions and Automatic Updates
 
-In this article
 
 You can configure whether Veeam Backup for Microsoft 365 will notify you when new versions appear on Veeam servers and allow Veeam Backup for Microsoft 365 to download available updates automatically.
 
@@ -36,6 +36,4 @@ For sending email notifications, Veeam Backup for Microsoft 365 uses the email n
 
 [![Configuring Notifications on New Versions and Automatic Updates](images/update_options.webp)](images/update_options.webp "Configuring Notifications on New Versions and Automatic Updates")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

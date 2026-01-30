@@ -1,5 +1,5 @@
 ---
-title: "reports"
+title: "Reports"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/reports.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Reports
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with reports:
 
@@ -19,6 +19,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Get-VBOLicenseOverviewReport](get-vbolicenseoverviewreport.md) | Generates reports on the Veeam Backup for Microsoft 365 license usage. |
 | [Get-VBOUserProtectionReport](get-vbouserprotectionreport.md) | Generates reports on the protection of user accounts by Veeam Backup for Microsoft 365. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

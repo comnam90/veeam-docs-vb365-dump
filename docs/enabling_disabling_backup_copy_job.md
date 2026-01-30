@@ -1,5 +1,5 @@
 ---
-title: "enabling_disabling_backup_copy_job"
+title: "Enabling or Disabling Backup Copy Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/enabling_disabling_backup_copy_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Enabling or Disabling Backup Copy Job
 
-In this article
 
 You can enable or disable a backup copy job.
 
@@ -36,6 +36,4 @@ A backup copy job name consists of a backup job name for which a backup copy job
 
 [![Enabling or Disabling Backup Copy Job](images/enable_disable_bu_copy_job.webp)](images/enable_disable_bu_copy_job.webp "Enabling or Disabling Backup Copy Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

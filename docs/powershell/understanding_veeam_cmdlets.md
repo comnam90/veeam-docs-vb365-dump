@@ -1,5 +1,5 @@
 ---
-title: "understanding_veeam_cmdlets"
+title: "Understanding Veeam Backup for Microsoft 365 Cmdlets"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/understanding_veeam_cmdlets.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Understanding Veeam Backup for Microsoft 365 Cmdlets
 
-In this article
 
 A cmdlet is a specialized .NET class that interacts with Microsoft .NET Framework objects. Each cmdlet acts as a single-function command that can perform multiple operations with these objects. Objects represent instances of the Veeam Backup for Microsoft 365 backup infrastructure: backup proxy servers, backup proxy pools, backup repositories, backup and backup copy jobs, restore sessions and so on.
 
@@ -44,6 +44,4 @@ Consider the following when using wildcard characters:
 
 For the complete list of supported query parameters, see the [Appendix A. Item Search Parameters](https://helpcenter.veeam.com/docs/vbo365/guide/appendix_search.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.
 
-Page updated 3/25/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "specify_connection_settings_sharepoint_both"
+title: "Step 4. Specify Microsoft SharePoint Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_connection_settings_sharepoint_both.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Specify Microsoft SharePoint Connection Settings
 
-In this article
 
 At this step of the wizard, specify a Microsoft SharePoint server to which you want to connect, provide authentication credentials, assign permissions and configure advanced settings.
 
@@ -38,6 +38,4 @@ For more information about the required roles and permissions, see [Veeam Backup
 
 [![Step 4. Specify Microsoft SharePoint Connection Settings](images/ssl.webp)](images/ssl.webp)
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

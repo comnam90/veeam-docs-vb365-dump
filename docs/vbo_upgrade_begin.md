@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_begin"
+title: "Step 9. Begin Installation"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_begin.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 9. Begin Installation
 
-In this article
 
 |  |
 | --- |
@@ -33,6 +33,4 @@ Wait for the installation process to complete and click Finish to exit the wizar
 
 [![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_upgrade_v8.webp)](images/vbo_iso_upgrade_v8.webp "Upgrading Veeam Backup for Microsoft 365")
 
-Page updated 12/16/2025
 
-Page content applies to build 8.3.0.2201

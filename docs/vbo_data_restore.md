@@ -1,5 +1,5 @@
 ---
-title: "vbo_data_restore"
+title: "Data Restore"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_data_restore.html"
@@ -7,8 +7,8 @@ last_updated: "11/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Data Restore
 
-In this article
 
 To restore Microsoft organization data, you can use Veeam Explorers and Restore Portal:
 
@@ -61,6 +61,4 @@ To open backup copies stored in Azure Blob Storage, Amazon S3 Standard, Amazon S
 
 You can also restore Microsoft organization data from backups created for the Veeam Backup for Microsoft 365 server by Veeam Backup & Replication. For more information, see the [Application Item Restore](https://helpcenter.veeam.com/docs/vbr/userguide/restore_veeam_explorers.html?ver=13) section of the Veeam Backup & Replication User Guide.
 
-Page updated 11/17/2025
 
-Page content applies to build 8.3.0.2201

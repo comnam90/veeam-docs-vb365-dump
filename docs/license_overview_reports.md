@@ -1,5 +1,5 @@
 ---
-title: "license_overview_reports"
+title: "Creating License Overview Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/license_overview_reports.html"
@@ -7,8 +7,8 @@ last_updated: "9/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating License Overview Reports
 
-In this article
 
 The License Overview reports show statistical information on how many licenses are in use and by which organization.
 
@@ -47,6 +47,4 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 
 [![Creating License Overview Report](images/license_report.webp)](images/license_report.webp "Creating License Overview Report")
 
-Page updated 9/17/2024
 
-Page content applies to build 8.3.0.2201

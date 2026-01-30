@@ -1,5 +1,5 @@
 ---
-title: "ssp_adding_operator_roles"
+title: "Adding Restore Operator Role"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_adding_operator_roles.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Restore Operator Role
 
-In this article
 
 In the operator restore scenario, Veeam Backup for Microsoft 365 administrators must add restore operator roles.
 
@@ -23,6 +23,4 @@ To add a restore operator role, [check prerequisites](before_you_begin_ssp.md) a
 5. [Select objects to manage](ssp_role_objects_to_manage.md).
 6. [Select objects to exclude](ssp_role_objects_to_exclude.md).
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

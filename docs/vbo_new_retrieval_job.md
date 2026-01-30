@@ -1,5 +1,5 @@
 ---
-title: "vbo_new_retrieval_job"
+title: "Creating Retrieval Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_new_retrieval_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating Retrieval Job
 
-In this article
 
 To create a retrieval job, do the following:
 
@@ -20,6 +20,4 @@ To create a retrieval job, do the following:
 6. [Select a retrieval mode](retrieval_mode.md).
 7. [Specify data availability period](availability_period.md).
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

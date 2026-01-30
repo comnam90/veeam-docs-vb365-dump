@@ -1,5 +1,5 @@
 ---
-title: "smtp_server"
+title: "SMTP Server with Basic Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/smtp_server.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# SMTP Server with Basic Authentication
 
-In this article
 
 To configure sending email notifications using a custom SMTP server with basic authentication, do the following:
 
@@ -76,6 +76,4 @@ Veeam Backup for Microsoft 365 will send email notifications if a backup or back
 
 [![Configuring Notification Settings](images/options_email_notifications.webp)](images/options_email_notifications.webp "Configuring Notification Settings")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

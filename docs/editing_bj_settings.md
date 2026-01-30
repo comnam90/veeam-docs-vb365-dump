@@ -1,5 +1,5 @@
 ---
-title: "editing_bj_settings"
+title: "Editing Backup Job Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/editing_bj_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Backup Job Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit a backup job settings.
 
@@ -50,6 +50,4 @@ Related Topics
 
 [Creating Backup Job](vbo_new_backup_job.md)
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

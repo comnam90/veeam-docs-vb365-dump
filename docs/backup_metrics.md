@@ -1,5 +1,5 @@
 ---
-title: "backup_metrics"
+title: "Viewing Backup and Backup Copy Session Metrics"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_metrics.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Viewing Backup and Backup Copy Session Metrics
 
-In this article
 
 You can view a backup and backup copy session metrics in one of the following ways:
 
@@ -55,6 +55,4 @@ An object is an OneDrive account, SharePoint site, Microsoft Teams team, mailbox
 
 * Transferred. Shows an amount of data transferred from source to target before applying compression and deduplication.
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

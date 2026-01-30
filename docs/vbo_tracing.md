@@ -1,5 +1,5 @@
 ---
-title: "vbo_tracing"
+title: "Enabling Distributed Tracing"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_tracing.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Enabling Distributed Tracing
 
-In this article
 
 Distributed tracing tracks activities of the Veeam Backup for Microsoft 365 backup infrastructure components and their communication through the NATS server and allows you to analyze the activity of services. Veeam Backup for Microsoft 365 saves trace files in the same folder as log files.
 
@@ -29,6 +29,4 @@ To enable distributed tracing, do the following:
 
 After you enable distributed tracing, you need to go back to the main application window and perform actions for which you want to collect traces. Then you can collect logs along with trace files. For more information, see [Collecting Log Files for Veeam Backup for Microsoft 365 Components](vbo_exporting_logs.md) and [Collecting Log Files for Backup and Backup Copy Jobs](vbo_exporting_logs_jobs.md).
 
-Page updated 9/9/2025
 
-Page content applies to build 8.3.0.2201

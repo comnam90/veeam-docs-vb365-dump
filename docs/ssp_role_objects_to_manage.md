@@ -1,5 +1,5 @@
 ---
-title: "ssp_role_objects_to_manage"
+title: "Step 5. Select Objects to Manage"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_objects_to_manage.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Select Objects to Manage
 
-In this article
 
 At this step of the wizard, select objects to manage. Restore operators will be able to explore and restore backed-up data of these objects using Restore Portal.
 
@@ -43,6 +43,4 @@ The selected objects appear in the list of objects to manage.
 
 [![Selecting Objects to Manage](images/new_operator_role_5_1.webp)](images/new_operator_role_5_1.webp "Selecting Objects to Manage")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_required_permissions"
+title: "Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_required_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "5/6/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Permissions
 
-In this article
 
 Microsoft Organizations
 
@@ -74,6 +74,4 @@ In This Section
 * [Permissions for Service Account on Windows](permissions_windows.md)
 * [Permissions Changelog](permissions_changelog.md)
 
-Page updated 5/6/2025
 
-Page content applies to build 8.3.0.2201

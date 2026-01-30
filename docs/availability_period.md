@@ -1,5 +1,5 @@
 ---
-title: "availability_period"
+title: "Step 7. Specify Availability Period"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/availability_period.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 7. Specify Availability Period
 
-In this article
 
 At this step of the wizard, specify the availability period that you want to apply for the retrieved backed-up data. During this period you will be able to explore and restore your data using Veeam Explorers. For more information, see [Exploring Retrieved Data](vbo_exploring_retrieved.md).
 
@@ -21,6 +21,4 @@ If you want to receive a notification that the availability period is about to e
 
 [![Specifying Availability Period](images/retrieve_6.webp)](images/retrieve_6.webp "Specifying Availability Period")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

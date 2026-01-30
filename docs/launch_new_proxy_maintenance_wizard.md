@@ -1,5 +1,5 @@
 ---
-title: "launch_new_proxy_maintenance_wizard"
+title: "Step 1. Launch Proxy Maintenance Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_proxy_maintenance_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Proxy Maintenance Wizard
 
-In this article
 
 To launch the Proxy Maintenance wizard, do the following:
 
@@ -29,6 +29,4 @@ If you want to enable the maintenance mode for multiple backup proxy servers, se
 
 [![Enabling Maintenance Mode](images/enable_maintenance_backup_proxy.webp)](images/enable_maintenance_backup_proxy.webp "Enabling Maintenance Mode")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "permissions_exchange"
+title: "Microsoft Exchange"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_exchange.html"
@@ -7,8 +7,8 @@ last_updated: "7/8/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft Exchange
 
-In this article
 
 The following table lists roles and permissions that must be assigned to Veeam Backup account to protect data in Microsoft Exchange organizations. Veeam Backup for Microsoft 365 requires these roles and permissions for Microsoft 365 organizations that use modern authentication method with legacy protocols allowed or basic authentication method, and on-premises Microsoft organizations.
 
@@ -90,6 +90,4 @@ To back up public folder mailboxes correctly, enable the AllowBasicAuthAutodisco
 | --- |
 | Set-AuthenticationPolicy -Identity "Allow Basic Auth" -AllowBasicAuthAutodiscover |
 
-Page updated 7/8/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "manage_users_roles"
+title: "Managing Users and Roles"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/manage_users_roles.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Managing Users and Roles
 
-In this article
 
 You can manage a list of users and user groups that have permissions to access the Veeam Backup for Microsoft 365 console and Veeam Explorers. The Veeam Backup Administrator role will be assigned to such users and user groups allowing them to perform all administrative activities in Veeam Backup for Microsoft 365. Keep in mind that Veeam Backup Administrator has full access (the Full Access right) to all files on servers and machines added to the backup infrastructure.
 
@@ -60,6 +60,4 @@ To reduce the number of user sessions opened for a long time, you can set the id
 
 [![Adding Users or Groups](images/add_users_groups.webp)](images/add_users_groups.webp "Adding Users or Groups")
 
-Page updated 12/10/2024
 
-Page content applies to build 8.3.0.2201

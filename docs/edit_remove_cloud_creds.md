@@ -1,5 +1,5 @@
 ---
-title: "edit_remove_cloud_creds"
+title: "Editing and Removing Cloud Credentials"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/edit_remove_cloud_creds.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Editing and Removing Cloud Credentials
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit and remove cloud credentials that you use to access object storage.
 
@@ -37,6 +37,4 @@ To remove credentials, do the following:
 | Note |
 | You cannot remove cloud credentials that are in use. |
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

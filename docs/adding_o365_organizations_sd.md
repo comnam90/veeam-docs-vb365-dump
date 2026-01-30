@@ -1,5 +1,5 @@
 ---
-title: "adding_o365_organizations_sd"
+title: "Adding Microsoft 365 Organizations with Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_o365_organizations_sd.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Microsoft 365 Organizations with Modern App-Only Authentication
 
-In this article
 
 When you add an organization using the [modern app-only authentication method](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#:~:text=Modern%20Authentication%20is%20a%20method,domain%20Skype%20for%20Business%20hybrids.), you are required to provide [Microsoft Entra application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) settings. Veeam Backup for Microsoft 365 uses such an application to establish a connection to your Microsoft 365 organizations and maintain data transfer during [backup](vbo_data_backup.md) and [restore](vbo_data_restore.md) sessions.
 
@@ -24,6 +24,4 @@ To add a new Microsoft 365 organization to Veeam Backup for Microsoft 365, do th
 6. [Log in to Microsoft 365](login_to_microsoft.md).
 7. [Finish the wizard](finish_wizard_sd.md).
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

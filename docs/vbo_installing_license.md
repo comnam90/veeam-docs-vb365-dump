@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_license"
+title: "Installing and Updating License"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_license.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing and Updating License
 
-In this article
 
 After you install Veeam Backup for Microsoft 365, you will be prompted to provide a license. You can dismiss this step and continue using the product without any license installed. In this case, the product will operate in the Community Edition mode that allows you to process up to 10 user accounts, up to 1 TB of Microsoft SharePoint data and up to 10 teams in all organizations. Community Edition mode is not limited in time and does not have limitations in terms of the product functionality.
 
@@ -62,6 +62,4 @@ To use Veeam Backup for Microsoft 365 in the Community Edition mode, click Free 
 
 [![License Expired](images/license_expired.webp)](images/license_expired.webp "License Expired")
 
-Page updated 4/1/2025
 
-Page content applies to build 8.3.0.2201

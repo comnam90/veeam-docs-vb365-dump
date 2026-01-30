@@ -1,5 +1,5 @@
 ---
-title: "amazon_s3_permissions"
+title: "Amazon S3 Storage Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/amazon_s3_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "1/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Amazon S3 Storage Permissions
 
-In this article
 
 This section contains permissions required by Veeam Backup for Microsoft 365 for Amazon S3 object storage repository in the following usage scenarios:
 
@@ -74,6 +74,4 @@ Related Topics
 
 [Supported Amazon S3 Storage Classes](supported_storage_classes_amazon.md)
 
-Page updated 1/16/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_modifying_proxy_server"
+title: "Modifying Backup Proxy Server Properties"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_modifying_proxy_server.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Modifying Backup Proxy Server Properties
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to configure backup proxy server properties. In contrast with the editing of backup proxy server settings, modifying backup proxy server properties does not lead to adding backup proxy anew to the Veeam Backup for Microsoft 365 backup infrastructure. You just apply new values for the modified parameters.
 
@@ -28,6 +28,4 @@ To configure backup proxy server properties, do the following:
 
 [![Modifying Backup Proxy Server Properties](images/proxy_properties.webp)](images/proxy_properties.webp "Modifying Backup Proxy Server Properties")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

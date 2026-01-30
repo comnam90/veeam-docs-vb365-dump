@@ -1,5 +1,5 @@
 ---
-title: "editing_and_removing_accounts"
+title: "Changing Password and Removing Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/editing_and_removing_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Changing Password and Removing Accounts
 
-In this article
 
 You can change the password of each [configured backup account](adding_backup_accounts.md) or you can remove an account from the backup configuration if you no longer want to use it.
 
@@ -31,6 +31,4 @@ To remove backup accounts from the backup configuration, do the following:
 3. In the Backup Accounts Manager window, in the Account column, clear check boxes next to accounts that you no longer want to use.
 4. Click OK.
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

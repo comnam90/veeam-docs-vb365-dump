@@ -1,5 +1,5 @@
 ---
-title: "vbo_proxy_server_address"
+title: "Step 3. Specify Backup Proxy Server Address"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_server_address.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Specify Backup Proxy Server Address
 
-In this article
 
 At this step of the wizard, specify a computer that you want to use as a backup proxy server, its port number and optional description.
 
@@ -37,6 +37,4 @@ Make sure that the default admin share ADMIN$ (C:\Windows) is enabled on the spe
 
 [![Adding Backup Proxy Server](images/add_proxy_wiz_name.webp)](images/add_proxy_wiz_name.webp "Adding Backup Proxy Server")
 
-Page updated 9/6/2024
 
-Page content applies to build 8.3.0.2201

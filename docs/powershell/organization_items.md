@@ -1,5 +1,5 @@
 ---
-title: "organization_items"
+title: "Organization Items"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/organization_items.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Organization Items
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with organization items:
 
@@ -20,6 +20,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Get-VBOOrganizationTeam](get-vboorganizationteam.md) | Returns organization teams. |
 | [Get-VBOOrganizationUser](get-vboorganizationuser.md) | Returns organization users. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

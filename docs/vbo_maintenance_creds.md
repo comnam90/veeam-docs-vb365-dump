@@ -1,5 +1,5 @@
 ---
-title: "vbo_maintenance_creds"
+title: "Step 3. Specify Credentials"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_maintenance_creds.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Specify Credentials
 
-In this article
 
 This step is available if you have selected Windows-based backup proxy server at the [Select Backup Proxy Server](vbo_selecting_proxy_server_maintenance.md) step of the wizard.
 
@@ -26,6 +26,4 @@ To do this, select one of the following options:
 
 [![Enabling Maintenance Mode](images/proxy_pool_maintenance_creds.webp)](images/proxy_pool_maintenance_creds.webp "Enabling Maintenance Mode")
 
-Page updated 7/17/2024
 
-Page content applies to build 8.3.0.2201

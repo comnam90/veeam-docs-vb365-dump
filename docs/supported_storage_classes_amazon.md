@@ -1,5 +1,5 @@
 ---
-title: "supported_storage_classes_amazon"
+title: "Supported Amazon S3 Storage Classes"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/supported_storage_classes_amazon.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Supported Amazon S3 Storage Classes
 
-In this article
 
 Veeam Backup for Microsoft 365 supports the following [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/):
 
@@ -41,6 +41,4 @@ Related Topics
 * [Amazon S3 Storage Permissions](amazon_s3_permissions.md)
 * [Adding Amazon S3 Object Storage Repositories](adding_amazon_s3_storage.md)
 
-Page updated 11/12/2025
 
-Page content applies to build 8.3.0.2201

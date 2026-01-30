@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrading_proxy_server"
+title: "Upgrading Backup Proxy Servers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrading_proxy_server.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Upgrading Backup Proxy Servers
 
-In this article
 
 To communicate with backup proxy servers, Veeam Backup for Microsoft 365 uses the proprietary service — Veeam Backup for Microsoft 365 Proxy Service that is installed on the target proxy machine. When you upgrade Veeam Backup for Microsoft 365 to a newer version, this service becomes outdated and all backup proxy servers configured in your environment are marked as Out of Date and must be upgraded manually.
 
@@ -34,6 +34,4 @@ To upgrade backup proxy servers, do the following:
 4. [Specify the SSH connection settings](vbo_upgrade_ssh.md).
 5. [Review the operation summary](vbo_upgrade_proxies_summary.md).
 
-Page updated 12/10/2024
 
-Page content applies to build 8.3.0.2201

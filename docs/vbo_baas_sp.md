@@ -1,5 +1,5 @@
 ---
-title: "vbo_baas_sp"
+title: "For Service Providers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_baas_sp.html"
@@ -7,8 +7,8 @@ last_updated: "11/19/2025"
 product_version: "8.3.0.2201"
 ---
 
+# For Service Providers
 
-In this article
 
 To configure Backup as a Service with Veeam Backup for Microsoft 365 for service providers, do the following:
 
@@ -39,6 +39,4 @@ To allow end users from tenant organizations to browse and restore their backups
 | Note |
 | Consider the following:   * Make sure that a machine with Veeam Backup for Microsoft 365 meets the Veeam Service Provider Console system requirements. For more information. see the [System Requirements](https://helpcenter.veeam.com/docs/vac/deployment/system_requirements.html) section of the Veeam Service Provider Console Deployment Guide. * Make sure to install Veeam Explorer for Microsoft Exchange, Veeam Explorer for Microsoft SharePoint, Veeam Explorer for Microsoft OneDrive for Business and Veeam Explorer for Microsoft Teams that come as part of the Veeam Backup for Microsoft 365 8 installation package. For more information, see [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md). * Make sure to install Veeam Backup for Microsoft 365 on a server with Veeam Backup & Replication 12 or later. |
 
-Page updated 11/19/2025
 
-Page content applies to build 8.3.0.2201

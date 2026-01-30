@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_data_location_ps"
+title: "Step 6. Specify Data Location"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_data_location_ps.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Specify Data Location
 
-In this article
 
 This step is only available if you have selected to configure installation settings manually at the [Review Default Installation Settings](vbo_install_default_settings_ps.md) step of the wizard.
 
@@ -18,6 +18,4 @@ By default, the Veeam Backup for Microsoft 365 PowerShell toolkit is installed t
 
 [![Installing PowerShell](images/vbo_iso_setup_4.webp)](images/vbo_iso_setup_4.webp "Installing PowerShell")
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

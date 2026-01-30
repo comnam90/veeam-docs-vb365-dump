@@ -1,5 +1,5 @@
 ---
-title: "vbo_backup_proxy_servers"
+title: "Backup Proxy Servers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_proxy_servers.html"
@@ -7,8 +7,8 @@ last_updated: "4/4/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Proxy Servers
 
-In this article
 
 A backup proxy server is an architecture component that conducts all read and write activities during [data backup](vbo_data_backup.md), [backup copy](vbo_backup_copy.md) and [restore](vbo_data_restore.md) operations, routes backup traffic, performs data move, handles data compression and encryption and sends email notifications about backup and backup copy job results.
 
@@ -66,6 +66,4 @@ In This Section
 * [Removing Backup Proxy Servers](vbo_removing_proxy_server.md)
 * [Modifying Backup Proxy Server Properties](vbo_modifying_proxy_server.md)
 
-Page updated 4/4/2025
 
-Page content applies to build 8.3.0.2201

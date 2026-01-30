@@ -1,5 +1,5 @@
 ---
-title: "vbo_checking_for_updates"
+title: "Checking for Updates"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_checking_for_updates.html"
@@ -7,8 +7,8 @@ last_updated: "8/28/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Checking for Updates
 
-In this article
 
 To update Veeam Backup for Microsoft 365 and Veeam Explorers manually, do the following:
 
@@ -36,6 +36,4 @@ During update, the Veeam Backup for Microsoft 365 console will be closed, and yo
 | Note |
 | You can configure whether Veeam Backup for Microsoft 365 will notify you when new versions appear on Veeam servers and allow Veeam Backup for Microsoft 365 to download available updates automatically. For more information, see [New Versions and Automatic Updates](vbo_configuring_update.md). |
 
-Page updated 8/28/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "new_repository_2"
+title: "Step 4. Specify Backup Proxy Server"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_repository_2.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Specify Backup Proxy Server
 
-In this article
 
 At this step of the wizard, select a backup proxy server and specify a directory where you want to store backups.
 
@@ -51,6 +51,4 @@ To specify a backup proxy server and a directory for storing backups, do the fol
 
 [![Selecting Backup Proxy Server](images/add_jet_repo_proxy_path.webp)](images/add_jet_repo_proxy_path.webp "Selecting Backup Proxy Server")
 
-Page updated 3/26/2025
 
-Page content applies to build 8.3.0.2201

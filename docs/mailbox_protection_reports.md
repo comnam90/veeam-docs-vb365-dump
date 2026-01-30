@@ -1,5 +1,5 @@
 ---
-title: "mailbox_protection_reports"
+title: "Creating Mailbox Protection Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/mailbox_protection_reports.html"
@@ -7,8 +7,8 @@ last_updated: "9/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating Mailbox Protection Reports
 
-In this article
 
 The Mailbox Protection reports show statistical information on protected and unprotected mailboxes of your Microsoft 365 and on-premises Microsoft Exchange organizations.
 
@@ -46,6 +46,4 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 
 [![Creating Mailbox Protection Report](images/mailbox_report.webp)](images/mailbox_report.webp "Creating Mailbox Protection Report")
 
-Page updated 9/17/2024
 
-Page content applies to build 8.3.0.2201

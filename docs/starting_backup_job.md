@@ -1,5 +1,5 @@
 ---
-title: "starting_backup_job"
+title: "Starting Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/starting_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Starting Backup Job
 
-In this article
 
 You can start and restart your backup job manually. Manual restart can be helpful if you are beyond the allowed backup window.
 
@@ -32,6 +32,4 @@ To start a backup job, do the following:
 
 [![Starting Backup Job](images/start_bj.webp)](images/start_bj.webp "Starting Backup Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "select_objects_to_backup"
+title: "Step 3. Select Objects to Back Up"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_backup.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Select Objects to Back Up
 
-In this article
 
 At this step of the wizard, select objects that you want to back up.
 
@@ -42,6 +42,4 @@ If you have selected the Teams chats check box when you added a Microsoft 365 or
 
 [![Selecting Objects to Back Up](images/objects_to_backup.webp)](images/objects_to_backup.webp "Selecting Objects to Back Up")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

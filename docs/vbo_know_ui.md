@@ -1,5 +1,5 @@
 ---
-title: "vbo_know_ui"
+title: "User Interface"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_know_ui.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# User Interface
 
-In this article
 
 The user interface of Veeam Backup for Microsoft 365 is designed to let you quickly find commands that you need to protect data of Microsoft organizations against disasters and configure backup infrastructure.
 
@@ -106,6 +106,4 @@ On the ribbon, the following tabs are displayed:
 | Tip |
 | To open online help, press [F1] in any Veeam Backup for Microsoft 365 wizard or window. |
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

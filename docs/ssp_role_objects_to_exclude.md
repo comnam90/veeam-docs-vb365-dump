@@ -1,5 +1,5 @@
 ---
-title: "ssp_role_objects_to_exclude"
+title: "Step 6. Select Objects to Exclude"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_objects_to_exclude.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Select Objects to Exclude
 
-In this article
 
 At this step of the wizard, select objects to exclude. Restore operators will be prohibited to explore and restore backed-up data of these objects using Restore Portal.
 
@@ -30,6 +30,4 @@ The selected objects appear in the list of objects to exclude.
 
 [![Selecting Objects to Exclude](images/new_operator_role_6.webp)](images/new_operator_role_6.webp "Selecting Objects to Exclude")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

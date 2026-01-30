@@ -1,5 +1,5 @@
 ---
-title: "vbo_configuring_rest_separate"
+title: "Configuring REST API and Restore Portal on Separate Machine"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_configuring_rest_separate.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring REST API and Restore Portal on Separate Machine
 
-In this article
 
 To configure REST API and Restore Portal on a separate machine, do the following:
 
@@ -96,6 +96,4 @@ You can generate a new self-signed certificate or use an existing one. When gene
 
 [![Configuring Restore Portal Settings](images/vbo_rest_separate_ssp_settings.webp)](images/vbo_rest_separate_ssp_settings.webp "Configuring Restore Portal Settings")
 
-Page updated 4/30/2025
 
-Page content applies to build 8.3.0.2201

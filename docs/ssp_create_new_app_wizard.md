@@ -1,5 +1,5 @@
 ---
-title: "ssp_create_new_app_wizard"
+title: "Creating or Configuring Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_create_new_app_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating or Configuring Microsoft Entra Application
 
-In this article
 
 To create a new Microsoft Entra application for Restore Portal or configure an existing Microsoft Entra application, do the following:
 
@@ -17,6 +17,4 @@ To create a new Microsoft Entra application for Restore Portal or configure an e
 3. [Register or configure Microsoft Entra application](ssp_create_new_app_2.md).
 4. [Log in to Microsoft 365](ssp_create_new_app_3.md).
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

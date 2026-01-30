@@ -1,5 +1,5 @@
 ---
-title: "vbo_exploring_backup_jobs"
+title: "Exploring Backup Jobs"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_backup_jobs.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring Backup Jobs
 
-In this article
 
 When exploring backup jobs, Veeam Backup for Microsoft 365 loads the latest restore point that was created by the selected job.
 
@@ -30,6 +30,4 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 [![Exploring Backup Job](images/explore_backup_1.webp)](images/explore_backup_1.webp "Exploring Backup Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

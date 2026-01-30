@@ -1,5 +1,5 @@
 ---
-title: "user_protection_reports"
+title: "Creating User Protection Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/user_protection_reports.html"
@@ -7,8 +7,8 @@ last_updated: "9/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating User Protection Reports
 
-In this article
 
 The User Protection reports show statistical information on protected and unprotected user accounts of your Microsoft 365 and on-premises Microsoft organizations.
 
@@ -46,6 +46,4 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 
 [![Creating User Protection Report](images/user_report.webp)](images/user_report.webp "Creating User Protection Report")
 
-Page updated 9/17/2024
 
-Page content applies to build 8.3.0.2201

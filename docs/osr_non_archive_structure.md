@@ -1,5 +1,5 @@
 ---
-title: "osr_non_archive_structure"
+title: "Storage for Backups"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/osr_non_archive_structure.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Storage for Backups
 
-In this article
 
 The following table lists the structure that is created and maintained by Veeam Backup for Microsoft 365 in object storage repositories where you store your backups.
 
@@ -44,6 +44,4 @@ dd
 | <organization\_Id>/Webs/<web\_Id> | A set of folders that contain backed-up SharePoint sites.  The <web\_Id> directory contains the following directories:   * Files. Contains files of the SharePoint site. * Items. Contains SharePoint list items. * Lists. Contains SharePoint lists. * ListsData. Contains properties of SharePoint lists. * ListViews. Contains SharePoint list views. |
 | <repository\_folder\_name>/RepositoryLock | Contains a lock file denoting that the object storage repository is in use by a backup proxy server or a backup proxy pool. Access to the object storage repository metadata is limited. |
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

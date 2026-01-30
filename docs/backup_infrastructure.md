@@ -1,5 +1,5 @@
 ---
-title: "backup_infrastructure"
+title: "Backup Infrastructure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_infrastructure.html"
@@ -7,8 +7,8 @@ last_updated: "9/3/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Infrastructure
 
-In this article
 
 The backup infrastructure of Veeam Backup for Microsoft 365 consists of the following:
 
@@ -26,6 +26,4 @@ Backup repositories are storage systems within the backup infrastructure where V
 
 Keep in mind that you can use Azure Blob Storage Archive access tier, Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes only as a target for backup copy jobs.
 
-Page updated 9/3/2024
 
-Page content applies to build 8.3.0.2201

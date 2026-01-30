@@ -1,5 +1,5 @@
 ---
-title: "creating_backup_applications"
+title: "Creating Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/creating_backup_applications.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Creating Applications
 
-In this article
 
 When you create a new Microsoft Entra application, Veeam Backup for Microsoft 365 automatically registers this application in Microsoft Entra ID of your Microsoft 365 organization. After you create an application, Veeam Backup for Microsoft 365 automatically adds this application to the backup configuration. For more information about Microsoft Entra applications, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added).
 
@@ -58,6 +58,4 @@ Make sure to sign in with the user account that has the Global Administrator rol
 
 [![Creating Backup Applications](images/logon_to_office_365_applications.webp)](images/logon_to_office_365_applications.webp "Creating Backup Applications")
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_proxy_pools"
+title: "Backup Proxy Pools"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_pools.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Proxy Pools
 
-In this article
 
 In version 8, Veeam Backup for Microsoft 365 introduces the concept of a backup proxy pool for large-scale environments with multiple backup proxy servers. The backup proxy pool is a logical entity that groups several backup proxy servers.
 
@@ -39,6 +39,4 @@ In This Section
 * [Maintenance Mode](maintenance_mode.md)
 * [Backup Proxy Pool Upgrade](vbo_upgrade_pool.md)
 
-Page updated 11/12/2025
 
-Page content applies to build 8.3.0.2201

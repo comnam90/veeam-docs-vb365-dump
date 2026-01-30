@@ -1,5 +1,5 @@
 ---
-title: "ibm_storage_settings"
+title: "Step 6. Specify Object Storage Bucket"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ibm_storage_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Specify Object Storage Bucket
 
-In this article
 
 At this step of the wizard, specify object storage bucket and folder where you want to save your data.
 
@@ -28,6 +28,4 @@ If you select this check box, Veeam Backup for Microsoft 365 limits capacity of 
 
 [![Object Storage Bucket](images/imb_bucket.webp)](images/imb_bucket.webp "Object Storage Bucket")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.3.0.2201

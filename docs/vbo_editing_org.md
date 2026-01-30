@@ -1,5 +1,5 @@
 ---
-title: "vbo_editing_org"
+title: "Editing Organization Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_editing_org.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Organization Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit a Microsoft organization settings.
 
@@ -47,6 +47,4 @@ Related Topics
 * [Adding On-Premises Microsoft Organizations](vbo_add_onpremises_org.md)
 * [Adding Hybrid Organizations](vbo_add_hybrid.md)
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

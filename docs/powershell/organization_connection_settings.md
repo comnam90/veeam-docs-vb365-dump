@@ -1,5 +1,5 @@
 ---
-title: "organization_connection_settings"
+title: "Organization Connection Settings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/organization_connection_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/15/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Organization Connection Settings
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with connection settings:
 
@@ -28,6 +28,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Set-VBOBackupApplication](set-vbobackupapplication.md) | Modifies backup application settings that are added to Microsoft organizations. |
 | [Remove-VBOBackupApplication](remove-vbobackupapplication.md) | Removes backup application settings from Microsoft organizations. |
 
-Page updated 8/15/2024
 
-Page content applies to build 8.3.0.2201

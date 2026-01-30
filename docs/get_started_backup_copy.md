@@ -1,5 +1,5 @@
 ---
-title: "get_started_backup_copy"
+title: "Getting Started with Backup Copy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/get_started_backup_copy.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Getting Started with Backup Copy
 
-In this article
 
 In general, the process of creating backup copies in Veeam Backup for Microsoft 365 involves the following steps:
 
@@ -75,6 +75,4 @@ For more information, see [Exploring Backup Copies](vbo_exploring_backup_copies.
 | Note |
 | You cannot explore and restore both the retrieved backed-up data and backup copies using Restore Portal. |
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

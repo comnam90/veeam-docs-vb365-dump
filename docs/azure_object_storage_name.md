@@ -1,5 +1,5 @@
 ---
-title: "azure_object_storage_name"
+title: "Step 2. Specify Object Storage Repository Name"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_object_storage_name.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Specify Object Storage Repository Name
 
-In this article
 
 At this step of the wizard, enter a name for the object storage repository and provide optional description:
 
@@ -17,6 +17,4 @@ At this step of the wizard, enter a name for the object storage repository and p
 
 [![Object Storage Name](images/new_object_storage_1_azure.webp)](images/new_object_storage_1_azure.webp "Object Storage Name")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

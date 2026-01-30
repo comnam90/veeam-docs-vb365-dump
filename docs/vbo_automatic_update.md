@@ -1,5 +1,5 @@
 ---
-title: "vbo_automatic_update"
+title: "Automatic Update"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_automatic_update.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Automatic Update
 
-In this article
 
 By default, Veeam Backup for Microsoft 365 automatically checks Veeam servers for critical updates once a day. If a new critical update is available, Veeam Backup for Microsoft 365 downloads this update in the background and installs it to the following backup infrastructure components:
 
@@ -45,6 +45,4 @@ Thus, automatic update of Veeam Backup for Microsoft 365 can only be performed w
 
 You can disable automatic update in the Veeam Backup for Microsoft 365 settings. To do this, clear the Allow for automatic silent updates check box on the Updates tab. For more information, see [New Versions and Automatic Updates](vbo_configuring_update.md).
 
-Page updated 7/11/2024
 
-Page content applies to build 8.3.0.2201

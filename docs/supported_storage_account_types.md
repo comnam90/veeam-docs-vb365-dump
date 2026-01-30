@@ -1,5 +1,5 @@
 ---
-title: "supported_storage_account_types"
+title: "Supported Azure Storage Account Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/supported_storage_account_types.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Supported Azure Storage Account Types
 
-In this article
 
 Veeam Backup for Microsoft 365 supports different [Azure storage account types](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts) for standard and premium performance tiers. Tables in this section list the supported storage account types.
 
@@ -40,6 +40,4 @@ Related Topics
 * [Azure Blob Storage Permissions](azure_archive_permissions.md)
 * [Adding Microsoft Azure Blob Storage](adding_azure_storage.md)
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

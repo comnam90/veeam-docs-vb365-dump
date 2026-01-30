@@ -1,5 +1,5 @@
 ---
-title: "how_backup_copy_works"
+title: "How Backup Copy Works"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/how_backup_copy_works.html"
@@ -7,8 +7,8 @@ last_updated: "6/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# How Backup Copy Works
 
-In this article
 
 As well as the backup process, backup copy is conducted by a [backup proxy server](vbo_backup_proxy_servers.md) or a [backup proxy pool](vbo_proxy_pools.md). To speed up the backup copy process and reduce costs incurred by your cloud storage provider, you can enable usage of the Amazon or Azure archiver appliance. This option can be configured when creating an object storage repository in Veeam Backup for Microsoft 365 or editing its settings. The type of the created appliance depends on the object storage repository vendor. For more information, see [Configuring Amazon Archiver Appliance](new_amazon_s3_backup_proxy.md#appliance), [Configuring Azure Archiver Appliance](new_azure_backup_proxy.md#appliance), and [Editing Object Storage Repository Settings](vbo_editing_repository.md#osr).
 
@@ -29,6 +29,4 @@ Related Topics
 
 [Getting Started with Backup Copy](get_started_backup_copy.md)
 
-Page updated 6/3/2025
 
-Page content applies to build 8.3.0.2201

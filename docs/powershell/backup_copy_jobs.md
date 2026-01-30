@@ -1,5 +1,5 @@
 ---
-title: "backup_copy_jobs"
+title: "Backup Copy Jobs"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/backup_copy_jobs.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Copy Jobs
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with backup copy jobs:
 
@@ -19,6 +19,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Set-VBOCopyJob](set-vbocopyjob.md) | Modifies settings of a backup copy job. |
 | [Remove-VBOCopyJob](remove-vbocopyjob.md) | Removes backup copy jobs. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

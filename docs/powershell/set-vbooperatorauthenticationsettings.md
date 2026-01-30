@@ -1,5 +1,5 @@
 ---
-title: "set-vbooperatorauthenticationsettings"
+title: "Set-VBOOperatorAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbooperatorauthenticationsettings.html"
@@ -7,8 +7,8 @@ last_updated: "5/7/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOOperatorAuthenticationSettings
 
-In this article
 
 Short Description
 
@@ -67,6 +67,4 @@ Related Commands
 
 [ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.5)
 
-Page updated 5/7/2024
 
-Page content applies to build 8.3.0.2201

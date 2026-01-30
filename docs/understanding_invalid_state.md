@@ -1,5 +1,5 @@
 ---
-title: "understanding_invalid_state"
+title: "Invalid State"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/understanding_invalid_state.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Invalid State
 
-In this article
 
 In Veeam Backup for Microsoft 365, a backup repository can be put into the Invalid state in any of the following cases:
 
@@ -39,6 +39,4 @@ Invalid backup repositories can be found in the Backup Infrastructure view under
 
 [![Invalid Repositories](images/invalid_repo.webp)](images/invalid_repo.webp "Invalid Repositories")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

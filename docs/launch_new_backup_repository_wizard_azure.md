@@ -1,5 +1,5 @@
 ---
-title: "launch_new_backup_repository_wizard_azure"
+title: "Step 1. Launch New Backup Repository Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_backup_repository_wizard_azure.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch New Backup Repository Wizard
 
-In this article
 
 To launch the New Backup Repository wizard, do the following:
 
@@ -21,6 +21,4 @@ To launch the New Backup Repository wizard, do the following:
 
 [![Adding Backup Repository](images/add_repo_command.webp)](images/add_repo_command.webp "Adding Backup Repository")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

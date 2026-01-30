@@ -1,5 +1,5 @@
 ---
-title: "vbo_removing_proxy_server"
+title: "Removing Backup Proxy Servers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_removing_proxy_server.html"
@@ -7,8 +7,8 @@ last_updated: "1/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Backup Proxy Servers
 
-In this article
 
 You can remove a backup proxy server from the Veeam Backup for Microsoft 365 backup infrastructure if you no longer need it.
 
@@ -36,6 +36,4 @@ Related Topics
 
 [Maintenance Mode](maintenance_mode.md)
 
-Page updated 1/3/2025
 
-Page content applies to build 8.3.0.2201

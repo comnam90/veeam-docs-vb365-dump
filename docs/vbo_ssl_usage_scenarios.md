@@ -1,5 +1,5 @@
 ---
-title: "vbo_ssl_usage_scenarios"
+title: "SSL Certificate Usage Scenarios"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_ssl_usage_scenarios.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# SSL Certificate Usage Scenarios
 
-In this article
 
 The following table lists usage scenarios when Veeam Backup for Microsoft 365 requires to install an SSL certificate.
 
@@ -28,6 +28,4 @@ The following table lists usage scenarios when Veeam Backup for Microsoft 365 re
 | Authenticating Restore Operators to Veeam Backup for Microsoft 365 server | Required to authenticate restore operators to Veeam Backup for Microsoft 365 with Microsoft 365 credentials and encrypt network traffic between Veeam Backup for Microsoft 365 Service and Veeam Backup for Microsoft 365 REST API Service. | For more information, see [Authentication Settings](vbo_authentication_settings.md#restore_operator). |
 | Authenticating Tenants to Veeam Backup for Microsoft 365 in Service Provider Infrastructure | Required to authenticate tenants to Veeam Backup for Microsoft 365 with Microsoft organization credentials. | For more information, see [Authentication Settings](vbo_authentication_settings.md#tenants) and [Backup as Service with Veeam Backup for Microsoft 365](vbo_mail_baas.md). |
 
-Page updated 9/22/2025
 
-Page content applies to build 8.3.0.2201

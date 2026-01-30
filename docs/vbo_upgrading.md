@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrading"
+title: "Upgrading Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrading.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Upgrading Veeam Backup for Microsoft 365
 
-In this article
 
 You can upgrade Veeam Backup for Microsoft 365 by installing a major version of the product.
 
@@ -43,6 +43,4 @@ Related Topics
 * [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md)
 * [Installing REST API](vbo_installing_rest.md)
 
-Page updated 11/11/2025
 
-Page content applies to build 8.3.0.2201

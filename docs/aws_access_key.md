@@ -1,5 +1,5 @@
 ---
-title: "aws_access_key"
+title: "Adding Amazon AWS Access Key"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/aws_access_key.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Amazon AWS Access Key
 
-In this article
 
 You can add new credentials for [Amazon S3](adding_amazon_s3_storage.md) object storage.
 
@@ -28,6 +28,4 @@ Related Topics
 * [Adding Amazon S3 Object Storage Repositories](adding_amazon_s3_storage.md)
 * [Editing and Removing Cloud Credentials](edit_remove_cloud_creds.md)
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

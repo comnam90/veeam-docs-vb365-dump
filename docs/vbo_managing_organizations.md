@@ -1,5 +1,5 @@
 ---
-title: "vbo_managing_organizations"
+title: "Organization Management"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_managing_organizations.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Organization Management
 
-In this article
 
 You can add the following types of Microsoft organizations to the Veeam Backup for Microsoft 365 environment:
 
@@ -36,6 +36,4 @@ In This Section
 * [Renaming Organizations](vbo_rename_org.md)
 * [Removing Organizations](vbo_removing_organizations.md)
 
-Page updated 9/30/2024
 
-Page content applies to build 8.3.0.2201

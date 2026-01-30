@@ -1,5 +1,5 @@
 ---
-title: "vbo_considerations"
+title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Considerations and Limitations
 
-In this article
 
 This section lists considerations and known limitations in Veeam Backup for Microsoft 365 8.3.
 
@@ -191,6 +191,4 @@ Related Topics
 * [Data Backup](vbo_data_backup.md)
 * [Data Restore](vbo_data_restore.md)
 
-Page updated 11/11/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_osr"
+title: "Object Storage Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_osr.html"
@@ -7,8 +7,8 @@ last_updated: "5/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Object Storage Repositories
 
-In this article
 
 Veeam Backup for Microsoft 365 uses object storage repositories to store backups and backup copies created for Microsoft 365 and on-premises Microsoft organizations. Veeam Backup for Microsoft 365 supports the following cloud and on-premises storage systems:
 
@@ -91,6 +91,4 @@ In This Section
 * [Immutability](immutability.md)
 * [Adding Object Storage Repositories](adding_object_storage.md)
 
-Page updated 5/9/2025
 
-Page content applies to build 8.3.0.2201

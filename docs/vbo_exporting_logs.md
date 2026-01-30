@@ -1,5 +1,5 @@
 ---
-title: "vbo_exporting_logs"
+title: "Collecting Log Files for Veeam Backup for Microsoft 365 Components"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exporting_logs.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Collecting Log Files for Veeam Backup for Microsoft 365 Components
 
-In this article
 
 To collect log files for the Veeam Backup for Microsoft 365 backup infrastructure components, do the following:
 
@@ -43,6 +43,4 @@ Once log files are collected, Veeam Backup for Microsoft 365 prompts you to view
 
 [![Viewing Summary](images/export_logs_summary.webp)](images/export_logs_summary.webp "Viewing Summary")
 
-Page updated 9/9/2025
 
-Page content applies to build 8.3.0.2201

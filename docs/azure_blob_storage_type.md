@@ -1,5 +1,5 @@
 ---
-title: "azure_blob_storage_type"
+title: "Step 5. Select Microsoft Azure Blob Storage Type and Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_blob_storage_type.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Select Microsoft Azure Blob Storage Type and Account
 
-In this article
 
 At this step of the wizard, select a type of Azure Blob storage, specify a Microsoft Azure storage account and select a region.
 
@@ -27,6 +27,4 @@ If you already have a credentials record that was configured beforehand, select 
 
 [![Microsoft Azure Blob Storage Type and Account](images/new_azure_blob_storage.webp)](images/new_azure_blob_storage.webp "Microsoft Azure Blob Storage Type and Account")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.3.0.2201

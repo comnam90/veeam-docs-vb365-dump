@@ -1,5 +1,5 @@
 ---
-title: "vbo_add_o365_sd"
+title: "Step 2. Select Organization Deployment Type"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_o365_sd.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Select Organization Deployment Type
 
-In this article
 
 At this step of the wizard, select a deployment type and Microsoft Online services whose data you want to protect.
 
@@ -37,6 +37,4 @@ This check box is available only if the Microsoft Teams check box is selected. F
 
 [![Select Organization Deployment Type](images/new_o365_step_one.webp)](images/new_o365_step_one.webp "Select Organization Deployment Type")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

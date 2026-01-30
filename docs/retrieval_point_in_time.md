@@ -1,5 +1,5 @@
 ---
-title: "retrieval_point_in_time"
+title: "Step 3. Specify Point In Time"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retrieval_point_in_time.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Specify Point In Time
 
-In this article
 
 At this step of the wizard, select a backup state of the backed-up data that you want to retrieve from the object storage repository:
 
@@ -24,6 +24,4 @@ At this step of the wizard, select a backup state of the backed-up data that you
 
 [![Specifying Point In Time](images/retrieve_3.webp)](images/retrieve_3.webp "Specifying Point In Time")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

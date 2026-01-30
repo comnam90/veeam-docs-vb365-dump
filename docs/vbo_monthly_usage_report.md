@@ -1,5 +1,5 @@
 ---
-title: "vbo_monthly_usage_report"
+title: "Managing Monthly Usage Report"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_monthly_usage_report.html"
@@ -7,8 +7,8 @@ last_updated: "10/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Managing Monthly Usage Report
 
-In this article
 
 When using a rental license, service providers can manually submit a monthly usage report. Such reports contain information on processed user accounts per each Microsoft organization added to the Veeam Backup for Microsoft 365 backup infrastructure.
 
@@ -54,6 +54,4 @@ To submit a monthly usage report to Veeam, click Send.
 
 [![Monthly Usage Report](images/usage_report_2.webp)](images/usage_report_2.webp "Monthly Usage Report")
 
-Page updated 10/9/2025
 
-Page content applies to build 8.3.0.2201

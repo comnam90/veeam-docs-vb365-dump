@@ -1,5 +1,5 @@
 ---
-title: "ssp_create_new_app_configure_connection"
+title: "Step 2. Configure Connection to Restore Portal"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_create_new_app_configure_connection.html"
@@ -7,8 +7,8 @@ last_updated: "1/31/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Configure Connection to Restore Portal
 
-In this article
 
 At this step of the wizard, choose whether you want to register a new [Microsoft Entra application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) to connect to Restore Portal or configure an existing Microsoft Entra application.
 
@@ -24,6 +24,4 @@ With this option selected, Veeam Backup for Microsoft 365 requires to modify con
 
 [![Configure Connection to Restore Portal](images/ssp_ad_application_selection.webp)](images/ssp_ad_application_selection.webp "Configure Connection to Restore Portal")
 
-Page updated 1/31/2025
 
-Page content applies to build 8.3.0.2201

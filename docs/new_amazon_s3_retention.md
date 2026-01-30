@@ -1,5 +1,5 @@
 ---
-title: "new_amazon_s3_retention"
+title: "Step 9. Specify Retention Policy Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_amazon_s3_retention.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 9. Specify Retention Policy Settings
 
-In this article
 
 At this step of the wizard, specify [retention policy](retention_policy.md) settings.
 
@@ -48,6 +48,4 @@ Select this option if you want a retention policy to be applied on a monthly bas
 
 [![Configuring Retention Policy Settings](images/add_repo_retention_new_osr.webp)](images/add_repo_retention_new_osr.webp "Configuring Retention Policy Settings")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

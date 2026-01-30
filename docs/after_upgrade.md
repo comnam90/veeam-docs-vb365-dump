@@ -1,5 +1,5 @@
 ---
-title: "after_upgrade"
+title: "What You Do After Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/after_upgrade.html"
@@ -7,8 +7,8 @@ last_updated: "8/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# What You Do After Upgrade
 
-In this article
 
 After you upgraded Veeam Backup for Microsoft 365 to version 8, it is recommended to do the following:
 
@@ -96,6 +96,4 @@ You have created this directory in previous installations of Veeam Backup for Mi
 
 You can manually remove this directory because Veeam Backup for Microsoft 365 does not use it anymore.
 
-Page updated 8/13/2025
 
-Page content applies to build 8.3.0.2201

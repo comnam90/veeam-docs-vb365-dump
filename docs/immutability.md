@@ -1,5 +1,5 @@
 ---
-title: "immutability"
+title: "Immutability"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Immutability
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.
 
@@ -74,6 +74,4 @@ Related Topics
 * [Supported Azure Storage Account Types](supported_storage_account_types.md)
 * [Supported Amazon S3 Storage Classes](supported_storage_classes_amazon.md)
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

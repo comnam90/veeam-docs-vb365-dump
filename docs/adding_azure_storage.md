@@ -1,5 +1,5 @@
 ---
-title: "adding_azure_storage"
+title: "Adding Microsoft Azure Blob Storage"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_azure_storage.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Microsoft Azure Blob Storage
 
-In this article
 
 To add a new Microsoft Azure Blob Storage to the Veeam Backup for Microsoft 365 backup infrastructure, do the following:
 
@@ -26,6 +26,4 @@ Related Topics
 
 [Object Storage Repositories](vbo_osr.md)
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

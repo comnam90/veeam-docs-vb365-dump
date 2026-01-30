@@ -1,5 +1,5 @@
 ---
-title: "br_smb"
+title: "Network Attached Storage (SMB Shares)"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/br_smb.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Network Attached Storage (SMB Shares)
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to use network attached storage (NAS) as JET-based backup repositories. Such NAS can be a shared folder on your computer, or any other physical device that can be accessed using the Server Message Block (SMB) protocol.
 
@@ -42,6 +42,4 @@ Related Topics
 
 [Adding JET-Based Backup Repositories](vbo_adding_repository.md)
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

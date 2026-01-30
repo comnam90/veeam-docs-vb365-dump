@@ -1,5 +1,5 @@
 ---
-title: "vbo_internet_proxy"
+title: "Configuring Internet Proxy Server"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_internet_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "7/16/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Internet Proxy Server
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to assign an internet proxy server to a backup proxy server that does not have direct access to the internet.
 
@@ -37,6 +37,4 @@ For more information, see [Global Internet Proxy Server Settings](vbo_configurin
 
 [![Configuring Internet Proxy Server](images/proxy_proxy.webp)](images/proxy_proxy.webp)
 
-Page updated 7/16/2024
 
-Page content applies to build 8.3.0.2201

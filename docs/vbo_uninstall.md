@@ -1,5 +1,5 @@
 ---
-title: "vbo_uninstall"
+title: "Uninstalling Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_uninstall.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Uninstalling Veeam Backup for Microsoft 365
 
-In this article
 
 To uninstall Veeam Backup for Microsoft 365, do the following:
 
@@ -40,6 +40,4 @@ For more information on how to delete streams, see [this NATS article](https://d
 
 For more information on how to delete the nats-server service, see [this NATS article](https://docs.nats.io/running-a-nats-service/introduction/windows_srv) and [this Microsoft article](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-delete).
 
-Page updated 11/12/2025
 
-Page content applies to build 8.3.0.2201

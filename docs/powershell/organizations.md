@@ -1,5 +1,5 @@
 ---
-title: "organizations"
+title: "Organizations"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/organizations.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Organizations
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with Microsoft organizations:
 
@@ -21,6 +21,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Get-VBOOrganizationSynchronizationState](get-vboorganizationsynchronizationstate.md) | Returns status of synchronization of Microsoft organization objects with the organization cache database. |
 | [Start-VBOOrganizationSynchronization](start-vboorganizationsynchronization.md) | Starts to synchronize Microsoft organization objects with the organization cache database. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

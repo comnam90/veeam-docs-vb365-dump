@@ -1,5 +1,5 @@
 ---
-title: "vbo_removing_repository"
+title: "Removing Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_removing_repository.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Backup Repositories
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to remove backup repositories from the Veeam Backup for Microsoft 365 backup infrastructure if you no longer need them.
 
@@ -42,6 +42,4 @@ To remove a backup repository, do the following:
 
 [![Removing Backup Repository](images/removing_repo.webp)](images/removing_repo.webp "Removing Backup Repository")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

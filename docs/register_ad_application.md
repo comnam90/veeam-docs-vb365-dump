@@ -1,5 +1,5 @@
 ---
-title: "register_ad_application"
+title: "Step 5. Register or Select Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/register_ad_application.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Register or Select Microsoft Entra Application
 
-In this article
 
 At this step of the wizard, you can create a new application in Microsoft Entra ID or select an existing one.
 
@@ -87,6 +87,4 @@ Keep in mind that you do not need to select this check box if you have granted t
 
 [![Specify Microsoft Entra Application](images/existing_app_sd.webp)](images/existing_app_sd.webp "Specify Microsoft Entra Application")
 
-Page updated 5/21/2025
 
-Page content applies to build 8.3.0.2201

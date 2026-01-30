@@ -1,5 +1,5 @@
 ---
-title: "vbo_vbo_conf_sp"
+title: "Configuring Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_vbo_conf_sp.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Veeam Backup for Microsoft 365
 
-In this article
 
 To configure Veeam Backup for Microsoft 365 on a service provider side, the following actions must be performed:
 
@@ -25,6 +25,4 @@ To configure Veeam Backup for Microsoft 365 on a service provider side, the foll
 | Note |
 | As a service provider, you must obtain Microsoft organization credentials of your tenants. The same credentials will be used by tenants to connect to the Veeam Backup for Microsoft 365 server on a service provider side for self-restore procedures using Veeam Explorers. |
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

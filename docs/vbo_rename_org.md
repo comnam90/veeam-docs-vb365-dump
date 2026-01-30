@@ -1,5 +1,5 @@
 ---
-title: "vbo_rename_org"
+title: "Renaming Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_rename_org.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Renaming Organizations
 
-In this article
 
 You can rename your Microsoft 365 and on-premises Microsoft organizations. Keep in mind that you change the organization name that is displayed only in the Veeam Backup for Microsoft 365 console.
 
@@ -35,6 +35,4 @@ Consider that when creating a [Mailbox Protection Reports](mailbox_protection_re
 
 [![Renaming Organizations](images/org_rename.webp)](images/org_rename.webp "Renaming Organizations")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201
