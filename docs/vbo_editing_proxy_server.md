@@ -1,5 +1,5 @@
 ---
-title: "vbo_editing_proxy_server"
+title: "Editing Backup Proxy Server Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_editing_proxy_server.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Backup Proxy Server Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit settings of your backup proxy server. Actually, when you edit backup proxy server settings, you add the backup proxy anew to the Veeam Backup for Microsoft 365 backup infrastructure with modified settings.
 
@@ -45,6 +45,4 @@ Related Topics
 * [Adding Windows-Based Backup Proxy Server](add_win_proxy.md)
 * [Adding Linux-Based Backup Proxy Server](add_linux_proxy.md)
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

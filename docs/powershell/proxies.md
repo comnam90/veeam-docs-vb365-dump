@@ -1,5 +1,5 @@
 ---
-title: "proxies"
+title: "Backup Proxy Servers"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/proxies.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Proxy Servers
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with backup proxy servers:
 
@@ -22,6 +22,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Update-VBOProxy](update-vboproxy.md) | Upgrades backup proxy servers. |
 | [New-VBOLinuxCredential](new-vbolinuxcredential.md) | Creates the Linux credentials record to connect to a Linux-based backup proxy server. |
 
-Page updated 8/19/2025
 
-Page content applies to build 8.3.0.2201

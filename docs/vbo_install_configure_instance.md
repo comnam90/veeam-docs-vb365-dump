@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_configure_instance"
+title: "Step 8. Configure PostgreSQL Instance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_configure_instance.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 8. Configure PostgreSQL Instance
 
-In this article
 
 This step is only available if you have selected to configure installation settings manually at the [Review Default Installation Settings](vbo_install_default_settings.md) step of the wizard.
 
@@ -40,6 +40,4 @@ If a configuration database with the specified name already exists (for example,
 
 [![Installing Veeam Backup for Microsoft 365](images/vbo_iso_setup_postgresql_instance.webp)](images/vbo_iso_setup_postgresql_instance.webp "Installing Veeam Backup for Microsoft 365")
 
-Page updated 8/19/2025
 
-Page content applies to build 8.3.0.2201

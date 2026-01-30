@@ -1,5 +1,5 @@
 ---
-title: "vbo_editing_repository"
+title: "Editing Backup Repository Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_editing_repository.html"
@@ -7,8 +7,8 @@ last_updated: "7/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Backup Repository Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit settings of your backup repository.
 
@@ -102,6 +102,4 @@ Related Topics
 * [Adding JET-Based Backup Repositories](vbo_adding_repository.md)
 * [Adding Object Storage Repositories](adding_object_storage.md)
 
-Page updated 7/7/2025
 
-Page content applies to build 8.3.0.2201

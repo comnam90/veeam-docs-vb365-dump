@@ -1,5 +1,5 @@
 ---
-title: "login_to_microsoft"
+title: "Step 6. Log In to Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/login_to_microsoft.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Log In to Microsoft 365
 
-In this article
 
 At this step of the wizard, log in to your Microsoft 365 organization.
 
@@ -30,6 +30,4 @@ Make sure to sign in with the user account that has the Global Administrator rol
 
 [![Log In to Microsoft 365](images/logon_to_office_365.webp)](images/logon_to_office_365.webp "Log In to Microsoft 365")
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

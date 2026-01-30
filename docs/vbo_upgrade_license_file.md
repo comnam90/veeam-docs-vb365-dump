@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_license_file"
+title: "Step 3. Provide License File"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_license_file.html"
@@ -7,8 +7,8 @@ last_updated: "9/3/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Provide License File
 
-In this article
 
 At the License step, you can specify a license that you want to install to Veeam Backup for Microsoft 365. For more information, see [Licensing and License Types](vbo_licensing.md).
 
@@ -24,6 +24,4 @@ To provide a license:
 
 [![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_setup_license_file.webp)](images/vbo_iso_setup_license_file.webp "Upgrading Veeam Backup for Microsoft 365")
 
-Page updated 9/3/2024
 
-Page content applies to build 8.3.0.2201

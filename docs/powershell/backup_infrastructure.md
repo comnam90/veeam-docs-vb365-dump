@@ -1,5 +1,5 @@
 ---
-title: "backup_infrastructure"
+title: "Backup Infrastructure"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/backup_infrastructure.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Infrastructure
 
-In this article
 
 The following topics contain instructions on setting up and managing backup infrastructure of Veeam Backup for Microsoft 365 by means of Veeam PowerShell.
 
@@ -23,6 +23,4 @@ In This Section
 * [Amazon Storage Settings](amazon_object_storage.md)
 * [Object Storage Encryption](encryption.md)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.3.0.2201

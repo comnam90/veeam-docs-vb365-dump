@@ -1,5 +1,5 @@
 ---
-title: "ssp_notifications"
+title: "Managing Notifications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_notifications.html"
@@ -7,8 +7,8 @@ last_updated: "10/31/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Managing Notifications
 
-In this article
 
 Restore Portal notifies you about restore sessions results. Notifications appear in the [notification pane](ssp_ui.md#notifications).
 
@@ -21,6 +21,4 @@ If you want the notification pane to expand automatically when a new notificatio
 
 [![Managing Notifications](images/ssp_notification_pane.webp)](images/ssp_notification_pane.webp "Managing Notifications")
 
-Page updated 10/31/2024
 
-Page content applies to build 8.3.0.2201

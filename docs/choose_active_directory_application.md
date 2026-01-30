@@ -1,5 +1,5 @@
 ---
-title: "choose_active_directory_application"
+title: "Step 4. Configure Connection to Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/choose_active_directory_application.html"
@@ -7,8 +7,8 @@ last_updated: "1/31/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Configure Connection to Microsoft 365
 
-In this article
 
 At this step of the wizard, choose whether you want to register a new [Microsoft Entra application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) to connect to your Microsoft 365 organization or use an existing Microsoft Entra application.
 
@@ -41,6 +41,4 @@ You can only select the Use an existing Microsoft Entra ID application option. V
 
 [![Configure Connection](images/ad_application_selection_team_chats.webp)](images/ad_application_selection_team_chats.webp "Configure Connection")
 
-Page updated 1/31/2025
 
-Page content applies to build 8.3.0.2201

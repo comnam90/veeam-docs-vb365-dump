@@ -1,5 +1,5 @@
 ---
-title: "vbo_backup_job_statistics"
+title: "Backup, Backup Copy, Retrieve, Restore and Data Management Statistics"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_job_statistics.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Backup, Backup Copy, Retrieve, Restore and Data Management Statistics
 
-In this article
 
 Veeam Backup for Microsoft 365 saves results and metrics of each backup, backup copy, retrieve, restore or data management session in the Veeam Backup for Microsoft 365 configuration database.
 
@@ -37,6 +37,4 @@ In This Section
 * [Viewing Restore Session Metrics](restore_metrics.md)
 * [Performing Search](history_search.md)
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

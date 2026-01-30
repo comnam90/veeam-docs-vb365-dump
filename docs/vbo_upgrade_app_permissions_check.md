@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_app_permissions_check"
+title: "Step 5. Review Microsoft Entra Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_app_permissions_check.html"
@@ -7,8 +7,8 @@ last_updated: "1/31/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Review Microsoft Entra Application Permissions
 
-In this article
 
 |  |
 | --- |
@@ -35,6 +35,4 @@ Related Topics
 
 [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md)
 
-Page updated 1/31/2025
 
-Page content applies to build 8.3.0.2201

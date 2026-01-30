@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_in_unattended"
+title: "Installing in Unattended Mode"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_in_unattended.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing in Unattended Mode
 
-In this article
 
 You can install Veeam Backup for Microsoft 365, Veeam Explorer for Microsoft Exchange, Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft Teams in unattended mode.
 
@@ -100,6 +100,4 @@ To install the Veeam Explorer for Microsoft Teams, UI and PowerShell components:
 | --- |
 | msiexec /i VeeamExplorerForTeams.msi /qn ADDLOCAL=BR\_TEAMSEXPLORER,PS\_TEAMSEXPLORER ACCEPT\_THIRDPARTY\_LICENSES=1 ACCEPT\_EULA=1 |
 
-Page updated 4/30/2025
 
-Page content applies to build 8.3.0.2201

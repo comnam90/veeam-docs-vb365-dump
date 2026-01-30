@@ -1,5 +1,5 @@
 ---
-title: "vbo_rental_license"
+title: "Rental License"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_rental_license.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Rental License
 
-In this article
 
 Rental License is a paid and fully-functional license that expires at the end of the contract. The rental license term is normally 1 month from the contract start date. The license expiration date is the last day of the month. This license type is distributed only to service providers.
 
@@ -53,6 +53,4 @@ In This Section
 
 [Managing Monthly Usage Report](vbo_monthly_usage_report.md)
 
-Page updated 9/9/2025
 
-Page content applies to build 8.3.0.2201

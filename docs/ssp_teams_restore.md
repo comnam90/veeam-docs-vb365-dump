@@ -1,5 +1,5 @@
 ---
-title: "ssp_teams_restore"
+title: "Teams Restore"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_teams_restore.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Teams Restore
 
-In this article
 
 To restore Microsoft Teams items, do the following:
 
@@ -79,6 +79,4 @@ The Microsoft Teams Restore wizard runs to configure the restore operation optio
 
 Restore Portal runs the restore operation immediately and opens the [Restore Sessions](ssp_ui.md#restore_sessions) tab, where you view details about restore session progress and results.
 
-Page updated 3/13/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "exploring_backup_job"
+title: "Exploring Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/exploring_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring Backup Job
 
-In this article
 
 You can open backups created by a backup job.
 
@@ -34,6 +34,4 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 [![Exploring Backup Job](images/explore_backup_1.webp)](images/explore_backup_1.webp "Exploring Backup Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "get-vbocommand"
+title: "Get-VBOCommand"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbocommand.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOCommand
 
-In this article
 
 Short Description
 
@@ -80,6 +80,4 @@ Examples
 | --- | --- |
 | This command returns a list of cmdlets whose names contain the VBOCommand noun.  |  | | --- | | Get-VBOCommand -Noun VBOCommand | |
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "adding_backup_applications"
+title: "Adding Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_applications.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Applications
 
-In this article
 
 When you add Microsoft Entra applications to the backup configuration, Veeam Backup for Microsoft 365 retrieves a list of existing applications from your Microsoft Entra ID. From this list, you can select as many applications as you need. For more information about Microsoft Entra applications, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added).
 
@@ -44,6 +44,4 @@ Also, keep in mind that Veeam Backup for Microsoft 365 ignores a Microsoft Entra
 
 Before selecting a certificate in Veeam Backup for Microsoft 365, you must upload a certificate file to Microsoft Identity platform. For more information, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#certificates-and-secrets).
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

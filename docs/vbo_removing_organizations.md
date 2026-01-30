@@ -1,5 +1,5 @@
 ---
-title: "vbo_removing_organizations"
+title: "Removing Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_removing_organizations.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Organizations
 
-In this article
 
 You can remove an organization from the Veeam Backup for Microsoft 365 console if you no longer need it.
 
@@ -35,6 +35,4 @@ To remove an organization, do the following:
 
 [![Removing Organizations](images/removing_org_context.webp)](images/removing_org_context.webp "Removing Organizations")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_default_settings_console"
+title: "Step 5. Review Default Installation Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_default_settings_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Review Default Installation Settings
 
-In this article
 
 At the Ready to Install step, you can select to install the Veeam Backup for Microsoft 365 console with default installation settings or specify custom installation settings.
 
@@ -25,6 +25,4 @@ The following table lists the default installation settings:
 
 [![Installing Veeam Backup for Microsoft 365 Console](images/vbo_iso_console_setup_default_settings.webp)](images/vbo_iso_console_setup_default_settings.webp "Installing Veeam Backup for Microsoft 365 Console")
 
-Page updated 7/11/2024
 
-Page content applies to build 8.3.0.2201

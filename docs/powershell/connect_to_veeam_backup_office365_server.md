@@ -1,5 +1,5 @@
 ---
-title: "connect_to_veeam_backup_office365_server"
+title: "Managing Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/connect_to_veeam_backup_office365_server.html"
@@ -7,8 +7,8 @@ last_updated: "6/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Managing Veeam Backup for Microsoft 365
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations:
 
@@ -22,6 +22,4 @@ You can use the cmdlets from this section to perform the following operations:
 | [Set-VBOPSQLDatabaseServerLimits](set-vbopsqldatabaseserverlimits.md) | Modifies settings of the PostgreSQL instance. |
 | [Get-VBOVersion](get-vboversion.md) | Returns Veeam Backup for Microsoft 365 version. |
 
-Page updated 6/3/2025
 
-Page content applies to build 8.3.0.2201

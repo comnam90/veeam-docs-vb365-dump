@@ -1,5 +1,5 @@
 ---
-title: "history_search"
+title: "Performing Search"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/history_search.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Performing Search
 
-In this article
 
 In the History view of the Veeam Backup for Microsoft 365 console, you can search for backup, backup copy, retrieve, restore and data management sessions using keywords.
 
@@ -35,6 +35,4 @@ To remove a keyword, click the cross mark.
 
 [![Searching History](images/search_history.webp)](images/search_history.webp "Searching History")
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_before_you_begin"
+title: "Before You Begin"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_before_you_begin.html"
@@ -7,8 +7,8 @@ last_updated: "9/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Before You Begin
 
-In this article
 
 Before you install Veeam Backup for Microsoft 365, check the following prerequisites:
 
@@ -34,6 +34,4 @@ When installing Veeam Backup for Microsoft 365, you can choose what PostgreSQL i
 * If you want to use an existing PostgreSQL instance that was created by Veeam Backup & Replication, you must adjust the PostgreSQL configuration. For more information, see [this Veeam KB article](https://www.veeam.com/kb4638).
 * Using the same NATS server for different deployments of Veeam Backup for Microsoft 365 is not supported.
 
-Page updated 9/23/2025
 
-Page content applies to build 8.3.0.2201

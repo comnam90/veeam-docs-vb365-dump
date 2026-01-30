@@ -1,5 +1,5 @@
 ---
-title: "appendix_search"
+title: "Appendix A. Item Search Parameters"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/appendix_search.html"
@@ -7,8 +7,8 @@ last_updated: "5/6/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Appendix A. Item Search Parameters
 
-In this article
 
 You can search for items in backups created by Veeam Backup for Microsoft 365 using the following instruments:
 
@@ -307,6 +307,4 @@ The following table contains parameters that can be used to search for Microsoft
 | --- | --- | --- |
 | Name | System.ItemNameDisplay | name |
 
-Page updated 5/6/2025
 
-Page content applies to build 8.3.0.2201

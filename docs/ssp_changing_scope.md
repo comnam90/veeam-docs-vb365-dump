@@ -1,5 +1,5 @@
 ---
-title: "ssp_changing_scope"
+title: "Changing Restore Operator Scope"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_changing_scope.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Changing Restore Operator Scope
 
-In this article
 
 After logging in to Restore Portal, restore operators can view the list of objects available to them to manage — that is, to explore and restore data from backups created by Veeam Backup for Microsoft 365 for these objects. For more information on how assign permissions to a restore operator, see [Adding Restore Operator Role](ssp_adding_operator_roles.md).
 
@@ -35,6 +35,4 @@ The name of the selected object will appear in the upper-left corner of the Rest
 
 [![Changing Restore Operator Scope](images/ssp_changing_scope.webp)](images/ssp_changing_scope.webp "Changing Restore Operator Scope")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

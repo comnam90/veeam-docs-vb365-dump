@@ -1,5 +1,5 @@
 ---
-title: "disconnect-vboserver"
+title: "Disconnect-VBOServer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/disconnect-vboserver.html"
@@ -7,8 +7,8 @@ last_updated: "4/10/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Disconnect-VBOServer
 
-In this article
 
 Short Description
 
@@ -42,6 +42,4 @@ This command ends the current PowerShell session with the Veeam Backup for Micro
 | --- |
 | Disconnect-VBOServer |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

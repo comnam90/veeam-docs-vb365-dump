@@ -1,5 +1,5 @@
 ---
-title: "vbo_edit_proxy_pool"
+title: "Editing Backup Proxy Pool Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_edit_proxy_pool.html"
@@ -7,8 +7,8 @@ last_updated: "11/27/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Backup Proxy Pool Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit settings of your backup proxy pool.
 
@@ -59,6 +59,4 @@ Related Topics
 
 [Adding Backup Proxy Pools](vbo_add_proxy_pool.md)
 
-Page updated 11/27/2024
 
-Page content applies to build 8.3.0.2201

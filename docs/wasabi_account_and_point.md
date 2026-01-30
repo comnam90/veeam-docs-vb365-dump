@@ -1,5 +1,5 @@
 ---
-title: "wasabi_account_and_point"
+title: "Step 5. Specify Object Storage Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/wasabi_account_and_point.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Specify Object Storage Account
 
-In this article
 
 At this step of the wizard, select a datacenter region and specify account credentials for your Wasabi Cloud Object Storage.
 
@@ -19,6 +19,4 @@ If you already have a credentials record that was configured beforehand, select 
 
 [![Object Storage Account](images/wasabi_srp.webp)](images/wasabi_srp.webp "Object Storage Account")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.3.0.2201

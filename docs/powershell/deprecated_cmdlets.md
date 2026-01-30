@@ -1,5 +1,5 @@
 ---
-title: "deprecated_cmdlets"
+title: "Deprecated Cmdlets"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/deprecated_cmdlets.html"
@@ -7,8 +7,8 @@ last_updated: "2/18/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Deprecated Cmdlets
 
-In this article
 
 This section contains information on PowerShell cmdlets that are deprecated in Veeam Backup for Microsoft 365 8.
 
@@ -22,6 +22,4 @@ This section contains information on PowerShell cmdlets that are deprecated in V
 | [Remove-VBOObjectStorageRepository](remove-vboobjectstoragerepository.md) | Removes an object storage repository from the Veeam Backup for Microsoft 365 infrastructure. |
 | [New-VBOAmazonS3ServiceConnectionSettings](new-vboamazons3serviceconnectionsettings.md) | Defines connection settings to Amazon S3 object storage repository. |
 
-Page updated 2/18/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "org_search"
+title: "Performing Search"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/org_search.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Performing Search
 
-In this article
 
 In the Organizations view of the Veeam Backup for Microsoft 365 console, you can search for the following entities using keywords:
 
@@ -47,6 +47,4 @@ To remove a keyword, click the cross mark.
 
 [![Searching for Sessions](images/search_sessions_24hours.webp)](images/search_sessions_24hours.webp "Searching for Sessions")
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

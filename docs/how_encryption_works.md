@@ -1,5 +1,5 @@
 ---
-title: "how_encryption_works"
+title: "How Encryption Works"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/how_encryption_works.html"
@@ -7,8 +7,8 @@ last_updated: "6/10/2025"
 product_version: "8.3.0.2201"
 ---
 
+# How Encryption Works
 
-In this article
 
 Veeam Backup for Microsoft 365 encrypts data before sending data to an object storage repository. Encryption is performed by Veeam Backup for Microsoft 365 Proxy Service.
 
@@ -26,6 +26,4 @@ The encryption process includes the following steps:
 
 1. Encrypted data is transferred to the target object storage repository.
 
-Page updated 6/10/2025
 
-Page content applies to build 8.3.0.2201

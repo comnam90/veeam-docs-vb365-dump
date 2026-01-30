@@ -1,5 +1,5 @@
 ---
-title: "br_das"
+title: "Direct Attached Storage (DAS)"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/br_das.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Direct Attached Storage (DAS)
 
-In this article
 
 In Veeam Backup for Microsoft 365, you can use the following Microsoft Windows and Linux-based storage types as JET-based backup repositories:
 
@@ -24,6 +24,4 @@ Related Topics
 
 [Adding JET-Based Backup Repositories](vbo_adding_repository.md)
 
-Page updated 7/17/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_deployment"
+title: "Deployment"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_deployment.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Deployment
 
-In this article
 
 To start working with Veeam Backup for Microsoft 365, you must deploy the solution to your environment. For more information about Veeam Backup for Microsoft 365 architecture, see [Veeam Backup for Microsoft 365 Architecture](architecture.md).
 
@@ -37,6 +37,4 @@ In This Section
 * [Upgrading REST API on Separate Machine](restapi_upgrading.md)
 * [Uninstalling Veeam Backup for Microsoft 365](vbo_uninstall.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

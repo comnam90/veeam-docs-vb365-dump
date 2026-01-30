@@ -1,5 +1,5 @@
 ---
-title: "m365_acc"
+title: "Microsoft 365 Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/m365_acc.html"
@@ -7,8 +7,8 @@ last_updated: "9/11/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft 365 Account
 
-In this article
 
 You can authorize Veeam Backup for Microsoft 365 to send email notifications on behalf of your Microsoft 365 account. To send notifications, Veeam Backup for Microsoft 365 communicates with the Microsoft Graph API. For authentication, Veeam Backup for Microsoft 365 uses an access token issued by the Microsoft Identity platform. To acquire an access token, you can either use an application preinstalled by Veeam or specify details of the custom Microsoft Entra application registered in Microsoft Identity platform. For more information on obtaining client credentials, see [Registering Application in Microsoft Identity Platform](register_app_azure.md).
 
@@ -90,6 +90,4 @@ In the Microsoft 365 Application Settings window, select the Use custom applicat
 
 [![Configuring Microsoft 365 Application Settings](images/microsoft365.webp)](images/microsoft365.webp "Configuring Microsoft 365 Application Settings")
 
-Page updated 9/11/2025
 
-Page content applies to build 8.3.0.2201

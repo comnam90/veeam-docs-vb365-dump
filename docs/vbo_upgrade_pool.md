@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_pool"
+title: "Backup Proxy Pool Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_pool.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Proxy Pool Upgrade
 
-In this article
 
 When you upgrade Veeam Backup for Microsoft 365 to a newer version, Veeam Backup for Microsoft 365 does not interrupt backup operations that are currently executed on backup proxy pools. However, Veeam Backup for Microsoft 365 needs to upgrade backup proxy pools as well — that is, to elevate the backup proxy pool version. To work properly, backup proxy pools and the Veeam Backup for Microsoft 365 controller must have the same version.
 
@@ -23,6 +23,4 @@ Related Topics
 
 [Upgrading Backup Proxy Servers](vbo_upgrading_proxy_server.md)
 
-Page updated 12/10/2024
 
-Page content applies to build 8.3.0.2201

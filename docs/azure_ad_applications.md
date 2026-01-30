@@ -1,5 +1,5 @@
 ---
-title: "azure_ad_applications"
+title: "Microsoft Entra Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_ad_applications.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft Entra Application Permissions
 
-In this article
 
 Veeam Backup for Microsoft 365 requires that you grant permissions to Microsoft Entra applications within the following usage scenarios:
 
@@ -37,6 +37,4 @@ You can optionally use the [Azure archiver appliance](new_azure_backup_proxy.md)
 
 For more information about Microsoft Graph permissions, see [this Microsoft article](https://docs.microsoft.com/en-us/graph/permissions-reference).
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

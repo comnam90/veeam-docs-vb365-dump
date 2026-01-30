@@ -1,5 +1,5 @@
 ---
-title: "how_backup_works"
+title: "How Backup Works"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/how_backup_works.html"
@@ -7,8 +7,8 @@ last_updated: "8/15/2025"
 product_version: "8.3.0.2201"
 ---
 
+# How Backup Works
 
-In this article
 
 In Veeam Backup for Microsoft 365, data backup is conducted by a [backup proxy server](vbo_backup_proxy_servers.md) or a [backup proxy pool](vbo_proxy_pools.md) that logically groups several backup proxy servers. All necessary settings including restore points that Veeam Backup for Microsoft 365 collects from backup repositories, are saved to the Veeam Backup for Microsoft 365 configuration database created on a [PostgreSQL instance](architecture.md#postgresql).
 
@@ -36,6 +36,4 @@ If data backup is performed to an object storage repository, the backup proxy se
 | Note |
 | Veeam Backup for Microsoft 365 provides a self-check mechanism that allows the product to validate if backed-up data appears in the object storage repository uncorrupted after compression and transfer. For more information, see [Data Validation](vbo_osr.md#datavalidation). |
 
-Page updated 8/15/2025
 
-Page content applies to build 8.3.0.2201

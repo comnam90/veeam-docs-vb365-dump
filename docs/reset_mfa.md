@@ -1,5 +1,5 @@
 ---
-title: "reset_mfa"
+title: "Resetting MFA for Specific User"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/reset_mfa.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Resetting MFA for Specific User
 
-In this article
 
 The Veeam Backup for Microsoft 365 administrator can reset MFA by user request if they have authentication issues, lose or change a mobile device with the mobile authenticator application.
 
@@ -23,6 +23,4 @@ To reset MFA for a specific user, do the following:
 
 For more information, see [How MFA Works](mfa.md#how_mfa_works).
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

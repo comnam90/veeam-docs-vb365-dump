@@ -1,5 +1,5 @@
 ---
-title: "target_backup_copy_repo"
+title: "Step 2. Select Target Backup Repository"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/target_backup_copy_repo.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 2. Select Target Backup Repository
 
-In this article
 
 At this step of the wizard, specify an object storage repository that you want to use as a target for the backup copy job.
 
@@ -32,6 +32,4 @@ You must select another target object storage repository from the Target backup 
 
 [![Selecting Target Repository](images/new_bu_copy_job_target.webp)](images/new_bu_copy_job_target.webp "Selecting Target Repository")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

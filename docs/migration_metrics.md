@@ -1,5 +1,5 @@
 ---
-title: "migration_metrics"
+title: "Viewing Data Management Session Metrics"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/migration_metrics.html"
@@ -7,8 +7,8 @@ last_updated: "10/21/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Viewing Data Management Session Metrics
 
-In this article
 
 Data management sessions include sessions that you run to move or remove backed-up data using the [Move-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html?ver=80) or [Remove-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboentitydata.html?ver=80) cmdlets.
 
@@ -56,6 +56,4 @@ An object is an OneDrive account, SharePoint site, Microsoft Teams team, mailbox
 
 * Transferred. Shows an amount of data transferred from source to target before applying compression and deduplication.
 
-Page updated 10/21/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "new_amazon_s3_backup_proxy"
+title: "Step 8. Specify Backup Proxy Server or Backup Proxy Pool"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_amazon_s3_backup_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 8. Specify Backup Proxy Server or Backup Proxy Pool
 
-In this article
 
 At this step of the wizard, configure the following settings:
 
@@ -96,6 +96,4 @@ If a backup proxy pool is associated with the object storage repository, you can
 
 [![Configuring Amazon Archiver Appliance](images/amazon_proxy_2.webp)](images/amazon_proxy_2.webp "Configuring Amazon Archiver Appliance")
 
-Page updated 3/26/2025
 
-Page content applies to build 8.3.0.2201

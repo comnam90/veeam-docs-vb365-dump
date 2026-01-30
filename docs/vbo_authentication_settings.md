@@ -1,5 +1,5 @@
 ---
-title: "vbo_authentication_settings"
+title: "Authentication Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_authentication_settings.html"
@@ -7,8 +7,8 @@ last_updated: "5/27/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Authentication Settings
 
-In this article
 
 You can configure authentication settings to the Veeam Backup for Microsoft 365 server for tenants and restore operators.
 
@@ -82,6 +82,4 @@ Related Topics
 * [Backup as Service with Veeam Backup for Microsoft 365](vbo_mail_baas.md)
 * [Data Restore Using Restore Portal](ssp_restore.md)
 
-Page updated 5/27/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_notification_settings"
+title: "Notification Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_notification_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Notification Settings
 
-In this article
 
 You can configure notification settings if you want Veeam Backup for Microsoft 365 to send email notifications about backup and backup copy job results.
 
@@ -25,6 +25,4 @@ For more information, see the following sections:
 | Note |
 | Notifications about the backup and backup copy job results are sent by a backup proxy server specified in the backup repository settings. For more information, see [Specify Backup Repository](specify_backup_proxy_server.md). |
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

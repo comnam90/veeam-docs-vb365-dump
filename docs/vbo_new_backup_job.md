@@ -1,5 +1,5 @@
 ---
-title: "vbo_new_backup_job"
+title: "Creating Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_new_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating Backup Job
 
-In this article
 
 To create a backup job, do the following:
 
@@ -19,6 +19,4 @@ To create a backup job, do the following:
 5. [Specify a backup repository](specify_backup_proxy_server.md).
 6. [Specify scheduling options](specify_scheduling_options.md).
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

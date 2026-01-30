@@ -1,5 +1,5 @@
 ---
-title: "osr_archive_structure"
+title: "Storage for Backup Copies"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/osr_archive_structure.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Storage for Backup Copies
 
-In this article
 
 The following table lists the structure that is created and maintained by Veeam Backup for Microsoft 365 in object storage repositories where you transfer your backed-up data using backup copy. You can use any supported object storage for this purpose. For more information, see [Object Storage Repositories](vbo_osr.md).
 
@@ -37,6 +37,4 @@ The following table lists the structure that is created and maintained by Veeam 
 | <organization\_Id>/Webs/<web\_Id> | A set of folders that contain archived SharePoint sites and OneDrive Items.  The <web\_Id> directory contains the following directories:   * Files. Contains archived files of the SharePoint site. * WebParts. Contains Web Parts of SharePoint sites. * Items. Contains archived items such as those located under the Subsites and Content folders for SharePoint, and users folders for OneDrive. * Lists. Contains archived SharePoint lists. * ListViews. Contains archived SharePoint list views. |
 | <repository\_folder\_name>/RepositoryLock | Contains a lock file denoting that the object storage repository is in use by a backup proxy server or a backup proxy pool. Access to the object storage repository metadata is limited. |
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

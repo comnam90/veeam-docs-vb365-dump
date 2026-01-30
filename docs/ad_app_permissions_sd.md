@@ -1,5 +1,5 @@
 ---
-title: "ad_app_permissions_sd"
+title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Permissions for Modern App-Only Authentication
 
-In this article
 
 Tables in this section list permissions for Microsoft Entra applications that are granted automatically by Veeam Backup for Microsoft 365 when you add organizations using the [modern app-only authentication method](adding_o365_organizations_sd.md).
 
@@ -146,6 +146,4 @@ All listed permissions are of the Application type and required for the followin
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](permissions_exchange_online_api_checking.md).
 
-Page updated 12/23/2025
 
-Page content applies to build 8.3.0.2201

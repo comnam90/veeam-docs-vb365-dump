@@ -1,5 +1,5 @@
 ---
-title: "object_storage_structure"
+title: "Object Storage Repository Structure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/object_storage_structure.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Object Storage Repository Structure
 
-In this article
 
 Object storage repository is cloud-based or on-premises storage system that you can employ to store your backups and backup copies created for Microsoft 365 and on-premises Microsoft organizations.
 
@@ -25,6 +25,4 @@ Related Topics
 * [Data Restore](vbo_data_restore.md)
 * [JET-Based Backup Repository Structure](br_structure.md)
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "impact_on_performance"
+title: "Impact of Multiple Backup Applications on Performance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/impact_on_performance.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Impact of Multiple Backup Applications on Performance
 
-In this article
 
 Previously Veeam Backup for Microsoft 365 recommended you to add auxiliary Microsoft Entra applications to the product configuration for Microsoft 365 organizations added using modern app-only authentication. Such backup applications were intended to improve performance and minimize throttling from Microsoft 365 when backing up Microsoft SharePoint Online and Microsoft OneDrive for Business data.
 
@@ -20,6 +20,4 @@ Consider that this recommendation was designed in collaboration of Veeam togethe
 
 Those users who already use multiple backup applications to back up Microsoft SharePoint Online and Microsoft OneDrive for Business data and do not experience performance degradation in their Microsoft 365 environments can continue further without any changes in the Veeam Backup for Microsoft 365 configuration.
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

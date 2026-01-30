@@ -1,5 +1,5 @@
 ---
-title: "restapi_upgrading"
+title: "Upgrading REST API on Separate Machine"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/restapi_upgrading.html"
@@ -7,8 +7,8 @@ last_updated: "8/28/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Upgrading REST API on Separate Machine
 
-In this article
 
 |  |
 | --- |
@@ -28,6 +28,4 @@ Related Topics
 * [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md)
 * [Installing REST API](vbo_installing_rest.md)
 
-Page updated 8/28/2024
 
-Page content applies to build 8.3.0.2201

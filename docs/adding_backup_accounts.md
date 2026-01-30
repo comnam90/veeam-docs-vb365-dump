@@ -1,5 +1,5 @@
 ---
-title: "adding_backup_accounts"
+title: "Adding Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Accounts
 
-In this article
 
 For Microsoft 365 organizations added using either basic authentication or modern authentication method with legacy protocols allowed, you can configure auxiliary backup accounts.
 
@@ -42,6 +42,4 @@ Make sure to specify an [Microsoft Entra application](https://docs.microsoft.com
 
 [![Adding Accounts](images/service_accounts_2.webp)](images/service_accounts_2.webp)
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

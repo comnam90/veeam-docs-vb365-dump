@@ -1,5 +1,5 @@
 ---
-title: "azure_archiver_appliance_permissions"
+title: "Permissions for Azure Archiver Appliance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_archiver_appliance_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Permissions for Azure Archiver Appliance
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to use the Azure archiver appliance when the product copies backed-up data between different instances of Azure Blob Storage or to Azure Blob Storage Archive. To enable usage of the Azure archiver appliance, the Microsoft Azure service account is required.
 
@@ -31,6 +31,4 @@ Related Topics
 * [Adding Microsoft Azure Service Account](azure_service_account.md)
 * [Azure Blob Storage Permissions](azure_archive_permissions.md)
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

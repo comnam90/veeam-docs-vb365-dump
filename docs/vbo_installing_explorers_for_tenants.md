@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_explorers_for_tenants"
+title: "Installing Veeam Explorers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_explorers_for_tenants.html"
@@ -7,8 +7,8 @@ last_updated: "5/27/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing Veeam Explorers
 
-In this article
 
 This installation scenario allows you to install Veeam Explorers when configuring Backup as a Service with Veeam Backup for Microsoft 365 for tenants. For more information, see [For Tenants](vbo_baas_tenant.md).
 
@@ -25,6 +25,4 @@ To install Veeam Explorers on a server with Veeam Backup & Replication, do th
 4. [Check the system configuration](vbo_install_configuration_check_ve.md).
 5. [Begin the installation process](vbo_install_begin_ve.md).
 
-Page updated 5/27/2025
 
-Page content applies to build 8.3.0.2201

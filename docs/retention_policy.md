@@ -1,5 +1,5 @@
 ---
-title: "retention_policy"
+title: "Retention Policy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retention_policy.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Retention Policy
 
-In this article
 
 A retention policy defines how long and under which retention type your backup data should be stored in a backup repository.
 
@@ -116,6 +116,4 @@ Related Topics
 * [Editing Backup Repository Settings](vbo_editing_repository.md)
 * [Immutability](immutability.md)
 
-Page updated 9/30/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_object_types"
+title: "Organization Object Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_object_types.html"
@@ -7,8 +7,8 @@ last_updated: "11/27/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Organization Object Types
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to specify object types and their processing and exclusion options when creating and configuring backup jobs.
 
@@ -135,6 +135,4 @@ To enable team chats backup for Microsoft 365 organizations, do the following:
 * In the Add Organization or Edit Organization wizard, allow Veeam Backup for Microsoft 365 to grant automatically the ChannelMessage.Read.All (for channel messages) and ChannelMember.Read.All (for private and shared channels) Microsoft Graph API permissions to an existing Microsoft Entra application when adding a new Microsoft 365 organization with modern app-only authentication or editing an existing one. For more information, see [Using Existing Microsoft Entra Application](register_ad_application.md#uea).
 * In Microsoft Identity platform, grant manually the ChannelMessage.Read.All (for channel messages) and ChannelMember.Read.All (for private and shared channels) Microsoft Graph API permissions to this Microsoft Entra application. For more information, see [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md#backup).
 
-Page updated 11/27/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_configuring_internet_proxy"
+title: "Global Internet Proxy Server Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_configuring_internet_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "8/27/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Global Internet Proxy Server Settings
 
-In this article
 
 If a server on which Veeam Backup for Microsoft 365 is deployed does not have a direct access to the internet, you can assign an internet proxy server to be used as a gateway.
 
@@ -48,6 +48,4 @@ To disable usage of the internet proxy server, do the following:
 | Note |
 | After you disable usage of the internet proxy, you must reset the WinHTTP settings. To do this, open the Command Prompt and run the netsh winhttp reset proxy command. |
 
-Page updated 8/27/2024
 
-Page content applies to build 8.3.0.2201

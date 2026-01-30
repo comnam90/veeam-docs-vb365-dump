@@ -1,5 +1,5 @@
 ---
-title: "ibm_account_and_point"
+title: "Step 5. Specify Object Storage Service Point and Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ibm_account_and_point.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Specify Object Storage Service Point and Account
 
-In this article
 
 At this step of the wizard, specify a service point of your IBM Cloud Object Storage, select a datacenter region and specify account credentials.
 
@@ -20,6 +20,4 @@ If you already have a credentials record that was configured beforehand, select 
 
 [![Object Storage Service Point and Account](images/ibm_srp.webp)](images/ibm_srp.webp "Object Storage Service Point and Account")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.3.0.2201

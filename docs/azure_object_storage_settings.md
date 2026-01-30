@@ -1,5 +1,5 @@
 ---
-title: "azure_object_storage_settings"
+title: "Step 6. Specify Object Storage Container"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_object_storage_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Specify Object Storage Container
 
-In this article
 
 At this step of the wizard, specify object storage container and folder where you want to save your data.
 
@@ -28,6 +28,4 @@ If you select this check box, Veeam Backup for Microsoft 365 limits capacity of 
 
 [![Object Storage Container](images/new_object_storage_4_azure.webp)](images/new_object_storage_4_azure.webp "Object Storage Container")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.3.0.2201

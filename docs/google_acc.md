@@ -1,5 +1,5 @@
 ---
-title: "google_acc"
+title: "Google Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/google_acc.html"
@@ -7,8 +7,8 @@ last_updated: "9/11/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Google Account
 
-In this article
 
 You can authorize Veeam Backup for Microsoft 365 to send email notifications on behalf of your Google account. To send notifications, Veeam Backup for Microsoft 365 communicates with the Gmail API. For authentication, Veeam Backup for Microsoft 365 uses an access token issued by Google Authorization Server. To acquire an access token, you can either use an application preinstalled by Veeam or specify OAuth 2.0 client credentials of the custom application registered in the Google Cloud console. For more information on obtaining client credentials, see [Registering Application in Google Cloud Console](register_app_google.md).
 
@@ -85,6 +85,4 @@ In the Google Gmail Application Settings window, select the Use custom applicati
 
 [![Configuring Google Gmail Application Settings](images/google_gmail.webp)](images/google_gmail.webp "Configuring Google Gmail Application Settings")
 
-Page updated 9/11/2025
 
-Page content applies to build 8.3.0.2201

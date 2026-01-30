@@ -1,5 +1,5 @@
 ---
-title: "permissions_sharepoint"
+title: "Microsoft SharePoint and OneDrive for Business"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_sharepoint.html"
@@ -7,8 +7,8 @@ last_updated: "7/5/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft SharePoint and OneDrive for Business
 
-In this article
 
 The following tables list roles and permissions that must be assigned to Veeam Backup account to protect data in Microsoft SharePoint and OneDrive for Business organizations. Veeam Backup for Microsoft 365 requires these roles and permissions for Microsoft 365 organizations that use modern authentication method with legacy protocols allowed or basic authentication method, and on-premises Microsoft organizations.
 
@@ -66,6 +66,4 @@ The $accountname variable must be a user UPN (example@domain.com).
 
 The MSOL module can be downloaded from [this Microsoft page](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
-Page updated 7/5/2024
 
-Page content applies to build 8.3.0.2201

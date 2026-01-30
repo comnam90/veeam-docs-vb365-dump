@@ -1,5 +1,5 @@
 ---
-title: "vbo_data_backup"
+title: "Data Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_data_backup.html"
@@ -7,8 +7,8 @@ last_updated: "8/15/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Data Backup
 
-In this article
 
 To back up data of your [Microsoft organizations](vbo_managing_organizations.md), you use backup jobs.
 
@@ -23,6 +23,4 @@ In This Section
 * [Creating Backup Job](vbo_new_backup_job.md)
 * [Managing Backup Jobs](managing_backup_jobs.md)
 
-Page updated 8/15/2025
 
-Page content applies to build 8.3.0.2201

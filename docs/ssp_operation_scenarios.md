@@ -1,5 +1,5 @@
 ---
-title: "ssp_operation_scenarios"
+title: "Restore Portal Usage Scenarios"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_operation_scenarios.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Restore Portal Usage Scenarios
 
-In this article
 
 Restore Portal offers users two scenarios for data restore:
 
@@ -23,6 +23,4 @@ Restore operators can work separately with data of the managed objects. Restore 
 
 Restore operations that end users and restore operators can perform with the backed-up data are the same in both usage scenarios.
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

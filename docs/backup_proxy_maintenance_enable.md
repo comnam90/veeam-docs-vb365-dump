@@ -1,5 +1,5 @@
 ---
-title: "backup_proxy_maintenance_enable"
+title: "Putting Under Maintenance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_proxy_maintenance_enable.html"
@@ -7,8 +7,8 @@ last_updated: "8/27/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Putting Under Maintenance
 
-In this article
 
 To put backup proxy servers under maintenance, do the following:
 
@@ -18,6 +18,4 @@ To put backup proxy servers under maintenance, do the following:
 4. [Specify the SSH connection settings](vbo_maintenance_ssh.md).
 5. [Review the operation summary](vbo_maintenance_summary.md).
 
-Page updated 8/27/2024
 
-Page content applies to build 8.3.0.2201

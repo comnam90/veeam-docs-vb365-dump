@@ -1,5 +1,5 @@
 ---
-title: "cmdlets"
+title: "A-Z Cmdlets List"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/cmdlets.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# A-Z Cmdlets List
 
-In this article
 
 Add
 
@@ -464,6 +464,4 @@ Update
 
 [Update-VBOProxy](update-vboproxy.md)
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

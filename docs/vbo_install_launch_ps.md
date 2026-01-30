@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_launch_ps"
+title: "Step 1. Launch Installation Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_launch_ps.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Installation Wizard
 
-In this article
 
 To launch the installation wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the installation wizard, do the following:
 
 [![Installing PowerShell](images/vbo_iso_setup_1.webp)](images/vbo_iso_setup_1.webp "Installing PowerShell")
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

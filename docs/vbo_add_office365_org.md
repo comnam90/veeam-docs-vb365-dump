@@ -1,5 +1,5 @@
 ---
-title: "vbo_add_office365_org"
+title: "Adding Microsoft 365 Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_office365_org.html"
@@ -7,8 +7,8 @@ last_updated: "5/6/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Microsoft 365 Organizations
 
-In this article
 
 You can add Microsoft 365 organizations to the Veeam Backup for Microsoft 365 infrastructure to back up data of these organizations and quickly restore it back to production servers in case of an unexpected disaster.
 
@@ -27,6 +27,4 @@ This functionality is only available in Microsoft Entra China region through RES
 | Important |
 | When you plan to add Microsoft 365 organizations to Veeam Backup for Microsoft 365, consider the following:   * Modern authentication method with legacy protocols allowed is not supported.  * Basic authentication method is supported only for Microsoft Entra China region and will be deprecated in future versions of Veeam Backup for Microsoft 365. * Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. For more information about Azure Germany, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/germany/). |
 
-Page updated 5/6/2025
 
-Page content applies to build 8.3.0.2201

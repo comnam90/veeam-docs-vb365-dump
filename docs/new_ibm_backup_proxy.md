@@ -1,5 +1,5 @@
 ---
-title: "new_ibm_backup_proxy"
+title: "Step 7. Specify Backup Proxy Server or Backup Proxy Pool"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_ibm_backup_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 7. Specify Backup Proxy Server or Backup Proxy Pool
 
-In this article
 
 At this step of the wizard, select a backup proxy server or a backup proxy pool.
 
@@ -50,6 +50,4 @@ To specify a backup proxy server or a backup proxy pool, do the following:
 
 1. Click OK.
 
-Page updated 3/26/2025
 
-Page content applies to build 8.3.0.2201

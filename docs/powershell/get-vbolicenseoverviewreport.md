@@ -1,5 +1,5 @@
 ---
-title: "get-vbolicenseoverviewreport"
+title: "Get-VBOLicenseOverviewReport"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbolicenseoverviewreport.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Get-VBOLicenseOverviewReport
 
-In this article
 
 Short Description
 
@@ -62,6 +62,4 @@ Related Commands
 
 [Get-TimeZone](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-timezone?view=powershell-7.5)
 
-Page updated 9/30/2025
 
-Page content applies to build 8.3.0.2201

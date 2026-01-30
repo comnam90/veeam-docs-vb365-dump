@@ -1,5 +1,5 @@
 ---
-title: "launch_add_on_premises_wizard_sp_ex"
+title: "Step 1. Launch Add Organization Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_add_on_premises_wizard_sp_ex.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Add Organization Wizard
 
-In this article
 
 To launch the Add Organization wizard, do the following:
 
@@ -20,6 +20,4 @@ To launch the Add Organization wizard, do the following:
 
 [![Step 1. Launch Add Organization Wizard](images/new_o365_organization.webp)](images/new_o365_organization.webp)
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

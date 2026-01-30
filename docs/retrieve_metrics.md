@@ -1,5 +1,5 @@
 ---
-title: "retrieve_metrics"
+title: "Viewing Retrieve Session Metrics"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retrieve_metrics.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Viewing Retrieve Session Metrics
 
-In this article
 
 You can view a retrieve session metrics in one of the following ways:
 
@@ -43,6 +43,4 @@ An object is an OneDrive account, SharePoint site, Microsoft Teams team, mailbox
 
 * Processed. Shows how many blob files have been downloaded.
 
-Page updated 10/13/2025
 
-Page content applies to build 8.3.0.2201

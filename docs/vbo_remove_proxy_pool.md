@@ -1,5 +1,5 @@
 ---
-title: "vbo_remove_proxy_pool"
+title: "Removing Backup Proxy Pools"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_remove_proxy_pool.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Backup Proxy Pools
 
-In this article
 
 You can remove a backup proxy pool from the Veeam Backup for Microsoft 365 backup infrastructure if you no longer need it. Keep in mind that when you remove the backup proxy pool, you only remove the logical grouping of the backup proxy servers. All backup proxy servers themselves are kept in the Veeam Backup for Microsoft 365 backup infrastructure.
 
@@ -24,6 +24,4 @@ To remove a backup proxy pool from the backup infrastructure, do the following:
 
 [![Removing Backup Proxy Pool](images/remove_backup_proxy_pool.webp)](images/remove_backup_proxy_pool.webp "Removing Backup Proxy Pool")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

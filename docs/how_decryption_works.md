@@ -1,5 +1,5 @@
 ---
-title: "how_decryption_works"
+title: "How Decryption Works"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/how_decryption_works.html"
@@ -7,8 +7,8 @@ last_updated: "10/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# How Decryption Works
 
-In this article
 
 When you access backed-up data stored in an object storage repository with the encryption option enabled, Veeam Backup for Microsoft 365 automatically decrypts your data in the background. Decryption is performed by Veeam Backup for Microsoft 365 Proxy Service.
 
@@ -20,6 +20,4 @@ The decryption process includes the following steps:
 4. The backup key unlocks underlying data keys.
 5. Data keys decrypt data blobs.
 
-Page updated 10/29/2024
 
-Page content applies to build 8.3.0.2201

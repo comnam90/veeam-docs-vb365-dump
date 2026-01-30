@@ -1,5 +1,5 @@
 ---
-title: "vbo_exploring_single_organization"
+title: "Exploring Single Organization"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_single_organization.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring Single Organization
 
-In this article
 
 When exploring a single organization, Veeam Backup for Microsoft 365 merges and loads the latest restore points that have been created by each backup job of the selected organization.
 
@@ -37,6 +37,4 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 [![Exploring Single Organization Backups](images/explore_backup_2.webp)](images/explore_backup_2.webp "Exploring Single Organization Backups")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "storage_consumption_reports"
+title: "Creating Storage Consumption Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/storage_consumption_reports.html"
@@ -7,8 +7,8 @@ last_updated: "9/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Creating Storage Consumption Reports
 
-In this article
 
 The Storage Consumption reports show statistical information on used space in JET-based backup repositories and object storage repositories.
 
@@ -55,6 +55,4 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 
 [![Creating Storage Consumption Report](images/storage_report.webp)](images/storage_report.webp "Creating Storage Consumption Report")
 
-Page updated 9/17/2024
 
-Page content applies to build 8.3.0.2201

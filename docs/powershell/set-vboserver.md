@@ -1,5 +1,5 @@
 ---
-title: "set-vboserver"
+title: "Set-VBOServer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboserver.html"
@@ -7,8 +7,8 @@ last_updated: "6/3/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Set-VBOServer
 
-In this article
 
 Short Description
 
@@ -44,6 +44,4 @@ This command defines the folder where results of export and save operations will
 | --- |
 | Set-VBOServer -TempFolderPath "C:\TemporaryFolder" |
 
-Page updated 6/3/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "stop-vborepositoryownerchangesession"
+title: "Stop-VBORepositoryOwnerChangeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vborepositoryownerchangesession.html"
@@ -7,8 +7,8 @@ last_updated: "5/27/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Stop-VBORepositoryOwnerChangeSession
 
-In this article
 
 Short Description
 
@@ -48,6 +48,4 @@ This command stops a change owner session with the ID d96f55a4-d15d-0000-b0f0-d5
 | --- |
 | Stop-VBORepositoryOwnerChangeSession -SessionId d96f55a4-d15d-0000-b0f0-d51d17ccdab6 |
 
-Page updated 5/27/2025
 
-Page content applies to build 8.3.0.2201

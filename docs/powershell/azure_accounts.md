@@ -1,5 +1,5 @@
 ---
-title: "azure_accounts"
+title: "Microsoft Azure Blob Storage Accounts"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/azure_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Microsoft Azure Blob Storage Accounts
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with Microsoft Azure Blob Storage account credentials:
 
@@ -19,6 +19,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Set-VBOAzureBlobAccount](set-vboazureblobaccount.md) | Modifies Microsoft Azure Blob Storage account credentials. |
 | [Remove-VBOAzureBlobAccount](remove-vboazureblobaccount.md) | Removes Microsoft Azure Blob Storage account credentials. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_install_default_settings_ps"
+title: "Step 5. Review Default Installation Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_default_settings_ps.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Review Default Installation Settings
 
-In this article
 
 At the Ready to Install step, you can select to install the Veeam Backup for Microsoft 365 PowerShell toolkit with default installation settings or specify custom installation settings.
 
@@ -25,6 +25,4 @@ The following table lists the default installation settings:
 
 [![Installing PowerShell](images/vbo_iso_console_setup_default_settings.webp)](images/vbo_iso_console_setup_default_settings.webp "Installing PowerShell")
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

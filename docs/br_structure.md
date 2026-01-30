@@ -1,5 +1,5 @@
 ---
-title: "br_structure"
+title: "JET-Based Backup Repository Structure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/br_structure.html"
@@ -7,8 +7,8 @@ last_updated: "5/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# JET-Based Backup Repository Structure
 
-In this article
 
 In a JET-based backup repository, all backed-up items are stored in a way that each item belongs to a separate folder named after the year when the item has been modified.
 
@@ -40,6 +40,4 @@ Related Topics
 
 [Retention Policy](retention_policy.md)
 
-Page updated 5/13/2025
 
-Page content applies to build 8.3.0.2201

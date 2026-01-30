@@ -1,5 +1,5 @@
 ---
-title: "archiver_appliances"
+title: "Archiver Appliances"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/archiver_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "8/15/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Archiver Appliances
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with archiver appliances:
 
@@ -26,6 +26,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Get-VBOAzureVirtualMachineSize](get-vboazurevirtualmachinesize.md) | Returns the Azure archiver appliance size. |
 | [Get-VBOAzureVirtualNetwork](get-vboazurevirtualnetwork.md) | Returns a network to which the Azure archiver appliance will be connected. |
 
-Page updated 8/15/2024
 
-Page content applies to build 8.3.0.2201

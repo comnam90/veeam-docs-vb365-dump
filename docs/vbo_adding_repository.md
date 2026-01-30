@@ -1,5 +1,5 @@
 ---
-title: "vbo_adding_repository"
+title: "Adding JET-Based Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_adding_repository.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding JET-Based Backup Repositories
 
-In this article
 
 To add a new JET-based backup repository to the Veeam Backup for Microsoft 365 backup infrastructure, do the following:
 
@@ -22,6 +22,4 @@ Related Topics
 
 [JET-Based Backup Repositories](jet_backup_repo.md)
 
-Page updated 7/17/2024
 
-Page content applies to build 8.3.0.2201

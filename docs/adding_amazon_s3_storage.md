@@ -1,5 +1,5 @@
 ---
-title: "adding_amazon_s3_storage"
+title: "Adding Amazon S3 Object Storage Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_amazon_s3_storage.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Amazon S3 Object Storage Repositories
 
-In this article
 
 To add a new Amazon S3 object storage repository to the Veeam Backup for Microsoft 365 backup infrastructure, do the following:
 
@@ -27,6 +27,4 @@ Related Topics
 
 [Object Storage Repositories](vbo_osr.md)
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

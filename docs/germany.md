@@ -1,5 +1,5 @@
 ---
-title: "germany"
+title: "Limitations for Microsoft Entra Germany Region"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/germany.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Limitations for Microsoft Entra Germany Region
 
-In this article
 
 Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations located in Microsoft Entra Germany region. For more information about Azure Germany, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/germany/).
 
@@ -25,6 +25,4 @@ Consider the following previously declared limitations that will be deprecated i
 
 * Email notifications about backup and backup copy job results may not work properly in Microsoft Entra Germany region.
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

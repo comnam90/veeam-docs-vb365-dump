@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_launch_rest"
+title: "Step 1. Launch Upgrade Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_launch_rest.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Upgrade Wizard
 
-In this article
 
 To launch the upgrade wizard, do the following:
 
@@ -22,6 +22,4 @@ To launch the upgrade wizard, do the following:
 
 [![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_upgrade_1_os.webp)](images/vbo_iso_upgrade_1_os.webp "Upgrading Veeam Backup for Microsoft 365")
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

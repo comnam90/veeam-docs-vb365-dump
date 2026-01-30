@@ -1,5 +1,5 @@
 ---
-title: "restore_portal"
+title: "Restore Portal"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/restore_portal.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Restore Portal
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with Restore Portal:
 
@@ -25,6 +25,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Set-VBORbacRole](set-vborbacrole.md) | Modifies settings of a restore operator role. |
 | [Remove-VBORbacRole](remove-vborbacrole.md) | Removes restore operator roles from Veeam Backup for Microsoft 365. |
 
-Page updated 5/29/2024
 
-Page content applies to build 8.3.0.2201

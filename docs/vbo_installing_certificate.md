@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_certificate"
+title: "Installing SSL Certificates"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_certificate.html"
@@ -7,8 +7,8 @@ last_updated: "2/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing SSL Certificates
 
-In this article
 
 To install an SSL certificate from the Veeam Backup for Microsoft 365 console main menu, do the following:
 
@@ -47,6 +47,4 @@ To import a certificate, do the following:
 
 [![Importing Certificate](images/select_certificate_wizard_step2_import_file.webp)](images/select_certificate_wizard_step2_import_file.webp "Importing Certificate")
 
-Page updated 2/14/2025
 
-Page content applies to build 8.3.0.2201

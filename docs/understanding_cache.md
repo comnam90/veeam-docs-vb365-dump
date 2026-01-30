@@ -1,5 +1,5 @@
 ---
-title: "understanding_cache"
+title: "Cache"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/understanding_cache.html"
@@ -7,8 +7,8 @@ last_updated: "8/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Cache
 
-In this article
 
 Cache helps you reduce costs incurred by your cloud storage provider when writing your data to the object storage repository or reading your data from the object storage repository.
 
@@ -28,6 +28,4 @@ Synchronization is required in the following cases:
 
 * If the PersistentCache database not exist or has been accidentally removed or become damaged on the PostgreSQL instance, you can start the synchronization manually. For more information on how to synchronize cache, see [Synchronizing Cache](synch_repositories.md).
 
-Page updated 8/29/2024
 
-Page content applies to build 8.3.0.2201

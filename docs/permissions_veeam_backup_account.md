@@ -1,5 +1,5 @@
 ---
-title: "permissions_veeam_backup_account"
+title: "Veeam Backup Account Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_veeam_backup_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Veeam Backup Account Permissions
 
-In this article
 
 Veeam Backup for Microsoft 365 requires the Veeam Backup account credentials when you add the following Microsoft organizations:
 
@@ -36,6 +36,4 @@ Roles and permissions required to protect data in Microsoft SharePoint and OneDr
 
 Roles and permissions required to protect Microsoft Teams data.
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

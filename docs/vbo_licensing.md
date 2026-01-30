@@ -1,5 +1,5 @@
 ---
-title: "vbo_licensing"
+title: "Licensing and License Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_licensing.html"
@@ -7,8 +7,8 @@ last_updated: "1/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Licensing and License Types
 
-In this article
 
 Licensing in Veeam Backup for Microsoft 365 is based on user accounts whose data you back up. Each protected user account consumes one Veeam license unit.
 
@@ -90,6 +90,4 @@ Free, fully-functional license that can be used for evaluation and testing purpo
 | Note |
 | During the Veeam Backup for Microsoft 365 installation or after you install the product, you will be prompted to provide a license. You can dismiss this step and continue using the product without any [license installed](vbo_installing_license.md). In this case, the product will operate in the Community Edition mode that allows you to process up to 10 user accounts, up to 1 TB of Microsoft SharePoint data and up to 10 teams in all organizations. Community Edition mode is not limited in time and does not have limitations in terms of the product functionality. |
 
-Page updated 1/22/2025
 
-Page content applies to build 8.3.0.2201

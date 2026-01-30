@@ -1,5 +1,5 @@
 ---
-title: "permissions_windows"
+title: "Permissions for Service Account on Windows"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_windows.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Permissions for Service Account on Windows
 
-In this article
 
 This section contains permissions required by Veeam Backup for Microsoft 365 for a service account that is used to run Veeam Backup for Microsoft 365 Proxy Service on a Windows-based backup proxy server. By default, Veeam Backup for Microsoft 365 uses Local System account, but you can use a service account of your own.
 
@@ -24,6 +24,4 @@ Related Topics
 
 [Adding Windows-Based Backup Proxy Server](add_win_proxy.md)
 
-Page updated 9/6/2024
 
-Page content applies to build 8.3.0.2201

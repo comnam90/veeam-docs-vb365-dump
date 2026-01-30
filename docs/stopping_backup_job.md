@@ -1,5 +1,5 @@
 ---
-title: "stopping_backup_job"
+title: "Stopping Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/stopping_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Stopping Backup Job
 
-In this article
 
 When Veeam Backup for Microsoft 365 stops a backup job, it preserves the data that has already been backed up. If you want to continue, use the Start command. For more information, see [Starting Backup Job](starting_backup_job.md).
 
@@ -32,6 +32,4 @@ To stop a backup job, do the following:
 
 [![Stopping Backup Job](images/stop_bj.webp)](images/stop_bj.webp "Stopping Backup Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

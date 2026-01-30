@@ -1,5 +1,5 @@
 ---
-title: "ad_application_settings_configuring"
+title: "Configuring Microsoft Entra Application Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_application_settings_configuring.html"
@@ -7,8 +7,8 @@ last_updated: "8/23/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Microsoft Entra Application Settings
 
-In this article
 
 For data restore using Microsoft Entra application, do the following to configure the application settings:
 
@@ -22,6 +22,4 @@ Keep in mind that this option is unavailable for legacy Microsoft Entra Germany 
 
 When creating a new Microsoft Entra application automatically, Veeam Backup for Microsoft 365 specifies http://localhost as a redirect URI.
 
-Page updated 8/23/2024
 
-Page content applies to build 8.3.0.2201

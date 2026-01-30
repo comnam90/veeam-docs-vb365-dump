@@ -1,5 +1,5 @@
 ---
-title: "s3_account"
+title: "Step 5. Specify Object Storage Service Point and Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/s3_account.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 5. Specify Object Storage Service Point and Account
 
-In this article
 
 At this step of the wizard, specify a service point of your S3 Compatible device, select a datacenter region and specify account credentials.
 
@@ -20,6 +20,4 @@ If you already have a credentials record that was configured beforehand, select 
 
 [![Object Storage Service Point and Account](images/new_object_storage_4_s3.webp)](images/new_object_storage_4_s3.webp "Object Storage Service Point and Account")
 
-Page updated 7/17/2024
 
-Page content applies to build 8.3.0.2201

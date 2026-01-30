@@ -1,5 +1,5 @@
 ---
-title: "vbo_backup_repositories"
+title: "Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_repositories.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Backup Repositories
 
-In this article
 
 Veeam Backup for Microsoft 365 uses backup repositories as storage systems for [backups](vbo_data_backup.md) and [backup copies](vbo_backup_copy.md) created for Microsoft 365 and on-premises Microsoft organizations. You can add to Veeam Backup for Microsoft 365 storage systems of the following types:
 
@@ -54,6 +54,4 @@ In This Section
 * [Removing Backup Repositories](vbo_removing_repository.md)
 * [Invalid State](understanding_invalid_state.md)
 
-Page updated 9/26/2024
 
-Page content applies to build 8.3.0.2201

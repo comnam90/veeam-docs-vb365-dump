@@ -1,5 +1,5 @@
 ---
-title: "vbo_exploring_backup_copies"
+title: "Exploring Backup Copies"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_backup_copies.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Exploring Backup Copies
 
-In this article
 
 You can start exploring and restoring data from backup copies stored in the following object storage repositories:
 
@@ -50,6 +50,4 @@ Veeam Backup for Microsoft 365 will open backed-up data from backup copies creat
 
 [![Exploring Backup Copies](images/explore_backup_copies2.webp)](images/explore_backup_copies2.webp "Exploring Backup Copies")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

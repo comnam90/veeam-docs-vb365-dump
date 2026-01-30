@@ -1,5 +1,5 @@
 ---
-title: "amazon_object_storage_settings"
+title: "Step 6. Specify Object Storage Repository Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/amazon_object_storage_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Specify Object Storage Repository Settings
 
-In this article
 
 At this step of the wizard, select a location of your Amazon bucket, a bucket and folder where you want to save your data. For the Amazon S3 storage type, you can also specify Amazon S3 storage class. For more information, see [Supported Amazon S3 Storage Classes](supported_storage_classes_amazon.md).
 
@@ -38,6 +38,4 @@ For more information about infrequent access, see [this Amazon article](https://
 
 [![Object Storage Settings](images/new_object_storage_5.webp)](images/new_object_storage_5.webp "Object Storage Settings")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

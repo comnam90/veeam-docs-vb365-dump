@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_configure_nats"
+title: "Step 8. Configure NATS Server"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_configure_nats.html"
@@ -7,8 +7,8 @@ last_updated: "1/17/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 8. Configure NATS Server
 
-In this article
 
 |  |
 | --- |
@@ -33,6 +33,4 @@ To specify connection settings for the NATS server, do the following:
 
 [![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_setup_nats.webp)](images/vbo_iso_setup_nats.webp "Upgrading Veeam Backup for Microsoft 365")
 
-Page updated 1/17/2025
 
-Page content applies to build 8.3.0.2201

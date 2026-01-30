@@ -1,5 +1,5 @@
 ---
-title: "ssp_considerations"
+title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_considerations.html"
@@ -7,8 +7,8 @@ last_updated: "3/24/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Considerations and Limitations
 
-In this article
 
 This section lists considerations and known limitations of Restore Portal.
 
@@ -21,6 +21,4 @@ This section lists considerations and known limitations of Restore Portal.
 
 * If you want to use Restore Portal to restore backed-up data of Microsoft 365 organizations that belong to [different regions](vbo_add_o365_2_sd.md), you must use a separate installation of the Veeam Backup for Microsoft 365 REST API component and a separate Microsoft Entra application in each Microsoft Entra region.
 
-Page updated 3/24/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_excluding_folder"
+title: "Folder Exclusions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_excluding_folder.html"
@@ -7,8 +7,8 @@ last_updated: "4/22/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Folder Exclusions
 
-In this article
 
 You can configure folder exclusions if you do not want certain folders to be backed up by a [backup job](vbo_data_backup.md) or removed by a [retention policy](retention_policy.md).
 
@@ -34,6 +34,4 @@ To prevent mailbox folders to be removed by a retention policy, do the following
 
 [![Excluding Folders](images/vbo_options_folders.webp)](images/vbo_options_folders.webp "Excluding Folders")
 
-Page updated 4/22/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_upgrade_default_settings_rest"
+title: "Step 4. Review Default Installation Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_default_settings_rest.html"
@@ -7,8 +7,8 @@ last_updated: "9/3/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Review Default Installation Settings
 
-In this article
 
 At the Ready to Install step, you can select to install the Veeam Backup for Microsoft 365 REST API component with default installation settings or specify custom installation settings.
 
@@ -25,6 +25,4 @@ The following table lists the default installation settings:
 
 [![Installing REST API](images/vbo_iso_console_setup_default_settings.webp)](images/vbo_iso_console_setup_default_settings.webp "Installing REST API")
 
-Page updated 9/3/2024
 
-Page content applies to build 8.3.0.2201

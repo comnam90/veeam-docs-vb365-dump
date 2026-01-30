@@ -1,5 +1,5 @@
 ---
-title: "amazon_glacier_storage_class"
+title: "Step 7. Select Amazon Storage Class"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/amazon_glacier_storage_class.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 7. Select Amazon Storage Class
 
-In this article
 
 This step is only available if you have selected the Amazon S3 Glacier option at the [Select Amazon Storage Type and Account](amazon_storage_class.md) step of the wizard.
 
@@ -20,6 +20,4 @@ At this step of the wizard, select one of the following options:
 
 [![Amazon S3 Glacier Storage Class](images/amazon_glacier_storage_class_updated.webp)](images/amazon_glacier_storage_class_updated.webp "Amazon S3 Glacier Storage Class")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

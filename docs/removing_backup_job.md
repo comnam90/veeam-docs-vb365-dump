@@ -1,5 +1,5 @@
 ---
-title: "removing_backup_job"
+title: "Removing Backup Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/removing_backup_job.html"
@@ -7,8 +7,8 @@ last_updated: "6/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Backup Job
 
-In this article
 
 You can remove a backup job from the Veeam Backup for Microsoft 365 configuration.
 
@@ -35,6 +35,4 @@ To remove a backup job from the Veeam Backup for Microsoft 365 configuration, do
 
 [![Removing Backup Job](images/delete_bj.webp)](images/delete_bj.webp "Removing Backup Job")
 
-Page updated 6/16/2025
 
-Page content applies to build 8.3.0.2201

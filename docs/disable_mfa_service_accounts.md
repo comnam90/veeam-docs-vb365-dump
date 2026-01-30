@@ -1,5 +1,5 @@
 ---
-title: "disable_mfa_service_accounts"
+title: "Disabling MFA for Service Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/disable_mfa_service_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Disabling MFA for Service Accounts
 
-In this article
 
 If you cannot use MFA due to limitations described in [Considerations and Limitations](mfa.md#considerations), you can disable this feature for specific service accounts used to run applications and backup infrastructure components.
 
@@ -22,6 +22,4 @@ To disable MFA for service accounts, do the following:
 
 [![Disabling MFA for Service Accounts](images/disable_mfa_service_accounts.webp)](images/disable_mfa_service_accounts.webp "Disabling MFA for Service Accounts")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.3.0.2201

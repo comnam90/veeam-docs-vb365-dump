@@ -1,5 +1,5 @@
 ---
-title: "ssp_create_new_app_2"
+title: "Step 3. Register or Configure Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_create_new_app_2.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Register or Configure Microsoft Entra Application
 
-In this article
 
 At this step of the wizard, you can create a new application in Microsoft Entra ID or configure an existing one.
 
@@ -107,6 +107,4 @@ Consider the following:
 
 [![Configuring Microsoft Entra Application](images/ssp_ad_application_configure.webp)](images/ssp_ad_application_configure.webp "Configuring Microsoft Entra Application")
 
-Page updated 4/30/2025
 
-Page content applies to build 8.3.0.2201

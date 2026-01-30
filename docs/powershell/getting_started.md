@@ -1,5 +1,5 @@
 ---
-title: "getting_started"
+title: "Getting Started"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/getting_started.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Getting Started
 
-In this article
 
 Veeam Backup for Microsoft 365 solution comes with four PowerShell modules:
 
@@ -65,6 +65,4 @@ In This Section
 * [Using Get-Help](using_get-help.md)
 * [Examples of Use](examples_of_use.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

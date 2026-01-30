@@ -1,5 +1,5 @@
 ---
-title: "back_up_users"
+title: "Configuring Users Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_users.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuring Users Backup
 
-In this article
 
 |  |
 | --- |
@@ -37,6 +37,4 @@ For more information about available User types and their processing options, se
 
 [![Editing Processing Options](images/prevent_obj.webp)](images/prevent_obj.webp "Editing Processing Options")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

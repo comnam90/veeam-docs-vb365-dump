@@ -1,5 +1,5 @@
 ---
-title: "ssp_configuration"
+title: "Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_configuration.html"
@@ -7,8 +7,8 @@ last_updated: "12/2/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Configuration
 
-In this article
 
 Restore Portal is deployed automatically along with the Veeam Backup for Microsoft 365 REST API component installation.
 
@@ -141,6 +141,4 @@ In This Section
 * [Editing Restore Operator Role Settings](editing_operator_role_settings.md)
 * [Removing Restore Operator Role](removing_operator_role.md)
 
-Page updated 12/2/2025
 
-Page content applies to build 8.3.0.2201

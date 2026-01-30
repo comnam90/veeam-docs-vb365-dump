@@ -1,5 +1,5 @@
 ---
-title: "launch_new_backup_proxy_wizard"
+title: "Step 1. Launch New Backup Proxy Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_backup_proxy_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch New Backup Proxy Wizard
 
-In this article
 
 To launch the New Backup Proxy wizard, do the following:
 
@@ -21,6 +21,4 @@ To launch the New Backup Proxy wizard, do the following:
 
 [![Adding Backup Proxy Server](images/add_bu_proxy.webp)](images/add_bu_proxy.webp "Adding Backup Proxy Server")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

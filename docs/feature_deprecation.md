@@ -1,5 +1,5 @@
 ---
-title: "feature_deprecation"
+title: "Veeam Backup for Microsoft 365 Feature Deprecation"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/feature_deprecation.html"
@@ -7,8 +7,8 @@ last_updated: "12/5/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Veeam Backup for Microsoft 365 Feature Deprecation
 
-In this article
 
 In Veeam Backup for Microsoft 365 version 8, the following product features became deprecated:
 
@@ -28,6 +28,4 @@ In future versions of Veeam Backup for Microsoft 365, the following product feat
 
 For more information on deprecated features in Veeam Backup for Microsoft 365, see [this Veeam KB article](https://www.veeam.com/kb4567).
 
-Page updated 12/5/2024
 
-Page content applies to build 8.3.0.2201

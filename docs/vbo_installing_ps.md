@@ -1,5 +1,5 @@
 ---
-title: "vbo_installing_ps"
+title: "Installing PowerShell Toolkit"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_ps.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Installing PowerShell Toolkit
 
-In this article
 
 This installation scenario allows you to install the Veeam Backup for Microsoft 365 PowerShell toolkit on a separate physical or virtual Windows-based machine. After completing the installation process, you will be able to run Veeam Backup for Microsoft 365 PowerShell sessions on this machine.
 
@@ -22,6 +22,4 @@ To install the Veeam Backup for Microsoft 365 PowerShell toolkit on a separate m
 6. [Specify data location](vbo_install_data_location_ps.md).
 7. [Begin the installation process](vbo_install_begin_ps.md).
 
-Page updated 9/16/2025
 
-Page content applies to build 8.3.0.2201

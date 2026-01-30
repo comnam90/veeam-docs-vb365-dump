@@ -1,5 +1,5 @@
 ---
-title: "removing_backup_copy_job"
+title: "Removing Backup Copy Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/removing_backup_copy_job.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Removing Backup Copy Job
 
-In this article
 
 You can remove a backup copy job from the Veeam Backup for Microsoft 365 configuration.
 
@@ -36,6 +36,4 @@ A backup copy job name consists of a backup job name for which a backup copy job
 
 [![Removing Backup Copy Job](images/delete_bu_copy_job.webp)](images/delete_bu_copy_job.webp "Removing Backup Copy Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

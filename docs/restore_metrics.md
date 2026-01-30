@@ -1,5 +1,5 @@
 ---
-title: "restore_metrics"
+title: "Viewing Restore Session Metrics"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/restore_metrics.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Viewing Restore Session Metrics
 
-In this article
 
 To view a restore session metrics, do the following:
 
@@ -35,6 +35,4 @@ Can be Running, Success, Warning, or Error.
 * Start Time. The start time of the session.
 * End Time. The end time of the session.
 
-Page updated 10/14/2025
 
-Page content applies to build 8.3.0.2201

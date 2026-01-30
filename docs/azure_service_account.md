@@ -1,5 +1,5 @@
 ---
-title: "azure_service_account"
+title: "Adding Microsoft Azure Service Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_service_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Microsoft Azure Service Account
 
-In this article
 
 You can add new credentials to use the [Azure archiver appliance](new_azure_backup_proxy.md).
 
@@ -25,6 +25,4 @@ Related Topics
 * [Adding Microsoft Azure Blob Storage](adding_azure_storage.md)
 * [Editing and Removing Cloud Credentials](edit_remove_cloud_creds.md)
 
-Page updated 8/22/2024
 
-Page content applies to build 8.3.0.2201

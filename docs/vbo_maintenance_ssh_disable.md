@@ -1,5 +1,5 @@
 ---
-title: "vbo_maintenance_ssh_disable"
+title: "Step 4. Specify SSH Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_maintenance_ssh_disable.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Specify SSH Connection Settings
 
-In this article
 
 This step is available if you have selected Linux-based backup proxy server at the [Select Backup Proxy Server](vbo_selecting_proxy_server_maintenance_disable.md) step of the wizard.
 
@@ -65,6 +65,4 @@ For authentication on a Linux machine, the client must prove that it has the pri
 
 For more information about supported key algorithms and key formats, see [Supported Key Algorithms and Key Formats](key_algorithms.md).
 
-Page updated 4/1/2025
 
-Page content applies to build 8.3.0.2201

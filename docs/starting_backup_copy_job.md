@@ -1,5 +1,5 @@
 ---
-title: "starting_backup_copy_job"
+title: "Starting Backup Copy Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/starting_backup_copy_job.html"
@@ -7,8 +7,8 @@ last_updated: "5/20/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Starting Backup Copy Job
 
-In this article
 
 By default, a backup copy job starts automatically either right after appearing of the latest restore point in the source object storage repository or if you configure to run your backup copy job periodically – right after its creation and then in the specified time interval.
 
@@ -38,6 +38,4 @@ A backup copy job name consists of a backup job name for which a backup copy job
 
 [![Starting Backup Copy Job](images/start_bu_copy_job.webp)](images/start_bu_copy_job.webp "Starting Backup Copy Job")
 
-Page updated 5/20/2025
 
-Page content applies to build 8.3.0.2201

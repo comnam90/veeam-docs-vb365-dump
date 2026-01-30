@@ -1,5 +1,5 @@
 ---
-title: "install-vbolicense"
+title: "Install-VBOLicense"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/install-vbolicense.html"
@@ -7,8 +7,8 @@ last_updated: "4/10/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Install-VBOLicense
 
-In this article
 
 Short Description
 
@@ -48,6 +48,4 @@ This command installs the license on the Veeam Backup for Microsoft 365 server.
 | --- |
 | Install-VBOLicense -Path "C:\Veeam\Office365\Licenses\veeam\_backup\_microsoft\_365\_subscription\_xxx.lic" |
 
-Page updated 4/10/2025
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "vbo_updating"
+title: "Updating Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_updating.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Updating Veeam Backup for Microsoft 365
 
-In this article
 
 Apart from major version releases of Veeam Backup for Microsoft 365, Veeam Software provides cumulative patches. Cumulative patches contain bug fixes and performance enhancements and introduce new product features. You need to install a cumulative patch to update Veeam Backup for Microsoft 365.
 
@@ -22,6 +22,4 @@ In This Section
 * [Automatic Update](vbo_automatic_update.md)
 * [Checking for Updates](vbo_checking_for_updates.md)
 
-Page updated 7/11/2024
 
-Page content applies to build 8.3.0.2201

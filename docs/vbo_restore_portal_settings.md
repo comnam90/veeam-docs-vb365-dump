@@ -1,5 +1,5 @@
 ---
-title: "vbo_restore_portal_settings"
+title: "Restore Portal Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_restore_portal_settings.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Restore Portal Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 provides users with the ability to explore and restore data from backups by themselves or delegate this task to restore operators. In these scenarios, Veeam Explorers are not needed to explore and restore backed-up data. Users use Restore Portal — a web-based solution instead and perform all operations in a web browser window. You configure the Restore Portal settings if you want to allow users to perform self-service restore. For more information about Restore Portal, see [Data Restore Using Restore Portal](ssp_restore.md).
 
@@ -45,6 +45,4 @@ Related Topics
 * [REST API Settings](vbo_rest_api_settings.md)
 * [Authentication Settings](vbo_authentication_settings.md)
 
-Page updated 4/1/2025
 
-Page content applies to build 8.3.0.2201

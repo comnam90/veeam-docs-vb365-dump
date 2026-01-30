@@ -1,5 +1,5 @@
 ---
-title: "getting_started_vbo"
+title: "Getting Started with Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/getting_started_vbo.html"
@@ -7,8 +7,8 @@ last_updated: "9/3/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Getting Started with Veeam Backup for Microsoft 365
 
-In this article
 
 Before you start using Veeam Backup for Microsoft 365, you can check the following prerequisites:
 
@@ -46,6 +46,4 @@ This step is optional. You can create a backup copy job right after configuring 
 
 1. Whenever you need, explore and restore backed-up data of your Microsoft organizations. For more information, see [Data Restore](vbo_data_restore.md).
 
-Page updated 9/3/2024
 
-Page content applies to build 8.3.0.2201

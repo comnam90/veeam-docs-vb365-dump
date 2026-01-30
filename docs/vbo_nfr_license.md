@@ -1,5 +1,5 @@
 ---
-title: "vbo_nfr_license"
+title: "Not For Resale License"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_nfr_license.html"
@@ -7,8 +7,8 @@ last_updated: "7/8/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Not For Resale License
 
-In this article
 
 Not For Resale (NFR) license is a free and fully-functional license that can be used for product demonstration, training and education.
 
@@ -22,6 +22,4 @@ License Exceeded
 
 Processing of user accounts that exceed the allowed license count is not possible.
 
-Page updated 7/8/2024
 
-Page content applies to build 8.3.0.2201

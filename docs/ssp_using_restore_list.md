@@ -1,5 +1,5 @@
 ---
-title: "ssp_using_restore_list"
+title: "Using Restore List"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_using_restore_list.html"
@@ -7,8 +7,8 @@ last_updated: "5/5/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Using Restore List
 
-In this article
 
 If you want to select items located in different folders in the hierarchy of folders with backed-up data displayed in the navigation pane, you can add them to the restore list. For example, you can add to the restore list one by one items of different types: for a user — mailbox items, OneDrive and SharePoint files, for a team — Microsoft Teams files, tabs and posts, and proceed to their restore.
 
@@ -55,6 +55,4 @@ For Microsoft Teams posts, you can select which replies to the selected post you
 
 [![Using Restore List](images/ssp_items_in_restore_list.webp)](images/ssp_items_in_restore_list.webp "Using Restore List")
 
-Page updated 5/5/2025
 
-Page content applies to build 8.3.0.2201

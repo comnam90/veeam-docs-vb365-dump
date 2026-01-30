@@ -1,5 +1,5 @@
 ---
-title: "permissions_changelog"
+title: "Permissions Changelog"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_changelog.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Permissions Changelog
 
-In this article
 
 This section contains information about changes in permissions required for Veeam Backup for Microsoft 365 version 8.3 comparing to version 7.0.
 
@@ -31,6 +31,4 @@ Windows-based Backup Proxy Server
 
 You can add Windows-based backup proxy servers to the Veeam Backup for Microsoft 365 backup infrastructure. A service account must be granted permissions to run Veeam Backup for Microsoft 365 Proxy Service on a machine with Windows operating systems installed. For more information, see [Permissions for Service Account on Windows](permissions_windows.md).
 
-Page updated 9/6/2024
 
-Page content applies to build 8.3.0.2201

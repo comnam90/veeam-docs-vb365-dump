@@ -1,5 +1,5 @@
 ---
-title: "vbo_add_o365_2_sd"
+title: "Step 3. Select Microsoft Entra Region and Authentication Method"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_o365_2_sd.html"
@@ -7,8 +7,8 @@ last_updated: "1/31/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 3. Select Microsoft Entra Region and Authentication Method
 
-In this article
 
 At this step of the wizard, select a region and authentication method.
 
@@ -24,6 +24,4 @@ To select a region and authentication method, do the following:
 
 [![Specify Connection Settings](images/ad_new_org_modern_team_chats_new.webp)](images/ad_new_org_modern_team_chats_new.webp "Specify Connection Settings")
 
-Page updated 1/31/2025
 
-Page content applies to build 8.3.0.2201

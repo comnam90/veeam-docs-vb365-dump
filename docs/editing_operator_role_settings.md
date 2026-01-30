@@ -1,5 +1,5 @@
 ---
-title: "editing_operator_role_settings"
+title: "Editing Restore Operator Role Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/editing_operator_role_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Editing Restore Operator Role Settings
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to edit restore operator role settings.
 
@@ -30,6 +30,4 @@ Related Topics
 
 [Adding Restore Operator Role](ssp_adding_operator_roles.md)
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

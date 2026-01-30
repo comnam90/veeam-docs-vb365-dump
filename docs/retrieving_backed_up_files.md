@@ -1,5 +1,5 @@
 ---
-title: "retrieving_backed_up_files"
+title: "Retrieving Backed-Up Data"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retrieving_backed_up_files.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Retrieving Backed-Up Data
 
-In this article
 
 Data retrieval is the process of receiving temporary access to backup copies, so that backed-up data can be explored. You can retrieve backed-up data from the following object storage repositories: Azure Blob Storage Archive access tier, Amazon S3 Glacier Flexible Retrieval or Amazon S3 Glacier Deep Archive storage classes.
 
@@ -29,6 +29,4 @@ In This Section
 * [Editing Retrieval Job Settings](editing_retrieval_job_settings.md)
 * [Extending Availability of Retrieved Data](vbo_extending_availability.md)
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

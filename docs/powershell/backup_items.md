@@ -1,5 +1,5 @@
 ---
-title: "backup_items"
+title: "Organization Objects"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/backup_items.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Organization Objects
 
-In this article
 
 You can use the cmdlets from this section to perform the following operations with organization objects:
 
@@ -27,6 +27,4 @@ You can use the cmdlets from this section to perform the following operations wi
 | [Set-VBOOrganizationRetentionExclusion](set-vboorganizationretentionexclusion.md) | Modifies retention policy settings for contacts and calendars of a specific organization. |
 | [Remove-VBOOrganizationRetentionExclusion](remove-vboorganizationretentionexclusion.md) | Removes retention policy settings for contacts and calendars of a specific organization. |
 
-Page updated 10/24/2024
 
-Page content applies to build 8.3.0.2201

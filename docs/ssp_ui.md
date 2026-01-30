@@ -1,5 +1,5 @@
 ---
-title: "ssp_ui"
+title: "User Interface"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_ui.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# User Interface
 
-In this article
 
 The web-based user interface of Restore Portal is designed to let you quickly explore backed-up Microsoft Exchange, Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams data in one window. Also, it allows you to perform restore operations without using Veeam Explorers and view details about restore sessions progress and results and the restore sessions history.
 
@@ -78,6 +78,4 @@ To expand the notification pane, click the notification icon.
 
 For more information, see [Managing Notifications](ssp_notifications.md).
 
-Page updated 3/13/2025
 
-Page content applies to build 8.3.0.2201

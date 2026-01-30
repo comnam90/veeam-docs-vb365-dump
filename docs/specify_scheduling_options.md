@@ -1,5 +1,5 @@
 ---
-title: "specify_scheduling_options"
+title: "Step 6. Specify Scheduling Options"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_scheduling_options.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 6. Specify Scheduling Options
 
-In this article
 
 At this step of the wizard, configure a schedule for your backup job and actions that will be performed after completion of the wizard.
 
@@ -80,6 +80,4 @@ The following is an example in which it is prohibited to run a backup job on the
 
 [![Selecting Time Periods](images/time_intervals.webp)](images/time_intervals.webp "Selecting Time Periods")
 
-Page updated 11/12/2025
 
-Page content applies to build 8.3.0.2201

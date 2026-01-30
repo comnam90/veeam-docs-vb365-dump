@@ -1,5 +1,5 @@
 ---
-title: "ssp_sharepoint_restore"
+title: "SharePoint Restore"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_sharepoint_restore.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.3.0.2201"
 ---
 
+# SharePoint Restore
 
-In this article
 
 To restore SharePoint items, do the following:
 
@@ -71,6 +71,4 @@ Keep in mind that if you restore documents or list items, you must specify a doc
 
 Restore Portal runs the restore operation immediately and opens the [Restore Sessions](ssp_ui.md#restore_sessions) tab, where you view details about restore session progress and results.
 
-Page updated 3/13/2025
 
-Page content applies to build 8.3.0.2201

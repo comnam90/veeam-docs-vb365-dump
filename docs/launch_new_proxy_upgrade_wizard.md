@@ -1,5 +1,5 @@
 ---
-title: "launch_new_proxy_upgrade_wizard"
+title: "Step 1. Launch Proxy Upgrade Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_proxy_upgrade_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch Proxy Upgrade Wizard
 
-In this article
 
 To launch the Proxy Upgrade wizard, do the following:
 
@@ -24,6 +24,4 @@ If you want to upgrade all backup proxy servers at the same time, right-click th
 
 [![Upgrading Backup Proxy Servers](images/upgrading_proxy_1.webp)](images/upgrading_proxy_1.webp "Upgrading Backup Proxy Servers")
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201

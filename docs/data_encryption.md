@@ -1,5 +1,5 @@
 ---
-title: "data_encryption"
+title: "Data Encryption"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/data_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "10/29/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Data Encryption
 
-In this article
 
 Data security is an important part of the backup strategy. You can use data encryption to protect your backups from unauthorized access in object storage repositories.
 
@@ -65,6 +65,4 @@ In This Section
 * [How Encryption Works](how_encryption_works.md)
 * [How Decryption Works](how_decryption_works.md)
 
-Page updated 10/29/2024
 
-Page content applies to build 8.3.0.2201

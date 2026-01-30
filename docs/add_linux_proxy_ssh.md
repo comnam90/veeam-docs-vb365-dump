@@ -1,5 +1,5 @@
 ---
-title: "add_linux_proxy_ssh"
+title: "Step 4. Specify SSH Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/add_linux_proxy_ssh.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Step 4. Specify SSH Connection Settings
 
-In this article
 
 At this step of the wizard, enter a user account credentials to connect to the [specified computer](vbo_proxy_server_address_linux.md) and configure the SSH connection settings.
 
@@ -58,6 +58,4 @@ For authentication on a Linux machine, the client must prove that it has the pri
 
 For more information about supported key algorithms and key formats, see [Supported Key Algorithms and Key Formats](key_algorithms.md).
 
-Page updated 4/1/2025
 
-Page content applies to build 8.3.0.2201

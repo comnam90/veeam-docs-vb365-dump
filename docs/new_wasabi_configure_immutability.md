@@ -1,5 +1,5 @@
 ---
-title: "new_wasabi_configure_immutability"
+title: "Step 9. Enable Data Immutability and Encryption"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_wasabi_configure_immutability.html"
@@ -7,8 +7,8 @@ last_updated: "10/16/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 9. Enable Data Immutability and Encryption
 
-In this article
 
 At this step of the wizard, you can enable protection of your backups against accidental data deletions and malware activity, and enable encryption of backups in object storage. For more information, see [Immutability](immutability.md) and [Data Encryption](data_encryption.md).
 
@@ -64,6 +64,4 @@ A password can be changed at any time. A password change does not impose any res
 
 [![Enabling Data Immutability and Encryption](images/add_osr_immutability_encryption.webp)](images/add_osr_immutability_encryption.webp "Enabling Data Immutability and Encryption")
 
-Page updated 10/16/2024
 
-Page content applies to build 8.3.0.2201

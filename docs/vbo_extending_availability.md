@@ -1,5 +1,5 @@
 ---
-title: "vbo_extending_availability"
+title: "Extending Availability of Retrieved Data"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_extending_availability.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Extending Availability of Retrieved Data
 
-In this article
 
 You can extend the availability period of the retrieved backed-up data.
 
@@ -27,6 +27,4 @@ To extend the availability period of the retrieved backed-up data, do the follow
 
 [![Extending Availability Period](images/extending_availability.webp)](images/extending_availability.webp "Extending Availability Period")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "launch_new_backup_copy_job_wizard"
+title: "Step 1. Launch New Backup Copy Job Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_new_backup_copy_job_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Step 1. Launch New Backup Copy Job Wizard
 
-In this article
 
 |  |
 | --- |
@@ -34,6 +34,4 @@ Keep in mind that you can create only one backup copy job per backup job.
 
 [![Creating Backup Copy Job](images/new_backup_copy_job.webp)](images/new_backup_copy_job.webp "Creating Backup Copy Job")
 
-Page updated 9/2/2024
 
-Page content applies to build 8.3.0.2201

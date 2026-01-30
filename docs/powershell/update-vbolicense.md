@@ -1,5 +1,5 @@
 ---
-title: "update-vbolicense"
+title: "Update-VBOLicense"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/update-vbolicense.html"
@@ -7,8 +7,8 @@ last_updated: "5/14/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Update-VBOLicense
 
-In this article
 
 Short Description
 
@@ -44,6 +44,4 @@ This command updates the license that is installed on the Veeam Backup for Micro
 | --- |
 | Update-VBOLicense |
 
-Page updated 5/14/2024
 
-Page content applies to build 8.3.0.2201

@@ -1,5 +1,5 @@
 ---
-title: "download_package"
+title: "Downloading Installation Package"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/download_package.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Downloading Installation Package
 
-In this article
 
 You can download the latest version of the Veeam.Backup365.iso file — the Veeam Backup for Microsoft 365 installation image — from the official [Veeam website](https://www.veeam.com/products/saas/backup-microsoft-office-365-download.html).
 
@@ -58,6 +58,4 @@ Related Topics
 * [Installing Veeam Explorers](vbo_installing_explorers_for_tenants.md)
 * [Installing in Unattended Mode](vbo_installing_in_unattended.md)
 
-Page updated 11/11/2025
 
-Page content applies to build 8.3.0.2201

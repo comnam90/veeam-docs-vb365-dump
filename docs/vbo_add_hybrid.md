@@ -1,5 +1,5 @@
 ---
-title: "vbo_add_hybrid"
+title: "Adding Hybrid Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_hybrid.html"
@@ -7,8 +7,8 @@ last_updated: "10/7/2025"
 product_version: "8.3.0.2201"
 ---
 
+# Adding Hybrid Organizations
 
-In this article
 
 Veeam Backup for Microsoft 365 allows you to create hybrid configurations consisting of Microsoft 365 organizations and on-premises Microsoft Exchange/SharePoint organizations.
 
@@ -70,6 +70,4 @@ Depending on the types of services that you have selected, do the following:
 
 [![Adding Hybrid Organizations](images/hybrid_org.webp)](images/hybrid_org.webp "Adding Hybrid Organizations")
 
-Page updated 10/7/2025
 
-Page content applies to build 8.3.0.2201

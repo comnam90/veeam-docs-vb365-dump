@@ -1,5 +1,5 @@
 ---
-title: "synch_repositories"
+title: "Synchronizing Cache"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/synch_repositories.html"
@@ -7,8 +7,8 @@ last_updated: "8/30/2024"
 product_version: "8.3.0.2201"
 ---
 
+# Synchronizing Cache
 
-In this article
 
 You can manually synchronize cache between object storage repositories and the PersistentCache database on the PostgreSQL instance.
 
@@ -42,6 +42,4 @@ Related Topics
 
 [Object Storage Repositories](vbo_osr.md)
 
-Page updated 8/30/2024
 
-Page content applies to build 8.3.0.2201
