@@ -3,7 +3,7 @@ title: "Start-VBORepositorySynchronizeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vborepositorysynchronizesession.html"
-last_updated: "12/18/2025"
+last_updated: "1/29/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet creates and starts a session to synchronize cache cache between object storage repositories and the PersistentCache database on the PostgreSQL instance.
+This cmdlet creates and starts a session to synchronize cache between object storage repositories and the PersistentCache database on the PostgreSQL instance.
 
 For more information on cache synchronization, see the [Synchronizing Cache](https://helpcenter.veeam.com/docs/vbo365/guide/synch_repositories.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.
 
