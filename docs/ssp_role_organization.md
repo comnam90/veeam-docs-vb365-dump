@@ -3,7 +3,7 @@ title: "Step 3. Select Organization"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_organization.html"
-last_updated: "9/2/2024"
+last_updated: "2/4/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -17,6 +17,6 @@ Consider the following:
 * You can add restore operator roles only for Microsoft 365 organizations and hybrid organizations.
 * The organization for which you want to add a restore operator role must be added to Veeam Backup for Microsoft 365 using the modern app-only authentication method.
 
-[![Selecting Organization](images/new_operator_role_3.webp)](images/new_operator_role_3.webp "Selecting Organization")
+![Step 3. Select Organization](images/new_operator_role_3.webp "Selecting Organization")
 
 
