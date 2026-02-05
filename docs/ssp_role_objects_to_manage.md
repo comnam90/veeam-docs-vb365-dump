@@ -3,7 +3,7 @@ title: "Step 5. Select Objects to Manage"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_objects_to_manage.html"
-last_updated: "9/2/2024"
+last_updated: "2/4/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,7 +26,7 @@ Keep in mind that if a restore operator is allowed to explore and restore data f
 
 1. If you selected the Manage the following objects option, click Add and select one of the following options: Users, Groups, Sites, or Teams.
 
-[![Selecting Objects to Manage](images/new_operator_role_5.webp)](images/new_operator_role_5.webp "Selecting Objects to Manage")
+![Step 5. Select Objects to Manage](images/new_operator_role_5.webp "Selecting Objects to Manage")
 
 1. In the Add Objects window, select check boxes next to the users, groups, sites, or teams whose backed-up data the restore operators will be able to explore and restore using Restore Portal.
 
@@ -35,12 +35,12 @@ Keep in mind that if a restore operator is allowed to explore and restore data f
 | Tip |
 | Consider the following:   * To switch between objects of different types, you can click the buttons in the upper-right corner.  * To refresh the objects list, you can click Refresh.  * To quickly find necessary objects, you can use the search field at the bottom. |
 
-[![Selecting Objects to Manage](images/ssp_select_objects_to_manage.webp)](images/ssp_select_objects_to_manage.webp "Selecting Objects to Manage")
+![Step 5. Select Objects to Manage](images/ssp_select_objects_to_manage.webp "Selecting Objects to Manage")
 
 1. Click Add.
 
 The selected objects appear in the list of objects to manage.
 
-[![Selecting Objects to Manage](images/new_operator_role_5_1.webp)](images/new_operator_role_5_1.webp "Selecting Objects to Manage")
+![Step 5. Select Objects to Manage](images/new_operator_role_5_1.webp "Selecting Objects to Manage")
 
 
