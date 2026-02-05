@@ -3,7 +3,7 @@ title: "Step 3. Specify Microsoft Exchange Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_connection_settings_exchange_both.html"
-last_updated: "7/18/2024"
+last_updated: "2/4/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -30,7 +30,7 @@ For more information about the required roles and permissions, see [Veeam Backup
 
 1. Select the Configure throttling policy check box to set the throttling policy for the account being used to Unlimited.
 
-[![Adding Microsoft On-premises Exchange Organization](images/on_premises_exchange_2.webp)](images/on_premises_exchange_2.webp "Adding Microsoft On-premises Exchange Organization")
+![Step 3. Specify Microsoft Exchange Connection Settings](images/on_premises_exchange_2.webp "Adding Microsoft On-premises Exchange Organization")
 
 1. Click Advanced if you want to configure whether to connect to the Microsoft Exchange server using SSL and to skip one or more SSL verifications. To do this, select or clear any of the following check boxes:
 
@@ -40,6 +40,6 @@ For more information about the required roles and permissions, see [Veeam Backup
 * Skip certificate common name verification
 * Skip revocation check
 
-[![Step 3. Specify Microsoft Exchange Connection Settings](images/ssl.webp)](images/ssl.webp)
+![Step 3. Specify Microsoft Exchange Connection Settings](images/ssl.webp)
 
 
