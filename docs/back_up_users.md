@@ -3,7 +3,7 @@ title: "Configuring Users Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_users.html"
-last_updated: "10/7/2025"
+last_updated: "2/2/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,7 +19,7 @@ To configure Users backup, do the following:
 
 1. In the Add Objects window, select check boxes next to the users that you want to back up.
 
-[![Adding Objects](images/add_users_bj.webp)](images/add_users_bj.webp "Adding Objects")
+![Configuring Users Backup](images/add_users_bj.webp "Adding Objects")
 
 1. Click Add.
 
@@ -29,12 +29,12 @@ The selected objects appear in the list of objects to back up.
 
 Keep in mind that you cannot edit processing options for the Public Mailbox objects.
 
-[![Selecting Objects to Back Up](images/objects_to_backup_edit.webp)](images/objects_to_backup_edit.webp "Selecting Objects to Back Up")
+![Configuring Users Backup](images/objects_to_backup_edit.webp "Selecting Objects to Back Up")
 
 1. In the Edit Processing Options window, select check boxes next to the processing options that you want to apply, and click OK.
 
 For more information about available User types and their processing options, see [Organization Object Types](vbo_object_types.md#users).
 
-[![Editing Processing Options](images/prevent_obj.webp)](images/prevent_obj.webp "Editing Processing Options")
+![Configuring Users Backup](images/prevent_obj.webp "Editing Processing Options")
 
 
