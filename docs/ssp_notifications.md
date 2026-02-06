@@ -3,7 +3,7 @@ title: "Managing Notifications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_notifications.html"
-last_updated: "10/31/2024"
+last_updated: "2/4/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,6 +19,6 @@ If you want the notification pane to expand automatically when a new notificatio
 1. Click the notification icon to expand the notification pane.
 2. Enable the Auto-display new messages option.
 
-[![Managing Notifications](images/ssp_notification_pane.webp)](images/ssp_notification_pane.webp "Managing Notifications")
+![Managing Notifications](images/ssp_notification_pane.webp "Managing Notifications")
 
 

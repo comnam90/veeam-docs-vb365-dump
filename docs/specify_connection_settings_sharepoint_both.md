@@ -3,7 +3,7 @@ title: "Step 4. Specify Microsoft SharePoint Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_connection_settings_sharepoint_both.html"
-last_updated: "7/18/2024"
+last_updated: "2/4/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,7 +26,7 @@ You must provide a user account in one of the following formats: domain\account 
 
 For more information about the required roles and permissions, see [Veeam Backup Account Permissions](permissions_veeam_backup_account.md).
 
-[![Adding Microsoft On-premises SharePoint Organization](images/on_premises_exchange_3.webp)](images/on_premises_exchange_3.webp "Adding Microsoft On-premises SharePoint Organization")
+![Step 4. Specify Microsoft SharePoint Connection Settings](images/on_premises_exchange_3.webp "Adding Microsoft On-premises SharePoint Organization")
 
 1. Click Advanced if you want to configure whether to connect to the Microsoft SharePoint server using SSL and to skip one or more SSL verifications. To do this, select or clear any of the following check boxes:
 
@@ -36,6 +36,6 @@ For more information about the required roles and permissions, see [Veeam Backup
 * Skip certificate common name verification
 * Skip revocation check
 
-[![Step 4. Specify Microsoft SharePoint Connection Settings](images/ssl.webp)](images/ssl.webp)
+![Step 4. Specify Microsoft SharePoint Connection Settings](images/ssl.webp)
 
 
