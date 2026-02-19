@@ -3,7 +3,7 @@ title: "Step 3. Select Objects to Back Up"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_backup.html"
-last_updated: "10/7/2025"
+last_updated: "2/18/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -17,7 +17,7 @@ In Veeam Backup for Microsoft 365, you can select to back up the entire organiza
 Consider the following:
 
 * You can create only one entire organization backup job per organization.
-* Objects that are already added to the scope of any of your backup jobs will be skipped from the entire organization processing list.
+* Objects that are already added to the scope of any of your backup jobs (including disabled backup jobs) will be skipped from the entire organization processing list.
 * Due to possible access limitations some Site type objects may be unavailable.
 * You can add the following objects for [Microsoft 365 organizations](vbo_add_office365_org.md) with modern app-only authentication: Public Folder Mailboxes and Discovery Search Mailboxes. For more information about the Exchange.ManageAsApp permission and the Global Reader role that Microsoft Entra application requires to back up these objects, see [Permissions for Backup](ad_app_permissions_sd.md#Exchange.ManageAsApp) and [Granting Global Reader Role to Microsoft Entra Application](ad_app_permissions_sd.md#app_role).
 * When you add an Organization object, [processing options](back_up_organization.md) are applied to all users, groups and sites in the selected organization.
@@ -40,6 +40,6 @@ If you have selected the Teams chats check box when you added a Microsoft 365 or
 | Note |
 | If you select a group, site or team as an individual object for backup (and not as a part of a user account, group or organization), this object does not consume a unit from the Veeam license. |
 
-[![Selecting Objects to Back Up](images/objects_to_backup.webp)](images/objects_to_backup.webp "Selecting Objects to Back Up")
+![Step 3. Select Objects to Back Up](images/objects_to_backup.webp "Selecting Objects to Back Up")
 
 
