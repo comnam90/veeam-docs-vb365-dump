@@ -3,7 +3,7 @@ title: "Backup Copy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_copy.html"
-last_updated: "11/12/2025"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -23,10 +23,12 @@ As well as backup, backup copy is a job-driven process. You can create a backup 
 
 The following table lists cloud and on-premises storage systems that Veeam Backup for Microsoft 365 supports as a source and target for backup copy jobs:
 
+Backup Copy
+
 | Vendor | Access tier / Storage class | Source for backup copy | Target for backup copy |
-| --- | --- | --- | --- |
 | Azure Blob Storage | Hot | ✔ | ✔ |
 | Cool | ✔ | ✔ |
+| Cold | ✔ | ✔ |
 | Archive |  | ✔ |
 | Amazon S3 Storage | Standard | ✔ | ✔ |
 | Standard-Infrequent Access | ✔ | ✔ |

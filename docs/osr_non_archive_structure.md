@@ -3,7 +3,7 @@ title: "Storage for Backups"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/osr_non_archive_structure.html"
-last_updated: "8/29/2024"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -12,7 +12,7 @@ product_version: "8.3.0.2201"
 
 The following table lists the structure that is created and maintained by Veeam Backup for Microsoft 365 in object storage repositories where you store your backups.
 
-You can use S3 Compatible object storage repository, Azure Blob Storage Hot/Cool access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes for this purpose.
+You can use S3 Compatible object storage repository, Azure Blob Storage Hot/Cool/Cold access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes for this purpose.
 
 Keep in mind that Veeam Backup for Microsoft 365 does not support this structure for Azure Blob Storage Archive access tier and all Amazon S3 Glacier storage classes, and you cannot target a backup job to them.
 
@@ -23,8 +23,9 @@ Keep in mind that Veeam Backup for Microsoft 365 does not support this structure
 
 dd
 
+Storage for Backups
+
 | Directory | Description |
-| --- | --- |
 | <bucket\_name/container\_name> | A bucket or container name.  Buckets and containers must be created in advance using the cloud provider tools. Veeam Backup for Microsoft 365 does not support creating new buckets or containers. |
 | <bucket\_name/container\_name>/Veeam/Backup365/ | A set of mandatory folders created by Veeam Backup for Microsoft 365. |
 | <repository\_folder\_name> | A repository folder that you create when adding a new object storage repository.  For more information on how to add a new object storage repository, see [Adding Object Storage Repositories](adding_object_storage.md). |
