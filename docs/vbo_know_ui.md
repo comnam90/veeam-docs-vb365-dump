@@ -3,7 +3,7 @@ title: "User Interface"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_know_ui.html"
-last_updated: "10/14/2025"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -68,7 +68,7 @@ Items displayed in the inventory pane differ depending on the active view. For e
 
 In the Backup Infrastructure view, the inventory pane displays nodes for backup infrastructure components — backup proxy servers, backup proxy pools, JET-based backup repositories and object storage repositories. The Backup Repositories node includes the following nodes for different backup repositories added to Veeam Backup for Microsoft 365:
 
-* Object storage. Contains S3 Compatible object storage repositories, Azure Blob Storage Hot/Cool access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes.
+* Object storage. Contains S3 Compatible object storage repositories, Azure Blob Storage Hot/Cool/Cold access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes.
 * Local disk. Contains Default Backup Repository and other JET-based backup repositories.
 * Archive. Contains Azure Blob Storage Archive access tier and all Amazon S3 Glacier storage classes.
 
