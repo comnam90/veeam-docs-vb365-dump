@@ -3,7 +3,7 @@ title: "Object Storage Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_osr.html"
-last_updated: "5/9/2025"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -34,10 +34,12 @@ For more information about Wasabi Cloud Object Storage, see [this Wasabi article
 
 The following table lists supported object storage depending on vendor and purpose of usage:
 
+Object Storage Repositories
+
 | Vendor | Access tier / Storage class | Data backup | Backup copy |
-| --- | --- | --- | --- |
 | Azure Blob Storage | Hot | ✔ | ✔ |
 | Cool | ✔ | ✔ |
+| Cold | ✔ | ✔ |
 | Archive |  | ✔ |
 | Amazon S3 Storage | Standard | ✔ | ✔ |
 | Standard-Infrequent Access | ✔ | ✔ |
