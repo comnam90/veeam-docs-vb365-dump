@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "11/11/2025"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -95,7 +95,7 @@ General
 * Project Web Apps are not supported for backup.
 * On-premises service accounts cannot be used for multi-factor authentication.
 
-* Backup of a Microsoft 365 tenant organization is not supported if the fallback domain of the organization was changed. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#why-do-i-have-an--onmicrosoft-com--domain).
+* Backup of a Microsoft 365 tenant organization is not supported if the initial domain of the organization was changed. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#why-do-i-have-an--onmicrosoft-com--domain).
 * Backup of dynamic distribution groups is not supported for Microsoft 365 organizations with modern app-only authentication. Members of dynamic distribution groups cannot be resolved.
 * You cannot back up data of on-premises Microsoft organizations to an object storage repository associated with a Linux-based backup proxy server or a backup proxy pool that includes a Linux-based backup proxy server.
 
@@ -167,6 +167,7 @@ Restore
 * Microsoft Teams messages cannot be restored directly back to Teams.
 
 * Veeam Backup for Microsoft 365 restores public folders that are located under the IPM\_SUBTREE folder only.
+* Restore of public folders can be performed to the original location only.
 
 * Bulk restore (restore of multiple objects) using modern authentication with the Microsoft Entra application certificate is not supported for public folder mailboxes. Use the regular per-object restore instead.
 * Bulk restore of Exchange mailboxes can be performed to the original location only. Use a single mailbox, folder or item restore if you want to restore such objects to another location.

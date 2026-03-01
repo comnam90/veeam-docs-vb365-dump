@@ -3,7 +3,7 @@ title: "Removing Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_removing_repository.html"
-last_updated: "8/29/2024"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -30,7 +30,7 @@ To remove a backup repository, do the following:
 2. In the inventory pane, select one of the following nodes:
 
 * Backup Repositories. Contains all backup repositories added to the Veeam Backup for Microsoft 365 backup infrastructure.
-* Object storage. Contains S3 Compatible object storage repositories, Azure Blob Storage Hot/Cool access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes.
+* Object storage. Contains S3 Compatible object storage repositories, Azure Blob Storage Hot/Cool/Cold access tiers, Amazon S3 Standard, Amazon S3 Standard-Infrequent Access and Amazon S3 One Zone-Infrequent Access storage classes.
 * Local disk. Contains Default Backup Repository and other JET-based backup repositories.
 * Archive. Contains Azure Blob Storage Archive access tier and all Amazon S3 Glacier storage classes.
 

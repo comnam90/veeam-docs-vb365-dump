@@ -3,7 +3,7 @@ title: "Getting Started with Backup Copy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/get_started_backup_copy.html"
-last_updated: "9/2/2024"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -61,7 +61,7 @@ Retrieving backed-up data from backup copies is required before data explore and
 
 You can start exploring and restoring data at any time you want if you have copied your backed-up data to the following object storage repositories:
 
-* Azure Blob Storage Hot/Cool access tier
+* Azure Blob Storage Hot/Cool/Cold access tier
 * Amazon S3 Standard storage class
 * Amazon S3 Standard-Infrequent Access storage class
 * Amazon S3 One Zone-Infrequent Access storage class

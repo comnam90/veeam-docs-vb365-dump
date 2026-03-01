@@ -3,7 +3,7 @@ title: "Exploring Backup Copies"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_backup_copies.html"
-last_updated: "9/2/2024"
+last_updated: "2/27/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -12,7 +12,7 @@ product_version: "8.3.0.2201"
 
 You can start exploring and restoring data from backup copies stored in the following object storage repositories:
 
-* Azure Blob Storage Hot/Cool access tier
+* Azure Blob Storage Hot/Cool/Cold access tier
 * Amazon S3 Standard storage class
 * Amazon S3 Standard-Infrequent Access storage class
 * Amazon S3 One Zone-Infrequent Access storage class
@@ -48,6 +48,6 @@ where <product> is one of the following services: Exchange, SharePoint, OneDrive
 
 Veeam Backup for Microsoft 365 will open backed-up data from backup copies created for the selected organization.
 
-[![Exploring Backup Copies](images/explore_backup_copies2.webp)](images/explore_backup_copies2.webp "Exploring Backup Copies")
+![Exploring Backup Copies](images/explore_backup_copies2.webp "Exploring Backup Copies")
 
 
