@@ -3,7 +3,7 @@ title: "Step 7. Specify Backup Proxy Server or Backup Proxy Pool"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_backup_proxy.html"
-last_updated: "3/26/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -36,7 +36,7 @@ To specify a backup proxy server or a backup proxy pool, do the following:
 * Proxy. Select this option to use the default backup proxy server or another remote backup proxy server.
 * Proxy pool. Select this option to use a backup proxy pool.
 
-[![Selecting Backup Proxy Server or Backup Proxy Pool](images/backup_proxy_or_proxy_pool_azure.webp)](images/backup_proxy_or_proxy_pool_azure.webp "Selecting Backup Proxy Server or Backup Proxy Pool")
+![Step 7. Specify Backup Proxy Server or Backup Proxy Pool](images/backup_proxy_or_proxy_pool_azure.webp "Selecting Backup Proxy Server or Backup Proxy Pool")
 
 1. In the Select Backup Proxy window, select a backup proxy server or a backup proxy pool that you want to use. You can select either one backup proxy server or one backup proxy pool.
 
@@ -47,11 +47,11 @@ To specify a backup proxy server or a backup proxy pool, do the following:
 
 * If you select a backup proxy server:
 
-[![Selecting Backup Proxy Server](images/osr_backup_proxy.webp)](images/osr_backup_proxy.webp "Selecting Backup Proxy Server")
+![Step 7. Specify Backup Proxy Server or Backup Proxy Pool](images/osr_backup_proxy.webp "Selecting Backup Proxy Server")
 
 * If you select a backup proxy pool:
 
-[![Selecting Backup Proxy Pool](images/osr_backup_proxy_pool.webp)](images/osr_backup_proxy_pool.webp "Selecting Backup Proxy Pool")
+![Step 7. Specify Backup Proxy Server or Backup Proxy Pool](images/osr_backup_proxy_pool.webp "Selecting Backup Proxy Pool")
 
 1. Click OK.
 
@@ -80,7 +80,7 @@ If you already have a credentials record that was configured beforehand, select 
 1. From the Subscription drop-down list, select Microsoft Azure subscription.
 2. Click Customize if you want to change the default settings of the archiver appliance.
 
-[![Azure Archiver Appliance](images/azure_appliance_1_new.webp)](images/azure_appliance_1_new.webp "Azure Archiver Appliance")
+![Step 7. Specify Backup Proxy Server or Backup Proxy Pool](images/azure_appliance_1_new.webp "Azure Archiver Appliance")
 
 1. In the Cloud Archiver Appliance Settings window, do the following:
 
@@ -98,7 +98,7 @@ If a backup proxy pool is associated with the object storage repository, you can
 1. Specify the port that Veeam Backup for Microsoft 365 will use to route requests between the archiver appliance and backup infrastructure components.
 2. Click OK.
 
-[![Configuring Azure Archiver Appliance](images/azure_proxy_2.webp)](images/azure_proxy_2.webp "Configuring Azure Archiver Appliance")
+![Step 7. Specify Backup Proxy Server or Backup Proxy Pool](images/azure_proxy_2.webp "Configuring Azure Archiver Appliance")
 
 Related Topics
 
