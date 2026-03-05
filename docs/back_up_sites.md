@@ -3,7 +3,7 @@ title: "Configuring Sites Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_sites.html"
-last_updated: "8/30/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -21,7 +21,7 @@ To configure Sites backup, do the following:
 
 Keep in mind that you need to expand the Personal Sites node or a node of a parent site to view all personal sites or subsites.
 
-[![Adding Objects](images/new_backup_selected_2.webp)](images/new_backup_selected_2.webp "Adding Objects")
+![Configuring Sites Backup](images/new_backup_selected_2.webp "Adding Objects")
 
 1. Click Add.
 
