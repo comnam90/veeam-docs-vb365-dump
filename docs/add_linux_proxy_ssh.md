@@ -3,7 +3,7 @@ title: "Step 4. Specify SSH Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/add_linux_proxy_ssh.html"
-last_updated: "4/1/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -27,7 +27,7 @@ Do the following:
 1. In the SSH Port field, specify a number of the SSH port to connect to a Linux machine. By default, port 22 is used.
 2. In the SSH Timeout field, specify the SSH connection timeout. This timeout is used to wait for connection to the specified backup proxy server through SSH. The default value is 30000 milliseconds.
 
-[![Adding Backup Proxy Server](images/ssh_connection_linux.webp)](images/ssh_connection_linux.webp "Adding Backup Proxy Server")
+![Step 4. Specify SSH Connection Settings](images/ssh_connection_linux.webp "Adding Backup Proxy Server")
 
 Configuring Advanced Settings
 
@@ -43,7 +43,7 @@ To grant the sudo rights to the non-root account, in the Advanced Settings windo
 
 1. Select the Use su if sudo is unavailable check box to enable failover using the su command for distros where the sudo command is not available. In the Root password field, enter the password for the root account.
 
-[![Configuring Advanced Settings](images/ssh_advanced.webp)](images/ssh_advanced.webp "Configuring Advanced Settings")
+![Step 4. Specify SSH Connection Settings](images/ssh_advanced.webp "Configuring Advanced Settings")
 
 Using Identity/Pubkey Authentication
 
