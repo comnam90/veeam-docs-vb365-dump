@@ -3,7 +3,7 @@ title: "Step 4. Select Objects to Exclude"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_exclude.html"
-last_updated: "8/23/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,7 +19,7 @@ To exclude an object, click Add and select users, groups, sites, and teams that 
 | Note |
 | You can add the following objects for [Microsoft 365 organizations](vbo_add_office365_org.md) with modern app-only authentication: Public Folder Mailboxes and Discovery Search Mailboxes. For more information about the Exchange.ManageAsApp permission and the Global Reader role that Microsoft Entra application requires to back up these objects, see [Permissions for Backup](ad_app_permissions_sd.md#Exchange.ManageAsApp) and [Granting Global Reader Role to Microsoft Entra Application](ad_app_permissions_sd.md#app_role). |
 
-[![Selecting Objects to Exclude](images/new_backup_entire_1.webp)](images/new_backup_entire_1.webp "Selecting Objects to Exclude")
+![Step 4. Select Objects to Exclude](images/new_backup_entire_1.webp "Selecting Objects to Exclude")
 
 If you want to specify exclusion options, select an object in the list, click Edit and in the Edit Exclusions window, select exclusion options that you want to apply.
 
@@ -32,10 +32,10 @@ For more information about available object types and their exclusion options, s
 
 The following is an example where the Mail, Archive and Site are excluded from the backup for the selected user. Veeam Backup for Microsoft 365 will only back up OneDrive data for this user.
 
-[![Editing Exclusions](images/excluding_example.webp)](images/excluding_example.webp "Editing Exclusions")
+![Step 4. Select Objects to Exclude](images/excluding_example.webp "Editing Exclusions")
 
 To see what Veeam Backup for Microsoft 365 will exclude for the selected object to exclude, refer to the Exclude column. In this example, Veeam Backup for Microsoft 365 will exclude Mail, Archive and Site.
 
-[![Editing Exclusions](images/excluding_example_1.webp)](images/excluding_example_1.webp "Editing Exclusions")
+![Step 4. Select Objects to Exclude](images/excluding_example_1.webp "Editing Exclusions")
 
 
