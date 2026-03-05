@@ -3,7 +3,7 @@ title: "REST API Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_rest_api_settings.html"
-last_updated: "2/14/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -30,22 +30,32 @@ Also, Restore Portal uses this port to communicate with Veeam Backup for Microso
 |  |
 | --- |
 | Note |
-| The default value is 4443. If you use a different port, make sure that you configure the same value for the Restore Portal web address. Otherwise, Restore Portal will be unavailable. For more information, see [Register or Configure Microsoft Entra Application](ssp_create_new_app_2.md). |
+| The default value is 4443. If you use a different port, make sure that you configure the same value for the Restore Portal web address. Otherwise, Restore Portal will be unavailable. For more information, see [Register Microsoft Entra Application](ssp_create_new_app_2.md) and [Configure Microsoft Entra Application](ssp_configure_existing_app_3.md). |
 
-1. Click Install to run the Select Certificate wizard.
-2. Proceed to any of the following options:
+1. Click Install to run the Select Certificate wizard and install the REST API certificate. Proceed to any of the following options:
 
-* [Generate a new self-signed certificate](vbo_installing_certificate.md#generate_new)
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Generate a new self-signed certificate
 
-* [Select certificate from the Certificate Store of this server](vbo_installing_certificate.md#selecting_file)
-* [Import certificate from a PFX file](vbo_installing_certificate.md#import)
+|  |
+| --- |
+| Perform the following steps:   1. Select the Generate a new self-signed certificate option.   ![REST API Settings](images/select_certificate_wizard_step1_type.webp "Generating New Certificate")   1. Specify a certificate name and click Finish.   ![REST API Settings](images/select_certificate_wizard_step2_create_new.webp "Generating New Certificate") |
 
-Keep in mind that Restore Portal also uses this SSL certificate to communicate with the Veeam Backup for Microsoft 365 server and perform restore operations through REST API.
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import an existing TLS certificate from the certificate store
 
-1. Select the Enable Swagger UI check box to enable access to the swagger website and usage of Swagger UI.
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Select certificate from the Certificate Store of this server option.   ![REST API Settings](images/select_certificate_wizard_step1_type_2.webp "Selecting Certificate")   1. Select the certificate from the certificate store and click Finish.   |  | | --- | | Note | | A TLS certificate that you want to use must be added to the Personal certificate store. It also must have a private exportable key. |  ![REST API Settings](images/select_certificate_wizard_step2_pick_from_store.webp "Selecting Certificate") |
+
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import a TLS certificate from a file in the PFX format
+
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Import certificate from a PFX file option.   ![REST API Settings](images/select_certificate_wizard_step1_type_3.webp "Importing Certificate")   1. Click Browse and select a PFX file. Specify the certificate password if required.   |  | | --- | | Note | | A TLS certificate that you want to use must have a private exportable key. |  ![REST API Settings](images/select_certificate_wizard_step2_import_file.webp "Importing Certificate")   1. Click Finish. |
+
+1. If you want to use Swagger UI, select the Enable Swagger UI check box. If you do not require permanent access, leave the check box clear to reduce the potential attack surface.
 2. Select the Enable restore operator authentication only check box to use REST API only for authentication of restore operators to Restore Portal. Keep in mind that if you enable this check box, all other REST API endpoints will be unavailable.
 3. Click OK.
 
-[![Configuring REST API Settings](images/options_restapi_cert_installed.webp)](images/options_restapi_cert_installed.webp "Configuring REST API Settings")
+![REST API Settings](images/options_restapi_cert_installed.webp "Configuring REST API Settings")
 
 
