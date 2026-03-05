@@ -3,7 +3,7 @@ title: "Network Attached Storage (SMB Shares)"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/br_smb.html"
-last_updated: "8/30/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -36,7 +36,7 @@ After you share a folder, you can access it using the SMB 3.0 protocol to read/w
 
 To add a shared folder as a backup repository, at the [Specify Backup Proxy Server](new_repository_2.md) step, in the Path field, specify the path to the shared folder using the following syntax: \\<FQDN\_name> or <ip\_address>\<shared\_folder\_name>.
 
-[![Network Attached Storage (SMB Shares)](images/smb_share.webp)](images/smb_share.webp)
+![Network Attached Storage (SMB Shares)](images/smb_share.webp "Selecting Backup Proxy Server")
 
 Related Topics
 
