@@ -3,7 +3,7 @@ title: "Appendix A. Item Search Parameters"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/appendix_search.html"
-last_updated: "5/6/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -47,8 +47,9 @@ Search Parameters for Microsoft Exchange Items
 
 The following table contains parameters that can be used to search for Microsoft Exchange items in backups created by Veeam Backup for Microsoft 365.
 
+Search Parameters for Microsoft Exchange Items
+
 | Name | Canonical Name | Shortcut |
-| --- | --- | --- |
 | Body | System.Search.Contents | body, content, contents |
 | Categories | System.Category | category |
 | Company | System.Company | company |
@@ -165,8 +166,9 @@ Search Parameters for Microsoft SharePoint and Microsoft OneDrive for Business I
 
 The following table contains parameters that can be used to search for Microsoft SharePoint and Microsoft OneDrive for Business items in backups created by Veeam Backup for Microsoft 365.
 
+Search Parameters for Microsoft SharePoint and Microsoft OneDrive for Business Items
+
 | Name | Canonical Name | Shortcut |
-| --- | --- | --- |
 | Created By | System.Author | - |
 | Location | System.Calendar.Location | location |
 | Category | System.Category | category |
@@ -272,8 +274,9 @@ Search Parameters for Posts
 
 The following table contains parameters that can be used to search for Microsoft Teams posts in backups created by Veeam Backup for Microsoft 365.
 
+Search Parameters for Posts
+
 | Name | Canonical Name | Shortcut |
-| --- | --- | --- |
 | Attachment Name | System.Message.AttachmentNames | - |
 | Attachment URL | System.Message.AttachmentContents | attachment |
 | Author | System.Author | author |
@@ -288,8 +291,9 @@ Search Parameters for Files
 
 The following table contains parameters that can be used to search for Microsoft Teams files in backups created by Veeam Backup for Microsoft 365.
 
+Search Parameters for Files
+
 | Name | Canonical Name | Shortcut |
-| --- | --- | --- |
 | Created By | System.Author | author |
 | Created | System.DateCreated | datecreated, created |
 | Modified | System.DateModified | datemodified, modified |
@@ -303,8 +307,9 @@ Search Parameters for Tabs
 
 The following table contains parameters that can be used to search for Microsoft Teams tabs in backups created by Veeam Backup for Microsoft 365.
 
+Search Parameters for Tabs
+
 | Name | Canonical Name | Shortcut |
-| --- | --- | --- |
 | Name | System.ItemNameDisplay | name |
 
 
