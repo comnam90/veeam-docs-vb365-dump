@@ -3,7 +3,7 @@ title: "Step 4. Specify Credentials"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_account.html"
-last_updated: "8/29/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,8 +26,8 @@ Veeam Backup for Microsoft 365 uses the specified credentials for different purp
 
 * For a domain backup proxy, Veeam Backup for Microsoft 365 uses credentials for entire communication with the backup proxy server.
 
-* For a workgroup backup proxy, Veeam Backup for Microsoft 365 uses credentials only to connect to a computer in a workgroup and upload backup proxy server components to this machine. After the backup proxy is deployed, Veeam Backup for Microsoft 365 uses an SSL certificate to communicate with the backup proxy server.
+* For a workgroup backup proxy, Veeam Backup for Microsoft 365 uses credentials only to connect to a computer in a workgroup and upload backup proxy server components to this machine. After the backup proxy is deployed, Veeam Backup for Microsoft 365 uses a TLS certificate to communicate with the backup proxy server.
 
-[![Adding Backup Proxy Server](images/add_proxy_wiz_access_creds.webp)](images/add_proxy_wiz_access_creds.webp "Adding Backup Proxy Server")
+![Step 4. Specify Credentials](images/add_proxy_wiz_access_creds.webp "Adding Backup Proxy Server")
 
 
