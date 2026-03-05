@@ -3,7 +3,7 @@ title: "Microsoft SharePoint and OneDrive for Business"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_sharepoint.html"
-last_updated: "7/5/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -35,16 +35,18 @@ On-Premises Microsoft SharePoint Organizations
 
 The following table lists roles that must be assigned to the account that you want to use to add on-premises Microsoft SharePoint organizations:
 
+On-Premises Microsoft SharePoint Organizations
+
 | Role | Description |
-| --- | --- |
 | Site Collection Administrator | Required to back up Microsoft SharePoint sites.  The account must be a member of the Farm Administrator group. |
 
 Microsoft SharePoint Online Organizations
 
 The following table lists roles that must be assigned to the account that you want to use to add Microsoft SharePoint Online organizations:
 
+Microsoft SharePoint Online Organizations
+
 | Role | Description |
-| --- | --- |
 | SharePoint Admin | Required to back up Microsoft SharePoint sites. |
 | View-only Configuration | Required to get a list of available groups and users. |
 | View-Only Recipients |
