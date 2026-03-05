@@ -3,7 +3,7 @@ title: "Microsoft Exchange"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_exchange.html"
-last_updated: "7/8/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -23,8 +23,9 @@ Consider the following:
 | Note |
 | For more information about permissions required to restore Microsoft Exchange data from backups created by Veeam Backup for Microsoft 365, see [Permissions](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_required_permissions.html?ver=80) for Veeam Explorer for Microsoft Exchange. |
 
+Microsoft Exchange
+
 | Role | Description |
-| --- | --- |
 | Role Management | Required to grant the ApplicationImpersonation role. |
 | ApplicationImpersonation | Required to back up Exchange data. |
 | Organization Configuration | Required to manage role assignments. |

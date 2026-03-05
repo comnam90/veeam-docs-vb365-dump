@@ -3,7 +3,7 @@ title: "Step 7. Configure PostgreSQL Instance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_configure_instance.html"
-last_updated: "8/19/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -36,6 +36,6 @@ To specify settings for the PostgreSQL instance, do the following:
 
 If a configuration database with the specified name already exists (for example, it was created by a previous installation of Veeam Backup for Microsoft 365), the upgrade wizard will notify about it. To connect to the detected database, click Yes. If necessary, Veeam Backup for Microsoft 365 will automatically upgrade the database to the latest version.
 
-[![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_setup_postgresql_instance.webp)](images/vbo_iso_setup_postgresql_instance.webp "Upgrading Veeam Backup for Microsoft 365")
+![Step 7. Configure PostgreSQL Instance](images/vbo_iso_setup_postgresql_instance.webp "Upgrading Veeam Backup for Microsoft 365")
 
 

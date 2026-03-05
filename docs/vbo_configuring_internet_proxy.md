@@ -1,13 +1,13 @@
 ---
-title: "Global Internet Proxy Server Settings"
+title: "Internet Proxy Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_configuring_internet_proxy.html"
-last_updated: "8/27/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
-# Global Internet Proxy Server Settings
+# Internet Proxy Settings
 
 
 If a server on which Veeam Backup for Microsoft 365 is deployed does not have a direct access to the internet, you can assign an internet proxy server to be used as a gateway.
@@ -35,7 +35,7 @@ You can provide a DNS or IP address of a server.
 | Tip |
 | Also, you can configure an internet proxy server for each of your backup proxy servers. For more information, see [Configuring Internet Proxy Server](vbo_internet_proxy.md). |
 
-[![Configuring Global Internet Proxy](images/internet_proxy.webp)](images/internet_proxy.webp "Configuring Global Internet Proxy")
+![Internet Proxy Settings](images/internet_proxy.webp "Configuring Global Internet Proxy")
 
 To disable usage of the internet proxy server, do the following:
 

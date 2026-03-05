@@ -3,7 +3,7 @@ title: "Adjusting PostgreSQL Instance Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adjust_postgres_instance.html"
-last_updated: "10/8/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -77,5 +77,9 @@ Alternatively, you can do it by by executing the SQL code:
 |  |
 | --- |
 | CREATE EXTENSION IF NOT EXISTS "pg\_stat\_statements"; |
+
+Related Topics
+
+[Security Guidelines](vbo_security_guidelines.md)
 
 

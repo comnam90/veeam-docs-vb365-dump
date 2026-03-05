@@ -3,7 +3,7 @@ title: "Managing Encryption Passwords"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/managing_passwords.html"
-last_updated: "10/13/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -39,7 +39,7 @@ To add an encryption password, do the following:
 | Important |
 | Make sure to remember your encryption password because, if lost, it cannot be restored. Editing of already created encryption passwords is not supported. |
 
-[![Managing Passwords](images/password_manager.webp)](images/password_manager.webp "Managing Passwords")
+![Managing Encryption Passwords](images/password_manager.webp "Managing Passwords")
 
 In This Section
 

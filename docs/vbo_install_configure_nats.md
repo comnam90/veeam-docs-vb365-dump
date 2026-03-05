@@ -3,7 +3,7 @@ title: "Step 9. Configure NATS Server"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_configure_nats.html"
-last_updated: "10/21/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -28,6 +28,6 @@ To specify connection settings for the NATS server, do the following:
 | Important |
 | By default, the NATS server that you deploy along with Veeam Backup for Microsoft 365 on the target machine does not use the TLS encryption. For more information, see [Enabling TLS Encryption on NATS Server](adjust_nats_instance.md). |
 
-[![Installing Veeam Backup for Microsoft 365](images/vbo_iso_setup_nats.webp)](images/vbo_iso_setup_nats.webp "Installing Veeam Backup for Microsoft 365")
+![Step 9. Configure NATS Server](images/vbo_iso_setup_nats.webp "Installing Veeam Backup for Microsoft 365")
 
 

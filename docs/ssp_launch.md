@@ -3,7 +3,7 @@ title: "Launching Restore Portal"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_launch.html"
-last_updated: "6/13/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,7 +26,7 @@ Consider the following:
 |  |
 | --- |
 | Note |
-| You can access Restore Portal using the only URI that was specified by the Veeam Backup for Microsoft 365 administrator when registering a new Microsoft Entra application for authentication to Restore Portal. To add another URI or edit the application, the Veeam Backup for Microsoft 365 administrator must configure the application settings in Microsoft Entra ID. For more information on how to configure the Restore Portal web address, see [Creating or Configuring Microsoft Entra Application](ssp_create_new_app_wizard.md). |
+| You can access Restore Portal using the only URI that was specified by the Veeam Backup for Microsoft 365 administrator when registering a new Microsoft Entra application for authentication to Restore Portal. To add another URI or edit the application, the Veeam Backup for Microsoft 365 administrator must configure the application settings in Microsoft Entra ID. For more information on how to configure the Restore Portal web address, see [Creating Microsoft Entra Application](ssp_create_new_app_wizard.md) and [Configuring Microsoft Entra Application](ssp_configure_existing_app_wizard.md). |
 
 * You do not need any Veeam Backup for Microsoft 365 components or Veeam Explorers installed on a computer that you use to access Restore Portal.
 * Internet Explorer is not supported. To access Restore Portal, use Microsoft Edge (version 79 or later), Mozilla Firefox (version 21 or later) or Google Chrome (version 24 or later).

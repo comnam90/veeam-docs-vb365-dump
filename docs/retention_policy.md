@@ -3,7 +3,7 @@ title: "Retention Policy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retention_policy.html"
-last_updated: "9/30/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -54,7 +54,7 @@ The State 3 is the latest and if no more states will be created for the Item 1, 
 | Note |
 | Backup jobs process all available items regardless of their creation time or last modification time. |
 
-[![Snapshot-Based Retention](images/backup_retention_1.webp)](images/backup_retention_1.webp "Snapshot-Based Retention")
+![Retention Policy](images/backup_retention_1.webp "Snapshot-Based Retention")
 
 Item-Level Retention
 
@@ -73,7 +73,7 @@ The same is repeated until no items left in a repository. After that, Veeam Back
 | Note |
 | Backup jobs do not process items the last modification time of which exceeds the specified retention period. |
 
-[![Item-Based Retention](images/archive_retention.webp)](images/archive_retention.webp "Item-Based Retention")
+![Retention Policy](images/archive_retention.webp "Item-Based Retention")
 
 Removing Items After Unsuccessful Backup Attempts
 
@@ -81,7 +81,7 @@ If during the subsequent backup job sessions Veeam Backup for Microsoft 365 fail
 
 The following example represents a backup of the mailbox A which is followed by 6 consecutive unsuccessful attempts (B through G) of backing up that same mailbox during the subsequent backup job sessions. The mailbox A will not be removed until this mailbox is successfully backed up during the attempt H.
 
-[![Snapshot-Based Retention](images/backup_retention_2.webp)](images/backup_retention_2.webp "Snapshot-Based Retention")
+![Retention Policy](images/backup_retention_2.webp "Snapshot-Based Retention")
 
 Removing Restore Points
 
@@ -91,7 +91,7 @@ The following example represents four items (A through D) and two restore points
 
 Once the latest restore point is out of the retention coverage and, therefore, can safely be removed, the item A — the parent item of the latest restore point A2 — will be removed as well (Example 2).
 
-[![Understanding Retention Policy](images/backup_retention_3.webp)](images/backup_retention_3.webp "Understanding Retention Policy")
+![Retention Policy](images/backup_retention_3.webp "Understanding Retention Policy")
 
 Backup Job Idleness
 
@@ -101,7 +101,7 @@ The following example represents the mailbox A that has been removed because it 
 
 The same is applicable to Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams.
 
-[![Understanding Retention Policy](images/backup_retention_4.webp)](images/backup_retention_4.webp "Understanding Retention Policy")
+![Retention Policy](images/backup_retention_4.webp "Understanding Retention Policy")
 
 Object Storage Retention for Backup Copies
 

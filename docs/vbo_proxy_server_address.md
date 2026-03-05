@@ -3,7 +3,7 @@ title: "Step 3. Specify Backup Proxy Server Address"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_server_address.html"
-last_updated: "9/6/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -35,6 +35,6 @@ Make sure that the default admin share ADMIN$ (C:\Windows) is enabled on the spe
 
 1. In the Description field, enter optional description.
 
-[![Adding Backup Proxy Server](images/add_proxy_wiz_name.webp)](images/add_proxy_wiz_name.webp "Adding Backup Proxy Server")
+![Step 3. Specify Backup Proxy Server Address](images/add_proxy_wiz_name.webp "Adding Backup Proxy Server")
 
 

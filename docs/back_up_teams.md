@@ -3,7 +3,7 @@ title: "Configuring Teams Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_teams.html"
-last_updated: "10/7/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,7 +19,7 @@ To configure Teams backup, do the following:
 
 1. In the Add Objects window, select check boxes next to the teams that you want to back up.
 
-[![Adding Objects](images/add_teams_bj.webp)](images/add_teams_bj.webp "Adding Objects")
+![Configuring Teams Backup](images/add_teams_bj.webp "Adding Objects")
 
 1. Click Add.
 
@@ -32,7 +32,7 @@ The selected objects appear in the list of objects to back up.
 | Note |
 | You can edit processing options for the Team type objects only if you have selected the Teams chats check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365. |
 
-[![Selecting Objects to Back Up](images/teams_backup_edit.webp)](images/teams_backup_edit.webp "Selecting Objects to Back Up")
+![Configuring Teams Backup](images/teams_backup_edit.webp "Selecting Objects to Back Up")
 
 1. In the Edit Processing Options window, select check boxes next to the processing options that you want to apply, and click OK.
 
@@ -40,6 +40,6 @@ For more information about the Team type and its processing options, see [Organi
 
 Keep in mind that the Chats check box is available for editing only if you have selected the Teams chats check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365.
 
-[![Editing Processing Options](images/teams_processing_options.webp)](images/teams_processing_options.webp "Editing Processing Options")
+![Configuring Teams Backup](images/teams_processing_options.webp "Editing Processing Options")
 
 

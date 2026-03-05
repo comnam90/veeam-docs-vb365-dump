@@ -3,7 +3,7 @@ title: "Backup Proxy Servers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_proxy_servers.html"
-last_updated: "4/4/2025"
+last_updated: "2/17/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -53,7 +53,7 @@ In this scenario, a machine used as a backup proxy server resides in the same do
 
 * Workgroup backup proxy
 
-In this scenario, a machine used as a backup proxy server resides in a workgroup. To establish a connection with a workgroup backup proxy, Veeam Backup for Microsoft 365 uses an SSL certificate. For more information, see [Security Settings](vbo_security_settings.md).
+In this scenario, a machine used as a backup proxy server resides in a workgroup. To establish a connection with a workgroup backup proxy, Veeam Backup for Microsoft 365 uses a TLS certificate. For more information, see [Security Settings](vbo_security_settings.md).
 
 You can deploy the Veeam Backup for Microsoft 365 server and backup proxy servers across various combinations of workgroups and domains. Keep in mind that if the Veeam Backup for Microsoft 365 server is deployed in a particular domain, the backup proxy servers can be located in a different domain or even across multiple domains.
 

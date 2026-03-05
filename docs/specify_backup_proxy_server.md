@@ -3,7 +3,7 @@ title: "Step 5. Specify Backup Repository"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_backup_proxy_server.html"
-last_updated: "8/30/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -21,7 +21,7 @@ To specify an object storage repository or a JET-based backup repository, do the
 
 1. Click Select.
 
-[![Selecting Backup Repository](images/bj_osr_or_jet.webp)](images/bj_osr_or_jet.webp "Selecting Backup Repository")
+![Step 5. Specify Backup Repository](images/bj_osr_or_jet.webp "Selecting Backup Repository")
 
 1. In the Select Backup Repository window, select an object storage repository or a JET-based backup repository that you want to use.
 
@@ -30,7 +30,7 @@ To specify an object storage repository or a JET-based backup repository, do the
 | Tip |
 | To quickly find necessary backup repositories, you can use the search field at the bottom. |
 
-[![Selecting Backup Repository](images/bj_to_osr_jet.webp)](images/bj_to_osr_jet.webp "Selecting Backup Repository")
+![Step 5. Specify Backup Repository](images/bj_to_osr_jet.webp "Selecting Backup Repository")
 
 1. Click OK.
 

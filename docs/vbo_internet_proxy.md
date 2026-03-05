@@ -3,7 +3,7 @@ title: "Configuring Internet Proxy Server"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_internet_proxy.html"
-last_updated: "7/16/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -20,7 +20,7 @@ To configure an internet proxy server for a backup proxy server, do the followin
 
 * Use internet proxy settings from the management server. Select this option to use an internet proxy that is configured for your management server.
 
-For more information, see [Global Internet Proxy Server Settings](vbo_configuring_internet_proxy.md).
+For more information, see [Internet Proxy Settings](vbo_configuring_internet_proxy.md).
 
 * Use the following internet proxy settings. Select this option to configure a dedicated internet proxy server and specify the following:
 
@@ -33,8 +33,8 @@ For more information, see [Global Internet Proxy Server Settings](vbo_configurin
 |  |
 | --- |
 | Note |
-| The local backup proxy server (that is, the default backup proxy server) always uses an internet proxy that is configured for your management server. For more information, see [Global Internet Proxy Server Settings](vbo_configuring_internet_proxy.md). |
+| The local backup proxy server (that is, the default backup proxy server) always uses an internet proxy that is configured for your management server. For more information, see [Internet Proxy Settings](vbo_configuring_internet_proxy.md). |
 
-[![Configuring Internet Proxy Server](images/proxy_proxy.webp)](images/proxy_proxy.webp)
+![Configuring Internet Proxy Server](images/proxy_proxy.webp "Modifying Backup Proxy Server Properties")
 
 

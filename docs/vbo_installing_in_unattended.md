@@ -3,7 +3,7 @@ title: "Installing in Unattended Mode"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_in_unattended.html"
-last_updated: "4/30/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -25,8 +25,9 @@ Use the following syntax to run an MSI file:
 
 The following table lists components and feature names or feature descriptions for Veeam Backup for Microsoft 365:
 
+Installing in Unattended Mode
+
 | Component | Feature |
-| --- | --- |
 | EXO V3 PowerShell Module1 | PS\_MODULES |
 | Server | BR\_OFFICE365 |
 | Console | CONSOLE\_OFFICE365 |
@@ -39,8 +40,9 @@ The following table lists components and feature names or feature descriptions f
 
 The following table lists components and feature names for Veeam Explorer for Microsoft Exchange:
 
+Installing in Unattended Mode
+
 | Component | Feature |
-| --- | --- |
 | UI | BR\_EXCHANGEEXPLORER |
 | PowerShell | PS\_EXCHANGEEXPLORER |
 
@@ -51,15 +53,17 @@ The following table lists components and feature names for Veeam Explorer for Mi
 | Note |
 | Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive for Business are distributed in a single package. |
 
+Installing in Unattended Mode
+
 | Component | Feature |
-| --- | --- |
 | UI | BR\_SHAREPOINTEXPLORER |
 | PowerShell | PS\_SHAREPOINTEXPLORER |
 
 The following table lists components and feature names for Veeam Explorer for Microsoft Teams:
 
+Installing in Unattended Mode
+
 | Component | Feature |
-| --- | --- |
 | UI | BR\_TEAMSEXPLORER |
 | PowerShell | PS\_TEAMSEXPLORER |
 

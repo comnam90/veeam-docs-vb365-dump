@@ -3,7 +3,7 @@ title: "Backup Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_applications.html"
-last_updated: "8/15/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -22,7 +22,7 @@ Consider the following:
 | This functionality will be deprecated in future versions of Veeam Backup for Microsoft 365. |
 
 * A Microsoft Entra application that you used to add your Microsoft 365 organization to Veeam Backup for Microsoft 365 is included in the pool of auxiliary backup applications by default.
-* For security purposes, data exchange between Microsoft Entra applications and Veeam Backup for Microsoft 365 is maintained using SSL certificates only; you cannot use an [application secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#certificates-and-secrets).
+* For security purposes, data exchange between Microsoft Entra applications and Veeam Backup for Microsoft 365 is maintained using TLS certificates only; you cannot use an [application secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#certificates-and-secrets).
 
 * For Microsoft 365 organizations added using either basic authentication or modern authentication method with legacy protocols allowed, you use backup accounts instead. For more information, see [Backup Accounts](backup_accounts.md).
 

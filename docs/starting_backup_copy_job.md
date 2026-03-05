@@ -3,7 +3,7 @@ title: "Starting Backup Copy Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/starting_backup_copy_job.html"
-last_updated: "5/20/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 

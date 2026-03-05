@@ -3,7 +3,7 @@ title: "Licensing and License Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_licensing.html"
-last_updated: "1/22/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 

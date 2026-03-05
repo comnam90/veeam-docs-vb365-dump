@@ -3,7 +3,7 @@ title: "Creating User Protection Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/user_protection_reports.html"
-last_updated: "9/17/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -14,8 +14,9 @@ The User Protection reports show statistical information on protected and unprot
 
 Each report consists of the following fields and shows information per user account.
 
+Creating User Protection Reports
+
 | Field | Description |
-| --- | --- |
 | Description | Shows a description of the report. |
 | Reporting Date | Shows the date when the report was created. |
 | License Information | Shows the following:   * Product name * Company name * License type * License expiration date * Support identification number |
@@ -44,6 +45,6 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 1. Select the Open report after publishing check box to open the generated report using the default application.
 2. Click Finish.
 
-[![Creating User Protection Report](images/user_report.webp)](images/user_report.webp "Creating User Protection Report")
+![Creating User Protection Reports](images/user_report.webp "Creating User Protection Report")
 
 

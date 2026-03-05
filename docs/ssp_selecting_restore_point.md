@@ -3,7 +3,7 @@ title: "Selecting Restore Point"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_selecting_restore_point.html"
-last_updated: "8/22/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -33,6 +33,6 @@ To view available restore points and select a restore point that you want to use
 
 1. Click Apply.
 
-[![Selecting Restore Point](images/ssp_selecting_rp.webp)](images/ssp_selecting_rp.webp "Selecting Restore Point")
+![Selecting Restore Point](images/ssp_selecting_rp.webp "Selecting Restore Point")
 
 

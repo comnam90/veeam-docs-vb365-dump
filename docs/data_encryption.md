@@ -3,7 +3,7 @@ title: "Data Encryption"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/data_encryption.html"
-last_updated: "10/29/2024"
+last_updated: "3/2/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,6 +19,8 @@ Encryption Standards
 For data encryption, Veeam Backup for Microsoft 365 uses the 256-bit AES with a 256-bit key length in the CBC-mode. For more information, see [Advanced Encryption Standard (AES)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf).
 
 To generate a secret key based on an encryption password, Veeam Backup for Microsoft 365 uses the Password-Based Key Derivation Function, PKCS #5 version 2.0. Veeam Backup for Microsoft 365 uses 10,000 HMAC-SHA256 iterations and a 512-bit salt. For more information, see [Recommendation for Password-Based Key Derivation](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf). For more information on how to configure encryption passwords in Veeam Backup for Microsoft 365, see [Managing Encryption Passwords](managing_passwords.md).
+
+To encrypt certificates and protect other sensitive data stored in the configuration database, Veeam Backup for Microsoft 365 uses Data Protection API (DPAPI) mechanisms. For more information, see [this Microsoft article](https://msdn.microsoft.com/en-us/library/ms995355.aspx).
 
 Encryption Algorithm
 

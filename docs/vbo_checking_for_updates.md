@@ -3,7 +3,7 @@ title: "Checking for Updates"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_checking_for_updates.html"
-last_updated: "8/28/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -17,7 +17,7 @@ To update Veeam Backup for Microsoft 365 and Veeam Explorers manually, do the fo
 
 Make sure to open the port that is required to access the Veeam auto-update server. For more information, see [Ports](vbo_used_ports.md).
 
-[![Checking for Updates](images/updates.webp)](images/updates.webp "Checking for Updates")
+![Checking for Updates](images/updates.webp "Checking for Updates")
 
 1. Wait until Veeam Backup for Microsoft 365 checks whether a newer version is available.
 
@@ -25,7 +25,7 @@ To abort the request, click Cancel.
 
 1. If available, click the What's new links to review details about new features and enhancements of Veeam Backup for Microsoft 365 and Veeam Explorers and click Install.
 
-[![Checking for Updates](images/vbo_explorers_upgrade.webp)](images/vbo_explorers_upgrade.webp)
+![Checking for Updates](images/vbo_explorers_upgrade.webp "Checking for Updates")
 
 During update, the Veeam Backup for Microsoft 365 console will be closed, and you will be offered to go through the setup steps. For more information, see [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md).
 
@@ -34,6 +34,6 @@ During update, the Veeam Backup for Microsoft 365 console will be closed, and yo
 |  |
 | --- |
 | Note |
-| You can configure whether Veeam Backup for Microsoft 365 will notify you when new versions appear on Veeam servers and allow Veeam Backup for Microsoft 365 to download available updates automatically. For more information, see [New Versions and Automatic Updates](vbo_configuring_update.md). |
+| You can configure whether Veeam Backup for Microsoft 365 will notify you when new versions appear on Veeam servers and allow Veeam Backup for Microsoft 365 to download available updates automatically. For more information, see [Update Settings](vbo_configuring_update.md). |
 
 

@@ -3,7 +3,7 @@ title: "Creating License Overview Reports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/license_overview_reports.html"
-last_updated: "9/17/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -14,8 +14,9 @@ The License Overview reports show statistical information on how many licenses a
 
 Each report consists of the following fields and shows information per organization consuming the license.
 
+Creating License Overview Reports
+
 | Field | Description |
-| --- | --- |
 | Description | Shows a description of the report. |
 | Reporting Interval | Shows the time interval for which the report is generated.  Note: By default, the report is generated for 30 days. If the reporting interval that you set is more than 1 day, the report includes all organizations that consumed the license within the specified period. Even if an organization license expired within the specified period, such organization is included in the report as well. |
 | License Information | Shows the following:   * Product name * Company name * License type * License expiration date * Support identification number |
@@ -45,6 +46,6 @@ Use the Save as type drop-down list in the Save As dialog to select PDF or CSV f
 1. Select the Open report after publishing check box to open the generated report using the default application.
 2. Click Finish.
 
-[![Creating License Overview Report](images/license_report.webp)](images/license_report.webp "Creating License Overview Report")
+![Creating License Overview Reports](images/license_report.webp "Creating License Overview Report")
 
 

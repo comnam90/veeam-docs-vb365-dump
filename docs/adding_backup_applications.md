@@ -3,7 +3,7 @@ title: "Adding Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_applications.html"
-last_updated: "2/14/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -23,7 +23,7 @@ Keep in mind that the Manage backup applications option is available only for or
 
 1. In the Backup Applications Manager window, click Add.
 
-[![Adding Applications](images/manage_backup_applications_add.webp)](images/manage_backup_applications_add.webp "Adding Applications")
+![Adding Applications](images/manage_backup_applications_add.webp "Backup Applications Manager")
 
 1. In the Add Applications window, select Microsoft Entra applications that you want to add and click Add.
 
@@ -31,16 +31,25 @@ Make sure to manually grant the [required permissions](backup_app_permissions.md
 
 Also, keep in mind that Veeam Backup for Microsoft 365 ignores a Microsoft Entra application that you use when [adding](adding_o365_organizations_sd.md) your Microsoft 365 organization.
 
-[![Adding Applications](images/manage_backup_applications_select.webp)](images/manage_backup_applications_select.webp "Adding Applications")
+![Adding Applications](images/manage_backup_applications_select.webp "Adding Applications")
 
-1. Click Not configured next to each added application to configure an SSL certificate that you want to use for secure communications between Veeam Backup for Microsoft 365 and your Microsoft Entra application.
+1. Click Not configured next to each added application to configure a TLS certificate that you want to use for secure communications between Veeam Backup for Microsoft 365 and your Microsoft Entra application.
 
-[![Adding Applications](images/manage_backup_applications_configure.webp)](images/manage_backup_applications_configure.webp "Adding Applications")
+![Adding Applications](images/manage_backup_applications_configure.webp "Backup Applications Manager")
 
 1. In the Select Certificate wizard, proceed to any of the following options:
 
-* [Select certificate from the Certificate Store of this server](vbo_installing_certificate.md#selecting_file)
-* [Import certificate from a PFX file](vbo_installing_certificate.md#import)
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import an existing TLS certificate from the certificate store
+
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Select certificate from the Certificate Store of this server option.   ![Adding Applications](images/select_certificate_wizard_step1_type_2.webp "Selecting Certificate")   1. Select the certificate from the certificate store and click Finish.   |  | | --- | | Note | | A TLS certificate that you want to use must be added to the Personal certificate store. It also must have a private exportable key. |  ![Adding Applications](images/select_certificate_wizard_step2_pick_from_store.webp "Selecting Certificate") |
+
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import a TLS certificate from a file in the PFX format
+
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Import certificate from a PFX file option.   ![Adding Applications](images/select_certificate_wizard_step1_type_3.webp "Importing Certificate")   1. Click Browse and select a PFX file. Specify the certificate password if required.   |  | | --- | | Note | | A TLS certificate that you want to use must have a private exportable key. |  ![Adding Applications](images/select_certificate_wizard_step2_import_file.webp "Importing Certificate")   1. Click Finish. |
 
 Before selecting a certificate in Veeam Backup for Microsoft 365, you must upload a certificate file to Microsoft Identity platform. For more information, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#certificates-and-secrets).
 

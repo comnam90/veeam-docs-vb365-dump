@@ -3,7 +3,7 @@ title: "Step 6. Specify Scheduling Options"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_scheduling_options.html"
-last_updated: "11/12/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -44,7 +44,7 @@ Keep in mind that this check box is available only if the following conditions a
 
 If you do not want to configure a backup copy job immediately, you can launch the New Backup Copy Job wizard later. For more information, see [Launch New Backup Copy Job Wizard](launch_new_backup_copy_job_wizard.md).
 
-[![Specifying Scheduling Options](images/bu_job_schedule.webp)](images/bu_job_schedule.webp "Specifying Scheduling Options")
+![Step 6. Specify Scheduling Options](images/bu_job_schedule.webp "Specifying Scheduling Options")
 
 Selecting Time Periods
 
@@ -78,6 +78,6 @@ The following is an example in which it is prohibited to run a backup job on the
 * Monday from 03:00 AM up until 09:59 AM.
 * Thursday from 02:00 PM up until 08:59 PM.
 
-[![Selecting Time Periods](images/time_intervals.webp)](images/time_intervals.webp "Selecting Time Periods")
+![Step 6. Specify Scheduling Options](images/time_intervals.webp "Selecting Time Periods")
 
 

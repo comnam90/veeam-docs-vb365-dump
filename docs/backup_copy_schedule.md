@@ -3,7 +3,7 @@ title: "Step 3. Specify Scheduling Options"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_copy_schedule.html"
-last_updated: "7/7/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -30,7 +30,7 @@ Keep in mind that if you run your backup copy job daily or periodically, Veeam B
 
 1. Select the Terminate the job if it exceeds allowed backup window check box, click Window and specify allowed and prohibited hours for the backup copy job. For more information, see [Selecting Time Periods](#stp).
 
-[![Specifying Scheduling Options](images/new_bu_copy_job_schedule.webp)](images/new_bu_copy_job_schedule.webp "Specifying Scheduling Options")
+![Step 3. Specify Scheduling Options](images/new_bu_copy_job_schedule.webp "Specifying Scheduling Options")
 
 Selecting Time Periods
 
@@ -63,6 +63,6 @@ The following is an example in which it is prohibited to run a backup copy job o
 * Monday from 03:00 AM up until 09:59 AM.
 * Thursday from 02:00 PM up until 08:59 PM.
 
-[![Selecting Time Periods](images/time_intervals.webp)](images/time_intervals.webp "Selecting Time Periods")
+![Step 3. Specify Scheduling Options](images/time_intervals.webp "Selecting Time Periods")
 
 

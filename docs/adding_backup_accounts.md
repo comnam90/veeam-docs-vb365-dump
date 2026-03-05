@@ -3,7 +3,7 @@ title: "Adding Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_accounts.html"
-last_updated: "8/23/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -34,12 +34,12 @@ Consider the following:
 1. In the Select accounts and configure their passwords list, select check boxes next to accounts that you want to add as backup accounts.
 2. In the Password column, click Not configured.
 
-[![Adding Accounts](images/service_accounts.webp)](images/service_accounts.webp)
+![Adding Accounts](images/service_accounts.webp "Backup Accounts Manager")
 
 1. In the Add Password window, enter the password for the account and click OK.
 
 Make sure to specify an [Microsoft Entra application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) password instead of a user account password when adding MFA-enabled accounts.
 
-[![Adding Accounts](images/service_accounts_2.webp)](images/service_accounts_2.webp)
+![Adding Accounts](images/service_accounts_2.webp)
 
 

@@ -3,7 +3,7 @@ title: "Step 9. Enable Data Immutability and Encryption"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_wasabi_configure_immutability.html"
-last_updated: "10/16/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -40,7 +40,7 @@ To enable data immutability, do the following:
 | Note |
 | This option is unavailable if you have selected the Item-level retention option at the [previous](new_wasabi_retention.md) step of the wizard. |
 
-[![Enabling Data Immutability and Encryption](images/add_osr_immutability_settings.webp)](images/add_osr_immutability_settings.webp "Enabling Data Immutability and Encryption")
+![Step 9. Enable Data Immutability and Encryption](images/add_osr_immutability_settings.webp "Enabling Data Immutability and Encryption")
 
 1. Select the Use governance mode check box if you want a storage administrator with specific permissions to be allowed to override the lock settings and to delete the protected backups in the object storage repository.
 
@@ -62,6 +62,6 @@ A password can be changed at any time. A password change does not impose any res
 | Important |
 | Make sure to remember your encryption password because, if lost, it cannot be restored. Editing of already created encryption passwords is not supported. |
 
-[![Enabling Data Immutability and Encryption](images/add_osr_immutability_encryption.webp)](images/add_osr_immutability_encryption.webp "Enabling Data Immutability and Encryption")
+![Step 9. Enable Data Immutability and Encryption](images/add_osr_immutability_encryption.webp "Enabling Data Immutability and Encryption")
 
 

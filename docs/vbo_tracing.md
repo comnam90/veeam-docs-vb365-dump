@@ -3,7 +3,7 @@ title: "Enabling Distributed Tracing"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_tracing.html"
-last_updated: "9/9/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,11 +19,11 @@ To enable distributed tracing, do the following:
 1. In the main menu, click Help and Support > Support information.
 2. Select the Configure distributed tracing option.
 
-[![Distributed Tracing](images/tracing_1.webp)](images/tracing_1.webp "Distributed Tracing")
+![Enabling Distributed Tracing](images/tracing_1.webp "Distributed Tracing")
 
 1. Select components (local or remote) to which you want to enable distributed tracing.
 
-[![Distributed Tracing](images/tracing_2.webp)](images/tracing_2.webp "Distributed Tracing")
+![Enabling Distributed Tracing](images/tracing_2.webp "Distributed Tracing")
 
 1. Click Finish.
 

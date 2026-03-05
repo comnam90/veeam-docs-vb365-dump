@@ -3,7 +3,7 @@ title: "Step 4. Check System Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_configuration_check.html"
-last_updated: "8/28/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,6 +19,6 @@ If the wizard cannot install Microsoft .NET Framework 4.7.2 automatically, insta
 | Note |
 | Veeam Backup for Microsoft 365 requires sufficient free space on a local disk of the target machine to transfer existing databases and to deploy PostgreSQL. For more information on the hardware recommendations, see [System Requirements](vbo_system_requirements.md#ManagementServer). |
 
-[![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_upgrade_check.webp)](images/vbo_iso_upgrade_check.webp "Upgrading Veeam Backup for Microsoft 365")
+![Step 4. Check System Configuration](images/vbo_iso_upgrade_check.webp "Upgrading Veeam Backup for Microsoft 365")
 
 

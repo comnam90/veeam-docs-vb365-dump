@@ -3,7 +3,7 @@ title: "Step 1. Launch Retrieve Backup Copy Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/launch_retrieve_wizard.html"
-last_updated: "9/2/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 

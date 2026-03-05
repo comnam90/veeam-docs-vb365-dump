@@ -3,7 +3,7 @@ title: "Enabling and Disabling MFA for All Users"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/mfa_enable_disable_all.html"
-last_updated: "7/18/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,7 +26,7 @@ To enable MFA for all users, do the following:
 3. In the Users and Roles window, select the Enable multi-factor authentication (MFA) check box.
 4. Click OK.
 
-[![Enabling MFA](images/enable_mfa.webp)](images/enable_mfa.webp "Enabling MFA")
+![Enabling and Disabling MFA for All Users](images/enable_mfa.webp "Enabling MFA")
 
 Disabling MFA
 

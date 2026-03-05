@@ -3,7 +3,7 @@ title: "Step 6. Review Default Installation Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_default_settings.html"
-last_updated: "8/19/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,8 +19,9 @@ Do one of the following:
 
 The following table lists the default installation settings:
 
+Step 6. Review Default Installation Settings
+
 | Setting | Default value | Description |
-| --- | --- | --- |
 | Installation folder | C:\Program Files\Veeam\Backup365 | Folder where Veeam Backup for Microsoft 365 will be installed. |
 | Database engine | PostgreSQL | The installation wizard deploys PostgreSQL 15.14 as a database engine locally on the Veeam Backup for Microsoft 365 server. |
 | Database name | VeeamBackup365 | The installation wizard deploys the Veeam Backup for Microsoft 365 configuration database on the locally installed PostgreSQL instance. |
@@ -35,6 +36,6 @@ The following table lists the default installation settings:
 | Important |
 | Veeam Backup for Microsoft 365 automatically generates a password to connect to the NATS server. If you want to install Veeam Backup for Microsoft 365 with default installation settings, click Copy password to copy the password and then save it locally for further use. |
 
-[![Installing Veeam Backup for Microsoft 365](images/vbo_iso_setup_default_settings.webp)](images/vbo_iso_setup_default_settings.webp "Installing Veeam Backup for Microsoft 365")
+![Step 6. Review Default Installation Settings](images/vbo_iso_setup_default_settings.webp "Installing Veeam Backup for Microsoft 365")
 
 
