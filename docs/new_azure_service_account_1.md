@@ -3,7 +3,7 @@ title: "Step 2. Configure Connection to Microsoft Entra"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_service_account_1.html"
-last_updated: "1/31/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,12 +19,12 @@ To select a region and connection method, do the following:
 
 * Register a new Microsoft Entra ID application automatically
 
-With this option selected, Veeam Backup for Microsoft 365 requires to provide an application name and certificate to register a new Microsoft Entra application in Microsoft Entra ID. For more information, see [Registering New Microsoft Entra Application](new_azure_service_account_2.md#cna).
+With this option selected, Veeam Backup for Microsoft 365 requires to provide an application name and certificate to register a new Microsoft Entra application in Microsoft Entra ID. For more information, see [Registering New Microsoft Entra Application](new_azure_service_account_2_new_app.md).
 
 * Use an existing Microsoft Entra ID application
 
-With this option selected, Veeam Backup for Microsoft 365 requires to provide connection parameters to the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](new_azure_service_account_2.md#uea).
+With this option selected, Veeam Backup for Microsoft 365 requires to provide connection parameters to the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](new_azure_service_account_2_existing_app.md).
 
-[![Configure Connection to Microsoft Azure](images/new_azure_service_account_1.webp)](images/new_azure_service_account_1.webp "Configure Connection to Microsoft Azure")
+![Step 2. Configure Connection to Microsoft Entra](images/new_azure_service_account_1.webp "Configure Connection to Microsoft Entra")
 
 
