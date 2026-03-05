@@ -3,7 +3,7 @@ title: "Installing and Updating License"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_license.html"
-last_updated: "4/1/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -50,7 +50,7 @@ For Veeam Backup for Microsoft 365 with Subscription license, Veeam ONE monitori
 
 To update the license manually, click Update Now.
 
-[![Installing License](images/vbo_license_information_new.webp)](images/vbo_license_information_new.webp "Installing License")
+![Installing and Updating License](images/vbo_license_information_new.webp "Installing License")
 
 Switching to Community Edition Mode
 
@@ -60,6 +60,6 @@ The Community Edition mode allows you to process up to 10 user accounts, up to 1
 
 To use Veeam Backup for Microsoft 365 in the Community Edition mode, click Free Mode.
 
-[![License Expired](images/license_expired.webp)](images/license_expired.webp "License Expired")
+![Installing and Updating License](images/license_expired.webp "License Expired")
 
 
