@@ -3,7 +3,7 @@ title: "Changing Restore Operator Scope"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_changing_scope.html"
-last_updated: "9/2/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -33,6 +33,6 @@ To select an object whose backed-up data a restore operator will explore and res
 
 The name of the selected object will appear in the upper-left corner of the Restore Portal window. The [Explore](ssp_ui.md#explore) tab will be displayed, on which you can browse through the hierarchy of folders with backed-up data of the selected object and [select a restore point](ssp_selecting_restore_point.md).
 
-[![Changing Restore Operator Scope](images/ssp_changing_scope.webp)](images/ssp_changing_scope.webp "Changing Restore Operator Scope")
+![Changing Restore Operator Scope](images/ssp_changing_scope.webp "Changing Restore Operator Scope")
 
 
