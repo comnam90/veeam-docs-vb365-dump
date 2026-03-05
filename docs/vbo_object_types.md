@@ -3,7 +3,7 @@ title: "Organization Object Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_object_types.html"
-last_updated: "11/27/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -38,22 +38,24 @@ Each of these object types (except for the Site type) consists of a set of proce
 
 Processing and exclusion options can be selected at the [Select Objects to Back Up](select_objects_to_backup.md) and [Select Objects to Exclude](select_objects_to_exclude.md) steps of the New Backup Job wizard.
 
-[![Processing Options](images/po_image.webp)](images/po_image.webp "Processing Options")
+![Organization Object Types](images/po_image.webp "Processing Options")
 
 Organizations
 
 The following table lists processing/exclusion options available for Organization type:
 
+Organizations
+
 | Options for Microsoft 365 Organizations | Options for On-premises Microsoft Exchange Organizations | Options for On-premises Microsoft SharePoint Organizations |
-| --- | --- | --- |
 | Mail, Archive, OneDrive, Sites, Teams and Teams chats | Mail and Archive | OneDrive and Sites |
 
 Groups
 
 The following table lists available Group types and their processing/exclusion options:
 
+Groups
+
 | Group Type | Options for Microsoft 365 Organizations | Options for On-premises Microsoft Exchange Organizations |
-| --- | --- | --- |
 | M365 Group (available only in | When configuring Microsoft 365 organizations, the following set of processing/exclusion options is available:   * Members with Mail, Archive, OneDrive and Site * Group Mail * Group Site   Note: Veeam Backup for Microsoft 365 does not back up the TeamsMessagesData folder. | N/A |
 | Security Group | Members with Mail, Archive, OneDrive and Site options, including members of nested security groups | Members with Mail and Archive options, including members of nested security groups |
 | Distribution Group | Members with Mail, Archive, OneDrive and Site options | Members with Mail and Archive options |
@@ -68,8 +70,9 @@ Users
 
 The following table lists available User types and their processing/exclusion options:
 
+Users
+
 | User Type | Options for Microsoft 365 Organizations | Options for On-premises Microsoft Exchange Organizations | Options for On-premises Microsoft SharePoint Organizations |
-| --- | --- | --- | --- |
 | User | Mail, Archive, OneDrive and Site  Note: Veeam Backup for Microsoft 365 backs up SharePoint sites and OneDrive accounts content that belongs to a user account added to a backup job. | Mail and Archive | OneDrive and Site |
 | Shared Mailbox (available only in Microsoft 365 and Exchange organizations)1 | N/A |
 | Public Mailbox (available only in Microsoft 365 and Exchange organizations)1 |
@@ -86,7 +89,7 @@ Consider the following:
 
 In the following example, you can select either the root Development site which automatically selects all of its subsites, or you can select, for example, Builds and Releases. In the latter case, the root Development site will not be selected.
 
-[![Organization Object Types](images/select_sites.webp)](images/select_sites.webp)
+![Organization Object Types](images/select_sites.webp)
 
 Teams
 
@@ -108,8 +111,9 @@ To back up team chats, Veeam Backup for Microsoft 365 uses Microsoft Graph Teams
 
 The following table lists processing options available for objects of the Team type:
 
+Teams
+
 | Options for Microsoft 365 Organizations with Modern App-Only Authentication | Options for Microsoft 365 Organizations with Modern Authentication and Legacy Protocols1 | Options for Microsoft 365 Organizations with Basic Authentication1 |
-| --- | --- | --- |
 | Chats and Channels, tabs, files, membership  Note: Channels, tabs, files, membership of a team are always processed. | Channels, tabs, files, membership | Channels, tabs, files, membership |
 
 1You can continue to use Veeam Backup for Microsoft 365 to back up and restore data of Microsoft 365 organizations that were added to previous installations of the product using legacy authentication methods.
@@ -132,7 +136,7 @@ To enable team chats backup for Microsoft 365 organizations, do the following:
 1. In the Add Organization or Edit Organization wizard, select the Teams chats check box when adding a new Microsoft 365 organization with modern app-only authentication or editing an existing one. If you do not select this check box, Veeam Backup for Microsoft 365 will not back up team chats. For more information, see [Select Organization Deployment Type](vbo_add_o365_sd.md).
 2. Do one of the following to enable access for an existing Microsoft Entra application to Microsoft Teams private and shared channels, and public channel messages:
 
-* In the Add Organization or Edit Organization wizard, allow Veeam Backup for Microsoft 365 to grant automatically the ChannelMessage.Read.All (for channel messages) and ChannelMember.Read.All (for private and shared channels) Microsoft Graph API permissions to an existing Microsoft Entra application when adding a new Microsoft 365 organization with modern app-only authentication or editing an existing one. For more information, see [Using Existing Microsoft Entra Application](register_ad_application.md#uea).
+* In the Add Organization or Edit Organization wizard, allow Veeam Backup for Microsoft 365 to grant automatically the ChannelMessage.Read.All (for channel messages) and ChannelMember.Read.All (for private and shared channels) Microsoft Graph API permissions to an existing Microsoft Entra application when adding a new Microsoft 365 organization with modern app-only authentication or editing an existing one. For more information, see [Using Existing Microsoft Entra Application](use_existing_ad_application.md).
 * In Microsoft Identity platform, grant manually the ChannelMessage.Read.All (for channel messages) and ChannelMember.Read.All (for private and shared channels) Microsoft Graph API permissions to this Microsoft Entra application. For more information, see [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md#backup).
 
 
