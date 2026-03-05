@@ -3,16 +3,14 @@ title: "Step 4. Log In to Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_create_new_app_3.html"
-last_updated: "8/23/2024"
+last_updated: "2/19/2026"
 product_version: "8.3.0.2201"
 ---
 
 # Step 4. Log In to Microsoft 365
 
 
-At this step of the wizard, log in to your Microsoft 365 organization.
-
-To log in to the Microsoft 365 organization, do the following:
+At this step of the wizard, log in to your Microsoft 365 organization:
 
 1. Click Copy code to copy an authentication code.
 
@@ -28,6 +26,6 @@ Make sure to sign in with the user account that has the Global Administrator rol
 
 1. Return to the Configure Application wizard and click Finish.
 
-[![Log In to Microsoft 365](images/ssp_create_app_login365_new.webp)](images/ssp_create_app_login365_new.webp "Log In to Microsoft 365")
+![Step 4. Log In to Microsoft 365](images/ssp_create_app_login365_new.webp "Log In to Microsoft 365")
 
 
