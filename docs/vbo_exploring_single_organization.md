@@ -3,7 +3,7 @@ title: "Exploring Single Organization"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_exploring_single_organization.html"
-last_updated: "9/2/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -23,7 +23,7 @@ The following is an example of exploring a single organization with backups that
 * For Repository 2, only the restore point created on February 4.
 * For Repository 3, only the restore point created on February 3.
 
-[![Exploring Veeam Backup for Microsoft Office 365 Backups](images/explore_backup_1_org_scheme.webp)](images/explore_backup_1_org_scheme.webp "Exploring Veeam Backup for Microsoft Office 365 Backups")
+![Exploring Single Organization](images/explore_backup_1_org_scheme.webp "Exploring Veeam Backup for Microsoft Office 365 Backups")
 
 To open backups created by all backup jobs of a specific organization, do the following:
 
