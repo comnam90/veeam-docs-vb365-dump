@@ -3,7 +3,7 @@ title: "Veeam Backup for Microsoft 365 Architecture"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/architecture.html"
-last_updated: "9/16/2025"
+last_updated: "3/2/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -86,6 +86,7 @@ Related Topics
 
 * [System Requirements](vbo_system_requirements.md)
 * [Ports](vbo_used_ports.md)
+* [Security Guidelines](vbo_security_guidelines.md)
 * [Installing Veeam Backup for Microsoft 365](vbo_installing_vbo.md)
 * [Installing REST API](vbo_installing_rest.md)
 
