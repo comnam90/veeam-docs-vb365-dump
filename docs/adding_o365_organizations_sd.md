@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Organizations with Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_o365_organizations_sd.html"
-last_updated: "8/23/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -20,8 +20,7 @@ To add a new Microsoft 365 organization to Veeam Backup for Microsoft 365, do th
 2. [Select an organization deployment type](vbo_add_o365_sd.md).
 3. [Select Microsoft Entra region and authentication method](vbo_add_o365_2_sd.md).
 4. [Configure connection to Microsoft 365](choose_active_directory_application.md).
-5. [Register or select Microsoft Entra Application](register_ad_application.md).
-6. [Log in to Microsoft 365](login_to_microsoft.md).
-7. [Finish the wizard](finish_wizard_sd.md).
+5. [Log in to Microsoft 365](login_to_microsoft.md).
+6. [Finish the wizard](finish_wizard_sd.md).
 
 
