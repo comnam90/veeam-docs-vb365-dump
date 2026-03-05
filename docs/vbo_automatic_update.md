@@ -3,7 +3,7 @@ title: "Automatic Update"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_automatic_update.html"
-last_updated: "7/11/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -43,6 +43,6 @@ Update is performed within the different update window. Veeam Backup for Microso
 
 Thus, automatic update of Veeam Backup for Microsoft 365 can only be performed when the load on the backup infrastructure components is minimal. If Veeam Backup for Microsoft 365 cannot determine the proper update window during the 3-day period, you will be prompted to install updates manually. For more information, see [Checking for Updates](vbo_checking_for_updates.md).
 
-You can disable automatic update in the Veeam Backup for Microsoft 365 settings. To do this, clear the Allow for automatic silent updates check box on the Updates tab. For more information, see [New Versions and Automatic Updates](vbo_configuring_update.md).
+You can disable automatic update in the Veeam Backup for Microsoft 365 settings. To do this, clear the Allow for automatic silent updates check box on the Updates tab. For more information, see [Update Settings](vbo_configuring_update.md).
 
 
