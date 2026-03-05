@@ -3,7 +3,7 @@ title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
-last_updated: "12/23/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -63,8 +63,9 @@ Permissions for Backup
 
 All listed permissions are of the Application type.
 
+Permissions for Backup
+
 | API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
 | Sites.Read.All |  | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions. |
@@ -109,8 +110,9 @@ Restore Using Device Code Flow
 
 All listed permissions are of the Delegated type and required for data restore using Veeam Explorers.
 
+Restore Using Device Code Flow
+
 | API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.ReadWrite.All |  |  | ✔ | Recreating in Microsoft Entra ID an associated group in case of teams restore. |
 | Sites.Read.All |  | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
@@ -132,8 +134,9 @@ All listed permissions are of the Application type and required for the followin
 * Data restore using Restore Portal.
 * Data restore through REST API and PowerShell.
 
+Restore Using Application Certificate
+
 | API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- |
 | Microsoft Graph | Directory.Read.All | ✔ |  | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.ReadWrite.All |  | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore.  Note: This permission is only required for restore of SharePoint site data through REST API and PowerShell. |
 | Sites.Read.All |  | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
