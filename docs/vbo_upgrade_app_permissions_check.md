@@ -3,7 +3,7 @@ title: "Step 5. Review Microsoft Entra Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_app_permissions_check.html"
-last_updated: "1/31/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -21,15 +21,16 @@ You can update permissions of the Microsoft Entra application manually. For more
 
 The following table lists new permissions and roles:
 
+Step 5. Review Microsoft Entra Application Permissions
+
 | API | Permission or role name | Type | Usage | Description |
-| --- | --- | --- | --- | --- |
 | Microsoft Graph | ChannelMember.ReadWrite.All | Application | Backup, Restore | Accessing and restoring Microsoft Teams private and shared channels. |
 | ChannelMember.ReadWrite.All | Delegated | Restore | Reading the current state and restoring Microsoft Teams private and shared channels. |
 | Files.ReadWrite.All | Application | Restore | Reading the current state and restoring files of Microsoft Teams shared channels. |
 | Office 365 Exchange Online | Exchange.ManageAsApp | Application | Backup | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox. |
 | Administrative role | Global Reader | N/A | Backup |
 
-[![Upgrading Veeam Backup for Microsoft 365](images/vbo_iso_upgrade_app_permissions_check.webp)](images/vbo_iso_upgrade_app_permissions_check.webp "Upgrading Veeam Backup for Microsoft 365")
+![Step 5. Review Microsoft Entra Application Permissions](images/vbo_iso_upgrade_app_permissions_check.webp "Upgrading Veeam Backup for Microsoft 365")
 
 Related Topics
 
