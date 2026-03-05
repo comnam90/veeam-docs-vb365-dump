@@ -3,7 +3,7 @@ title: "Step 6. Specify Data Location"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_data_location_console.html"
-last_updated: "7/11/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -21,6 +21,6 @@ By default, the Veeam Backup for Microsoft 365 console is installed to the C:\Pr
 | Note |
 | Veeam Explorers are installed to the C:\Program Files\Veeam\Backup and Replication\Explorers folder. You cannot specify a different location for Veeam Explorers. |
 
-[![Installing Veeam Backup for Microsoft 365 Console](images/vbo_iso_setup_4.webp)](images/vbo_iso_setup_4.webp "Installing Veeam Backup for Microsoft 365 Console")
+![Step 6. Specify Data Location](images/vbo_iso_setup_4.webp "Installing Veeam Backup for Microsoft 365 Console")
 
 
