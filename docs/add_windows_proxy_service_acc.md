@@ -3,7 +3,7 @@ title: "Step 5. Select Service Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/add_windows_proxy_service_acc.html"
-last_updated: "9/16/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -33,6 +33,6 @@ Veeam Backup for Microsoft 365 will create a new service account and automatical
 | Note |
 | The user name of the custom account must be specified in the following format: domain\account. |
 
-[![Adding Backup Proxy Server](images/add_proxy_windows_credentials.webp)](images/add_proxy_windows_credentials.webp "Adding Backup Proxy Server")
+![Step 5. Select Service Account](images/add_proxy_windows_credentials.webp "Adding Backup Proxy Server")
 
 
