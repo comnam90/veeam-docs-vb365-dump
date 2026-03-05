@@ -3,7 +3,7 @@ title: "Step 4. Check System Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_configuration_check_ps.html"
-last_updated: "9/16/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,6 +19,6 @@ If the wizard cannot install Microsoft .NET Framework 4.7.2 automatically, insta
 | Note |
 | If problems are not detected, the System Configuration Check step will be skipped. For more information on the required software, see [System Requirements](vbo_system_requirements.md). |
 
-[![Installing PowerShell](images/vbo_iso_setup_check.webp)](images/vbo_iso_setup_check.webp "Installing PowerShell")
+![Step 4. Check System Configuration](images/vbo_iso_setup_check.webp "Installing PowerShell")
 
 
