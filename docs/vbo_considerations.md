@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "2/27/2026"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -188,6 +188,7 @@ For more information about enabling In-Place Hold and Litigation Hold, see [this
 
 Related Topics
 
+* [Security Guidelines](vbo_security_guidelines.md)
 * [Backup Infrastructure](backup_infrastructure.md)
 * [Data Backup](vbo_data_backup.md)
 * [Data Restore](vbo_data_restore.md)
