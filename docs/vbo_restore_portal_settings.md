@@ -3,7 +3,7 @@ title: "Restore Portal Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_restore_portal_settings.html"
-last_updated: "4/1/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -24,21 +24,12 @@ To configure the Restore Portal settings, do the following:
 3. Select the Enable Restore Portal check box.
 4. Do one of the following:
 
-* Register a new Microsoft Entra application automatically
-
-To do this, click Configure and follow the steps of the Configure Application wizard. For more information, see [Creating or Configuring Microsoft Entra Application](ssp_create_new_app_wizard.md).
-
-Veeam Backup for Microsoft 365 automatically grants the [required permissions](ssp_ad_application_permissions.md) to the Microsoft Entra application that you create and generates an SSL certificate. For more information, see [Registering New Microsoft Entra Application](ssp_create_new_app_2.md#cna).
-
-* Configure an existing Microsoft Entra application
-
-To do this, click Configure and follow the steps of the Configure Application wizard. For more information, see [Creating or Configuring Microsoft Entra Application](ssp_create_new_app_wizard.md).
-
-Veeam Backup for Microsoft 365 checks the Microsoft Entra application permissions, grants the missing [permissions](ssp_ad_application_permissions.md) if needed and updates an SSL certificate. For more information, see [Configuring Existing Microsoft Entra Application](ssp_create_new_app_2.md#conf_ea).
+* Register a new Microsoft Entra application automatically. For more information, see [Creating Microsoft Entra Application](ssp_create_new_app_wizard.md).
+* Configure an existing Microsoft Entra application. For more information, see [Configuring Microsoft Entra Application](ssp_configure_existing_app_wizard.md).
 
 1. Click OK.
 
-[![Configuring Restore Portal Settings](images/options_restore_portal.webp)](images/options_restore_portal.webp "Configuring Restore Portal Settings")
+![Restore Portal Settings](images/options_restore_portal.webp "Configuring Restore Portal Settings")
 
 Related Topics
 
