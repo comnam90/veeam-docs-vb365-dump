@@ -3,7 +3,7 @@ title: "Backup Infrastructure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_infrastructure.html"
-last_updated: "9/3/2024"
+last_updated: "3/2/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -25,5 +25,9 @@ Backup proxy pools are logical entities that you configure to group several back
 Backup repositories are storage systems within the backup infrastructure where Veeam Backup for Microsoft 365 saves backups and backup copies. Veeam Backup for Microsoft 365 allows you to save your data locally to a directory on a backup proxy server or to object storage repositories — cloud-based or on-premises storage systems that the product supports. For more information, see [JET-Based Backup Repositories](jet_backup_repo.md) and [Object Storage Repositories](vbo_osr.md).
 
 Keep in mind that you can use Azure Blob Storage Archive access tier, Amazon S3 Glacier Instant Retrieval, Amazon S3 Glacier Flexible Retrieval and Amazon S3 Glacier Deep Archive storage classes only as a target for backup copy jobs.
+
+Related Topics
+
+[Security Guidelines](vbo_security_guidelines.md)
 
 
