@@ -3,7 +3,7 @@ title: "Managing Monthly Usage Report"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_monthly_usage_report.html"
-last_updated: "10/9/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -27,7 +27,7 @@ When the Monthly Usage Report window appears, do one of the following:
 * Click Send to send the report immediately to Veeam.
 * Click Postpone to postpone your actions to the next launch of the product.
 
-[![Monthly Usage Report](images/usage_report_1.webp)](images/usage_report_1.webp "Monthly Usage Report")
+![Managing Monthly Usage Report](images/usage_report_1.webp "Monthly Usage Report")
 
 Reviewing and Sending Reports
 
@@ -52,6 +52,6 @@ You can save your monthly usage report as a PDF or CSV file. To do this, click S
 
 To submit a monthly usage report to Veeam, click Send.
 
-[![Monthly Usage Report](images/usage_report_2.webp)](images/usage_report_2.webp "Monthly Usage Report")
+![Managing Monthly Usage Report](images/usage_report_2.webp "Monthly Usage Report")
 
 
