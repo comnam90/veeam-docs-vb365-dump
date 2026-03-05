@@ -3,7 +3,7 @@ title: "Step 3. Specify Backup Proxy Server Address"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_proxy_server_address_linux.html"
-last_updated: "8/28/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,6 +26,6 @@ If the specified computer does not have a direct access to the internet, you can
 1. In the Port field, enter a port number to access the specified computer.
 2. In the Description field, enter optional description.
 
-[![Adding Backup Proxy Server](images/add_proxy_name_linux.webp)](images/add_proxy_name_linux.webp "Adding Backup Proxy Server")
+![Step 3. Specify Backup Proxy Server Address](images/add_proxy_name_linux.webp "Adding Backup Proxy Server")
 
 
