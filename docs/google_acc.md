@@ -3,7 +3,7 @@ title: "Google Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/google_acc.html"
-last_updated: "9/11/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -74,7 +74,7 @@ Veeam Backup for Microsoft 365 will send email notifications if a backup or back
 1. Click Test Message to send a test message.
 2. Click OK.
 
-[![Configuring Notification Settings](images/options_email_notifications_gmail.webp)](images/options_email_notifications_gmail.webp "Configuring Notification Settings")
+![Google Account](images/options_email_notifications_gmail.webp "Configuring Notification Settings")
 
 Configuring Advanced Settings
 
