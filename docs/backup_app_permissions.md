@@ -3,7 +3,7 @@ title: "Backup Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_app_permissions.html"
-last_updated: "8/22/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -19,8 +19,9 @@ The following table lists permissions for Microsoft Entra applications that you 
 
 All listed permissions are of the Application type and required for data backup.
 
+Backup Application Permissions
+
 | API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- |
 | Microsoft Graph | Sites.Read.All |  | ✔ |  | Getting download URLs for files and their versions.  Note: In the Microsoft Entra China region, the Sites.ReadWrite.All permission is used instead. |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ |  | Reading SharePoint sites and OneDrive accounts content. |
 | User.Read.All |  | ✔ |  | Reading OneDrive accounts (getting site IDs). |
