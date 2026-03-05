@@ -3,7 +3,7 @@ title: "Step 5. Specify Retention Policy Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_repository_4.html"
-last_updated: "7/17/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -40,6 +40,6 @@ Select this option if you want a retention policy to be applied on a daily basis
 
 Select this option if you want a retention policy to be applied on a monthly basis and choose the time and day which can be the first, second, third, fourth or even the last one in the month.
 
-[![Configuring Retention Policy Settings](images/add_repo_retention_new.webp)](images/add_repo_retention_new.webp "Configuring Retention Policy Settings")
+![Step 5. Specify Retention Policy Settings](images/add_repo_retention_new.webp "Configuring Retention Policy Settings")
 
 
