@@ -3,7 +3,7 @@ title: "What You Do After Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/after_upgrade.html"
-last_updated: "8/13/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -47,10 +47,19 @@ To update permissions of the Microsoft Entra application, do the following:
 3. Click Install to run the Select Certificate wizard.
 4. Proceed to any of the following options:
 
-* [Select certificate from the Certificate Store of this server](vbo_installing_certificate.md#selecting_file)
-* [Import certificate from a PFX file](vbo_installing_certificate.md#import)
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import an existing TLS certificate from the certificate store
 
-1. Select the Grant the required permissions to this application and register its certificate in Microsoft Entra ID check box to automatically update permissions of the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](register_ad_application.md#uea).
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Select certificate from the Certificate Store of this server option.   ![What You Do After Upgrade](images/select_certificate_wizard_step1_type_2.webp "Selecting Certificate")   1. Select the certificate from the certificate store and click Finish.   |  | | --- | | Note | | A TLS certificate that you want to use must be added to the Personal certificate store. It also must have a private exportable key. |  ![What You Do After Upgrade](images/select_certificate_wizard_step2_pick_from_store.webp "Selecting Certificate") |
+
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import a TLS certificate from a file in the PFX format
+
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Import certificate from a PFX file option.   ![What You Do After Upgrade](images/select_certificate_wizard_step1_type_3.webp "Importing Certificate")   1. Click Browse and select a PFX file. Specify the certificate password if required.   |  | | --- | | Note | | A TLS certificate that you want to use must have a private exportable key. |  ![What You Do After Upgrade](images/select_certificate_wizard_step2_import_file.webp "Importing Certificate")   1. Click Finish. |
+
+1. Select the Grant the required permissions to this application and register its certificate in Microsoft Entra ID check box to automatically update permissions of the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](use_existing_ad_application.md).
 
 Alternatively, you can sign in to Microsoft Identity platform and manually grant this Microsoft Entra application the Exchange.ManageAsApp permission and the Global Reader role. For more information, see [Permissions for Backup](ad_app_permissions_sd.md#Exchange.ManageAsApp) and [Granting Global Reader Role to Microsoft Entra Application](ad_app_permissions_sd.md#app_role).
 
@@ -65,10 +74,19 @@ To update permissions of the Microsoft Entra application, do the following:
 3. Click Install to run the Select Certificate wizard.
 4. Proceed to any of the following options:
 
-* [Select certificate from the Certificate Store of this server](vbo_installing_certificate.md#selecting_file)
-* [Import certificate from a PFX file](vbo_installing_certificate.md#import)
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import an existing TLS certificate from the certificate store
 
-1. Select the Grant the required permissions to this application and register its certificate in Microsoft Entra ID check box to automatically update permissions of the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](register_ad_application.md#uea).
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Select certificate from the Certificate Store of this server option.   ![What You Do After Upgrade](images/select_certificate_wizard_step1_type_2.webp "Selecting Certificate")   1. Select the certificate from the certificate store and click Finish.   |  | | --- | | Note | | A TLS certificate that you want to use must be added to the Personal certificate store. It also must have a private exportable key. |  ![What You Do After Upgrade](images/select_certificate_wizard_step2_pick_from_store.webp "Selecting Certificate") |
+
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Import a TLS certificate from a file in the PFX format
+
+|  |  |  |
+| --- | --- | --- |
+| Perform the following steps:   1. Select the Import certificate from a PFX file option.   ![What You Do After Upgrade](images/select_certificate_wizard_step1_type_3.webp "Importing Certificate")   1. Click Browse and select a PFX file. Specify the certificate password if required.   |  | | --- | | Note | | A TLS certificate that you want to use must have a private exportable key. |  ![What You Do After Upgrade](images/select_certificate_wizard_step2_import_file.webp "Importing Certificate")   1. Click Finish. |
+
+1. Select the Grant the required permissions to this application and register its certificate in Microsoft Entra ID check box to automatically update permissions of the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](use_existing_ad_application.md).
 
 Alternatively, you can sign in to Microsoft Identity platform and manually grant this Microsoft Entra application the required permissions. For more information, see [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md).
 
