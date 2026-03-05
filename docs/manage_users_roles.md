@@ -3,7 +3,7 @@ title: "Managing Users and Roles"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/manage_users_roles.html"
-last_updated: "12/10/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -58,6 +58,6 @@ Configuring Idle Timeout
 
 To reduce the number of user sessions opened for a long time, you can set the idle timeout to automatically log off users. To do this, select the Enable auto logoff after <N> min of inactivity check box and set the number of minutes.
 
-[![Adding Users or Groups](images/add_users_groups.webp)](images/add_users_groups.webp "Adding Users or Groups")
+![Managing Users and Roles](images/add_users_groups.webp "Adding Users or Groups")
 
 
