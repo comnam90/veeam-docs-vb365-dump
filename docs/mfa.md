@@ -3,7 +3,7 @@ title: "Multi-Factor Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/mfa.html"
-last_updated: "1/22/2026"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -48,7 +48,7 @@ Veeam Backup for Microsoft 365 offers the following scenario for MFA:
 
 The user gets the instruction how to set up MFA. Veeam Backup for Microsoft 365 generates a secret key which is used once for the initial setup in the mobile authenticator application. The hash of the secret key is also saved in the configuration database.
 
-[![Configuring MFA](images/mfa_qr_code.webp)](images/mfa_qr_code.webp "Configuring MFA")
+![Multi-Factor Authentication](images/mfa_qr_code.webp "Configuring MFA")
 
 * If MFA is enabled and configured for the user:
 
@@ -56,7 +56,7 @@ Each time the user logs in they should enter a 6-digit confirmation code generat
 
 If there are more than 5 unsuccessful attempts, the user can reopen the console and try to log in again after waiting for at least one minute. If the problem persists, the Veeam Backup for Microsoft 365 administrator can reset MFA by request. For more information, see [Resetting MFA for Specific User](reset_mfa.md).
 
-[![Logging In with MFA](images/mfa_confirmation_code.webp)](images/mfa_confirmation_code.webp "Logging In with MFA")
+![Multi-Factor Authentication](images/mfa_confirmation_code.webp "Logging In with MFA")
 
 |  |
 | --- |
