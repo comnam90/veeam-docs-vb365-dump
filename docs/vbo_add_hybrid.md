@@ -3,7 +3,7 @@ title: "Adding Hybrid Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_hybrid.html"
-last_updated: "10/7/2025"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -68,6 +68,6 @@ Depending on the types of services that you have selected, do the following:
 | Note |
 | Consider the following:   * To create a hybrid organization, services that you select must belong to the same Microsoft 365 organization. * You can use a non-MFA enabled ADFS account to add a Microsoft 365 organization. Using ADFS accounts to add on-premises Microsoft organizations is not possible. * Team chats backup is only supported for Microsoft 365 organizations with modern app-only authentication. |
 
-[![Adding Hybrid Organizations](images/hybrid_org.webp)](images/hybrid_org.webp "Adding Hybrid Organizations")
+![Adding Hybrid Organizations](images/hybrid_org.webp "Adding Hybrid Organizations")
 
 
