@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_ad_applications.html"
-last_updated: "8/22/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -26,7 +26,8 @@ Permissions of the Microsoft Entra application depend on the authentication meth
 If you allow users to perform self-service restore using Restore Portal, they will authenticate to the portal with their Microsoft 365 user account credentials. To ensure such authentication, a Microsoft Entra application must be configured. Veeam Backup for Microsoft 365 automatically grants the required permissions to this Microsoft Entra application or you can grant permissions manually. For more information, see the following sections:
 
 * [Permissions for Authentication to Restore Portal](ssp_ad_application_permissions.md)
-* [Creating or Configuring Microsoft Entra Application](ssp_create_new_app_wizard.md)
+* [Creating Microsoft Entra Application](ssp_create_new_app_wizard.md)
+* [Configuring Microsoft Entra Application](ssp_configure_existing_app_wizard.md)
 
 * [Backup copy](vbo_backup_copy.md) to Microsoft Azure Blob Storage.
 
