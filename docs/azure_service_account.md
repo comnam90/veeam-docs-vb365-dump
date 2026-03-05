@@ -3,7 +3,7 @@ title: "Adding Microsoft Azure Service Account"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/azure_service_account.html"
-last_updated: "8/22/2024"
+last_updated: "2/19/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -16,9 +16,8 @@ To add a new Microsoft Azure service account, do the following:
 
 1. [Launch the Add Azure Service Account wizard](new_azure_service_account_launch.md).
 2. [Configure connection to Microsoft Entra](new_azure_service_account_1.md).
-3. [Register or select Microsoft Entra application](new_azure_service_account_2.md).
-4. [Log in to Microsoft 365](new_azure_service_account_3.md).
-5. [Select Microsoft Azure subscription](new_azure_service_account_4.md).
+3. [Log in to Microsoft 365](new_azure_service_account_3.md).
+4. [Select Microsoft Azure subscription](new_azure_service_account_4.md).
 
 Related Topics
 
