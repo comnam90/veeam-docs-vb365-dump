@@ -3,7 +3,7 @@ title: "Ports"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_used_ports.html"
-last_updated: "2/2/2026"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -25,10 +25,11 @@ The endpoints for Microsoft 365 operated by 21 Vianet which is designed to meet 
 |  |
 | --- |
 | Note |
-| Data communication between Microsoft 365 organizations and Veeam Backup for Microsoft 365 is performed through an SSL connection. |
+| Data communication between Microsoft 365 organizations and Veeam Backup for Microsoft 365 is performed through a TLS connection. |
+
+Ports
 
 | From | To | Protocol | Port | Description |
-| --- | --- | --- | --- | --- |
 | Veeam Backup for Microsoft 365 server | Microsoft Exchange Online | TCP | 443 | Required to connect to Microsoft Exchange Online organizations.  The Worldwide endpoints are: outlook.office365.com and autodiscover-s.outlook.com.  The Microsoft 365 operated by 21 Vianet endpoints are: partner.outlook.cn and autodiscover-s.partner.outlook.cn. |
 | Microsoft SharePoint Online | TCP | 443 | Required to connect to Microsoft SharePoint Online organizations.  The Worldwide endpoints are: <tenant>.sharepoint.com, <tenant>-my.sharepoint.com and <tenant>-admin.sharepoint.com.  The Microsoft 365 operated by 21 Vianet endpoints are: <tenant>-admin.sharepoint.cn, <mytenant>-my.sharepoint.cn and <mytenant>sharepoint.cn. |
 | On-premises Microsoft SharePoint server | HTTP (HTTPS) | 5985 (5986 — used by default) | Required to connect to on-premises Microsoft SharePoint organizations through the WinRM port. |
