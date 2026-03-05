@@ -3,7 +3,7 @@ title: "Step 1. Launch Add Azure Service Account Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_service_account_launch.html"
-last_updated: "10/13/2025"
+last_updated: "2/19/2026"
 product_version: "8.3.0.2201"
 ---
 

@@ -3,7 +3,7 @@ title: "Step 5. Select Objects to Manage"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_objects_to_manage.html"
-last_updated: "2/4/2026"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 

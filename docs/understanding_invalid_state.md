@@ -3,7 +3,7 @@ title: "Invalid State"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/understanding_invalid_state.html"
-last_updated: "8/30/2024"
+last_updated: "3/3/2026"
 product_version: "8.3.0.2201"
 ---
 
