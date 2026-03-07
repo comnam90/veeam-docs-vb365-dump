@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "3/3/2026"
+last_updated: "3/6/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -131,6 +131,7 @@ For more information, see [this Microsoft article](https://support.microsoft.com
 
 * Archived SharePoint sites.
 * SharePoint sites with blocked access.
+* Sensitivity labels applied to SharePoint sites and lists.
 
 Microsoft Teams Data
 
@@ -180,6 +181,7 @@ For more information about enabling In-Place Hold and Litigation Hold, see [this
 
 * If the size of a OneNote notebook is greater 2 GB, Veeam Backup for Microsoft 365 saves this OneNote notebook as a folder with OneNote items.
 * If a SharePoint site includes a hidden list, such list is not displayed in Veeam Explorer for Microsoft SharePoint after a site backup and thus, cannot be restored.
+* Restore of sensitivity labels applied to SharePoint sites and lists is not supported.
 * Before restoring team data using Veeam Explorer for Microsoft Teams or team sites using Veeam Explorer for Microsoft SharePoint for a tenant organization with modern app-only authentication, make sure that a user account used for authorization has access to the root SharePoint site of this tenant organization.
 
 * Restore of an organization data from an object storage repository is not supported if such organization is not added to the Veeam Backup for Microsoft 365 infrastructure.
