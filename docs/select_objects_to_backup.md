@@ -3,7 +3,7 @@ title: "Step 3. Select Objects to Back Up"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_backup.html"
-last_updated: "3/3/2026"
+last_updated: "3/6/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -24,7 +24,14 @@ Consider the following:
 
 Back Up Entire Organization
 
-To back up all objects within the selected Microsoft organization, select Back up entire organization. Veeam Backup for Microsoft 365 turns off team chats backup to avoid unexpected costs incurred by Microsoft. Processing options for the entire organization cannot be configured.
+To back up all objects within the selected Microsoft organization, select Back up entire organization.
+
+|  |
+| --- |
+| Note |
+| When selecting this option, consider the following:   * Team chats backup is turned off. * Processing options cannot be configured. |
+
+Veeam Backup for Microsoft 365 turns off team chats backup to avoid unexpected costs incurred by Microsoft. Processing options for the entire organization cannot be configured.
 
 Back Up Specific Objects
 
