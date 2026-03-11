@@ -3,17 +3,18 @@ title: "VBOSecuritySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/vbosecuritysettings.html"
-last_updated: "1/14/2026"
+last_updated: "3/9/2026"
 product_version: "8.3.0.2201"
 ---
 
 # VBOSecuritySettings
 
 
-Contains details about secutity settings.
+Contains details about security settings.
+
+VBOSecuritySettings
 
 | Property | Type | Description |
-| --- | --- | --- |
 | CertificateIssuedTo | String | Authority for whom the SSL certificate is issued. |
 | CertificateIssuedBy | String | Authority issued the SSL certificate. |
 | CertificateFriendlyName | String | SSL certificate name. |
