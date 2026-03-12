@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "3/9/2026"
+last_updated: "3/10/2026"
 product_version: "8.3.0.2201"
 ---
 
@@ -187,7 +187,8 @@ For more information about enabling In-Place Hold and Litigation Hold, see [this
 * Restore of an organization data from an object storage repository is not supported if such organization is not added to the Veeam Backup for Microsoft 365 infrastructure.
 * When restoring team sites, Veeam Backup for Microsoft 365 does not restore team site owners or Microsoft 365 group members.
 * Veeam Backup for Microsoft 365 cannot restore a SharePoint site of a private channel to another location. Restore to its original location is not supported if such a SharePoint site was removed from the Veeam Backup for Microsoft 365 infrastructure.
-* When restoring team posts, the original post creation timestamp is converted to the current date and time of the machine acting as the REST API server.
+* When restoring or exporting team posts, the post creation or modification timestamp is converted to the locale of the machine acting as the REST API server.
+* If your SharePoint file history maintains both major and minor versions, restoring a specific major file version creates two files: one preserving the backup version and another incremented to a minor version. The preserved version has the Modified and Modified By properties different from the backup, while the incremented version retains the backups property values. This behavior is expected and results from Microsoft API specifics.
 
 Related Topics
 
