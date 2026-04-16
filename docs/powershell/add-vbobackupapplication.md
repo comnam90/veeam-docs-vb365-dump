@@ -3,8 +3,8 @@ title: "Add-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbobackupapplication.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Add-VBOBackupApplication
@@ -26,13 +26,14 @@ This cmdlet adds backup application settings to an application pool.
 
 |  |
 | --- |
-| ![Add-VBOBackupApplication](images/icon_important.webp) Important |
+| Important |
 | This cmdlet will run only for Microsoft organizations that are added to the Veeam Backup for Microsoft 365 infrastructure using modern app-only authentication method. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will add backup application settings to the specified Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | BackupApplications | Specifies an array of backup applications. The cmdlet will add these backup applications to the Microsoft organization. | Accepts the [VBOBackupApplication](vbobackupapplication.md)[] object.  To create this object, run the [New-VBOBackupApplication](new-vbobackupapplication.md) cmdlet. | True | Named | True (ByValue) |
 
