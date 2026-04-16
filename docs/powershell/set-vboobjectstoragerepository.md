@@ -3,8 +3,8 @@ title: "Set-VBOObjectStorageRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboobjectstoragerepository.html"
-last_updated: "12/18/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOObjectStorageRepository
@@ -16,7 +16,7 @@ Modifies settings of an object storage repository added to the Veeam Backup for 
 
 |  |
 | --- |
-| ![Set-VBOObjectStorageRepository](images/icon_note.webp) Note |
+| Note |
 | In Veeam Backup for Microsoft 365 8, this cmdlet became deprecated. Use the [Set-VBOAmazonS3Repository](set-vboamazons3repository.md), [Set-VBOAmazonS3CompatibleRepository](set-vboamazons3compatiblerepository.md), [Set-VBOAmazonS3GlacierRepository](set-vboamazons3glacierrepository.md), [Set-VBOAzureBlobRepository](set-vboazureblobrepository.md) and [Set-VBOAzureArchiveRepository](set-vboazurearchiverepository.md) cmdlets instead. |
 
 Syntax
@@ -41,8 +41,9 @@ This cmdlet modifies settings of an object storage repository added to the Veeam
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | ObjectStorageRepository | Specifies an object storage repository. The cmdlet will modify settings of this object storage repository. | Accepts the [VBOObjectStorageRepository](vboobjectstoragerepository.md) object.  To get this object, run the [Get-VBOObjectStorageRepository](get-vboobjectstoragerepository.md) cmdlet. | True | Named | False |
 | Name | Specifies a new name of the object storage repository. The cmdlet will replace the current name with the specified name. | String | False | Named | False |
 | Description | Specifies a description of the object storage repository. The cmdlet will replace the current description with the specified description. | String | False | Named | False |
