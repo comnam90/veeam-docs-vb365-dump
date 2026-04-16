@@ -3,8 +3,8 @@ title: "Add-VBOAzureBlobObjectStorageRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboazureblobobjectstoragerepository.html"
-last_updated: "12/18/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Add-VBOAzureBlobObjectStorageRepository
@@ -16,7 +16,7 @@ Adds Azure Blob Storage to the Veeam Backup for Microsoft 365 infrastructure.
 
 |  |
 | --- |
-| ![Add-VBOAzureBlobObjectStorageRepository](images/icon_note.webp) Note |
+| Note |
 | In Veeam Backup for Microsoft 365 8, this cmdlet became deprecated. Use the [New-VBOAzureBlobObjectStorageSettings](new-vboazureblobobjectstoragesettings.md), and [Add-VBOAzureBlobRepository](add-vboazureblobrepository.md) or [Add-VBOAzureArchiveRepository](add-vboazurearchiverepository.md) cmdlets instead. |
 
 Syntax
@@ -53,13 +53,14 @@ This cmdlet adds Azure Blob Storage to the Veeam Backup for Microsoft 365 infras
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Folder | Specifies an Azure Blob folder. Veeam Backup for Microsoft 365 will save backups or backup copies to the specified folder. | Accepts the [VBOAzureBlobFolder](vboazureblobfolder.md) object.  To get this object, run the [Get-VBOAzureBlobFolder](get-vboazureblobfolder.md) cmdlet. | True | Named | False |
 | Name | Specifies a name of Azure Blob Storage. The cmdlet will add an object storage repository with this name. | String | True | Named | False |
 | Description | Specifies a description of Azure Blob Storage. The cmdlet will add an object storage repository with this description. | String | False | Named | False |
 | SizeLimit | Specifies a soft limit in GB for the object storage repository consumption that can be exceeded temporarily. If the specified limit is exceeded, Veeam Backup for Microsoft 365 will not run a new job.  Permitted values: 1024–1073741824.  Default: 1024  Note: In PowerShell you can specify a soft limit in GB only. | UInt64 | False | Named | False |
-| EnableImmutability | Defines that the cmdlet will add the object storage repository to the Veeam Backup for Microsoft 365 infrastructure with the immutability feature enabled. Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.  For more information about the immutability feature, see the [Immutability](https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html?ver=80) section of the Veeam Backup for Microsoft 365 User Guide.  Default: False | SwitchParameter | False | Named | False |
+| EnableImmutability | Defines that the cmdlet will add the object storage repository to the Veeam Backup for Microsoft 365 infrastructure with the immutability feature enabled. Veeam Backup for Microsoft 365 allows you to prohibit deletion of data from the object storage repository by making that data temporarily immutable and to protect data against malware activity.  For more information about the immutability feature, see the [Immutability](https://helpcenter.veeam.com/docs/vbo365/guide/immutability.html?ver=8) section of the Veeam Backup for Microsoft 365 User Guide.  Default: False | SwitchParameter | False | Named | False |
 | ImmutabilityPeriodDays | Specifies the number of days when your data will be blocked for deletion or modification.  Note: If you set the null or 0 value, data will be blocked for deletion or modification for the same period as the retention period. | Int32 | False | Named | False |
 | EnableLongTerm | Defines that the cmdlet will enable adding of the Azure Blob Storage Archive access tier.  Default: False | SwitchParameter | True | Named | False |
 | Subscription | Specifies a subscription associated with a user account that will be used to access Azure Blob Storage. | Accepts the [VBOAzureSubscription](vboazuresubscription.md) object.  To get this object, run the [Get-VBOAzureSubscription](get-vboazuresubscription.md) cmdlet. | True | Named | False |
