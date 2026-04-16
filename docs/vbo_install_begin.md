@@ -3,8 +3,8 @@ title: "Step 10. Begin Installation"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_begin.html"
-last_updated: "7/11/2024"
-product_version: "8.3.0.2201"
+last_updated: "1/26/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 10. Begin Installation
@@ -16,6 +16,6 @@ At the Ready to Install step, review the custom installation settings and click 
 
 Wait for the installation process to complete and click Finish to exit the wizard.
 
-[![Installing Veeam Backup for Microsoft 365](images/vbo_iso_setup_custom_settings.webp)](images/vbo_iso_setup_custom_settings.webp "Installing Veeam Backup for Microsoft 365")
+![Step 10. Begin Installation](images/vbo_iso_setup_custom_settings.webp "Installing Veeam Backup for Microsoft 365")
 
 
