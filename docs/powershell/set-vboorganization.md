@@ -3,8 +3,8 @@ title: "Set-VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboorganization.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOOrganization
@@ -54,13 +54,14 @@ This cmdlet modifies settings of an organization added to the Veeam Backup for M
 
 |  |
 | --- |
-| ![Set-VBOOrganization](images/icon_important.webp) Important |
+| Important |
 | You must set the Office365ExchangeConnectionsSettings and Office365SharePointConnectionsSettings parameters to the same type of the authentication mode — basic or modern. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will modify settings of this Microsoft organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of the Microsoft organization. The cmdlet will replace the current name with the specified name. | String | True | Named | False |
 | Office365ExchangeConnectionsSettings | Specifies connection settings. The cmdlet will use these settings to add Microsoft Exchange Online to Veeam Backup for Microsoft 365.  Note: If you also want to add Microsoft SharePoint Online to the same Microsoft 365 organization, you must set the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object to the same type of authentication mode. | Accepts the [VBOOffice365ConnectionSettings](vbooffice365connectionsettings.md) object.  To create this object, run the [New-VBOOffice365ConnectionSettings](new-vbooffice365connectionsettings.md) cmdlet. | False | Named | False |
