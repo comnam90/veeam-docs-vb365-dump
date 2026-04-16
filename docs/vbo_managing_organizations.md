@@ -3,8 +3,8 @@ title: "Organization Management"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_managing_organizations.html"
-last_updated: "9/30/2024"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Organization Management
@@ -31,7 +31,6 @@ In This Section
 * [Adding On-Premises Microsoft Organizations](vbo_add_onpremises_org.md)
 * [Adding Hybrid Organizations](vbo_add_hybrid.md)
 * [Backup Accounts](backup_accounts.md)
-* [Backup Applications](backup_applications.md)
 * [Editing Organization Settings](vbo_editing_org.md)
 * [Renaming Organizations](vbo_rename_org.md)
 * [Removing Organizations](vbo_removing_organizations.md)
