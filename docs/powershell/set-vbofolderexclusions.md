@@ -3,8 +3,8 @@ title: "Set-VBOFolderExclusions"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbofolderexclusions.html"
-last_updated: "1/13/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOFolderExclusions
@@ -30,13 +30,14 @@ To modify settings, you need to enter the necessary parameters with new values. 
 
 |  |
 | --- |
-| ![Set-VBOFolderExclusions](images/icon_note.webp) Note |
+| Note |
 | Folder exclusion settings are global and will be applied to all backup jobs configured in Veeam Backup for Microsoft 365. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | DeletedItems | Defines that the cmdlet will configure backup jobs not to process the Deleted Items and Recoverable Items mailbox folders.  Default: False | SwitchParameter | False | Named | False |
 | Drafts | Defines that the cmdlet will configure backup jobs not to process the Drafts mailbox folder.  Default: False | SwitchParameter | False | Named | False |
 | JunkEmail | Defines that the cmdlet will configure backup jobs not to process the Junk Email mailbox folder.  Default: False | SwitchParameter | False | Named | False |
