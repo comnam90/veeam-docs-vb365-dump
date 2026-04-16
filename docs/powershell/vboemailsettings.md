@@ -3,8 +3,8 @@ title: "VBOEmailSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/vboemailsettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # VBOEmailSettings
@@ -12,13 +12,14 @@ product_version: "8.3.0.2201"
 
 Contains details about email notification settings.
 
+VBOEmailSettings
+
 | Property | Type | Description |
-| --- | --- | --- |
 | EnableNotification | Bool | If True, sending email notifications is enabled. |
 | AuthenticationType | VBOAuthenticationType | Authentication type. Possible values:   * CustomSmtp * GoogleGmail * Microsoft365 |
 | SMTPServer | String | DNS name or IP address of the SMTP server. |
 | Port | Int | Port number. |
-| UseSSL | Bool | If True, the SSL encryption if enabled. |
+| UseSSL | Bool | If True, the TLS encryption is enabled. |
 | UseAuthentication | Bool | If True, the SMTP server requires authentication. |
 | Username | String | User name used for authentication to the SMTP server. |
 | From | String | Email address of the notification sender. |
