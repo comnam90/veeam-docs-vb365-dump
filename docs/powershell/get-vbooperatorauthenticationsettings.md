@@ -3,8 +3,8 @@ title: "Get-VBOOperatorAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbooperatorauthenticationsettings.html"
-last_updated: "4/10/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOOperatorAuthenticationSettings
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns restore operator authentication settings. These settings specify an SSL certificate used to establish connection with the Veeam Backup for Microsoft 365 server.
+This cmdlet returns restore operator authentication settings. These settings specify a TLS certificate used to establish connection with the Veeam Backup for Microsoft 365 server.
 
 Parameters
 
