@@ -3,8 +3,8 @@ title: "Stop-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vbojob.html"
-last_updated: "12/22/2025"
-product_version: "8.3.0.2201"
+last_updated: "4/7/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Stop-VBOJob
@@ -18,7 +18,7 @@ Syntax
 
 |  |
 | --- |
-| Stop-VBOJob -Job <VBOJob> [-Force] [-RunAsync] [<CommonParameters>] |
+| Stop-VBOJob -Job <VBOJob> [-Force] [-RunAsync]  [-WhatIf] [-Confirm] [<CommonParameters>] |
 
 Detailed Description
 
@@ -26,11 +26,14 @@ This cmdlet stops a running backup job.
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Job | Specifies a backup job that you want to stop. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | True (ByValue) |
 | Force | Defines that the cmdlet will stop the specified backup job without waiting for the entire subprocesses to complete, for example, if the backup job gets stuck.  The cmdlet will prompt you to confirm the operation.  Default: False | SwitchParameter | False | Named | False |
 | RunAsync | Defines that the command returns immediately without waiting for the task to complete.  Default: False | SwitchParameter | False | Named | False |
+| WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
+| Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
 <CommonParameters>
 
