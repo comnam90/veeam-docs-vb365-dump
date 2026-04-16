@@ -3,8 +3,8 @@ title: "Configuring Network Bandwidth"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_threads_and_limit.html"
-last_updated: "7/16/2024"
-product_version: "8.3.0.2201"
+last_updated: "2/5/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Configuring Network Bandwidth
@@ -20,6 +20,6 @@ For example, if you have set this value to 10 Mbps and have downloaded 100 Mb in
 
 1. Click OK.
 
-[![Modifying Backup Proxy Server Properties](images/proxy_limit.webp)](images/proxy_limit.webp "Modifying Backup Proxy Server Properties")
+![Configuring Network Bandwidth](images/proxy_limit.webp "Modifying Backup Proxy Server Properties")
 
 
