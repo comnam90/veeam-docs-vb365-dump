@@ -3,8 +3,8 @@ title: "Step 2. Configure Connection to Microsoft Entra"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/new_azure_service_account_1.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "4/15/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 2. Configure Connection to Microsoft Entra

@@ -3,8 +3,8 @@ title: "Step 1. Launch Configure Application Wizard"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_create_new_app_1.html"
-last_updated: "2/19/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/4/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 1. Launch Configure Application Wizard
