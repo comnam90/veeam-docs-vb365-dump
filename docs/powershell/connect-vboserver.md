@@ -3,8 +3,8 @@ title: "Connect-VBOServer"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/connect-vboserver.html"
-last_updated: "9/30/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Connect-VBOServer
@@ -30,13 +30,14 @@ Within one session you can connect to one Veeam Backup for Microsoft 365 server.
 
 |  |
 | --- |
-| ![Connect-VBOServer](images/icon_note.webp) Note |
+| Note |
 | This cmdlet requires a PSCredential object. To obtain a PSCredential object, run the [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5) cmdlet. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Server | Specifies the Veeam Backup for Microsoft 365 server. The cmdlet will connect to this server.  Default: 127.0.0.1 | String | False | Named | False |
 | Port | Specifies a port number. The cmdlet will use this port number to connect to Veeam Backup for Microsoft 365.  Default: 9191 | Int32 | False | Named | False |
 | Credential | Specifies credentials that you want to use for authenticating to the Veeam Backup for Microsoft 365 server.  If you do not provide this parameter, the cmdlet will use the current account credentials. | PSCredential | False | Named | False |
