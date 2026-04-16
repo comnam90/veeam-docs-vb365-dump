@@ -3,8 +3,8 @@ title: "Start-VBOOrganizationSynchronization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vboorganizationsynchronization.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Start-VBOOrganizationSynchronization
@@ -16,7 +16,7 @@ Starts to synchronize Microsoft organization objects with the organization cache
 
 |  |
 | --- |
-| ![Start-VBOOrganizationSynchronization](images/icon_note.webp) Note |
+| Note |
 | Synchronization of objects with the organization cache database is only available for Microsoft organizations with modern app-only authentication. |
 
 Syntax
@@ -31,8 +31,9 @@ This cmdlet starts to synchronize Microsoft organization objects with the organi
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will start synchronization of objects for this Microsoft organization. | IVBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Full | Defines that the cmdlet will start synchronization of all objects in this Microsoft organization.  Default: False | SwitchParameter | False | Named | False |
 
