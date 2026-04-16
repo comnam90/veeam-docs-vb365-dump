@@ -3,8 +3,8 @@ title: "New-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupapplication.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # New-VBOBackupApplication
@@ -36,13 +36,14 @@ This cmdlet creates the [VBOBackupApplication](vbobackupapplication.md) object t
 
 |  |
 | --- |
-| ![New-VBOBackupApplication](images/icon_important.webp) Important |
+| Important |
 | This cmdlet will run only for Microsoft organizations that are added to the Veeam Backup for Microsoft 365 infrastructure using modern app-only authentication method. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Application | Specifies a backup application. The cmdlet will modify the settings of this application. | Accepts the [VBOApplication](vboapplication.md) object.  To get this object, run the [Get-VBOApplication](get-vboapplication.md) cmdlet. | True | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will use this certificate to set a backup application. | String | True | Named | False |
 | ApplicationCertificatePassword | Specifies the certificate password. The cmdlet will use this password to set a backup application. | SecureString | False | Named | False |
