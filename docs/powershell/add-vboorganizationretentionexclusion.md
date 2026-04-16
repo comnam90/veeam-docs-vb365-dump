@@ -3,8 +3,8 @@ title: "Add-VBOOrganizationRetentionExclusion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganizationretentionexclusion.html"
-last_updated: "1/8/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Add-VBOOrganizationRetentionExclusion
@@ -26,13 +26,14 @@ This cmdlet adds retention policy settings for contacts and calendars of a speci
 
 |  |
 | --- |
-| ![Add-VBOOrganizationRetentionExclusion](images/icon_important.webp) Important |
+| Important |
 | This retention policy has higher priority than the global retention policy. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will set retention policy for contacts and calendars added to the specified organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | False |
 | Contacts | Defines that Veeam Backup for Microsoft 365 will not apply retention policy for contacts of the specified organization.  If you do not provide this parameter, Veeam Backup for Microsoft 365 will apply retention policy for contacts.  Default: False | SwitchParameter | False | Named | False |
 | Calendar | Defines that Veeam Backup for Microsoft 365 will not apply retention policy for calendars of the specified organization.  If you do not provide this parameter, Veeam Backup for Microsoft 365 will apply retention policy for calendars.  Default: False | SwitchParameter | False | Named | False |
