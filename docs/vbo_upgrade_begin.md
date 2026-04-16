@@ -3,8 +3,8 @@ title: "Step 9. Begin Installation"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_begin.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "4/15/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 9. Begin Installation
@@ -13,7 +13,7 @@ product_version: "8.3.0.2201"
 |  |
 | --- |
 | Note |
-| Depending on the version from which you upgrade Veeam Backup for Microsoft 365 to version 8.3, this step is displayed in two variants. |
+| Depending on the version from which you upgrade Veeam Backup for Microsoft 365 to version 8.4, this step is displayed in two variants. |
 
 Upgrade from Version 7.0 or 7a
 
