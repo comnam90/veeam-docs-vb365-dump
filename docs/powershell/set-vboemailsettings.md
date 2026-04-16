@@ -3,8 +3,8 @@ title: "Set-VBOEmailSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboemailsettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOEmailSettings
@@ -42,18 +42,19 @@ This cmdlet modifies email notification settings for Veeam Backup for Microsoft 
 
 |  |
 | --- |
-| ![Set-VBOEmailSettings](images/icon_note.webp) Note |
+| Note |
 | Email notification settings are global, they will be applied to all backup and backup copy jobs configured in Veeam Backup for Microsoft 365. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EnableNotification | Defines that Veeam Backup for Microsoft 365 will send email notifications.  Default: False | SwitchParameter | False | Named | False |
 | SMTPServer | Specifies the full DNS name or IP address of the SMTP server for sending email notifications.  Default: smtp.office365.com | String | False | Named | False |
 | Port | Specifies a port number for connecting to SMTP server.  Default: 587 | Int32 | False | Named | False |
 | UseAuthentication | Defines that the SMTP server requires authentication. Otherwise, the connection will be established to the SMTP server, which does not enforce authentication.  Default: False | SwitchParameter | False | Named | False |
-| UseSSL | Defines that Veeam Backup for Microsoft 365 will enable a secure connection for email notification transmission. Otherwise, email notifications will be transmitted through the connection that does not require SSL authentication.  Default: False | SwitchParameter | False | Named | False |
+| UseSSL | Defines that Veeam Backup for Microsoft 365 will enable a secure connection for email notification transmission. Otherwise, email notifications will be transmitted through the connection that does not require TLS authentication.  Default: False | SwitchParameter | False | Named | False |
 | Credential | Specifies credentials that you want to use for authentication to the SMTP server. | PSCredential | False | Named | False |
 | From | Specifies email address of the notification sender.  Note: Use this parameter only to send email notifications using SMTP server with basic authentication. | String | False | Named | False |
 | To | Specifies email address of the notification recipient. Semicolon is used for listing multiple recipients. | String | False | Named | False |
