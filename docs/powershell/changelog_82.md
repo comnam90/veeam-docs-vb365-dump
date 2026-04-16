@@ -3,8 +3,8 @@ title: "v8.2 Changelog"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/changelog_82.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "1/21/2026"
+product_version: "8.4.0.1457"
 ---
 
 # v8.2 Changelog
@@ -14,8 +14,9 @@ This section describes updated PowerShell cmdlets in Veeam Backup for Microsoft 
 
 Updated Cmdlets
 
+Updated Cmdlets
+
 | Cmdlet | Operation |
-| --- | --- |
 | [Move-VBOEntityData](move-vboentitydata.md) | Parameter added: NoDelete |
 | [Start-VBORepositoryIndexingSession](start-vborepositoryindexingsession.md) | Parameter added: Force |
 | [Stop-VBOJob](stop-vbojob.md) | Parameter added: Force |
