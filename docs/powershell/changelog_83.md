@@ -3,8 +3,8 @@ title: "v8.3 Changelog"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/changelog_83.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "1/20/2026"
+product_version: "8.4.0.1457"
 ---
 
 # v8.3 Changelog
@@ -14,8 +14,9 @@ This section describes updated PowerShell cmdlets in Veeam Backup for Microsoft 
 
 Updated Cmdlets
 
+Updated Cmdlets
+
 | Cmdlet | Operation |
-| --- | --- |
 | [Add-VBORepository](add-vborepository.md) | Type of the ObjectStorageEncryptionKey parameter changed. |
 | [Add-VBOAmazonS3CompatibleRepository](add-vboamazons3compatiblerepository.md) | Type of the ObjectStorageEncryptionKey parameter changed. |
 | [Add-VBOAmazonS3Repository](add-vboamazons3repository.md) | Type of the ObjectStorageEncryptionKey parameter changed. |
