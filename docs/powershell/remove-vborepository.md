@@ -3,8 +3,8 @@ title: "Remove-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vborepository.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Remove-VBORepository
@@ -26,13 +26,14 @@ This cmdlet allows you to remove backup repositories from the Veeam Backup for M
 
 |  |
 | --- |
-| ![Remove-VBORepository](images/icon_note.webp) Note |
+| Note |
 | Before removing backup repositories make sure that there are no backup jobs targeted at this repository. Otherwise Veeam Backup for Microsoft 365 will not allow you to remove this repository. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Repository | Specifies a backup repository. The cmdlet will remove this backup repository from the Veeam Backup for Microsoft 365 infrastructure. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
 | Force | Defines that the cmdlet will also remove object storage if it was linked to this JET-based backup repository.  Default: False | SwitchParameter | False | Named | False |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
