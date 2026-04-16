@@ -3,8 +3,8 @@ title: "Export-VBOLog"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/export-vbolog.html"
-last_updated: "12/5/2025"
-product_version: "8.3.0.2201"
+last_updated: "1/20/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Export-VBOLog
@@ -40,10 +40,13 @@ Detailed Description
 
 This cmdlet exports log files collected for the specified server components.
 
+To export log files collected for Veeam Backup for Microsoft 365 jobs, run the [Export-VBOJobLog](export-vbojoblog.md) cmdlet.
+
+Parameters
+
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | ServerComponent | Specifies an array of the Veeam Backup for Microsoft 365 server components. The cmdlet will export logs of the specified server component. | Accepts the [VBOServerComponent](vboservercomponent.md)[] object.  To get this object, run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. | True | Named | False |
 | All | Defines that the cmdlet will export logs for all time. You cannot use the From, To and DayPeriod parameters if this parameter is used.  Default: False | SwitchParameter | True | Named | False |
 | TargetPath | Specifies a target path for the log export. The cmdlet will export log files to this location. | String | True | Named | False |
@@ -71,7 +74,7 @@ Examples
 
 |  |  |
 | --- | --- |
-| This example shows how to export logs for a backup proxy server for a specific period. The cmdlet will export logs with the following settings:   * Logs will be exported for a backup proxy server with the ID 06b7354e-518f-4a10-b4c1-98f49d743012. * The export period of logs is set from 08/29/2023 10:00 AM to 11/15/2023 10:00 AM. * The cmdlet will export logs to the C:\Veeam\Office365\Logs folder.   |  | | --- | | $proxy = Get-VBOServerComponents -Name Proxy -Id 06b7354e-518f-4a10-b4c1-98f49d743012  $datefrom = [datetime]"08/29/2023 10:00 AM"  $dateto = [datetime]"11/15/2023 10:00 AM"  Export-VBOLog -ServerComponent $proxy -From $datefrom -To $dateto -TargetPath "C:\Veeam\Office365\Logs" |  Perform the following steps:   1. Run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. Specify the Name parameter value. Specify the Id parameter value. Save the result to the $proxy variable. 2. Set the start date of the export period in the $datefrom variable and cast the date string to the datetime type. 3. Set the end date of the export period in the $dateto variable and cast the date string to the datetime type. 4. Run the Export-VBOLog cmdlet. Specify the following settings:  * Set the $proxy variable as the ServerComponent parameter value. * Set the $datefrom variable as the From parameter value. * Set the $dateto parameter as the To parameter value. * Specify the TargetPath parameter value. |
+| This example shows how to export logs for a backup proxy server for a specific period. The cmdlet will export logs with the following settings:   * Logs will be exported for a backup proxy server with the ID 06b7354e-518f-4a10-b4c1-98f49d743012. * The export period of logs is set from 08/29/2025 10:00 AM to 11/15/2025 10:00 AM. * The cmdlet will export logs to the C:\Veeam\Office365\Logs folder.   |  | | --- | | $proxy = Get-VBOServerComponents -Name Proxy -Id 06b7354e-518f-4a10-b4c1-98f49d743012  $datefrom = [datetime]"08/29/2025 10:00 AM"  $dateto = [datetime]"11/15/2025 10:00 AM"  Export-VBOLog -ServerComponent $proxy -From $datefrom -To $dateto -TargetPath "C:\Veeam\Office365\Logs" |  Perform the following steps:   1. Run the [Get-VBOServerComponents](get-vboservercomponents.md) cmdlet. Specify the Name parameter value. Specify the Id parameter value. Save the result to the $proxy variable. 2. Set the start date of the export period in the $datefrom variable and cast the date string to the datetime type. 3. Set the end date of the export period in the $dateto variable and cast the date string to the datetime type. 4. Run the Export-VBOLog cmdlet. Specify the following settings:  * Set the $proxy variable as the ServerComponent parameter value. * Set the $datefrom variable as the From parameter value. * Set the $dateto parameter as the To parameter value. * Specify the TargetPath parameter value. |
 
 Related Commands
 
