@@ -3,8 +3,8 @@ title: "Get-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbojob.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "1/20/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOJob
@@ -38,8 +38,9 @@ Run the [Get-VBOJobSession](get-vbojobsession.md) cmdlet to get details on the b
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The backup job will back up objects of this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
 | Name | Specifies a name of the backup job. The cmdlet will return the backup job with this name. | String | False | Named | False |
 | Id | Specifies an ID of the backup job. The cmdlet will return the backup job with this ID. | Guid | True | Named | False |
