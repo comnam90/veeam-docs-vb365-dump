@@ -3,8 +3,8 @@ title: "Get-VBORestorePortalSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vborestoreportalsettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBORestorePortalSettings
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns connection settings to access Restore Portal. These settings specify whether Restore Portal is enabled, an identification number of Microsoft Entra application configured to access Restore Portal and an SSL certificate used for data exchange.
+This cmdlet returns connection settings to access Restore Portal. These settings specify whether Restore Portal is enabled, an identification number of Microsoft Entra application configured to access Restore Portal and a TLS certificate used for data exchange.
 
 Parameters
 
