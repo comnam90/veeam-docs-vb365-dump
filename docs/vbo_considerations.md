@@ -3,19 +3,19 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "3/10/2026"
-product_version: "8.3.0.2201"
+last_updated: "4/15/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Considerations and Limitations
 
 
-This section lists considerations and known limitations in Veeam Backup for Microsoft 365 8.3.
+This section lists considerations and known limitations in Veeam Backup for Microsoft 365 8.4.
 
 |  |
 | --- |
 | Note |
-| For the complete list of known issues and limitations in Veeam Backup for Microsoft 365 8.3, see [Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_m365_8_3_release_notes.html).  For limitations in Veeam Backup for Microsoft 365 functionality when protecting organizations with modern app-only authentication, see [this Veeam KB article](https://www.veeam.com/kb3146). |
+| For the complete list of known issues and limitations in Veeam Backup for Microsoft 365 8.4, see [Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_m365_8_4_release_notes.html).  For limitations in Veeam Backup for Microsoft 365 functionality when protecting organizations with modern app-only authentication, see [this Veeam KB article](https://www.veeam.com/kb3146). |
 
 Infrastructure
 
@@ -81,7 +81,7 @@ Object Storage Repositories
 * Veeam Backup for Microsoft 365 does not support the $root container in Azure Blob storage.
 * Veeam Backup for Microsoft 365 does not support Lifecycle policy in data management.
 * S3 Compatible device that you add to Veeam Backup for Microsoft 365 must be fully compatible with the AWS S3 operations and support AWS S3 Signature Version 4 standard. For more information about authentication requests, see [this Amazon article](https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html).
-* Veeam Backup for Microsoft 365 allows you to move data from a local JET-based backup repository to an object storage repository, but not vice versa. For more information, see the [Move-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html?ver=80) section of the Veeam Backup for Microsoft 365 PowerShell Reference.
+* Veeam Backup for Microsoft 365 allows you to move data from a local JET-based backup repository to an object storage repository, but not vice versa. For more information, see the [Move-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html?ver=8) section of the Veeam Backup for Microsoft 365 PowerShell Reference.
 * Veeam Backup for Microsoft 365 does not support the Versioning feature for Amazon S3 buckets and S3 Compatible buckets unless Object Lock is enabled for buckets and immutability is enabled for an object storage repository.
 * Veeam Backup for Microsoft 365 does not support the Versioning feature for Azure storage accounts unless immutability is enabled for an object storage repository.
 * Veeam Backup for Microsoft 365 supports only object storage repositories migrated using native Microsoft Azure or AWS services. Migration of object storage repositories using different applications may lead to the corruption of data blobs.
@@ -162,9 +162,10 @@ Restore
 |  |
 | --- |
 | Note |
-| For more information about limitations that apply when you restore data from backups using Veeam Explorers, see the following sections of the Veeam Explorers User Guide:   * [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_considerations.html?ver=80) * [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_recovery_specials.html?ver=80) * [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_considerations.html?ver=80) * [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_considerations.html?ver=80) |
+| For more information about limitations that apply when you restore data from backups using Veeam Explorers, see the following sections of the Veeam Explorers User Guide:   * [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_considerations.html?ver=8) * [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_recovery_specials.html?ver=8) * [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_considerations.html?ver=8) * [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_considerations.html?ver=8) |
 
 * SharePoint sites with a red X over the symbol mean that there is an empty sector of the template and supported content is available in the subsites.
+* Restore from unsupported Microsoft SharePoint lists is not supported using Veeam Explorer for Microsoft SharePoint, REST API or PowerShell. For more information about unsupported SharePoint lists, see the [Unsupported SharePoint Lists](https://helpcenter.veeam.com/docs/vbo365/explorers/unsupported_sharepoint_lists.html?ver=8) section of the Veeam Explorers User Guide.
 * Microsoft Teams messages cannot be restored directly back to Teams.
 
 * Veeam Backup for Microsoft 365 restores public folders that are located under the IPM\_SUBTREE folder only.
