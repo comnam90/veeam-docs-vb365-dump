@@ -3,8 +3,8 @@ title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Permissions for Modern App-Only Authentication
@@ -33,13 +33,13 @@ Follow this instruction to check Office 365 Exchange Online API permissions in M
 
 Follow this instruction to configure the Microsoft Entra application settings in Microsoft Entra ID for data restore.
 
-Veeam Backup for Microsoft 365 also requires you to grant permissions to Microsoft Entra applications that you add as backup applications. For more information, see [Backup Application Permissions](backup_app_permissions.md).
+Veeam Backup for Microsoft 365 also requires you to grant permissions to Microsoft Entra applications that you added as backup applications. For more information, see [Backup Application Permissions](backup_app_permissions.md).
 
 Required User Account Roles for Microsoft Entra Applications
 
 Microsoft Entra application uses a user account to log in to Microsoft 365. This user account must be assigned the following roles:
 
-* Global Administrator — required for adding organizations with modern app-only authentication, creating backup applications, registering Microsoft Entra application for Restore Portal and creating Microsoft Entra application for the Microsoft Azure service account.
+* Global Administrator — required for adding organizations with modern app-only authentication, registering Microsoft Entra application for Restore Portal and creating Microsoft Entra application for the Microsoft Azure service account.
 * ApplicationImpersonation1, and Global Administrator or Exchange Administrator — required for data restore with Veeam Explorer for Microsoft Exchange.
 * Global Administrator or SharePoint Administrator — required for data restore with Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive for Business.
 * Global Administrator or Teams Administrator — required for data restore with Veeam Explorer for Microsoft Teams.
@@ -120,7 +120,7 @@ Restore Using Device Code Flow
 | offline\_access | ✔ | ✔ | ✔ | Obtaining a refresh token from Microsoft Entra ID. |
 | ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
 | Office 365 Exchange Online1 | EWS.AccessAsUser.All | ✔ |  |  | Accessing mailboxes as the signed-in user (impersonation) through EWS. |
-| full\_access\_as\_user | ✔ |  |  | Reading the current state and restoring mailboxes content.  Note: This permission is only required for organizations located in legacy Microsoft Entra Germany region. Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. To add organizations located in this region to Veeam Backup for Microsoft 365, run the [Add-VBOOrganization](https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html?ver=80) cmdlet or use the POST /Organizations method. |
+| full\_access\_as\_user | ✔ |  |  | Reading the current state and restoring mailboxes content.  Note: This permission is only required for organizations located in legacy Microsoft Entra Germany region. Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. To add organizations located in this region to Veeam Backup for Microsoft 365, run the [Add-VBOOrganization](https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html?ver=8) cmdlet or use the POST /Organizations method. |
 | Office 365 SharePoint Online | AllSites.FullControl |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
 | User.Read.All |  | ✔ |  | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
 
@@ -130,7 +130,7 @@ Restore Using Application Certificate
 
 All listed permissions are of the Application type and required for the following scenarios of data restore:
 
-* Data restore by Veeam Explorer for Microsoft Exchange using modern authentication with the Microsoft Entra application certificate. For more information, see the [Restore to Microsoft 365 Organizations](https://helpcenter.veeam.com/docs/vbo365/explorers/restore_to_o365.html?ver=80) section of the Veeam Explorers User Guide.
+* Data restore by Veeam Explorer for Microsoft Exchange using modern authentication with the Microsoft Entra application certificate. For more information, see the [Restore to Microsoft 365 Organizations](https://helpcenter.veeam.com/docs/vbo365/explorers/restore_to_o365.html?ver=8) section of the Veeam Explorers User Guide.
 * Data restore using Restore Portal.
 * Data restore through REST API and PowerShell.
 
