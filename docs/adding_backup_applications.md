@@ -3,12 +3,17 @@ title: "Adding Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_applications.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Adding Applications
 
+
+|  |
+| --- |
+| Note |
+| Starting from Veeam Backup for Microsoft 365 version 8.4, adding existing applications to the backup configuration is not supported. |
 
 When you add Microsoft Entra applications to the backup configuration, Veeam Backup for Microsoft 365 retrieves a list of existing applications from your Microsoft Entra ID. From this list, you can select as many applications as you need. For more information about Microsoft Entra applications, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added).
 
