@@ -3,8 +3,8 @@ title: "Remove-VBOEncryptionKey"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboencryptionkey.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Remove-VBOEncryptionKey
@@ -26,13 +26,14 @@ This cmdlet removes an encryption key for object storage repositories.
 
 |  |
 | --- |
-| ![Remove-VBOEncryptionKey](images/icon_note.webp) Note |
+| Note |
 | You cannot remove an encryption key if it is in use by any of object storage repositories. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EncryptionKey | Specifies an encryption key. The cmdlet will remove this key from Veeam Backup for Microsoft 365. | Accepts the [VBOEncryptionKey](vboencryptionkey.md) object.  To get this object, run the [Get-VBOEncryptionKey](get-vboencryptionkey.md) cmdlet. | True | Named | True (ByValue) |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
