@@ -3,8 +3,8 @@ title: "Set-VBORestorePortalSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vborestoreportalsettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBORestorePortalSettings
@@ -22,24 +22,25 @@ Syntax
 
 Detailed Description
 
-This cmdlet modifies connection settings to access Restore Portal. These settings specify whether Restore Portal is enabled, an identification number of Microsoft Entra application configured to access Restore Portal and an SSL certificate used for data exchange.
+This cmdlet modifies connection settings to access Restore Portal. These settings specify whether Restore Portal is enabled, an identification number of Microsoft Entra application configured to access Restore Portal and a TLS certificate used for data exchange.
 
 To modify settings, you need to enter the necessary parameters with new values. The parameters that you omit will remain unchanged.
 
 |  |
 | --- |
-| ![Set-VBORestorePortalSettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet accepts the SecureString type. Use Microsoft PowerShell standard capabilities to convert your password into the SecureString. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EnableService | Defines that the cmdlet will enable Restore Portal.  Default: False | SwitchParameter | False | Named | False |
 | ApplicationId | Specifies Microsoft Entra application ID. The cmdlet will use an application with this ID to connect to Restore Portal. | Guid | False | Named | False |
-| CertificateFilePath | Specifies a path to the SSL certificate file. | String | False | Named | False |
+| CertificateFilePath | Specifies a path to the TLS certificate file. | String | False | Named | False |
 | Region | Specifies Microsoft Entra region where Microsoft 365 organization datacenter is located:   * China * Germany * USDefence * USGovernment * Worldwide | VBOOffice365Region | False | Named | False |
-| CertificatePassword | Specifies a password for the SSL certificate. | SecureString | False | Named | False |
+| CertificatePassword | Specifies a password for the TLS certificate. | SecureString | False | Named | False |
 | PortalUri | Specifies web address of a machine with the Veeam Backup for Microsoft 365 REST API component installed.  Before you add URI, consider the following restrictions:   * The website is available over HTTPS protocol only. * By default, port 4443 must be opened on the Veeam Backup for Microsoft 365 server or a machine with the Veeam Backup for Microsoft 365 REST API component installed. * The web address must be specified in one of the following formats:  * https://<IPv4 address>:<port number>, where <IPv4 address> is a public IPv4 address of a machine with the Veeam Backup for Microsoft 365 REST API component installed.  * https://<DNS hostname>:<port number>, where <DNS hostname> is DNS hostname of a machine with the Veeam Backup for Microsoft 365 REST API component installed. | String | False | Named | False |
 
 <CommonParameters>
@@ -57,7 +58,7 @@ Modifying Authentication Settings to Access Restore Portal
 This example shows how to modify connection settings to access Restore Portal:
 
 * Change identification number of Microsoft Entra application.
-* Locate the SSL certificate file and specify the certificate password.
+* Locate the TLS certificate file and specify the certificate password.
 * Specify web address to open Restore Portal in a web browser window.
 
 |  |
