@@ -3,8 +3,8 @@ title: "Downloading Installation Package"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/download_package.html"
-last_updated: "11/11/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Downloading Installation Package
@@ -20,15 +20,15 @@ The Veeam.Backup365.iso file includes the following folders and files:
 
 * VeeamExplorerForExchange.msi — installs Veeam Explorer for Microsoft Exchange.
 
-For more information, see [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_user_guide.html?ver=80).
+For more information, see [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_user_guide.html?ver=8).
 
 * VeeamExplorerForSharePoint.msi — installs Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive for Business.
 
-For more information, see [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_user_guide.html?ver=80) and [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_user_guide.html?ver=80).
+For more information, see [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_user_guide.html?ver=8) and [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_user_guide.html?ver=8).
 
 * VeeamExplorerForTeams.msi — installs Veeam Explorer for Microsoft Teams.
 
-For more information, see [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_user_guide.html?ver=80).
+For more information, see [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_user_guide.html?ver=8).
 
 * [Optional] Patches. If exists, this folder includes MSP files that Windows uses to install cumulative patches along with the Veeam Backup for Microsoft 365 and Veeam Explorers installation.
 
@@ -39,7 +39,7 @@ For more information, see [Veeam Explorer for Microsoft Teams](https://helpcente
 * Microsoft .NET Desktop Runtime 8.0.xx
 * Microsoft .NET Runtime 8.0.xx
 * NATS server 2.10.28
-* PostgreSQL 15.14
+* PostgreSQL 16.12
 * Windows PowerShell 7.4.xx
 * Microsoft Visual C++
 
