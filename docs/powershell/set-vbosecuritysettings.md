@@ -3,8 +3,8 @@ title: "Set-VBOSecuritySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbosecuritysettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOSecuritySettings
@@ -22,21 +22,22 @@ Syntax
 
 Detailed Description
 
-This cmdlet modifies security settings. These settings specify an SSL certificate used to establish connection with backup proxy servers in a workgroup.
+This cmdlet modifies security settings. These settings specify a TLS certificate used to establish connection with backup proxy servers in a workgroup.
 
 To modify settings, you need to enter the necessary parameters with new values. The parameters that you omit will remain unchanged.
 
 |  |
 | --- |
-| ![Set-VBOSecuritySettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet accepts the SecureString type. Use Microsoft PowerShell standard capabilities to convert your password into the SecureString. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
-| CertificateFilePath | Specifies a path to the SSL certificate file. | String | True | Named | False |
-| CertificatePassword | Specifies a password for the SSL certificate. | SecureString | False | Named | False |
+| CertificateFilePath | Specifies a path to the TLS certificate file. | String | True | Named | False |
+| CertificatePassword | Specifies a password for the TLS certificate. | SecureString | False | Named | False |
 | Force | Defines that the cmdlet will change security settings without prompting the user to confirm the operation.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
@@ -49,9 +50,9 @@ The cmdlet returns the [VBOSecuritySettings](vbosecuritysettings.md) object that
 
 Example
 
-Installing New SSL Certificate
+Installing New TLS Certificate
 
-This example shows how to modify security settings, that is, install a new SSL certificate to be used by workgroup backup proxy servers.
+This example shows how to modify security settings, that is, install a new TLS certificate to be used by workgroup backup proxy servers.
 
 |  |
 | --- |
