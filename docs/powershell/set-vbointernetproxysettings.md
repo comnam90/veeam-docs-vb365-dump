@@ -3,8 +3,8 @@ title: "Set-VBOInternetProxySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbointernetproxysettings.html"
-last_updated: "1/12/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOInternetProxySettings
@@ -28,13 +28,14 @@ To modify settings, you need to enter the necessary parameters with new values. 
 
 |  |
 | --- |
-| ![Set-VBOInternetProxySettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet requires a PSCredential object. To obtain a PSCredential object, run the [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5) cmdlet. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | UseInternetProxy | Defines that Veeam Backup for Microsoft 365 will use an internet proxy server as a gateway.  Default: False | SwitchParameter | False | Named | False |
 | Hostname | Specifies a DNS name or an IP address of an internet proxy server. | String | False | Named | False |
 | Port | Specifies a port number. The cmdlet will use this port number to connect to the internet proxy server.  Default: 3128. | UInt16 | False | Named | False |
