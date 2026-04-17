@@ -3,8 +3,8 @@ title: "Set-VBOOperatorAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbooperatorauthenticationsettings.html"
-last_updated: "5/7/2024"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOOperatorAuthenticationSettings
@@ -22,22 +22,23 @@ Syntax
 
 Detailed Description
 
-This cmdlet modifies restore operator authentication settings. These settings specify whether restore operators are allowed to authenticate to the Veeam Backup for Microsoft 365 server with Microsoft 365 credentials and an SSL certificate used to establish connection with the Veeam Backup for Microsoft 365 server.
+This cmdlet modifies restore operator authentication settings. These settings specify whether restore operators are allowed to authenticate to the Veeam Backup for Microsoft 365 server with Microsoft 365 credentials and a TLS certificate used to establish connection with the Veeam Backup for Microsoft 365 server.
 
 To modify settings, you need to enter the necessary parameters with new values. The parameters that you omit will remain unchanged.
 
 |  |
 | --- |
-| ![Set-VBOOperatorAuthenticationSettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet accepts the SecureString type. Use Microsoft PowerShell standard capabilities to convert your password into the SecureString. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EnableAuthentication | Defines that the cmdlet will enable restore operator authentication to the Veeam Backup for Microsoft 365 server with Microsoft 365 credentials.  Default: False | SwitchParameter | False | Named | False |
-| CertificateFilePath | Specifies a path to the SSL certificate file. | String | False | Named | False |
-| CertificatePassword | Specifies a password for the SSL certificate. | SecureString | False | Named | False |
+| CertificateFilePath | Specifies a path to the TLS certificate file. | String | False | Named | False |
+| CertificatePassword | Specifies a password for the TLS certificate. | SecureString | False | Named | False |
 
 <CommonParameters>
 
@@ -45,9 +46,9 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Example
 
-Installing New SSL Certificate to Authenticate Restore Operators
+Installing New TLS Certificate to Authenticate Restore Operators
 
-This example shows how to modify restore operator authentication settings, that is, install a new SSL certificate to be used by restore operators to establish connection with the Veeam Backup for Microsoft 365 server.
+This example shows how to modify restore operator authentication settings, that is, install a new TLS certificate to be used by restore operators to establish connection with the Veeam Backup for Microsoft 365 server.
 
 |  |
 | --- |
