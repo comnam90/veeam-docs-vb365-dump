@@ -3,8 +3,8 @@ title: "Remove-VBOEntityData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboentitydata.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Remove-VBOEntityData
@@ -48,13 +48,14 @@ This cmdlet removes the organization entity data.
 
 |  |
 | --- |
-| ![Remove-VBOEntityData](images/icon_note.webp) Note |
+| Note |
 | You cannot remove the organization entity data from object storage repositories with the enabled data immutability. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Repository | Specifies a backup repository where the backed-up entity data is located. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | User | Specifies an organization user entity. | VBOUserData | True | Named | True (ByValue) |
 | Mailbox | Defines that the cmdlet will remove the entity mailbox data.  Default: False | SwitchParameter | False | Named | False |
