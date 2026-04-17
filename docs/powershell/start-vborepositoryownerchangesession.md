@@ -3,8 +3,8 @@ title: "Start-VBORepositoryOwnerChangeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vborepositoryownerchangesession.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Start-VBORepositoryOwnerChangeSession
@@ -36,13 +36,14 @@ This cmdlet creates and starts a session when Veeam Backup for Microsoft 365 mov
 
 |  |
 | --- |
-| ![Start-VBORepositoryOwnerChangeSession](images/icon_note.webp) Note |
+| Note |
 | Starting many change owner sessions may overload the NATS server resulting session failures. To prevent this, use the [Get-VBORepositoryOwnerChangeSession](get-vborepositoryownerchangesession.md) cmdlet to check the status of a particular change owner session and wait for each session to complete. Alternatively, you can insert a delay between change owner sessions. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Repository | Specifies a backup repository or an object storage repository. The cmdlet will create and start a change owner session for this backup repository or object storage repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | Proxy | Specifies a backup proxy server. The cmdlet will move a backup repository or an object storage repository to this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
 | WaitForSessionsTimeoutMinutes | Specifies a timeout in minutes.  The cmdlet will use this timeout to wait for the related sessions to finish before starting the current session. Related sessions are the sessions that Veeam Backup for Microsoft 365 creates to perform different activities: data backup and backup copy, data management, data restore, and data retrieval.  Default: 60 | Int32 | False | Named | False |
