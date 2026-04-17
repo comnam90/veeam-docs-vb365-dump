@@ -3,8 +3,8 @@ title: "Set-VBOPSQLDatabaseServerLimits"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbopsqldatabaseserverlimits.html"
-last_updated: "11/10/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOPSQLDatabaseServerLimits
@@ -46,13 +46,14 @@ To modify settings, you need to enter the necessary parameters with new values. 
 
 |  |
 | --- |
-| ![Set-VBOPSQLDatabaseServerLimits](images/icon_important.webp) Important |
+| Important |
 | Consider the following:   * If you deploy a PostgreSQL instance along with the Veeam Backup for Microsoft 365 installation, the necessary resource capacity will be configured automatically during the installation. * If the CPU or RAM resources are changed after Veeam Backup for Microsoft 365 installation, you must run this cmdlet again to adjust hardware resources of the PostgreSQL instance. * You must restart the PostgreSQL service after you run this cmdlet. * In larger environments to improve database connection efficiency and performance, it is recommended to use PgBouncer. For more information, see [this Veeam KB article](https://www.veeam.com/kb4758). |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | DumpToFile | Specifies a path to a dump file. The cmdlet will save a dump SQL file on a machine where you run the cmdlet. | String | False | Named | False |
 | OSType | Specifies the OS of the machine where the PostgreSQL instance is installed:   * Windows * Linux | String | True | Named | False |
 | CPUCount | Specifies a number of CPU cores that you want to assign to a machine where the PostgreSQL instance is installed. | Int32 | True | Named | False |
