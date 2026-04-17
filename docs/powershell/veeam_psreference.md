@@ -3,8 +3,8 @@ title: "Veeam Backup for Microsoft 365 PowerShell Reference"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/veeam_psreference.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "1/20/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Veeam Backup for Microsoft 365 PowerShell Reference
@@ -71,6 +71,7 @@ See Also
 * [Available Cmdlets](available_cmdlets.md)
 * [Managing Veeam Backup for Microsoft 365](connect_to_veeam_backup_office365_server.md)
 * [Veeam Backup for Microsoft 365 Server Components Logs](veeam_backup_office365_components_logs.md)
+* [Veeam Backup for Microsoft 365 Job Logs](veeam_job_logs.md)
 * [Obsolete Parameters](obsolete_parameters.md)
 * [Veeam Backup for Microsoft 365 PowerShell Types](powershell_types.md)
 * [Veeam Backup for Microsoft 365 PowerShell Changelog](ps_changelog.md)
