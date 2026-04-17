@@ -3,8 +3,8 @@ title: "Step 3. Select Objects to Back Up"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_backup.html"
-last_updated: "3/6/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/16/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 3. Select Objects to Back Up
@@ -21,6 +21,7 @@ Consider the following:
 * Due to possible access limitations some Site type objects may be unavailable.
 * You can add the following objects for [Microsoft 365 organizations](vbo_add_office365_org.md) with modern app-only authentication: Public Folder Mailboxes and Discovery Search Mailboxes. For more information about the Exchange.ManageAsApp permission and the Global Reader role that Microsoft Entra application requires to back up these objects, see [Permissions for Backup](ad_app_permissions_sd.md#Exchange.ManageAsApp) and [Granting Global Reader Role to Microsoft Entra Application](ad_app_permissions_sd.md#app_role).
 * When you add an Organization object, [processing options](back_up_organization.md) are applied to all users, groups and sites in the selected organization.
+* By default, Veeam Backup for Microsoft 365 backs up only the latest file versions for SharePoint, OneDrive, and Teams. This reduces throttling risks and improves overall backup performance. You can configure this option via PowerShell using the [Set-VBOVersionBackupOptions](https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboversionbackupoptions.html?ver=8) cmdlet or use the PUT /Organizations/{organizationId}/versionBackupOptions REST API method.
 
 Back Up Entire Organization
 
