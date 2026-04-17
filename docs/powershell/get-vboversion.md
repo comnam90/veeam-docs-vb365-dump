@@ -3,8 +3,8 @@ title: "Get-VBOVersion"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboversion.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "1/20/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOVersion
@@ -42,6 +42,6 @@ This command returns Veeam Backup for Microsoft 365 build number.
 
 |  |
 | --- |
-| Get-VBOVersion  ProductVersion  --------------  8.3.0.XXX |
+| Get-VBOVersion  ProductVersion  --------------  8.4.0.XXX |
 
 
