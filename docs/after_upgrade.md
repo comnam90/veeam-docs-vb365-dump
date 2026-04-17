@@ -3,8 +3,8 @@ title: "What You Do After Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/after_upgrade.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/16/2026"
+product_version: "8.4.0.1457"
 ---
 
 # What You Do After Upgrade
@@ -21,6 +21,8 @@ After you upgraded Veeam Backup for Microsoft 365 to version 8, it is recommende
 * Upgrade the Veeam Backup for Microsoft 365 REST API component on a separate machine.
 * Upgrade backup proxy servers and backup repositories.
 * Manually remove a directory that stores object storage cache created in previous installations of Veeam Backup for Microsoft 365.
+
+* Enable the TLS encryption on the PostgreSQL instance and the NATS server.
 
 Switching Organizations to Modern App-Only Authentication
 
@@ -113,5 +115,9 @@ Removing Local Cache Directory
 You have created this directory in previous installations of Veeam Backup for Microsoft 365 to store object storage cache that contains backup metadata. During upgrade to version 8, Veeam Backup for Microsoft 365 copies existing metadata to the PersistentCache database created by Veeam Backup for Microsoft 365 on the PostgreSQL instance. For more information, see [Cache](understanding_cache.md).
 
 You can manually remove this directory because Veeam Backup for Microsoft 365 does not use it anymore.
+
+Enabling TLS Encryption
+
+To enhance security, we recommend that you enable the TLS encryption to secure the PostgreSQL instance traffic and the NATS server traffic. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/ssl-tcp.html) and [this NATS article](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/tls).
 
 
