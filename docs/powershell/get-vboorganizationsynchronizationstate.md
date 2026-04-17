@@ -3,8 +3,8 @@ title: "Get-VBOOrganizationSynchronizationState"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboorganizationsynchronizationstate.html"
-last_updated: "1/13/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOOrganizationSynchronizationState
@@ -16,7 +16,7 @@ Returns status of synchronization of Microsoft organization objects with the org
 
 |  |
 | --- |
-| ![Get-VBOOrganizationSynchronizationState](images/icon_note.webp) Note |
+| Note |
 | Synchronization of objects with the organization cache database is only available for Microsoft organizations with modern app-only authentication. |
 
 Syntax
@@ -31,8 +31,9 @@ This cmdlet returns status of synchronization of Microsoft organization objects 
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will return synchronization status for objects of this Microsoft organization. | IVBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
@@ -51,7 +52,7 @@ This example shows how to get status of synchronization of Microsoft organizatio
 
 |  |
 | --- |
-| $org = Get-VBOOrganization  Get-VBOOrganizationSynchronizationState -Organization $org  Organization : abc.onmicrosoft.com  SyncStatus   : Success  Type         : Incremental  LastSyncTime : 10/5/2023 4:54:11 PM  Error        : |
+| $org = Get-VBOOrganization  Get-VBOOrganizationSynchronizationState -Organization $org  Organization : abc.onmicrosoft.com  SyncStatus   : Success  Type         : Incremental  LastSyncTime : 10/5/2025 4:54:11 PM  Error        : |
 
 Perform the following steps:
 
