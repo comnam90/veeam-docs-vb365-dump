@@ -3,8 +3,8 @@ title: "New-VBOBackupAccount"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupaccount.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # New-VBOBackupAccount
@@ -26,13 +26,14 @@ This cmdlet creates the [VBOBackupAccount](vbobackupaccount.md) object that defi
 
 |  |
 | --- |
-| ![New-VBOBackupAccount](images/icon_important.webp) Important |
+| Important |
 | You cannot configure auxiliary backup accounts for on-premises Microsoft SharePoint organizations.  The entire security group will be granted the Site Collection Administrator role, which means that each user in this group will be granted this role as well, regardless of what users have been added with the SecurityGroupMember parameter. The role, however, can only be granted if you have used the GrantRolesAndPermissions parameter when defining connection settings to access the Microsoft 365 organization. Granting occurs during the first session of each of the backup jobs with SharePoint or OneDrive for Business items. If a user ceases to be a member of the group, the role is automatically annulled for this user. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | SecurityGroupMember | Specifies security groups. The cmdlet will use accounts from these security groups to back up Microsoft SharePoint and OneDrive for Business data. | Accepts the [VBOOrganizationGroupMember](vboorganizationgroupmember.md) object.  To get this object, run the [Get-VBOOrganizationGroupMember](get-vboorganizationgroupmember.md) cmdlet. | True | Named | False |
 | Password | Specifies a password. The cmdlet will use this password to back up Microsoft SharePoint and OneDrive for Business data. | SecureString | True | Named | False |
 
