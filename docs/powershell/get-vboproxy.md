@@ -3,8 +3,8 @@ title: "Get-VBOProxy"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboproxy.html"
-last_updated: "12/5/2025"
-product_version: "8.3.0.2201"
+last_updated: "1/21/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOProxy
@@ -42,10 +42,11 @@ This cmdlet returns a list of backup proxy servers added to the Veeam Backup for
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The cmdlet will return backup proxy servers that are associated with the specified organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | False | Named | True (ByValue) |
-| ExtendedView | Note: This parameter will be deprecated in future versions of Veeam Backup for Microsoft 365.  Defines whether the cmdlet will return all parameters of the backup proxy server (if the backup proxy server is online) or exclude from a list the ThrottlingValue and ThreadsNumber parameters.  Default: False | SwitchParameter | False | Named | False |
+| ExtendedView | Note: This parameter will be deprecated in future versions of Veeam Backup for Microsoft 365.  Defines that the cmdlet will return all parameters of the backup proxy server (if the backup proxy server is online) or exclude from a list the ThrottlingValue and ThreadsNumber parameters.  Default: False | SwitchParameter | False | Named | False |
 | Id | Specifies an ID of the backup proxy server. The cmdlet will return the backup proxy server with the specified ID. | Guid | True | Named | False |
 | Hostname | Specifies a DNS name or an IP address of the backup proxy server that you want to get. | String | True | Named | False |
 
