@@ -3,8 +3,8 @@ title: "New-VBOOffice365ConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbooffice365connectionsettings.html"
-last_updated: "3/9/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # New-VBOOffice365ConnectionSettings
@@ -52,7 +52,7 @@ Run the [Add-VBOOrganization](add-vboorganization.md) cmdlet to add Microsoft or
 
 |  |
 | --- |
-| ![New-VBOOffice365ConnectionSettings](images/icon_important.webp) Important |
+| Important |
 | This type of connection settings utilizes legacy authentication protocols. Since [Microsoft deprecated basic authentication and legacy authentication protocols](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-september/ba-p/3609437), these authentication methods will be deprecated in future versions of Veeam Backup for Microsoft 365. |
 
 Parameters
