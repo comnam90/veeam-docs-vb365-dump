@@ -3,8 +3,8 @@ title: "Adding Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_accounts.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Adding Accounts
@@ -17,7 +17,7 @@ To add auxiliary backup accounts to the backup configuration, do the following:
 1. Open the Organizations view.
 2. In the inventory pane, right-click an organization and select Manage backup accounts.
 
-Keep in mind that the Manage backup accounts option is unavailable for organizations with modern app-only authentication. For organizations added using modern app-only authentication, you use the Manage backup applications option. For more information, see [Adding Applications](adding_backup_applications.md).
+Keep in mind that the Manage backup accounts option is unavailable for organizations with modern app-only authentication.
 
 [![Adding Backup Accounts](images/adding_service_accounts.webp)](images/adding_service_accounts.webp "Adding Backup Accounts")
 
