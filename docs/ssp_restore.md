@@ -3,8 +3,8 @@ title: "Data Restore Using Restore Portal"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_restore.html"
-last_updated: "9/2/2024"
-product_version: "8.3.0.2201"
+last_updated: "1/27/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Data Restore Using Restore Portal
@@ -30,6 +30,7 @@ In This Section
 * [Configuration](ssp_configuration.md)
 * [Launching Restore Portal](ssp_launch.md)
 * [Changing Restore Operator Scope](ssp_changing_scope.md)
+* [Selecting Workload](ssp_workload.md)
 * [Selecting Restore Point](ssp_selecting_restore_point.md)
 * [Performing Restore](ssp_performing_restore.md)
 
