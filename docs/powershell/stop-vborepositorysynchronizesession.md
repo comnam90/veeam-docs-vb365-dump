@@ -3,8 +3,8 @@ title: "Stop-VBORepositorySynchronizeSession"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/stop-vborepositorysynchronizesession.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Stop-VBORepositorySynchronizeSession
@@ -26,13 +26,14 @@ This cmdlet stops sessions that are running to synchronize cache between object 
 
 |  |
 | --- |
-| ![Stop-VBORepositorySynchronizeSession](images/icon_note.webp) Note |
+| Note |
 | If you stop the synchronization session and then start it again, the synchronization process will start from the moment where it has been stopped. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Session | Specifies a synchronization session. The cmdlet will stop this session. | Accepts the [VBORepositorySynchronizeSession](vborepositorysynchronizesession.md) object.  To get this object, run the [Get-VBORepositorySynchronizeSession](get-vborepositorysynchronizesession.md) cmdlet. | True | Named | False |
 
 <CommonParameters>
