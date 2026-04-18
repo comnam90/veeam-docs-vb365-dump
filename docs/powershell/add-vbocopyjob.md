@@ -3,8 +3,8 @@ title: "Add-VBOCopyJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbocopyjob.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Add-VBOCopyJob
@@ -35,13 +35,14 @@ This cmdlet creates a backup copy job that will protect backups created by Veeam
 
 |  |
 | --- |
-| ![Add-VBOCopyJob](images/icon_note.webp) Note |
+| Note |
 | Before creating a backup copy job, make sure you are familiar with the following restrictions:   * Only one backup copy job can be created per backup job. * Object storage repository where you store your backups and a target object storage repository for backup copies must be located on the same backup proxy server or backup proxy pool and have the same retention type. * For a target object storage repository for backup copies, the immutability period equal to the retention period must be configured. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Repository | Specifies an object storage repository. Veeam Backup for Microsoft 365 will copy backed-up data to this object storage repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | BackupJob | Specifies a backup job for which you want to create backup copies. | Accepts the [VBOJob](vbojob.md) object.  To get this object, run the [Get-VBOJob](get-vbojob.md) cmdlet. | True | Named | False |
 | SchedulePolicy | Specifies schedule settings for a backup copy job.  Default: Immediate | Accepts the [VBOCopyJobSchedulePolicy](vbocopyjobschedulepolicy.md) object.  To create this object, run the [New-VBOCopyJobSchedulePolicy](new-vbocopyjobschedulepolicy.md) cmdlet. | False | Named | False |

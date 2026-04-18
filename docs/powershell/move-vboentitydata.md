@@ -3,8 +3,8 @@ title: "Move-VBOEntityData"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Move-VBOEntityData
@@ -51,13 +51,14 @@ This cmdlet moves the organization data between repositories and supports the fo
 
 |  |
 | --- |
-| ![Move-VBOEntityData](images/icon_important.webp) Important |
+| Important |
 | Consider the following:   * Data move is not supported for object storage repositories with the enabled data immutability. * Data move from an object storage repository to another object storage repository (including the object storage repository specified as target for backup copy jobs) or a JET-based backup repository is not supported. * Target backup repository or an object storage repository where you want to move backed-up data must not contain any data associated with the items that you want to move. * If the move process was interrupted, make sure to resume your data move before starting backup jobs to back up data to the source or target backup repository. * As data is being moved, Veeam Backup for Microsoft 365 removes items from the source backup repository and replaces them with the whitespace in the source backup repository database. Use the NoDelete parameter to disable data remove. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | From | Specifies a source JET-based backup repository. The cmdlet will move data from this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | To | Specifies a target JET-based backup repository or object storage repository for backed-up data. The cmdlet will move data to this backup repository. You can specify one of the following types of repositories:   * Local JET-based backup repository * Object storage repository | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |
 | User | Specifies the organization user data that the cmdlet will move. | VBOUserData | True | Named | True (ByValue) |

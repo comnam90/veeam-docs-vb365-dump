@@ -3,8 +3,8 @@ title: "Remove-VBOLicensedUser"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vbolicenseduser.html"
-last_updated: "12/5/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Remove-VBOLicensedUser
@@ -16,7 +16,7 @@ Removes licenses from Veeam Backup for Microsoft 365 users.
 
 |  |
 | --- |
-| ![Remove-VBOLicensedUser](images/icon_important.webp) Important |
+| Important |
 | You must remove user data from the backup repository before removing a license from Veeam Backup for Microsoft 365 users. Run the [Remove-VBOEntityData](remove-vboentitydata.md) cmdlet to remove the user data. |
 
 Syntax
@@ -31,8 +31,9 @@ This cmdlet removes licenses from Veeam Backup for Microsoft 365 users.
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | User | Specifies a licensed user. The cmdlet will remove license from this user. | Accepts the [VBOLicensedUser](vbolicenseduser.md) object.  To get this object, run the [Get-VBOLicensedUser](get-vbolicenseduser.md) cmdlet. | True | 0 | True (ByValue) |
 
 <CommonParameters>

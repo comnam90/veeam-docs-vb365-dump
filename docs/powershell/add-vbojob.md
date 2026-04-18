@@ -3,8 +3,8 @@ title: "Add-VBOJob"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/add-vbojob.html"
-last_updated: "12/23/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Add-VBOJob
@@ -36,13 +36,14 @@ This cmdlet creates a backup job that will back up data of your Microsoft 365 an
 
 |  |
 | --- |
-| ![Add-VBOJob](images/icon_note.webp) Note |
+| Note |
 | Before creating a backup job, make sure you are familiar with the following restrictions:   * Only one backup job can back up an entire organization. * Objects that are already added to the scope of any of your backup jobs will be skipped from the entire organization processing list. * Several jobs cannot back up the same items if you schedule them to run within the same period. If their schedules overlap, the items will be backed up by the job that starts earlier. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft organization. The backup job will back up objects of this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Name | Specifies a name of the backup job. The cmdlet will create a backup job with this name. | String | True | Named | False |
 | Repository | Specifies a backup repository. Veeam Backup for Microsoft 365 will store backups in this repository.  Note: If you want to create a backup copy job for this backup job, you must specify an object storage repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | False |

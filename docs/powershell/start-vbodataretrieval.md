@@ -3,8 +3,8 @@ title: "Start-VBODataRetrieval"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/start-vbodataretrieval.html"
-last_updated: "1/9/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Start-VBODataRetrieval
@@ -16,7 +16,7 @@ Creates and starts retrieval jobs.
 
 |  |
 | --- |
-| ![Start-VBODataRetrieval](images/icon_note.webp) Note |
+| Note |
 | Data retrieval is unavailable for Amazon S3 Glacier Instant Retrieval storage class. You can explore and restore data directly from backup copies using Veeam Explorers. |
 
 Syntax
@@ -77,8 +77,9 @@ This cmdlet creates and starts a retrieval job.
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | RestorePoint | Specifies a restore point stored in Veeam Backup for Microsoft 365 for the object storage repository that was specified as a target for backup copy jobs. The cmdlet will create and start a retrieval job to retrieve backed-up data from this restore point. | Accepts the [VBORestorePoint](vborestorepoint.md) object.  To get this object, run the [Get-VBORestorePoint](get-vborestorepoint.md) cmdlet. | True | Named | True (ByValue) |
 | AvailabilityPeriodDays | Specifies the number of days during which the retrieved backed-up data will be available to explore and restore using Veeam Explorers.  Default: 1 | Int32 | True | Named | False |
 | Name | Specifies a retrieval job name. The cmdlet will add a retrieval job with this name. | String | False | Named | False |

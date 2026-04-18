@@ -3,8 +3,8 @@ title: "Set-VBORestAPISettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vborestapisettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBORestAPISettings
@@ -22,24 +22,25 @@ Syntax
 
 Detailed Description
 
-This cmdlet modifies REST API settings that are used by Veeam Backup for Microsoft 365 REST API Service. For SSL connections, Veeam Backup for Microsoft 365 REST API uses SSL certificate.
+This cmdlet modifies REST API settings that are used by Veeam Backup for Microsoft 365 REST API Service. For TLS connections, Veeam Backup for Microsoft 365 REST API uses a TLS certificate.
 
 To modify settings, you need to enter the necessary parameters with new values. The parameters that you omit will remain unchanged.
 
 |  |
 | --- |
-| ![Set-VBORestAPISettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet accepts the SecureString type. Use Microsoft PowerShell standard capabilities to convert your password into the SecureString. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EnableService | Defines that the cmdlet will start Veeam Backup for Microsoft 365 REST API Service.  Default: False | SwitchParameter | False | Named | False |
 | AuthTokenLifeTime | Specifies the lifetime value for the authentication token (minutes).  Default: 60 | Int32 | False | Named | False |
 | HTTPSPort | Specifies a port number for server-client communication over HTTPS protocol.  Default: 4443 | Int32 | False | Named | False |
-| CertificateFilePath | Specifies a path to the SSL certificate file. | String | False | Named | False |
-| CertificatePassword | Specifies a password for the SSL certificate. | SecureString | False | Named | False |
+| CertificateFilePath | Specifies a path to the TLS certificate file. | String | False | Named | False |
+| CertificatePassword | Specifies a password for the TLS certificate. | SecureString | False | Named | False |
 | EnableSwaggerUI | Defines that the cmdlet will enable access to the swagger website and usage of Swagger UI.  Default: False | SwitchParameter | False | Named | False |
 | EnableOperatorAuthenticationOnly | Defines that Veeam Backup for Microsoft 365 will use REST API only for authentication of restore operators to Restore Portal.  Default: False | SwitchParameter | False | Named | False |
 
@@ -58,7 +59,7 @@ Modifying REST API Settings
 This example shows how to modify REST API settings:
 
 * Set authentication token lifetime to 4800 minutes.
-* Locate the SSL certificate file and specify the certificate password.
+* Locate the TLS certificate file and specify the certificate password.
 
 |  |
 | --- |

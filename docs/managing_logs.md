@@ -3,8 +3,8 @@ title: "Managing Log Files"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/managing_logs.html"
-last_updated: "10/21/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Managing Log Files
@@ -24,9 +24,9 @@ Logs for Veeam Backup for Microsoft 365 PowerShell
 
 For PowerShell modules, Veeam Backup for Microsoft 365 saves log files in the %ProgramData%\Veeam\Backup365\Logs\PowerShell folder.
 
-If you move a Microsoft organization data from a JET-based backup repository to another JET-based backup repository or object storage repository using the [Move-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html?ver=80) cmdlet, Veeam Backup for Microsoft 365 saves log files in the %ProgramData%\Veeam\Backup365\Logs\Move folder.
+If you move a Microsoft organization data from a JET-based backup repository to another JET-based backup repository or object storage repository using the [Move-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/move-vboentitydata.html?ver=8) cmdlet, Veeam Backup for Microsoft 365 saves log files in the %ProgramData%\Veeam\Backup365\Logs\Move folder.
 
-If you remove a Microsoft organization data from a JET-based backup repository or an object storage repository using the [Remove-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboentitydata.html?ver=80) cmdlet, Veeam Backup for Microsoft 365 saves log files in the %ProgramData%\Veeam\Backup365\Logs\Remove folder.
+If you remove a Microsoft organization data from a JET-based backup repository or an object storage repository using the [Remove-VBOEntityData](https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vboentitydata.html?ver=8) cmdlet, Veeam Backup for Microsoft 365 saves log files in the %ProgramData%\Veeam\Backup365\Logs\Remove folder.
 
 Logs for Retention
 

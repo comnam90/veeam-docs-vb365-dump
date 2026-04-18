@@ -3,8 +3,8 @@ title: "Get-VBOObjectStorageRepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboobjectstoragerepository.html"
-last_updated: "12/8/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOObjectStorageRepository
@@ -16,7 +16,7 @@ Returns object storage repositories added to the Veeam Backup for Microsoft 365 
 
 |  |
 | --- |
-| ![Get-VBOObjectStorageRepository](images/icon_note.webp) Note |
+| Note |
 | In Veeam Backup for Microsoft 365 8, this cmdlet became deprecated. Use the [Get-VBORepository](get-vborepository.md) cmdlet instead. |
 
 Syntax
@@ -45,8 +45,9 @@ This cmdlet returns an array of object storage repositories added to Veeam Backu
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Name | Specifies the object storage repository name. The cmdlet will return object an storage repository with this name. | String | False | Named | False |
 | LongTerm | Defines that the cmdlet will return settings for the following object storage repositories:   * Azure Blob Storage Archive access tier * all Amazon S3 Glacier storage classes   Default: True | SwitchParameter | False | Named | False |
 | Id | Specifies the object storage repository ID. The cmdlet will return an object storage repository with this ID. | Guid | True | Named | False |

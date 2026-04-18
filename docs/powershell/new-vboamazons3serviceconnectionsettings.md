@@ -3,8 +3,8 @@ title: "New-VBOAmazonS3ServiceConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vboamazons3serviceconnectionsettings.html"
-last_updated: "12/22/2025"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # New-VBOAmazonS3ServiceConnectionSettings
@@ -16,7 +16,7 @@ Defines connection settings to Amazon S3 object storage repository.
 
 |  |
 | --- |
-| ![New-VBOAmazonS3ServiceConnectionSettings](images/icon_note.webp) Note |
+| Note |
 | In Veeam Backup for Microsoft 365 8, this cmdlet became deprecated. Use the [New-VBOAmazonS3ConnectionSettings](new-vboamazons3connectionsettings.md) cmdlet to define connection settings to Amazon S3 object storage repository. |
 
 Syntax
@@ -31,8 +31,9 @@ This cmdlet creates the [VBOAmazonS3ConnectionSettings](vboamazons3connectionset
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Account | Specifies Amazon S3 storage account credentials. The cmdlet will use these storage account credentials to connect to Amazon S3 object storage repository. | Accepts the [VBOAmazonS3Account](vboamazons3account.md) object.  To get this object, run the [Get-VBOAmazonS3Account](get-vboamazons3account.md) cmdlet. | True | Named | False |
 | RegionType | Specifies the region type for Amazon S3 object storage repository. The cmdlet will connect to the selected region type and will set up a connection with Amazon S3 object storage repository. You can select the following region type:   * Global * USGovernment * China | VBOAmazonS3RegionType | True | Named | False |
 

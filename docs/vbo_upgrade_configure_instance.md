@@ -3,8 +3,8 @@ title: "Step 7. Configure PostgreSQL Instance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_configure_instance.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 7. Configure PostgreSQL Instance
@@ -13,7 +13,7 @@ product_version: "8.3.0.2201"
 |  |
 | --- |
 | Note |
-| This step is only available if you upgrade Veeam Backup for Microsoft 365 from version 7.0 or 7a to version 8.3 and you have selected to configure installation settings manually at the [Review Default Installation Settings](vbo_upgrade_default_settings.md) step of the wizard. |
+| This step is only available if you upgrade Veeam Backup for Microsoft 365 from version 7.0 or 7a to version 8.4 and you have selected to configure installation settings manually at the [Review Default Installation Settings](vbo_upgrade_default_settings.md) step of the wizard. |
 
 At the Database step, specify settings for the PostgreSQL instance where you want to deploy the Veeam Backup for Microsoft 365 configuration database, and select the authentication mode. For more information about a PostgreSQL instance, see [PostgreSQL Instance](architecture.md#postgresql).
 
@@ -21,7 +21,7 @@ To specify settings for the PostgreSQL instance, do the following:
 
 1. Select one of the following options:
 
-* Install new instance. Select this option to install a new PostgreSQL instance. The upgrade wizard will deploy PostgreSQL 15.14 on the target machine and create a database with the VeeamBackup365 name.
+* Install new instance. Select this option to install a new PostgreSQL instance. The upgrade wizard will deploy PostgreSQL 16.12 on the target machine and create a database with the VeeamBackup365 name.
 * Use existing instance. Select this option to use an already installed PostgreSQL instance. Do the following:
 
 1. Enter the instance name in the <host\_name>:<port> format.

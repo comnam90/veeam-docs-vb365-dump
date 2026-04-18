@@ -3,8 +3,8 @@ title: "Set-VBOTenantAuthenticationSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbotenantauthenticationsettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOTenantAuthenticationSettings
@@ -26,13 +26,14 @@ This cmdlet modifies tenant authentication settings configured for Veeam Backup 
 
 |  |
 | --- |
-| ![Set-VBOTenantAuthenticationSettings](images/icon_note.webp) Note |
+| Note |
 | This cmdlet accepts the SecureString type. Use Microsoft PowerShell standard capabilities to convert your password into the SecureString. |
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | EnableAuthentication | Defines that the cmdlet will enable tenant authentication to the Veeam Backup for Microsoft 365 server with organization credentials.  Default: False | SwitchParameter | False | Named | False |
 | CertificateFilePath | Specifies a path to the tenant authentication certificate file. | String | False | Named | False |
 | CertificatePassword | Specifies a password for the tenant authentication certificate. | SecureString | False | Named | False |

@@ -3,8 +3,8 @@ title: "Get-VBOSecuritySettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vbosecuritysettings.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "3/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOSecuritySettings
@@ -22,7 +22,7 @@ Syntax
 
 Detailed Description
 
-This cmdlet returns security settings. These settings specify an SSL certificate used to establish connection with backup proxy servers in a workgroup.
+This cmdlet returns security settings. These settings specify a TLS certificate used to establish connection with backup proxy servers in a workgroup.
 
 Parameters
 
