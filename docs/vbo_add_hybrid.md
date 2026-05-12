@@ -3,8 +3,8 @@ title: "Adding Hybrid Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_hybrid.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Adding Hybrid Organizations
@@ -15,13 +15,13 @@ Veeam Backup for Microsoft 365 allows you to create hybrid configurations consis
 You can add hybrid organizations as per the following scenarios:
 
 * Microsoft Exchange Online + on-premises Microsoft Exchange.
-* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive for Business.
-* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive for Business + Microsoft Teams.
-* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive for Business + on-premises Microsoft SharePoint.
-* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive for Business + on-premises Microsoft SharePoint + Microsoft Teams.
-* Microsoft SharePoint Online and OneDrive for Business + on-premises Microsoft SharePoint.
-* Microsoft Exchange Online + Microsoft SharePoint Online and OneDrive for Business + on-premises Microsoft SharePoint.
-* Microsoft Exchange Online + Microsoft SharePoint Online and OneDrive for Business + on-premises Microsoft SharePoint + Microsoft Teams.
+* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive.
+* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive + Microsoft Teams.
+* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive + on-premises Microsoft SharePoint.
+* Microsoft Exchange Online + on-premises Microsoft Exchange + Microsoft SharePoint Online and OneDrive + on-premises Microsoft SharePoint + Microsoft Teams.
+* Microsoft SharePoint Online and OneDrive + on-premises Microsoft SharePoint.
+* Microsoft Exchange Online + Microsoft SharePoint Online and OneDrive + on-premises Microsoft SharePoint.
+* Microsoft Exchange Online + Microsoft SharePoint Online and OneDrive + on-premises Microsoft SharePoint + Microsoft Teams.
 
 |  |
 | --- |
@@ -40,7 +40,7 @@ To back up on-premises Microsoft Exchange data.
 
 * SharePoint Online and OneDrive for Business
 
-To back up SharePoint Online and OneDrive for Business data.
+To back up SharePoint Online and OneDrive data.
 
 * Microsoft SharePoint Server
 
