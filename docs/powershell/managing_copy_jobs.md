@@ -3,8 +3,8 @@ title: "Managing Backup Copy Jobs"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/managing_copy_jobs.html"
-last_updated: "5/29/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Managing Backup Copy Jobs
@@ -12,8 +12,9 @@ product_version: "8.3.0.2201"
 
 You can use the cmdlets from this section to manage backup copy jobs and perform the following operations:
 
+Managing Backup Copy Jobs
+
 | Cmdlet | Operation |
-| --- | --- |
 | [Start-VBOCopyJob](start-vbocopyjob.md) | Starts backup copy jobs. |
 | [Stop-VBOCopyJob](stop-vbocopyjob.md) | Stops running backup copy jobs. |
 | [Disable-VBOCopyJob](disable-vbocopyjob.md) | Disables backup copy jobs. |
