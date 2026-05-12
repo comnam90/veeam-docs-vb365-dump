@@ -1,16 +1,16 @@
 ---
-title: "Microsoft SharePoint and OneDrive for Business"
+title: "Microsoft SharePoint and OneDrive"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_sharepoint.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
-# Microsoft SharePoint and OneDrive for Business
+# Microsoft SharePoint and OneDrive
 
 
-The following tables list roles and permissions that must be assigned to Veeam Backup account to protect data in Microsoft SharePoint and OneDrive for Business organizations. Veeam Backup for Microsoft 365 requires these roles and permissions for Microsoft 365 organizations that use modern authentication method with legacy protocols allowed or basic authentication method, and on-premises Microsoft organizations.
+The following tables list roles and permissions that must be assigned to Veeam Backup account to protect data in Microsoft SharePoint and OneDrive organizations. Veeam Backup for Microsoft 365 requires these roles and permissions for Microsoft 365 organizations that use modern authentication method with legacy protocols allowed or basic authentication method, and on-premises Microsoft organizations.
 
 Consider the following:
 
@@ -29,7 +29,7 @@ For more information about the Set-SPOTenant cmdlet, see [this Microsoft article
 |  |
 | --- |
 | Note |
-| For more information about permissions required to restore Microsoft SharePoint data from backups created by Veeam Backup for Microsoft 365, see [Permissions](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_permissions.html?ver=80) for Veeam Explorer for Microsoft SharePoint. |
+| For more information about permissions required to restore Microsoft SharePoint data from backups created by Veeam Backup for Microsoft 365, see [Permissions](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_permissions.html?ver=8) for Veeam Explorer for Microsoft SharePoint. |
 
 On-Premises Microsoft SharePoint Organizations
 
