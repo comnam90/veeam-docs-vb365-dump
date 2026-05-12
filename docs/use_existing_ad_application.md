@@ -3,8 +3,8 @@ title: "Using Existing Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/use_existing_ad_application.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Using Existing Microsoft Entra Application
@@ -23,7 +23,7 @@ You can enter any account that belongs to your Microsoft 365 organization using 
 | Note |
 | If you plan to back up public folder mailboxes, this user account must be granted the Owner role and have a valid Exchange Online license and an active mailbox within the Microsoft 365 organization. |
 
-Keep in mind that if you select only SharePoint Online and OneDrive for Business services to protect at the [Select Organization Deployment Type](vbo_add_o365_sd.md) step, Veeam Backup for Microsoft 365 displays the Specify organization name field instead. In this field, specify a domain name of your Microsoft 365 organization without the user name. For example, abc.com.
+Keep in mind that if you select only SharePoint Online and OneDrive services to protect at the [Select Organization Deployment Type](vbo_add_o365_sd.md) step, Veeam Backup for Microsoft 365 displays the Specify organization name field instead. In this field, specify a domain name of your Microsoft 365 organization without the user name. For example, abc.com.
 
 1. In the Application ID field, specify an identification number of Microsoft Entra application that you want to use to access your Microsoft 365 organization.
 
