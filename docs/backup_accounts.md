@@ -3,14 +3,14 @@ title: "Backup Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_accounts.html"
-last_updated: "3/13/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
 # Backup Accounts
 
 
-For Microsoft 365 organizations added using either basic authentication or modern authentication method with legacy protocols allowed, you can configure auxiliary backup accounts to minimize throttling when backing up Microsoft SharePoint and OneDrive for Business data.
+For Microsoft 365 organizations added using either basic authentication or modern authentication method with legacy protocols allowed, you can configure auxiliary backup accounts to minimize throttling when backing up Microsoft SharePoint and OneDrive data.
 
 In Veeam Backup for Microsoft 365 version 8, you can add a Microsoft 365 organization using basic authentication only in Microsoft Entra China region. This functionality is only available through REST API and PowerShell. Adding Microsoft organizations using modern authentication method with legacy protocols allowed is not supported. However, after upgrading Veeam Backup for Microsoft 365 to version 8 from the previous versions of the product, you may have in the Veeam Backup for Microsoft 365 console such organizations that use legacy authentication methods. Veeam Backup for Microsoft 365 continues to support auxiliary backup accounts for these organizations.
 
