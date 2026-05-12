@@ -3,8 +3,8 @@ title: "Step 2. Select Organization Deployment Type"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_o365_sd.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 2. Select Organization Deployment Type
@@ -21,7 +21,7 @@ To select an organization deployment type and Microsoft Online services whose da
 
 1. From the Select organization deployment type drop-down list, select Microsoft 365.
 2. If you want to back up Exchange Online data, select the Exchange Online check box.
-3. If you want to back up SharePoint Online and OneDrive for Business data, select the SharePoint Online and OneDrive for Business check box.
+3. If you want to back up SharePoint Online and OneDrive data, select the SharePoint Online and OneDrive for Business check box.
 4. If you want to back up Microsoft Teams data, select the Microsoft Teams check box.
 
 You can select this check box only if both Exchange Online and SharePoint Online and OneDrive for Business check boxes are selected.
