@@ -3,7 +3,7 @@ title: "Adding Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adding_backup_applications.html"
-last_updated: "3/13/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
