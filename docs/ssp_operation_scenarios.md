@@ -3,8 +3,8 @@ title: "Restore Portal Usage Scenarios"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_operation_scenarios.html"
-last_updated: "9/2/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Restore Portal Usage Scenarios

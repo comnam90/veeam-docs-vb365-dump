@@ -3,8 +3,8 @@ title: "Changing Password and Removing Accounts"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/editing_and_removing_accounts.html"
-last_updated: "7/18/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Changing Password and Removing Accounts

@@ -3,8 +3,8 @@ title: "Adding On-Premises Microsoft Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_onpremises_org.html"
-last_updated: "7/18/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Adding On-Premises Microsoft Organizations
