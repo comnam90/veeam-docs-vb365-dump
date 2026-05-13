@@ -3,8 +3,8 @@ title: "Performing Restore"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_performing_restore.html"
-last_updated: "5/5/2025"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Performing Restore
@@ -16,7 +16,7 @@ You can explore and restore data from backups created by Veeam Backup for Micros
 
 * [Microsoft Exchange Online](ssp_exchange_restore.md)
 * [Microsoft SharePoint Online](ssp_sharepoint_restore.md)
-* [Microsoft OneDrive for Business](ssp_onedrive_restore.md)
+* [Microsoft OneDrive](ssp_onedrive_restore.md)
 * [Microsoft Teams](ssp_teams_restore.md)
 
 In This Section
