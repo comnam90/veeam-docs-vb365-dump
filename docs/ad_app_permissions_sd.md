@@ -3,7 +3,7 @@ title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
-last_updated: "3/13/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -41,7 +41,7 @@ Microsoft Entra application uses a user account to log in to Microsoft 365. This
 
 * Global Administrator — required for adding organizations with modern app-only authentication, registering Microsoft Entra application for Restore Portal and creating Microsoft Entra application for the Microsoft Azure service account.
 * ApplicationImpersonation1, and Global Administrator or Exchange Administrator — required for data restore with Veeam Explorer for Microsoft Exchange.
-* Global Administrator or SharePoint Administrator — required for data restore with Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive for Business.
+* Global Administrator or SharePoint Administrator — required for data restore with Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive.
 * Global Administrator or Teams Administrator — required for data restore with Veeam Explorer for Microsoft Teams.
 * Global Administrator — required for establishing a connection to a service provider in the [Backup as Service with Veeam Backup for Microsoft 365](vbo_mail_baas.md) scenario.
 * Owner — requires to back up public folder mailboxes in organizations with modern app-only authentication.
@@ -65,17 +65,17 @@ All listed permissions are of the Application type.
 
 Permissions for Backup
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| API | Permission name | Exchange Online | SharePoint Online and Microsoft OneDrive | Microsoft Teams | Description |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
-| Sites.Read.All |  | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions. |
-| TeamSettings.ReadWrite.All |  |  | ✔ | Accessing archived teams. |
-| ChannelMessage.Read.All |  |  | ✔ | Accessing Microsoft Teams public channel messages. |
-| ChannelMember.Read.All |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
-| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Reading mailboxes content. |
-| Exchange.ManageAsApp | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folder and discovery search mailboxes as well as determine correctly object type for shared mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#app_role). |
-| Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
-| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
+| Sites.Read.All | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions. |
+| TeamSettings.ReadWrite.All | ✔ | Accessing archived teams. |
+| ChannelMessage.Read.All | ✔ | Accessing Microsoft Teams public channel messages. |
+| ChannelMember.Read.All | ✔ | Accessing Microsoft Teams private and shared channels. |
+| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ | ✔ | Reading mailboxes content. |
+| Exchange.ManageAsApp | ✔ | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folder and discovery search mailboxes as well as determine correctly object type for shared mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#app_role). |
+| Office 365 SharePoint Online | Sites.FullControl.All | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
+| User.Read.All | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive permission to add a Microsoft 365 organization successfully. |
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](permissions_exchange_online_api_checking.md).
 
@@ -112,17 +112,17 @@ All listed permissions are of the Delegated type and required for data restore u
 
 Restore Using Device Code Flow
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| API | Permission name | Exchange Online | SharePoint Online and Microsoft OneDrive | Microsoft Teams | Description |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
-| Group.ReadWrite.All |  |  | ✔ | Recreating in Microsoft Entra ID an associated group in case of teams restore. |
-| Sites.Read.All |  | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
-| Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
+| Group.ReadWrite.All | ✔ | Recreating in Microsoft Entra ID an associated group in case of teams restore. |
+| Sites.Read.All | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
+| Directory.ReadWrite.All | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
 | offline\_access | ✔ | ✔ | ✔ | Obtaining a refresh token from Microsoft Entra ID. |
-| ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
-| Office 365 Exchange Online1 | EWS.AccessAsUser.All | ✔ |  |  | Accessing mailboxes as the signed-in user (impersonation) through EWS. |
-| full\_access\_as\_user | ✔ |  |  | Reading the current state and restoring mailboxes content.  Note: This permission is only required for organizations located in legacy Microsoft Entra Germany region. Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. To add organizations located in this region to Veeam Backup for Microsoft 365, run the [Add-VBOOrganization](https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html?ver=8) cmdlet or use the POST /Organizations method. |
-| Office 365 SharePoint Online | AllSites.FullControl |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
-| User.Read.All |  | ✔ |  | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
+| ChannelMember.ReadWrite.All | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| Office 365 Exchange Online1 | EWS.AccessAsUser.All | ✔ | Accessing mailboxes as the signed-in user (impersonation) through EWS. |
+| full\_access\_as\_user | ✔ | Reading the current state and restoring mailboxes content.  Note: This permission is only required for organizations located in legacy Microsoft Entra Germany region. Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. To add organizations located in this region to Veeam Backup for Microsoft 365, run the [Add-VBOOrganization](https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html?ver=8) cmdlet or use the POST /Organizations method. |
+| Office 365 SharePoint Online | AllSites.FullControl | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
+| User.Read.All | ✔ | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](permissions_exchange_online_api_checking.md).
 
@@ -136,16 +136,16 @@ All listed permissions are of the Application type and required for the followin
 
 Restore Using Application Certificate
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| Microsoft Graph | Directory.Read.All | ✔ |  | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
-| Group.ReadWrite.All |  | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore.  Note: This permission is only required for restore of SharePoint site data through REST API and PowerShell. |
-| Sites.Read.All |  | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
-| Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
-| Files.ReadWrite.All |  |  | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
-| ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
-| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  |  | Reading the current state and restoring mailboxes content. |
-| Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
-| User.Read.All |  | ✔ |  | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
+| API | Permission name | Exchange Online | SharePoint Online and Microsoft OneDrive | Microsoft Teams | Description |
+| Microsoft Graph | Directory.Read.All | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
+| Group.ReadWrite.All | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore.  Note: This permission is only required for restore of SharePoint site data through REST API and PowerShell. |
+| Sites.Read.All | ✔ | ✔ | Accessing sites of the applications that are installed from the SharePoint store. |
+| Directory.ReadWrite.All | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
+| Files.ReadWrite.All | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
+| ChannelMember.ReadWrite.All | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ | Reading the current state and restoring mailboxes content. |
+| Office 365 SharePoint Online | Sites.FullControl.All | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
+| User.Read.All | ✔ | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](permissions_exchange_online_api_checking.md).
 
