@@ -3,14 +3,14 @@ title: "Data Restore Using Restore Portal"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_restore.html"
-last_updated: "1/27/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
 # Data Restore Using Restore Portal
 
 
-Restore Portal is a web-based solution that allows users to perform self-service restore of backed-up data. They can explore and restore Microsoft Exchange, Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams data from backups created by Veeam Backup for Microsoft 365.
+Restore Portal is a web-based solution that allows users to perform self-service restore of backed-up data. They can explore and restore Microsoft Exchange, Microsoft SharePoint, Microsoft OneDrive and Microsoft Teams data from backups created by Veeam Backup for Microsoft 365.
 
 Restore Portal offers two scenarios for data restore: self-service restore and operator restore. For more information about available usage scenarios, see [Restore Portal Usage Scenarios](ssp_operation_scenarios.md).
 
