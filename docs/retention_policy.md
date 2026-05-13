@@ -3,8 +3,8 @@ title: "Retention Policy"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/retention_policy.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Retention Policy
@@ -77,7 +77,7 @@ The same is repeated until no items left in a repository. After that, Veeam Back
 
 Removing Items After Unsuccessful Backup Attempts
 
-If during the subsequent backup job sessions Veeam Backup for Microsoft 365 fails to back up organization mailboxes, Microsoft SharePoint items, Microsoft OneDrive for Business items, or Microsoft Teams items, the product preserves the latest backup state of such items until the next successful backup is created.
+If during the subsequent backup job sessions Veeam Backup for Microsoft 365 fails to back up organization mailboxes, Microsoft SharePoint items, Microsoft OneDrive items, or Microsoft Teams items, the product preserves the latest backup state of such items until the next successful backup is created.
 
 The following example represents a backup of the mailbox A which is followed by 6 consecutive unsuccessful attempts (B through G) of backing up that same mailbox during the subsequent backup job sessions. The mailbox A will not be removed until this mailbox is successfully backed up during the attempt H.
 
@@ -99,7 +99,7 @@ If a backup job has created a successful backup and then went idle for an indefi
 
 The following example represents the mailbox A that has been removed because it was already out of the retention coverage (Example 1). The next mailbox that will be removed is the mailbox B, the removal of which will happen once it goes beyond the retention coverage (Example 2).
 
-The same is applicable to Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams.
+The same is applicable to Microsoft SharePoint, Microsoft OneDrive and Microsoft Teams.
 
 ![Retention Policy](images/backup_retention_4.webp "Understanding Retention Policy")
 
