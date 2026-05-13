@@ -3,8 +3,8 @@ title: "Get-VBOApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboapplication.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Get-VBOApplication
@@ -26,8 +26,9 @@ This cmdlet returns an array of Microsoft Entra applications added to Microsoft 
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Organization | Specifies a Microsoft 365 organization. The cmdlet will return an array of Microsoft Entra applications from this organization. | Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 | Id | Specifies an ID of a Microsoft Entra application. The cmdlet will return the application with the specified ID. | Guid | False | Named | False |
 | Name | Specifies a name of a Microsoft Entra application. The cmdlet will return the application with the specified name. | String | False | Named | False |
