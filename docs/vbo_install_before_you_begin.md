@@ -3,7 +3,7 @@ title: "Before You Begin"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_before_you_begin.html"
-last_updated: "3/13/2026"
+last_updated: "5/12/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -28,10 +28,10 @@ Consider the following:
 
 When installing Veeam Backup for Microsoft 365, you can choose what PostgreSQL instance to use for the Veeam Backup for Microsoft 365 configuration database. You can use an already installed PostgreSQL instance or install a new one. If you want to install a new PostgreSQL instance using the default installation, it will be configured automatically. If you want to use an already installed PostgreSQL instance, right after you deploy Veeam Backup for Microsoft 365, ensure the instance configuration is sufficient for the product performance. For more information, see [Adjusting PostgreSQL Instance Configuration](adjust_postgres_instance.md).
 
-* To enhance security of the already installed PostgreSQL instance, we recommend that you enable the TLS encryption for the PostgreSQL instance traffic. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/ssl-tcp.html).
+* To enhance security of the already installed PostgreSQL instance, we recommend that you enable the TLS encryption for the PostgreSQL instance traffic. For more information, see [Enabling TLS Encryption on PostgreSQL Instance](adjust_postgres_tls.md).
 
 * By default, the NATS server that you deploy along with Veeam Backup for Microsoft 365 on the target machine does not use the TLS encryption. To enhance security of the NATS server, we recommend that you enable the TLS encryption for the NATS server traffic. For more information, see [Enabling TLS Encryption on NATS Server](adjust_nats_instance.md).
-* A PostgreSQL instance must be configured to listen for connections from all Veeam Backup for Microsoft 365 servers and backup proxy servers. You can use an already installed PostgreSQL instance or install a new one. If you want to install a new PostgreSQL instance using the default installation, it will be configured automatically. If you want to use an already installed PostgreSQL instance, specify a list of IP addresses. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/runtime-config-connection.html).
+* A PostgreSQL instance must be configured to listen for connections from all Veeam Backup for Microsoft 365 servers and backup proxy servers. You can use an already installed PostgreSQL instance or install a new one. If you want to install a new PostgreSQL instance using the default installation, it will be configured automatically. If you want to use an already installed PostgreSQL instance, specify a list of IP addresses. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/runtime-config-connection.html#RUNTIME-CONFIG-CONNECTION-SETTINGS).
 * If you want to use an already installed PostgreSQL instance, make sure that the pg\_trgm and plpgsql extensions are installed and enabled.
 * If you want to use an existing PostgreSQL instance that was created by Veeam Backup & Replication, you must adjust the PostgreSQL configuration. For more information, see [this Veeam KB article](https://www.veeam.com/kb4638).
 * Using the same NATS server for different deployments of Veeam Backup for Microsoft 365 is not supported.
