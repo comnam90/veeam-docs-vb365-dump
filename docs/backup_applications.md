@@ -3,7 +3,7 @@ title: "Backup Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_applications.html"
-last_updated: "3/13/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -15,7 +15,7 @@ product_version: "8.4.0.1457"
 | Note |
 | Starting from Veeam Backup for Microsoft 365 version 8.4, adding existing applications to the backup configuration or creating new applications in your Microsoft Entra ID is not supported. Those auxiliary backup applications that have already been added to Veeam Backup for Microsoft 365, are kept running. You can remove them if needed. |
 
-You can use [Microsoft Entra applications](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for Microsoft 365 organizations added using modern app-only authentication to minimize throttling when backing up Microsoft SharePoint Online and Microsoft OneDrive for Business data.
+You can use [Microsoft Entra applications](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added) for Microsoft 365 organizations added using modern app-only authentication to minimize throttling when backing up Microsoft SharePoint Online and Microsoft OneDrive data.
 
 Consider the following:
 
