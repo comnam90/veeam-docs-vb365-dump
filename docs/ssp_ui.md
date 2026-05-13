@@ -3,14 +3,14 @@ title: "User Interface"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_ui.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # User Interface
 
 
-The web-based user interface of Restore Portal is designed to let you quickly explore backed-up Microsoft Exchange, Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams data in one window. Also, it allows you to perform restore operations without using Veeam Explorers and view details about restore sessions progress and results and the restore sessions history.
+The web-based user interface of Restore Portal is designed to let you quickly explore backed-up Microsoft Exchange, Microsoft SharePoint, Microsoft OneDrive and Microsoft Teams data in one window. Also, it allows you to perform restore operations without using Veeam Explorers and view details about restore sessions progress and results and the restore sessions history.
 
 The main window consists of the Explore, Restore Sessions and Restore List tabs.
 
@@ -23,17 +23,23 @@ Navigation Pane
 The navigation pane allows you to do the following:
 
 * If you are a restore operator, you can select an object that you want to manage. For more information, see [Changing Restore Operator Scope](ssp_changing_scope.md).
-* Select a restore point from which you want to explore and restore data from backups created by Veeam Backup for Microsoft 365. For more information, see [Selecting Restore Point](ssp_selecting_restore_point.md).
-* Browse through the hierarchy of folders with backed-up data. Nodes with Microsoft Exchange, Microsoft OneDrive for Business, Microsoft SharePoint and Microsoft Teams data are displayed in the navigation pane separately. Availability of nodes differs depending on backups created by Veeam Backup for Microsoft 365 for an object whose backed-up data is explored at the moment.
 
-For example, for a user object the following data can be displayed:
+* Select a workload that contains backed-up data you want to explore and restore: Exchange, SharePoint, OneDrive, or Teams. For more information, see [Selecting Workload](ssp_workload.md).
 
-* Exchange Online mailbox
-* Archive mailbox
-* OneDrive for Business
-* Personal Site (available only for restore operators)
+* Select a restore point from which you want to explore and restore data from backups created by Veeam Backup for Microsoft 365 for the selected workload. For more information, see [Selecting Restore Point](ssp_selecting_restore_point.md).
+* Browse through the hierarchy of folders with backed-up data. Folders with backed-up data are available only if the selected restore point contains backups created by Veeam Backup for Microsoft 365 for an object whose backed-up data is explored at the moment.
 
-For restore operators, Restore Portal displays data for user objects, SharePoint sites and teams that restore operators are allowed to explore.
+In the self-service restore scenario, the following data of a user object can be displayed:
+
+* Exchange Online mailbox and Archive mailbox
+* OneDrive
+* Personal SharePoint site
+
+In the operator restore scenario, Restore Portal displays backed-up data for the following objects if restore operators are allowed to manage them:
+
+* Users
+* SharePoint sites
+* Teams
 
 Preview Pane
 
