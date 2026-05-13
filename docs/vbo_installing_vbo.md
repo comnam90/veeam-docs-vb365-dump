@@ -3,8 +3,8 @@ title: "Installing Veeam Backup for Microsoft 365"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_installing_vbo.html"
-last_updated: "9/16/2025"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Installing Veeam Backup for Microsoft 365
@@ -63,5 +63,6 @@ Related Topics
 
 * [Adjusting PostgreSQL Instance Configuration](adjust_postgres_instance.md)
 * [Enabling TLS Encryption on NATS Server](adjust_nats_instance.md)
+* [Enabling TLS Encryption on PostgreSQL Instance](adjust_postgres_tls.md)
 
 
