@@ -3,8 +3,8 @@ title: "Adjusting PostgreSQL Instance Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/adjust_postgres_instance.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Adjusting PostgreSQL Instance Configuration
@@ -12,14 +12,9 @@ product_version: "8.3.0.2201"
 
 If you have selected to use an already installed PostgreSQL instance at the [Configure PostgreSQL Instance](vbo_install_configure_instance.md) step of the wizard, right after you deploy Veeam Backup for Microsoft 365, make sure that the instance configuration is sufficient for the product performance.
 
-|  |
-| --- |
-| Note |
-| To enhance security of the PostgreSQL instance, we recommend that you also enable the TLS encryption for the PostgreSQL instance traffic. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/ssl-tcp.html). |
-
 To adjust the configuration of the PostgreSQL instance, do the following:
 
-1. On the Veeam Backup for Microsoft 365 server, run the [Set-VBOPSQLDatabaseServerLimits](https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbopsqldatabaseserverlimits.html?ver=80) cmdlet. The cmdlet generates the necessary PostgreSQL configuration and saves it to a dump SQL file.
+1. On the Veeam Backup for Microsoft 365 server, run the [Set-VBOPSQLDatabaseServerLimits](https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbopsqldatabaseserverlimits.html?ver=8) cmdlet. The cmdlet generates the necessary PostgreSQL configuration and saves it to a dump SQL file.
 
 |  |
 | --- |
