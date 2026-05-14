@@ -3,8 +3,8 @@ title: "Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_backup_repositories.html"
-last_updated: "2/27/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Backup Repositories
@@ -24,7 +24,7 @@ The following table lists supported backup repositories depending on their type 
 
 Backup Repositories
 
-|  | JET-based backup repository | Object storage repository |
+| JET-based backup repository | Object storage repository |
 | Data backup | ✔ | ✔ |
 | Backup copy |  | ✔ |
 
