@@ -3,8 +3,8 @@ title: "Supported Key Algorithms and Key Formats"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/key_algorithms.html"
-last_updated: "8/28/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Supported Key Algorithms and Key Formats
@@ -12,8 +12,9 @@ product_version: "8.3.0.2201"
 
 Veeam Backup for Microsoft 365 supports the following key algorithms: RSA, DSA, ECDSA, EdDSA (ED25519). For these algorithms you can use the following key formats:
 
+Supported Key Algorithms and Key Formats
+
 | Key Formats | Key Algorithms | | | |
-| --- | --- | --- | --- | --- |
 | RSA | DSA | ECDSA | EdDSA (ED25519) |
 | PEM | ✔ | ✔ | ✔ |  |
 | private | ✔ | ✔ | ✔ | ✔ |
