@@ -3,8 +3,8 @@ title: "Storage for Backups"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/osr_non_archive_structure.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Storage for Backups
@@ -19,7 +19,7 @@ Keep in mind that Veeam Backup for Microsoft 365 does not support this structure
 |  |
 | --- |
 | Note |
-| In versions 8 and 7, Veeam Backup for Microsoft 365 creates the storage structure for backups in different formats. Veeam Backup for Microsoft 365 version 8 supports both formats: you can continue to use object storage created by version 7 to back up, restore and explore data. For more information about the object storage structure created for backup storage by Veeam Backup for Microsoft 365 version 7, see [Storage for Backups](https://helpcenter.veeam.com/archive/vbo365/70/guide/osr_non_archive_structure.html?ver=80). |
+| In versions 8 and 7, Veeam Backup for Microsoft 365 creates the storage structure for backups in different formats. Veeam Backup for Microsoft 365 version 8 supports both formats: you can continue to use object storage created by version 7 to back up, restore and explore data. For more information about the object storage structure created for backup storage by Veeam Backup for Microsoft 365 version 7, see [Storage for Backups](https://helpcenter.veeam.com/archive/vbo365/70/guide/osr_non_archive_structure.html?ver=8). |
 
 dd
 
@@ -29,7 +29,7 @@ Storage for Backups
 | <bucket\_name/container\_name> | A bucket or container name.  Buckets and containers must be created in advance using the cloud provider tools. Veeam Backup for Microsoft 365 does not support creating new buckets or containers. |
 | <bucket\_name/container\_name>/Veeam/Backup365/ | A set of mandatory folders created by Veeam Backup for Microsoft 365. |
 | <repository\_folder\_name> | A repository folder that you create when adding a new object storage repository.  For more information on how to add a new object storage repository, see [Adding Object Storage Repositories](adding_object_storage.md). |
-| <repository\_folder\_name>/CommonInfo | Contains the following directories and blob files:   * [Directory] RestorePoints. Contains information about available restore points for Microsoft Exchange. * [Directory] WebRestorePoints. Contains information about available restore points for Microsoft SharePoint and OneDrive for Business.   Both directories keep a blob file that contains a list of available restore points. If the size of a blob file is greater 4 MB, another blob file is created.   * [Blob file] Organizations. Contains a list of backed-up organizations. * [Blob file] RepositoryConfig. Contains the object storage repository configuration such as the retention type, the data immutability settings and other auxiliary information. |
+| <repository\_folder\_name>/CommonInfo | Contains the following directories and blob files:   * [Directory] RestorePoints. Contains information about available restore points for Microsoft Exchange. * [Directory] WebRestorePoints. Contains information about available restore points for Microsoft SharePoint and OneDrive.   Both directories keep a blob file that contains a list of available restore points. If the size of a blob file is greater 4 MB, another blob file is created.   * [Blob file] Organizations. Contains a list of backed-up organizations. * [Blob file] RepositoryConfig. Contains the object storage repository configuration such as the retention type, the data immutability settings and other auxiliary information. |
 | <repository\_folder\_name>/CriticalDataBackup | Contains identical copies of the following blob files:   * [Blob file] Organizations. Contains a list of backed-up organizations. * [Blob file] RepositoryConfig. Contains the object storage repository configuration such as the retention type, the data immutability settings and other auxiliary information. * [Blob file] BackupKeys. Contains information about the encryption keys that you set to encrypt data in object storage. |
 | <repository\_folder\_name>/Encryption | Contains the BackupKeys blob file that holds information about the encryption keys that you set to encrypt data in object storage. |
 | <repository\_folder\_name>/Organizations | The root folder that contains backed-up Microsoft organizations. Each organization is kept in its own folder with a unique identification number. |
