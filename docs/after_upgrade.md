@@ -3,7 +3,7 @@ title: "What You Do After Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/after_upgrade.html"
-last_updated: "3/16/2026"
+last_updated: "5/12/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -118,6 +118,6 @@ You can manually remove this directory because Veeam Backup for Microsoft 365 do
 
 Enabling TLS Encryption
 
-To enhance security, we recommend that you enable the TLS encryption to secure the PostgreSQL instance traffic and the NATS server traffic. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/ssl-tcp.html) and [this NATS article](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/tls).
+To enhance security, we recommend that you enable the TLS encryption to secure the PostgreSQL instance traffic and the NATS server traffic. For more information, see [Enabling TLS Encryption on PostgreSQL Instance](adjust_postgres_tls.md) and [Enabling TLS Encryption on NATS Server](adjust_nats_instance.md).
 
 
