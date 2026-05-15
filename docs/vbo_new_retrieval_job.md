@@ -3,8 +3,8 @@ title: "Creating Retrieval Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_new_retrieval_job.html"
-last_updated: "9/2/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Creating Retrieval Job

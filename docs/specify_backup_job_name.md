@@ -3,8 +3,8 @@ title: "Step 2. Specify Backup Job Name"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_backup_job_name.html"
-last_updated: "2/4/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Step 2. Specify Backup Job Name
