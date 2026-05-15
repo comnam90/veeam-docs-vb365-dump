@@ -3,8 +3,8 @@ title: "Exploring Backups in Veeam Explorers"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_vex_adding_store.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Exploring Backups in Veeam Explorers
@@ -12,10 +12,10 @@ product_version: "8.3.0.2201"
 
 To explore backups located on the service provider side, add such backups in Veeam Explorers. For more information, see the following sections of the Veeam Explorers User Guide:
 
-* [Adding Organization Backups in Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_add_sp_database.html?ver=80)
-* [Adding Organization Backups in Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_sp_add.html?ver=80)
-* [Adding Organization Backups in Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_sp_add.html?ver=80)
-* [Adding Organization Backups in Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_sp_add.html?ver=80)
+* [Adding Organization Backups in Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_add_sp_database.html?ver=8)
+* [Adding Organization Backups in Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_sp_add.html?ver=8)
+* [Adding Organization Backups in Veeam Explorer for Microsoft OneDrive](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_sp_add.html?ver=8)
+* [Adding Organization Backups in Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_sp_add.html?ver=8)
 
 |  |
 | --- |
