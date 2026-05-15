@@ -3,7 +3,7 @@ title: "New-VBOBackupApplication"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbobackupapplication.html"
-last_updated: "3/12/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -12,7 +12,7 @@ product_version: "8.4.0.1457"
 
 Short Description
 
-Defines backup application settings to back up SharePoint and OneDrive for Business.
+Defines backup application settings to back up SharePoint and OneDrive.
 
 Syntax
 
