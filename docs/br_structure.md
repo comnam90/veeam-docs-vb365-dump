@@ -3,8 +3,8 @@ title: "JET-Based Backup Repository Structure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/br_structure.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # JET-Based Backup Repository Structure
@@ -32,7 +32,7 @@ This means that if the organization receives a new email item at 7:28 PM on 12/2
 |  |
 | --- |
 | Note |
-| Although the example describes only Microsoft Exchange items, the same approach applies to Microsoft SharePoint items, Microsoft OneDrive for Business items and Microsoft Teams items. |
+| Although the example describes only Microsoft Exchange items, the same approach applies to Microsoft SharePoint items, Microsoft OneDrive items and Microsoft Teams items. |
 
 [![Backup Repositories](images/backup_job.webp)](images/backup_job.webp "Backup Repositories")
 
