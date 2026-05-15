@@ -3,8 +3,8 @@ title: "Appendix A. Item Search Parameters"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/appendix_search.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Appendix A. Item Search Parameters
@@ -22,18 +22,18 @@ For more information about item search functionality in the Veeam Backup for Mic
 
 * Veeam Explorers user interface
 
-For more information about item search functionality in Veeam Explorers, see the Searching for Objects in Backup File sections of the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/vbo365/explorers/explorers_introduction.html?ver=80) for each Veeam Explorer.
+For more information about item search functionality in Veeam Explorers, see the Searching for Objects in Backup File sections of the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/vbo365/explorers/explorers_introduction.html?ver=8) for each Veeam Explorer.
 
 * Veeam Explorers PowerShell
 
-For more information about item search functionality in Veeam Explorers PowerShell, see [Veeam Explorers PowerShell Reference](https://helpcenter.veeam.com/docs/vbo365/explorers_powershell/getting_started.html?ver=80).
+For more information about item search functionality in Veeam Explorers PowerShell, see [Veeam Explorers PowerShell Reference](https://helpcenter.veeam.com/docs/vbo365/explorers_powershell/getting_started.html?ver=8).
 
 When you search for items in backups created by Veeam Backup for Microsoft 365, you can use query parameters to narrow the search criteria. In a query, you can specify search parameters in the form of canonical names (for example: System.Message.FromAddress and System.Message.ToAddress) or their shortcuts (where applicable; for example: from and to).
 
 You can specify search parameters in search requests for the following types of items:
 
 * [Microsoft Exchange Items](#exchange)
-* [Microsoft SharePoint and Microsoft OneDrive for Business Items](#sp_od)
+* [Microsoft SharePoint and Microsoft OneDrive Items](#sp_od)
 * [Microsoft Teams Items](#teams)
 
 For examples of how to provide values for search parameters and combine parameters when searching for Microsoft Exchange items, see [this Microsoft article](https://support.microsoft.com/en-us/office/learn-to-narrow-your-search-criteria-for-better-searches-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da).
@@ -162,11 +162,11 @@ Search Parameters for Microsoft Exchange Items
 | Owner | System.Task.Owner | taskowner |
 | Header | Veeam.Message.Header | - |
 
-Search Parameters for Microsoft SharePoint and Microsoft OneDrive for Business Items
+Search Parameters for Microsoft SharePoint and Microsoft OneDrive Items
 
-The following table contains parameters that can be used to search for Microsoft SharePoint and Microsoft OneDrive for Business items in backups created by Veeam Backup for Microsoft 365.
+The following table contains parameters that can be used to search for Microsoft SharePoint and Microsoft OneDrive items in backups created by Veeam Backup for Microsoft 365.
 
-Search Parameters for Microsoft SharePoint and Microsoft OneDrive for Business Items
+Search Parameters for Microsoft SharePoint and Microsoft OneDrive Items
 
 | Name | Canonical Name | Shortcut |
 | Created By | System.Author | - |
