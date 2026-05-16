@@ -3,8 +3,8 @@ title: "Set-VBOConfigurationParameter"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboconfigurationparameter.html"
-last_updated: "3/9/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/12/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Set-VBOConfigurationParameter
@@ -22,9 +22,14 @@ Syntax
 
 Detailed Description
 
-This cmdlet allows you to configure parameters of the controller, backup proxy servers and backup proxy pools. Veeam Backup for Microsoft 365 saves configuration parameters of the Veeam Backup for Microsoft 365 controller to the Config.xml file, configuration parameters of backup proxy servers to the Proxy.xml files.
+This cmdlet allows you to configure parameters of the controller, backup proxy servers and backup proxy pools. Veeam Backup for Microsoft 365 saves configuration parameters of the Veeam Backup for Microsoft 365 controller to the Config.xml file, configuration parameters of backup proxy servers and backup proxy pools — to the Proxy.xml files.
 
 To modify settings, you need to enter the necessary parameters with new values. The parameters that you omit will remain unchanged.
+
+|  |
+| --- |
+| Note |
+| To enable the TLS encryption for the PostgreSQL instance traffic, use the following values for the Key parameter:   * TlsEnabled. Use this parameter attribute to enable the TLS encryption for the PostgreSQL instance traffic. * CertificateThumbprint. Use this parameter attribute to provide the certificate thumbprint.   Consider that to enable the TLS encryption for the PostgreSQL instance traffic, you must specify both parameter attributes. |
 
 Parameters
 
@@ -35,7 +40,7 @@ Parameters
 | LinuxCredential | Specifies Linux credentials.  The cmdlet will use these credentials to connect to the Linux-based backup proxy server.  Note: If the ProxyPool parameter is used, you must specify Linux credentials to connect to all Linux-based backup proxy servers in the backup proxy pool. | Accepts the [VBOLinuxCredential](vbolinuxcredential.md) object.  To get this object, run the [New-VBOLinuxCredential](new-vbolinuxcredential.md) cmdlet. | False | Named | False |
 | Proxy | Specifies a backup proxy server.  The cmdlet will configure parameters of this backup proxy server. | Accepts the [VBOProxy](vboproxy.md) object.  To get this object, run the [Get-VBOProxy](get-vboproxy.md) cmdlet. | False | Named | False |
 | ProxyPool | Specifies a backup proxy pool.  The cmdlet will configure parameters of all backup proxy servers added to this backup proxy pool. | Accepts the [VBOProxyPool](vboproxypool.md) object.  To get this object, run the [Get-VBOProxyPool](get-vboproxypool.md) cmdlet. | False | Named | False |
-| XPath | Specifies the xpath path in the Config.xml file. | String | True | Named | False |
+| XPath | Specifies the xpath path in the Config.xml or Proxy.xml file. | String | True | Named | False |
 | Key | Specifies a name of the parameter attribute. | String | True | Named | False |
 | Value | Specifies the parameter attribute value. | String | False | Named | False |
 | RevertToDefault | Defines that the cmdlet will revert the configuration parameters to the default values.  Default: False | SwitchParameter | False | Named | False |
@@ -71,6 +76,12 @@ Examples
 |  |  |
 | --- | --- |
 | This example shows how to revert configuration parameters of the Windows-based backup proxy server to default values.  |  | | --- | | $xpath = "/Veeam/Archiver/Server"  $key = "TestKey"  $vboproxy = Get-VBOProxy -Hostname 172.17.53.53  $winserverCredentials = Get-Credential  Set-VBOConfigurationParameter -XPath $xpath -Key $key -Proxy $vboproxy -WindowsCredential $winserverCredentials -RevertToDefault -Restart |  Perform the following steps:   1. Enter values for the XPath and Key parameters. Save them to the $xpath and $key variables. 2. Run the [Get-VBOProxy](get-vboproxy.md) cmdlet. Specify the Hostname parameter value. Save the result to the $vboproxy variable. 3. Run the [Get-Credential](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.5) cmdlet. Enter the credentials you want to use to connect to the backup proxy server. Save the result to the $winserverCredentials variable. 4. Run the Set-VBOConfigurationParameter cmdlet. Specify the following settings:  * Set the $xpath variable as the XPath parameter value. * Set the $key variable as the Key parameter value. * Set the $vboproxy variable as the Proxy parameter value. * Set the $winserverCredentials variable as the WindowsCredential parameter value. * Provide the RevertToDefault parameter. * Provide the Restart parameter. |
+
+![](//img.veeam.com/helpcenter/baggage/arrow_next.svg)Example 5: Enabling TLS Encryption on Veeam Backup for Microsoft 365 Controller
+
+|  |  |
+| --- | --- |
+| These commands enable the TLS encryption for the PostgreSQL instance traffic on the Veeam Backup for Microsoft 365 controller.  |  | | --- | | Set-VBOConfigurationParameter -XPath Veeam\Archiver\ControllerPostgres -key "TlsEnabled" -value "True" -Controller  Set-VBOConfigurationParameter -XPath Veeam\Archiver\ControllerPostgres -key "CertificateThumbprint" -value "86F1769B6E0544E16A6EA1E9E9BC0BB71A8DE900" -Controller  Set-VBOConfigurationParameter -XPath Veeam\Archiver\RemoteProxyDeploymentSettings -key "TlsEnabled" -value "True" -Controller  Set-VBOConfigurationParameter -XPath Veeam\Archiver\RemoteProxyDeploymentSettings -key "CertificateThumbprint" -value "86F1769B6E0544E16A6EA1E9E9BC0BB71A8DE900” -Controller | |
 
 Related Commands
 

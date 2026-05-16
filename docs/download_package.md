@@ -3,7 +3,7 @@ title: "Downloading Installation Package"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/download_package.html"
-last_updated: "3/13/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -22,9 +22,9 @@ The Veeam.Backup365.iso file includes the following folders and files:
 
 For more information, see [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_user_guide.html?ver=8).
 
-* VeeamExplorerForSharePoint.msi — installs Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive for Business.
+* VeeamExplorerForSharePoint.msi — installs Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive.
 
-For more information, see [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_user_guide.html?ver=8) and [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_user_guide.html?ver=8).
+For more information, see [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_user_guide.html?ver=8) and [Veeam Explorer for Microsoft OneDrive](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_user_guide.html?ver=8).
 
 * VeeamExplorerForTeams.msi — installs Veeam Explorer for Microsoft Teams.
 

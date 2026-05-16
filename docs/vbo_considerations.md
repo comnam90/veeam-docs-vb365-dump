@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "4/15/2026"
+last_updated: "5/11/2026"
 product_version: "8.4.0.1457"
 ---
 
@@ -112,7 +112,7 @@ Exchange Data
 
 SharePoint and OneDrive Data
 
-* To back up SharePoint and OneDrive for Business objects, make sure that a user account has a valid Microsoft 365 license with SharePoint plan enabled. Otherwise, a backup job will fail with the following error: "User %name% does not have a valid Microsoft 365 license with SharePoint plan enabled".
+* To back up SharePoint and OneDrive objects, make sure that a user account has a valid Microsoft 365 license with SharePoint plan enabled. Otherwise, a backup job will fail with the following error: "User %name% does not have a valid Microsoft 365 license with SharePoint plan enabled".
 * A SharePoint Site Collection hierarchy is not supported if the root site was not configured. Make sure to configure the root site in advance using a SharePoint site template of your choice. Otherwise, the following error occurs: "Error: Failed to find web template ID for: STS#-1. This organization account might be missing a valid SharePoint license. Web configuration is not complete".
 
 * If a SharePoint item has several versions with identical owshiddenversion values, only the latest version of this item is backed up, all the rest versions are skipped from processing.
@@ -141,7 +141,7 @@ Microsoft Teams Data
 
 * When you perform backup of Microsoft Teams data, Veeam Backup for Microsoft 365 does not back up the following objects:
 
-* One-on-one and group chats.
+* * One-on-one and group chats.
 
 For more information about chats in Microsoft Teams, see [this Microsoft article](https://support.microsoft.com/en-us/office/first-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2).
 
@@ -162,7 +162,7 @@ Restore
 |  |
 | --- |
 | Note |
-| For more information about limitations that apply when you restore data from backups using Veeam Explorers, see the following sections of the Veeam Explorers User Guide:   * [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_considerations.html?ver=8) * [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_recovery_specials.html?ver=8) * [Veeam Explorer for Microsoft OneDrive for Business](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_considerations.html?ver=8) * [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_considerations.html?ver=8) |
+| For more information about limitations that apply when you restore data from backups using Veeam Explorers, see the following sections of the Veeam Explorers User Guide:   * [Veeam Explorer for Microsoft Exchange](https://helpcenter.veeam.com/docs/vbo365/explorers/vex_considerations.html?ver=8) * [Veeam Explorer for Microsoft SharePoint](https://helpcenter.veeam.com/docs/vbo365/explorers/vesp_recovery_specials.html?ver=8) * [Veeam Explorer for Microsoft OneDrive](https://helpcenter.veeam.com/docs/vbo365/explorers/veod_considerations.html?ver=8) * [Veeam Explorer for Microsoft Teams](https://helpcenter.veeam.com/docs/vbo365/explorers/vet_considerations.html?ver=8) |
 
 * SharePoint sites with a red X over the symbol mean that there is an empty sector of the template and supported content is available in the subsites.
 * Restore from unsupported Microsoft SharePoint lists is not supported using Veeam Explorer for Microsoft SharePoint, REST API or PowerShell. For more information about unsupported SharePoint lists, see the [Unsupported SharePoint Lists](https://helpcenter.veeam.com/docs/vbo365/explorers/unsupported_sharepoint_lists.html?ver=8) section of the Veeam Explorers User Guide.
@@ -178,9 +178,10 @@ Restore
 
 For more information about enabling In-Place Hold and Litigation Hold, see [this Microsoft article](https://technet.microsoft.com/en-us/library/ff637980%28v%3Dexchg.160%29.aspx).
 
-* Restore of OneNote notebooks from backups of Microsoft SharePoint, Microsoft OneDrive for Business and Microsoft Teams data for organizations with modern app-only authentication is not supported.
+* Restore of OneNote notebooks from backups of Microsoft SharePoint, Microsoft OneDrive and Microsoft Teams data for organizations with modern app-only authentication is not supported.
 
 * If the size of a OneNote notebook is greater 2 GB, Veeam Backup for Microsoft 365 saves this OneNote notebook as a folder with OneNote items.
+
 * If a SharePoint site includes a hidden list, such list is not displayed in Veeam Explorer for Microsoft SharePoint after a site backup and thus, cannot be restored.
 * Restore of sensitivity labels applied to SharePoint sites and lists is not supported.
 * Before restoring team data using Veeam Explorer for Microsoft Teams or team sites using Veeam Explorer for Microsoft SharePoint for a tenant organization with modern app-only authentication, make sure that a user account used for authorization has access to the root SharePoint site of this tenant organization.

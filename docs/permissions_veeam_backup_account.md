@@ -3,8 +3,8 @@ title: "Veeam Backup Account Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/permissions_veeam_backup_account.html"
-last_updated: "8/22/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Veeam Backup Account Permissions
@@ -28,9 +28,9 @@ Depending on data that you want to protect, you must assign the following roles 
 
 Roles and permissions required to protect data in Microsoft Exchange organizations.
 
-* [Microsoft SharePoint and OneDrive for Business Data](permissions_sharepoint.md)
+* [Microsoft SharePoint and OneDrive Data](permissions_sharepoint.md)
 
-Roles and permissions required to protect data in Microsoft SharePoint and OneDrive for Business organizations.
+Roles and permissions required to protect data in Microsoft SharePoint and OneDrive organizations.
 
 * [Microsoft Teams Data](permissions_teams.md)
 

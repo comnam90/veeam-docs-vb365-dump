@@ -3,8 +3,8 @@ title: "Creating Backup Copy Job"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_new_copy_job.html"
-last_updated: "7/19/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Creating Backup Copy Job

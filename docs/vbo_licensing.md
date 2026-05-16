@@ -3,8 +3,8 @@ title: "Licensing and License Types"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_licensing.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Licensing and License Types
@@ -23,15 +23,15 @@ The Veeam license units are consumed by the following objects included to a user
 
 Such a mailbox can be a personal mailbox, an Online Archive mailbox or both — you will only need one Veeam license unit per object.
 
-* Microsoft OneDrive for Business account
+* Microsoft OneDrive account
 
-Consider that OneDrive (without for Business) is an independent storage service and is not supported by Veeam Backup for Microsoft 365.
+Consider that OneDrive (the personal version of cloud storage tool provided by Microsoft, which is different from Microsoft OneDrive for work or school) is an independent storage service and is not supported by Veeam Backup for Microsoft 365.
 
 * Microsoft SharePoint Online and on-premises Microsoft SharePoint personal sites
 
 A personal SharePoint site of a licensed user consumes one Veeam license unit.
 
-The Veeam license units are consumed by mailboxes, OneDrive for Business accounts and SharePoint personal sites for which at least one restore point has been created within the last 31 days. If an object was not backed up for 31 days, its license unit is automatically revoked.
+The Veeam license units are consumed by mailboxes, OneDrive accounts and SharePoint personal sites for which at least one restore point has been created within the last 31 days. If an object was not backed up for 31 days, its license unit is automatically revoked.
 
 |  |
 | --- |
@@ -63,7 +63,7 @@ A guest team user is a user from outside your Microsoft 365 subscription who has
 |  |
 | --- |
 | Note |
-| For more information on Microsoft licenses required to back up user mailboxes, public folder mailboxes, SharePoint and OneDrive for Business objects, see [Considerations and Limitations](vbo_considerations.md#bp). |
+| For more information on Microsoft licenses required to back up user mailboxes, public folder mailboxes, SharePoint and OneDrive objects, see [Considerations and Limitations](vbo_considerations.md#bp). |
 
 License Types
 

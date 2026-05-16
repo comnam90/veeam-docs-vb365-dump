@@ -3,8 +3,8 @@ title: "New-VBOOffice365ApplicationOnlyConnectionSettings"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/new-vbooffice365applicationonlyconnectionsettings.html"
-last_updated: "1/7/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/11/2026"
+product_version: "8.4.0.1457"
 ---
 
 # New-VBOOffice365ApplicationOnlyConnectionSettings
@@ -47,14 +47,15 @@ Detailed Description
 This cmdlet creates the [VBOApplicationOnlyConnectionSettings](vboapplicationonlyconnectionsettings.md) object. This object defines Microsoft Entra application settings that allow you to use modern app-only authentication when you add Microsoft organizations to the Veeam Backup for Microsoft 365 infrastructure. Depending on your setup you can define Microsoft Entra application settings using the following options:
 
 * Define Microsoft Entra application settings without authentication code. Use this option to define a Microsoft Entra application without using an authentication code. For authentication to a Microsoft 365 server, you must provide a Microsoft Exchange user name. The cmdlet will not configure Microsoft Entra application settings.
-* Define Microsoft Entra application settings using Microsoft 365 organization name. Use this option to define a Microsoft Entra application that you will use to back up only Microsoft SharePoint Online and Microsoft OneDrive for Business services. For authentication to Microsoft 365 server, you must provide a Microsoft 365 organization name. The cmdlet will not configure Microsoft Entra application settings.
+* Define Microsoft Entra application settings using Microsoft 365 organization name. Use this option to define a Microsoft Entra application that you will use to back up only Microsoft SharePoint Online and Microsoft OneDrive services. For authentication to Microsoft 365 server, you must provide a Microsoft 365 organization name. The cmdlet will not configure Microsoft Entra application settings.
 * Define new Microsoft Entra application settings using application ID and a new application certificate path. Use this option to register new Microsoft Entra application settings.
 * Define new Microsoft Entra application settings using a certificate. Use this option to configure Microsoft Entra application without specifying the application ID settings.
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | ImpersonationAccountName | Specifies a user name of a Microsoft Exchange user. The cmdlet will use this user name to authenticate to the Microsoft Exchange server. | String | True | Named | False |
 | ApplicationId | Specifies a Microsoft Entra application ID. The cmdlet will use this application ID to set up a secure connection to a Microsoft organization. | Guid | True | Named | False |
 | ApplicationCertificatePath | Specifies a path to the folder where the certificate is located. The cmdlet will import the certificate that is located in this path to set up an encrypted connection to a Microsoft organization. | String | True | Named | False |

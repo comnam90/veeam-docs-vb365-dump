@@ -3,8 +3,8 @@ title: "Permissions for Modern Authentication and Legacy Protocols"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_legacy.html"
-last_updated: "8/22/2024"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.4.0.1457"
 ---
 
 # Permissions for Modern Authentication and Legacy Protocols
@@ -16,8 +16,9 @@ The following table lists permissions that must be granted to Microsoft Entra ap
 
 All listed permissions are of the Application type and required for data backup.
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- |
+Permissions for Modern Authentication and Legacy Protocols
+
+| API | Permission name | Exchange Online | SharePoint Online and Microsoft OneDrive | Microsoft Teams | Description |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
 | TeamSettings.ReadWrite.All |  |  | ✔ | Accessing archived teams. |
