@@ -3,19 +3,19 @@ title: "Considerations and Limitations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_considerations.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Considerations and Limitations
 
 
-This section lists considerations and known limitations in Veeam Backup for Microsoft 365 8.4.
+This section lists considerations and known limitations in Veeam Backup for Microsoft 365 8.5.
 
 |  |
 | --- |
 | Note |
-| For the complete list of known issues and limitations in Veeam Backup for Microsoft 365 8.4, see [Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_m365_8_4_release_notes.html).  For limitations in Veeam Backup for Microsoft 365 functionality when protecting organizations with modern app-only authentication, see [this Veeam KB article](https://www.veeam.com/kb3146). |
+| For the complete list of known issues and limitations in Veeam Backup for Microsoft 365 8.5, see [Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_m365_8_5_release_notes.html).  For limitations in Veeam Backup for Microsoft 365 functionality when protecting organizations with modern app-only authentication, see [this Veeam KB article](https://www.veeam.com/kb3146). |
 
 Infrastructure
 
@@ -48,7 +48,7 @@ Microsoft 365 organizations
 * Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations located in Microsoft Entra Germany region. For more information about deprecated limitations, see [Limitations for Microsoft Entra Germany Region](germany.md).
 * Microsoft Teams service is not supported for organizations in Microsoft Entra China region.
 
-* Team chats backup is not supported for Microsoft organizations in Microsoft Entra China, US Government DOD and US Government GCC High regions.
+* Team posts (formerly team chats) backup is not supported for Microsoft organizations in Microsoft Entra China, US Government DOD and US Government GCC High regions.
 
 * Email notifications about backup and backup copy job results may not work properly in Microsoft Entra China region.
 
@@ -137,7 +137,7 @@ Microsoft Teams Data
 
 * As part of Microsoft Teams data backup, Veeam Backup for Microsoft 365 backs up only the following types of channel tabs: Website, Planner, Word, Excel, PowerPoint, Visio, PDF, Document Library, OneNote, SharePoint, Stream, Forms, Power BI, Power Automate (ex Flow) and Azure DevOps.
 
-* Team chats backup is only supported for Microsoft 365 organizations with modern app-only authentication. For more information, see [this Veeam KB article](https://www.veeam.com/kb4340).
+* Team posts (formerly team chats) backup is only supported for Microsoft 365 organizations with modern app-only authentication. For more information, see [this Veeam KB article](https://www.veeam.com/kb4340).
 
 * When you perform backup of Microsoft Teams data, Veeam Backup for Microsoft 365 does not back up the following objects:
 
