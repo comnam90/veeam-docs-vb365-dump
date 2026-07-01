@@ -3,8 +3,8 @@ title: "Step 3. Specify Microsoft Exchange Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_connection_settings_exchange_both.html"
-last_updated: "5/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/29/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Step 3. Specify Microsoft Exchange Connection Settings
