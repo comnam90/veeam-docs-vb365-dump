@@ -3,19 +3,19 @@ title: "Upgrading Backup Repositories"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrading_repository.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Upgrading Backup Repositories
 
 
-When you upgrade Veeam Backup for Microsoft 365 from version 7.0 or 7a to version 8.3, all backup repositories configured in your environment are marked as Out of Date and must be upgraded manually.
+If a backup repository configured in your environment is marked as Out of Date, it must be upgraded manually.
 
 |  |
 | --- |
 | Note |
-| If you upgrade Veeam Backup for Microsoft 365 from version 8 or 8.x to 8.3, all backup repositories configured in your environment will be upgraded automatically right after upgrading backup proxy servers. For more information, see [Upgrading Backup Proxy Servers](vbo_upgrading_proxy_server.md). |
+| If you upgraded Veeam Backup for Microsoft 365 to 8.5, all backup repositories configured in your environment will be upgraded automatically right after upgrading backup proxy servers. For more information, see [Upgrading Backup Proxy Servers](vbo_upgrading_proxy_server.md). |
 
 To upgrade a backup repository, do the following:
 
