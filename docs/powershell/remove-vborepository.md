@@ -3,8 +3,8 @@ title: "Remove-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/remove-vborepository.html"
-last_updated: "3/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Remove-VBORepository
@@ -18,7 +18,7 @@ Syntax
 
 |  |
 | --- |
-| Remove-VBORepository -Repository <VBORepository> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>] |
+| Remove-VBORepository -Repository <VBORepository> [-WhatIf] [-Confirm] [<CommonParameters>] |
 
 Detailed Description
 
@@ -35,7 +35,6 @@ Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
 | Repository | Specifies a backup repository. The cmdlet will remove this backup repository from the Veeam Backup for Microsoft 365 infrastructure. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
-| Force | Defines that the cmdlet will also remove object storage if it was linked to this JET-based backup repository.  Default: False | SwitchParameter | False | Named | False |
 | WhatIf | Defines that the cmdlet will write a message that describes the effects of running the cmdlet without actually performing any action.  Default: False | SwitchParameter | False | Named | False |
 | Confirm | Defines that the cmdlet will display a prompt that asks if the user is sure that he wants to continue.  Default: True | SwitchParameter | False | Named | False |
 
