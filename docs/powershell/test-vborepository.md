@@ -3,8 +3,8 @@ title: "Test-VBORepository"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/test-vborepository.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/19/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Test-VBORepository
@@ -18,7 +18,7 @@ Syntax
 
 |  |
 | --- |
-| Test-VBORepository -Repository <VBORepository> [<CommonParameters>] |
+| Test-VBORepository -Repository <VBORepository> [-MaxDegreeOfExecutionParallelism <Int32>] [-DetailedOutput] [<CommonParameters>] |
 
 Detailed Description
 
@@ -26,9 +26,12 @@ This cmdlet allows you to verify the integrity of Exchange, SharePoint and Teams
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | Repository | Specifies a backup repository.  The cmdlet will verify the integrity of Exchange, SharePoint and Teams data backups stored in this backup repository. | Accepts the [VBORepository](vborepository.md) object.  To get this object, run the [Get-VBORepository](get-vborepository.md) cmdlet. | True | Named | True (ByValue) |
+| MaxDegreeOfExecutionParallelism | Specifies the maximum number of verification checks executed in parallel. | Int32 | False | Named | False |
+| DetailedOutput | Defines that the detailed report will be provided. | SwitchParameter | False | Named | False |
 
 <CommonParameters>
 
@@ -36,7 +39,7 @@ This cmdlet supports Microsoft PowerShell common parameters. For more informatio
 
 Output Object
 
-The cmdlet returns objects  stored in a specified backup repository that have certain inconsistencies in their backed-up data.
+The cmdlet returns objects stored in a specified backup repository that have certain inconsistencies in their backed-up data.
 
 Example
 
