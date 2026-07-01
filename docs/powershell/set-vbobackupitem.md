@@ -3,8 +3,8 @@ title: "Set-VBOBackupItem"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vbobackupitem.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/26/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Set-VBOBackupItem
@@ -26,8 +26,9 @@ This cmdlet modifies organization object settings. To modify settings, you need 
 
 Parameters
 
+Parameters
+
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| --- | --- | --- | --- | --- | --- |
 | BackupItem | Specifies an organization object. The cmdlet will modify settings of this object. | Accepts the [VBOBackupItem](vbobackupitem.md)[] object.  To get this object, run the [Get-VBOBackupItem](get-vbobackupitem.md) cmdlet. | True | Named | False |
 | Mailbox | Defines that the cmdlet will enable the mailbox option for an object.  Default: False | SwitchParameter | False | Named | False |
 | ArchiveMailbox | Defines that the cmdlet will enable the archive mailbox option for an object.  Default: False  Note: You cannot specify this parameter for the user of the PublicMailbox type. | SwitchParameter | False | Named | False |
@@ -36,7 +37,7 @@ Parameters
 | GroupMailbox | Defines that the cmdlet will enable the group mailbox option for an object.  Default: False | SwitchParameter | False | Named | False |
 | GroupSite | Defines that the cmdlet will enable the group site option for an object.  Default: False | SwitchParameter | False | Named | False |
 | Teams | Defines that the cmdlet will enable the teams option for an object.  Default: False | SwitchParameter | False | Named | False |
-| TeamsChats | Defines that the cmdlet will enable the team chats option for an object.  Default: False | SwitchParameter | False | Named | False |
+| TeamsChats | Defines that the cmdlet will enable the team posts (formerly team chats) option for an object.  Default: False | SwitchParameter | False | Named | False |
 
 <CommonParameters>
 
