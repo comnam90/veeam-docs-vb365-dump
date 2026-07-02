@@ -3,8 +3,8 @@ title: "Step 8. Configure PostgreSQL Instance"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_configure_instance.html"
-last_updated: "3/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/23/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Step 8. Configure PostgreSQL Instance
@@ -23,7 +23,7 @@ To specify settings for the PostgreSQL instance, do the following:
 
 1. Select one of the following options:
 
-* Install new instance. Select this option to install a new PostgreSQL instance. The installation wizard will deploy PostgreSQL 16.12 on the target machine and create a database with the VeeamBackup365 name.
+* Install new instance. Select this option to install a new PostgreSQL instance. The installation wizard will deploy PostgreSQL 16.14 on the target machine and create a database with the VeeamBackup365 name.
 * Use existing instance. Select this option to use an already installed PostgreSQL instance. Do the following:
 
 1. Enter the instance name in the <host\_name>:<port> format.
