@@ -3,8 +3,8 @@ title: "Configuring Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_configure_existing_app_wizard.html"
-last_updated: "3/2/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Configuring Microsoft Entra Application

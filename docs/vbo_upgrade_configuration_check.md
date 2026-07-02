@@ -3,8 +3,8 @@ title: "Step 4. Check System Configuration"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_upgrade_configuration_check.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "5/13/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Step 4. Check System Configuration
