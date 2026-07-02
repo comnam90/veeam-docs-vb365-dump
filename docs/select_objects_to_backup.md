@@ -3,8 +3,8 @@ title: "Step 3. Select Objects to Back Up"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_objects_to_backup.html"
-last_updated: "3/16/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Step 3. Select Objects to Back Up
@@ -30,9 +30,9 @@ To back up all objects within the selected Microsoft organization, select Back u
 |  |
 | --- |
 | Note |
-| When selecting this option, consider the following:   * Team chats backup is turned off. * Processing options cannot be configured. |
+| When selecting this option, consider the following:   * Team posts backup is turned off. * Processing options cannot be configured. |
 
-Veeam Backup for Microsoft 365 turns off team chats backup to avoid unexpected costs incurred by Microsoft. Processing options for the entire organization cannot be configured.
+Veeam Backup for Microsoft 365 turns off team posts backup to avoid unexpected costs incurred by Microsoft. Processing options for the entire organization cannot be configured.
 
 Back Up Specific Objects
 
@@ -41,7 +41,7 @@ To back up specific users, groups, sites, teams, and organizations, do the follo
 1. Select Back up the following objects.
 2. Click Add and select one of the following options: [Users](back_up_users.md), [Groups](back_up_groups.md), [Sites](back_up_sites.md), [Teams](back_up_teams.md), or [Organization](back_up_organization.md).
 
-If you have selected the Teams chats check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365, you can enable team chats backup in processing options for [Teams](back_up_teams.md#processing_options) and [Organization](back_up_organization.md#processing_options).
+If you have selected the Teams posts check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365, you can enable team posts backup in processing options for [Teams](back_up_teams.md#processing_options) and [Organization](back_up_organization.md#processing_options).
 
 |  |
 | --- |
