@@ -3,8 +3,8 @@ title: "VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/vboorganization.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/26/2026"
+product_version: "8.5.0.1014"
 ---
 
 # VBOOrganization
@@ -30,7 +30,7 @@ VBOOrganization
 | BackupApplications | [VBOBackupApplication](vbobackupapplication.md)[] | Array of backup applications. |
 | BackupParts | OrganizationBackupParts | Services that Veeam Backup for Microsoft 365 protects. Possible values:   * Office365Exchange * OnPremisesExchange * Office365SharePoint * OnPremisesSharePoint * Office365Teams * Office365TeamsChats * * Office365All   * * OnPremisesAll |
 | BackupTeams | Bool | If True, backup of Microsoft Teams is enabled. |
-| BackupTeamsChats | Bool | If True, backup of team chats is enabled. |
+| BackupTeamsChats | Bool | If True, backup of team posts (formerly team chats) is enabled. |
 
 Related Commands
 
@@ -64,5 +64,7 @@ Related Commands
   * [Get-VBOEntityData](get-vboentitydata.md)
   * [Get-VBOUsageData](get-vbousagedata.md)
   * * [Get-VBODataRetrieval](get-vbodataretrieval.md)
+    * [Get-VBOVersionBackupOptions](get-vboversionbackupoptions.md)
+    * [Set-VBOVersionBackupOptions](set-vboversionbackupoptions.md)
 
 
