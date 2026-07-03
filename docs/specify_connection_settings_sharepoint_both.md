@@ -3,8 +3,8 @@ title: "Step 4. Specify Microsoft SharePoint Connection Settings"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/specify_connection_settings_sharepoint_both.html"
-last_updated: "5/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "7/1/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Step 4. Specify Microsoft SharePoint Connection Settings

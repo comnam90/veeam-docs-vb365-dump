@@ -3,8 +3,8 @@ title: "Folder Exclusions"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/folder_exclusions.html"
-last_updated: "5/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/29/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Folder Exclusions

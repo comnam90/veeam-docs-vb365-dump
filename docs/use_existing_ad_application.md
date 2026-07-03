@@ -3,8 +3,8 @@ title: "Using Existing Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/use_existing_ad_application.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Using Existing Microsoft Entra Application
