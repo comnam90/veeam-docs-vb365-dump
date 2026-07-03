@@ -3,8 +3,8 @@ title: "Registering New Microsoft Entra Application"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/register_ad_application.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Registering New Microsoft Entra Application
@@ -13,7 +13,7 @@ product_version: "8.3.0.2201"
 |  |
 | --- |
 | Note |
-| If you want to back up team chats and you have selected the Teams chats check box at the [Select Organization Deployment Type](vbo_add_o365_sd.md) step of the wizard, registering a new Microsoft Entra application is unavailable. |
+| If you want to back up team posts and you have selected the Teams posts check box at the [Select Organization Deployment Type](vbo_add_o365_sd.md) step of the wizard, registering a new Microsoft Entra application is unavailable. |
 
 You can register a new Microsoft Entra application in Microsoft Entra ID. Veeam Backup for Microsoft 365 will use this application for data exchange with your Microsoft 365 organizations during backup and restore sessions.
 
