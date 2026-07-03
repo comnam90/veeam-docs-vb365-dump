@@ -3,8 +3,8 @@ title: "Adding Hybrid Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_hybrid.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Adding Hybrid Organizations
@@ -26,7 +26,7 @@ You can add hybrid organizations as per the following scenarios:
 |  |
 | --- |
 | Note |
-| Veeam Backup for Microsoft 365 backs up Microsoft Teams messages using Microsoft Graph Teams Export APIs. For more information about team chats backup, see [Team Chats Backup](vbo_object_types.md#team_chats). |
+| Veeam Backup for Microsoft 365 backs up Microsoft Teams messages using Microsoft Graph Teams Export APIs. For more information about team posts (formerly team chats) backup, see [Team Posts Backup](vbo_object_types.md#team_posts). |
 
 To specify Microsoft services that you want to protect in your hybrid organization at the Select Organization Deployment Type step of the wizard, select the following check boxes based on the listed scenarios:
 
@@ -38,7 +38,7 @@ To back up Exchange Online data.
 
 To back up on-premises Microsoft Exchange data.
 
-* SharePoint Online and OneDrive for Business
+* SharePoint Online and OneDrive
 
 To back up SharePoint Online and OneDrive data.
 
@@ -50,11 +50,11 @@ To back up on-premises Microsoft SharePoint data.
 
 Select this check box if you want to back up Microsoft Teams data.
 
-You can select this check box only if both Exchange Online and SharePoint Online and OneDrive for Business check boxes are selected.
+You can select this check box only if both Exchange Online and SharePoint Online and OneDrive check boxes are selected.
 
-* Teams chats
+* Teams posts
 
-Select this check box if you want to back up team chats. For more information, see [Team Chats Backup](vbo_object_types.md#team_chats).
+Select this check box if you want to back up team posts (formerly team chats). For more information, see [Team Posts Backup](vbo_object_types.md#team_posts).
 
 This check box is available only if the Microsoft Teams check box is selected.
 
@@ -66,7 +66,7 @@ Depending on the types of services that you have selected, do the following:
 |  |
 | --- |
 | Note |
-| Consider the following:   * To create a hybrid organization, services that you select must belong to the same Microsoft 365 organization. * You can use a non-MFA enabled ADFS account to add a Microsoft 365 organization. Using ADFS accounts to add on-premises Microsoft organizations is not possible. * Team chats backup is only supported for Microsoft 365 organizations with modern app-only authentication. |
+| Consider the following:   * To create a hybrid organization, services that you select must belong to the same Microsoft 365 organization. * You can use a non-MFA enabled ADFS account to add a Microsoft 365 organization. Using ADFS accounts to add on-premises Microsoft organizations is not possible. * Team posts backup is only supported for Microsoft 365 organizations with modern app-only authentication. |
 
 ![Adding Hybrid Organizations](images/hybrid_org.webp "Adding Hybrid Organizations")
 
