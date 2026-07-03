@@ -3,8 +3,8 @@ title: "Configuring Organization Backup"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/back_up_organization.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Configuring Organization Backup
@@ -33,7 +33,7 @@ The selected objects appear in the list of objects to back up.
 
 For more information about the Organization type and its processing options, see [Organization Object Types](vbo_object_types.md#organizations).
 
-Keep in mind that the Teams chats check box is displayed and is available for editing only if you have selected the Teams chats check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365.
+Keep in mind that the Teams posts check box is displayed and is available for editing only if you have selected the Teams posts check box when you added a Microsoft 365 organization to Veeam Backup for Microsoft 365.
 
 ![Configuring Organization Backup](images/org_po_team_chats.webp "Editing Processing Options")
 
