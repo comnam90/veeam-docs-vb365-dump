@@ -3,8 +3,8 @@ title: "Before You Begin"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_install_before_you_begin.html"
-last_updated: "5/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/23/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Before You Begin
@@ -20,7 +20,7 @@ Before you install Veeam Backup for Microsoft 365, check the following prerequis
 Consider the following:
 
 * For optimal performance, we recommend to install Veeam Backup for Microsoft 365 and the 3rd party components — that is a PostgreSQL instance and the NATS server, on different machines. For deployment of a PostgreSQL instance and the NATS server, we recommend to use machines with a Linux operating system installed. For more information, see [this PostgreSQL article](https://www.postgresql.org/docs/current/install-requirements.html) and [this NATS article](https://docs.nats.io/running-a-nats-service/introduction/installation#supported-operating-systems-and-architectures).
-* If you do not prepare a database engine in advance, Veeam Backup for Microsoft 365 will automatically install PostgreSQL 16.12 locally on the target machine.
+* If you do not prepare a database engine in advance, Veeam Backup for Microsoft 365 will automatically install PostgreSQL 16.14 locally on the target machine.
 * It is not recommended to share a PostgreSQL instance with any other services. It should be dedicated to host the Veeam Backup for Microsoft 365 configuration database and cached metadata only.
 * If you already have an installed PostgreSQL instance and want to use it for the configuration database, ensure that the LocalSystem account is added to your PostgreSQL configuration to successfully run the installation of Veeam Backup for Microsoft 365.
 * If you want to use an already installed PostgreSQL instance, make sure that UTF-8 is set as the default encoding for the configuration database.
