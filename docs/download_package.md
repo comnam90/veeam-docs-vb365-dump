@@ -3,8 +3,8 @@ title: "Downloading Installation Package"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/download_package.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/23/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Downloading Installation Package
@@ -38,8 +38,8 @@ For more information, see [Veeam Explorer for Microsoft Teams](https://helpcente
 * Microsoft ASP.NET Core Runtime 8.0.xx
 * Microsoft .NET Desktop Runtime 8.0.xx
 * Microsoft .NET Runtime 8.0.xx
-* NATS server 2.10.28
-* PostgreSQL 16.12
+* NATS server 2.12.8
+* PostgreSQL 16.14
 * Windows PowerShell 7.4.xx
 * Microsoft Visual C++
 
