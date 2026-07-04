@@ -3,8 +3,8 @@ title: "Enabling Restore Operator Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_authentication_settings_restore_operators.html"
-last_updated: "3/3/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Enabling Restore Operator Authentication

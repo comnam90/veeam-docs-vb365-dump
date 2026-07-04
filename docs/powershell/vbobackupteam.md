@@ -3,8 +3,8 @@ title: "VBOBackupTeam"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/vbobackupteam.html"
-last_updated: "1/14/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/26/2026"
+product_version: "8.5.0.1014"
 ---
 
 # VBOBackupTeam
@@ -12,10 +12,11 @@ product_version: "8.3.0.2201"
 
 Contains details about a backup team. See also [VBOBackupItem](vbobackupitem.md).
 
+VBOBackupTeam
+
 | Property | Type | Description |
-| --- | --- | --- |
 | Team | [VBOOrganizationTeam](vboorganizationteam.md) | Details about the team. |
-| Chats | Bool | If True, the team chats option is enabled. |
+| Chats | Bool | If True, the team posts (formerly team chats) option is enabled. |
 
 Related Commands
 

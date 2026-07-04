@@ -3,8 +3,8 @@ title: "Securing Veeam Backup for Microsoft 365 Infrastructure"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_securing_infrastructure.html"
-last_updated: "3/2/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Securing Veeam Backup for Microsoft 365 Infrastructure

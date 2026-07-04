@@ -3,8 +3,8 @@ title: "Set-VBOOrganization"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/set-vboorganization.html"
-last_updated: "5/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/26/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Set-VBOOrganization
@@ -73,7 +73,7 @@ Parameters
 | EnableOffice365Exchange | Defines that the cmdlet will enable connection to the Exchange Online organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOffice365SharePoint | Defines that the cmdlet will enable connection to the SharePoint Online organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOffice365Teams | Defines that the cmdlet will enable connection to the Microsoft Teams organization component.  Default: True | SwitchParameter | False | Named | False |
-| EnableTeamsChats | For Microsoft organizations with modern app-only authentication.  Defines that the cmdlet will enable backup of team chats.  Default: False | SwitchParameter | False | Named | False |
+| EnableTeamsChats | For Microsoft organizations with modern app-only authentication.  Defines that the cmdlet will enable backup of team posts (formerly team chats).  Default: False | SwitchParameter | False | Named | False |
 | EnableOnPremExchange | Defines that the cmdlet will enable connection to the Microsoft on-premises Exchange organization component.  Default: False | SwitchParameter | False | Named | False |
 | EnableOnPremSharePoint | Defines that the cmdlet will enable connection to the Microsoft on-premises SharePoint organization component.  Default: False | SwitchParameter | False | Named | False |
 | BackupAccounts | Specifies an array of auxiliary backup accounts to back up SharePoint and OneDrive. The cmdlet will modify settings of the specified auxiliary backup accounts. | Accepts the [VBOBackupAccount](vbobackupaccount.md)[] object.  To create this object, run the [New-VBOBackupAccount](new-vbobackupaccount.md) cmdlet. | False | Named | False |

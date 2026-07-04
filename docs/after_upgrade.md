@@ -3,20 +3,21 @@ title: "What You Do After Upgrade"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/after_upgrade.html"
-last_updated: "5/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "7/1/2026"
+product_version: "8.5.0.1014"
 ---
 
 # What You Do After Upgrade
 
 
-After you upgraded Veeam Backup for Microsoft 365 to version 8, it is recommended to do the following:
+After you upgraded Veeam Backup for Microsoft 365, it is recommended to do the following:
 
 * For Microsoft 365 organizations that you may have in the Veeam Backup for Microsoft 365 console from previous installations of the product:
 
 * Switch organizations that use basic authentication and modern authentication with legacy protocols allowed to modern app-only authentication.
 * Configure backup of public folder and discovery search mailboxes for organizations with modern app-only authentication.
 * Configure backup and restore of Microsoft Teams private and shared channels for organizations with modern app-only authentication.
+* Grant new permissions to the Microsoft Entra application to back up and restore data of your Microsoft 365 organizations with modern app-only authentication.
 
 * Upgrade the Veeam Backup for Microsoft 365 REST API component on a separate machine.
 * Upgrade backup proxy servers and backup repositories.
@@ -91,6 +92,12 @@ To update permissions of the Microsoft Entra application, do the following:
 1. Select the Grant the required permissions to this application and register its certificate in Microsoft Entra ID check box to automatically update permissions of the existing Microsoft Entra application. For more information, see [Using Existing Microsoft Entra Application](use_existing_ad_application.md).
 
 Alternatively, you can sign in to Microsoft Identity platform and manually grant this Microsoft Entra application the required permissions. For more information, see [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md).
+
+Granting New Permissions to Microsoft Entra Application
+
+Starting from version 8.5, Veeam Backup for Microsoft 365 requires a Microsoft Entra application to be granted new Microsoft Graph permissions.
+
+You can sign in to Microsoft Identity platform and manually grant this Microsoft Entra application new permissions. For more information, see [Permissions for Modern App-Only Authentication](ad_app_permissions_sd.md).
 
 Upgrading REST API on Separate Machine
 

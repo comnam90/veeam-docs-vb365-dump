@@ -3,8 +3,8 @@ title: "Veeam Backup for Microsoft 365 Feature Deprecation"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/feature_deprecation.html"
-last_updated: "3/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Veeam Backup for Microsoft 365 Feature Deprecation
@@ -18,7 +18,7 @@ Since [Microsoft deprecated basic authentication and legacy authentication proto
 
 * Using multiple auxiliary backup applications.
 
-Starting from Veeam Backup for Microsoft 365 version 8.4, adding existing applications to the backup configuration or creating new applications in your Microsoft Entra ID is not supported. Those auxiliary backup applications that have already been added to Veeam Backup for Microsoft 365, are kept running. You can remove them if needed. For more information, see [Backup Applications](backup_applications.md).
+Adding existing applications to the backup configuration or creating new applications in your Microsoft Entra ID is not supported. Those auxiliary backup applications that have already been added to Veeam Backup for Microsoft 365, are kept running. You can remove them if needed. For more information, see [Backup Applications](backup_applications.md).
 
 In future versions of Veeam Backup for Microsoft 365, the following product features will be deprecated:
 

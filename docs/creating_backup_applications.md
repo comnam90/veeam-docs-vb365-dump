@@ -3,8 +3,8 @@ title: "Creating Applications"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/creating_backup_applications.html"
-last_updated: "5/11/2026"
-product_version: "8.4.0.1457"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Creating Applications
@@ -13,7 +13,7 @@ product_version: "8.4.0.1457"
 |  |
 | --- |
 | Note |
-| Starting from Veeam Backup for Microsoft 365 version 8.4, creating new applications in your Microsoft Entra ID is not supported. |
+| Creating new applications in your Microsoft Entra ID is not supported. |
 
 When you create a new Microsoft Entra application, Veeam Backup for Microsoft 365 automatically registers this application in Microsoft Entra ID of your Microsoft 365 organization. After you create an application, Veeam Backup for Microsoft 365 automatically adds this application to the backup configuration. For more information about Microsoft Entra applications, see [this Microsoft article](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-how-applications-are-added).
 

@@ -3,14 +3,14 @@ title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
-last_updated: "5/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "7/1/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Permissions for Modern App-Only Authentication
 
 
-Tables in this section list permissions for Microsoft Entra applications that are granted automatically by Veeam Backup for Microsoft 365 when you add organizations using the [modern app-only authentication method](adding_o365_organizations_sd.md).
+Tables in this section list permissions for Microsoft Entra applications that are granted automatically (unless otherwise indicated) by Veeam Backup for Microsoft 365 when you add organizations using the [modern app-only authentication method](adding_o365_organizations_sd.md).
 
 If you prefer to use a custom application of your own, make sure to grant all the permissions listed in these tables manually to perform the following operations:
 
@@ -44,7 +44,7 @@ Microsoft Entra application uses a user account to log in to Microsoft 365. This
 * Global Administrator or SharePoint Administrator — required for data restore with Veeam Explorer for Microsoft SharePoint and Veeam Explorer for Microsoft OneDrive.
 * Global Administrator or Teams Administrator — required for data restore with Veeam Explorer for Microsoft Teams.
 * Global Administrator — required for establishing a connection to a service provider in the [Backup as Service with Veeam Backup for Microsoft 365](vbo_mail_baas.md) scenario.
-* Owner — requires to back up public folder mailboxes in organizations with modern app-only authentication.
+* Owner — required to back up public folder mailboxes in organizations with modern app-only authentication.
 
 1This role is not required for data restore using Microsoft Entra application certificate. It is recommended that you use modern authentication with the Microsoft Entra application certificate to restore Microsoft Exchange data. For more information, see [Restore Using Application Certificate](#appcert).
 
@@ -72,6 +72,10 @@ Permissions for Backup
 | TeamSettings.ReadWrite.All |  |  | ✔ | Accessing archived teams. |
 | ChannelMessage.Read.All |  |  | ✔ | Accessing Microsoft Teams public channel messages. |
 | ChannelMember.Read.All |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
+| User.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailboxes that belong to a user (getting mailbox IDs). |
+| MailboxItem.ImportExport.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Exporting Exchange mailbox item data and creating a session to import an Exchange mailbox item. |
+| MailboxFolder.ReadWrite.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox folders. |
+| MailboxItem.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox items to do the following:   * Get mailbox item properties. * Get mailbox items that were added, deleted, or updated in a mailbox folder. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Reading mailboxes content. |
 | Exchange.ManageAsApp | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folder and discovery search mailboxes as well as determine correctly object type for shared mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#app_role). |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
@@ -81,7 +85,7 @@ Permissions for Backup
 
 Granting Global Reader Role to Microsoft Entra Application
 
-Veeam Backup for Microsoft 365 supports backup of public folder and discovery search mailboxes and determines correctly object type for shared mailboxes in Microsoft 365 organizations with modern app-only authentication. To back up these objects, Veeam Backup for Microsoft 365 needs access to Exchange Online PowerShell. To do this, a Microsoft Entra application requires the Global Reader role. You must grant this role to the Microsoft Entra application after upgrading Veeam Backup for Microsoft 365 to version 8.
+Veeam Backup for Microsoft 365 supports backup of public folder and discovery search mailboxes and determines correctly object type for shared mailboxes in Microsoft 365 organizations with modern app-only authentication. To back up these objects, Veeam Backup for Microsoft 365 must connect to Exchange Online PowerShell. To do this, a Microsoft Entra application requires the Global Reader role. You must grant this role to the Microsoft Entra application after upgrading Veeam Backup for Microsoft 365 to version 8.
 
 To grant the Global Reader role to the Microsoft Entra application, do the following:
 
@@ -119,6 +123,10 @@ Restore Using Device Code Flow
 | Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
 | offline\_access | ✔ | ✔ | ✔ | Obtaining a refresh token from Microsoft Entra ID. |
 | ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| User.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailboxes that belong to a user (getting mailbox IDs). |
+| MailboxItem.ImportExport  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Creating a session to import an Exchange mailbox item. |
+| MailboxItem.Read  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox items within a mailbox folder in a mailbox. |
+| MailboxFolder.ReadWrite  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Creating a new mailbox folder or subfolder in a user mailbox. |
 | Office 365 Exchange Online1 | EWS.AccessAsUser.All | ✔ |  |  | Accessing mailboxes as the signed-in user (impersonation) through EWS. |
 | full\_access\_as\_user | ✔ |  |  | Reading the current state and restoring mailboxes content.  Note: This permission is only required for organizations located in legacy Microsoft Entra Germany region. Veeam Backup for Microsoft 365 drops support for Microsoft 365 organizations in Microsoft Entra Germany region. To add organizations located in this region to Veeam Backup for Microsoft 365, run the [Add-VBOOrganization](https://helpcenter.veeam.com/docs/vbo365/powershell/add-vboorganization.html?ver=8) cmdlet or use the POST /Organizations method. |
 | Office 365 SharePoint Online | AllSites.FullControl |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
@@ -143,6 +151,11 @@ Restore Using Application Certificate
 | Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location.  * Creating sites that have Microsoft Teams templates. |
 | Files.ReadWrite.All |  |  | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
 | ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| User.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailboxes that belong to a user (getting mailbox IDs). |
+| MailboxItem.ImportExport.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Exporting Exchange mailbox item data and creating a session to import an Exchange mailbox item. |
+| MailboxFolder.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox folders to do the following:   * Read properties and relationships of a mailbox folder.  * Get mailbox folder objects that were added, deleted, or removed from a user mailbox. * Create a new mailbox folder or subfolder in a user mailbox. |
+| MailboxItem.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox items to do the following:   * Get mailbox item properties. * Get mailbox items that were added, deleted, or updated in a mailbox folder. |
+| MailboxFolder.ReadWrite.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Creating a new mailbox folder or subfolder in a user mailbox. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  |  | Reading the current state and restoring mailboxes content. |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
 | User.Read.All |  | ✔ |  | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |

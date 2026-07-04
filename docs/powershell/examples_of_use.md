@@ -3,8 +3,8 @@ title: "Examples of Use"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/examples_of_use.html"
-last_updated: "5/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "6/29/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Examples of Use

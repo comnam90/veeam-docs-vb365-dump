@@ -3,8 +3,8 @@ title: "Backup Application Permissions"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/backup_app_permissions.html"
-last_updated: "5/13/2026"
-product_version: "8.4.0.1457"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Backup Application Permissions
@@ -15,7 +15,7 @@ The following table lists permissions for Microsoft Entra applications that you 
 |  |
 | --- |
 | Note |
-| Using multiple applications may impact the performance of your production SharePoint environment. Starting from Veeam Backup for Microsoft 365 version 8.4, this functionality became deprecated. |
+| Using multiple applications may impact the performance of your production SharePoint environment. This functionality is now deprecated. |
 
 All listed permissions are of the Application type and required for data backup.
 

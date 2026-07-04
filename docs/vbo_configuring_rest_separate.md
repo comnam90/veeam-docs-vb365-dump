@@ -3,8 +3,8 @@ title: "Configuring REST API and Restore Portal on Separate Machine"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_configuring_rest_separate.html"
-last_updated: "2/19/2026"
-product_version: "8.3.0.2201"
+last_updated: "6/25/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Configuring REST API and Restore Portal on Separate Machine

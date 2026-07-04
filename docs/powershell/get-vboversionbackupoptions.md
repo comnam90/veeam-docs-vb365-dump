@@ -3,8 +3,8 @@ title: "Get-VBOVersionBackupOptions"
 product: "vb365"
 doc_type: "powershell"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/powershell/get-vboversionbackupoptions.html"
-last_updated: "3/12/2026"
-product_version: "8.4.0.1457"
+last_updated: "5/15/2026"
+product_version: "8.5.0.1014"
 ---
 
 # Get-VBOVersionBackupOptions
@@ -18,7 +18,7 @@ Syntax
 
 |  |
 | --- |
-| Get-VBOVersionBackupOptions -Organization <IVBOOrganization> [<CommonParameters>] |
+| Get-VBOVersionBackupOptions -Organization <VBOOrganization> [<CommonParameters>] |
 
 Detailed Description
 
@@ -29,7 +29,7 @@ Parameters
 Parameters
 
 | Parameter | Description | Type | Required | Position | Accept Pipeline Input |
-| Organization | Specifies a Microsoft organization. The cmdlet will return the version backup options for this Microsoft organization. | IVBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
+| Organization | Specifies a Microsoft organization. The cmdlet will return the version backup options for this Microsoft organization. | VBOOrganization  Accepts the [VBOOrganization](vboorganization.md) object.  To get this object, run the [Get-VBOOrganization](get-vboorganization.md) cmdlet. | True | Named | True (ByValue) |
 
 <CommonParameters>
 
