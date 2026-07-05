@@ -3,7 +3,7 @@ title: "Permissions for Modern App-Only Authentication"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ad_app_permissions_sd.html"
-last_updated: "7/1/2026"
+last_updated: "7/3/2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -153,9 +153,8 @@ Restore Using Application Certificate
 | ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
 | User.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailboxes that belong to a user (getting mailbox IDs). |
 | MailboxItem.ImportExport.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Exporting Exchange mailbox item data and creating a session to import an Exchange mailbox item. |
-| MailboxFolder.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox folders to do the following:   * Read properties and relationships of a mailbox folder.  * Get mailbox folder objects that were added, deleted, or removed from a user mailbox. * Create a new mailbox folder or subfolder in a user mailbox. |
+| MailboxFolder.ReadWrite.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox folders to do the following:   * Read properties and relationships of a mailbox folder.  * Get mailbox folder objects that were added, deleted, or removed from a user mailbox. * Create a new mailbox folder or subfolder in a user mailbox. |
 | MailboxItem.Read.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Accessing Exchange mailbox items to do the following:   * Get mailbox item properties. * Get mailbox items that were added, deleted, or updated in a mailbox folder. |
-| MailboxFolder.ReadWrite.All  Note: Grant this permission manually in Microsoft Identity platform. | ✔ |  |  | Creating a new mailbox folder or subfolder in a user mailbox. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  |  | Reading the current state and restoring mailboxes content. |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading the current state and restoring SharePoint sites and OneDrive accounts content. |
 | User.Read.All |  | ✔ |  | Resolving OneDrive accounts (getting site IDs).  Note: This permission is not required to restore SharePoint Online data. |
