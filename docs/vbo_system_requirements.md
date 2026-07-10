@@ -3,7 +3,7 @@ title: "System Requirements"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_system_requirements.html"
-last_updated: "7/1/2026"
+last_updated: "7/9/2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -67,6 +67,6 @@ Backup Proxy Server
 | Specification | Requirement |
 | Hardware | The following hardware is required:   * CPU: any modern multi-core x64 processor, 4 cores minimum. * Memory: 16 GB RAM minimum. Allocating additional RAM and CPU resources can enhance backup, restore and search performance.   If you plan to deploy Veeam Backup for Microsoft 365 backup proxy server on a VM with dynamic memory allocation, such a VM must have 32 GB RAM minimum.   * Disk space: 3 GB for the backup proxy server installation and additional free space for product logs. |
 | OS | Veeam Backup for Microsoft 365 supports 64-bit versions of the following Microsoft Windows operating systems:   * Microsoft Windows Server 2016, 2019, 2022, 2025. * Microsoft Windows 10 (versions 21H2, 22H2). * Microsoft Windows 11 (versions 22H2, 23H2, 24H2, 25H2). * Microsoft Windows Server Core editions 2016 (LTSC 1607), 2019 (LTSC 1809), 2022.   Veeam Backup for Microsoft 365 supports 64-bit versions of the following Linux distributions:   * RHEL 8.8 LTS, 8.10 LTS, 9.0 LTS, 9.2 LTS, 9.4 LTS and 9.6 LTS * Ubuntu 20.04 LTS, 22.04 LTS, and 24.04 LTS |
-| Other | The following components are required:   * Microsoft ASP.NET Core Runtime 8.0.10–8.0.xx. * Microsoft .NET Runtime 8.0.10–8.0.xx. |
+| Other | The following components are required:   * Microsoft ASP.NET Core Runtime 8.0.10–8.0.xx. * Microsoft .NET Runtime 8.0.10–8.0.xx.  * To use PowerShell, Windows PowerShell 7.4.2 or later is required.   For a machine used as a workgroup backup proxy, configure the following:   * The Remote Registry service must run on the target machine. Set the service startup type to Automatic. * Open the [backup proxy server ports](vbo_used_ports.md#bp_ports) in a firewall. |
 
 
