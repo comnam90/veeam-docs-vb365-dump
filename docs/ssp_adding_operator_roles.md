@@ -3,7 +3,7 @@ title: "Adding Restore Operator Role"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_adding_operator_roles.html"
-last_updated: "7/3/2026"
+last_updated: "7/9/2026"
 product_version: "8.5.0.1014"
 ---
 
