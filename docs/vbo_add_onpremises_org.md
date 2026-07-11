@@ -3,7 +3,7 @@ title: "Adding On-Premises Microsoft Organizations"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/vbo_add_onpremises_org.html"
-last_updated: "7/3/2026"
+last_updated: "2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -18,4 +18,5 @@ To add on-premises Microsoft Exchange and on-premises Microsoft SharePoint organ
 4. [Specify Microsoft SharePoint connection settings](specify_connection_settings_sharepoint_both.md).
 5. [Finish the wizard](finish_wizard_sp_ex.md).
 
+Page updated 2026-07-10
 
