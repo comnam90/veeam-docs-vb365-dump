@@ -3,7 +3,7 @@ title: "Step 3. Select Organization"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_role_organization.html"
-last_updated: "7/3/2026"
+last_updated: "2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -19,4 +19,5 @@ Consider the following:
 
 ![Step 3. Select Organization](images/new_operator_role_3.webp "Selecting Organization")
 
+Page updated 2026-07-10
 
