@@ -3,7 +3,7 @@ title: "Step 2. Select Organization Deployment Type"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/select_organization_deployment_type_exchange_sp_ex.html"
-last_updated: "7/3/2026"
+last_updated: "2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -27,4 +27,5 @@ Select this check box if you want to back up Microsoft SharePoint data.
 
 ![Step 2. Select Organization Deployment Type](images/on_premises_exchange_6.webp "Adding On-premises Organizations")
 
+Page updated 2026-07-10
 
