@@ -3,7 +3,7 @@ title: "Adding Restore Operator Role"
 product: "vb365"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbo365/guide/ssp_adding_operator_roles.html"
-last_updated: "7/3/2026"
+last_updated: "2026"
 product_version: "8.5.0.1014"
 ---
 
@@ -23,4 +23,5 @@ To add a restore operator role, [check prerequisites](before_you_begin_ssp.md) a
 5. [Select objects to manage](ssp_role_objects_to_manage.md).
 6. [Select objects to exclude](ssp_role_objects_to_exclude.md).
 
+Page updated 2026-07-10
 
